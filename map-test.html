@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Map Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol/ol.css">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    #map {
+      height: 600px;
+      width: 100%;
+      border: 2px solid #333;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      color: #2d5016;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Map Test</h1>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ol@9.2.4/dist/ol.js"></script>
+  <script>
+    console.log('Starting simple map test...');
+    
+    // Simple base layer
+    const base = new ol.layer.Tile({ 
+      source: new ol.source.OSM() 
+    });
+
+    // Simple vector layer with GeoJSON
+    const vectorSource = new ol.source.Vector({
+      url: "./docs/data/atl_arborist_ddh.geojson",
+      format: new ol.format.GeoJSON()
+    });
+
+    const points = new ol.layer.Vector({
+      source: vectorSource,
+      style: new ol.style.Style({
+        image: new ol.style.Circle({
+          radius: 8,
+          fill: new ol.style.Fill({ color: "rgba(139, 69, 19, 0.9)" }),
+          stroke: new ol.style.Stroke({ color: "white", width: 3 })
+        })
+      })
+    });
+
+    // Debug logging
+    vectorSource.on('change', function() {
+      console.log('Vector source state:', vectorSource.getState());
+      if (vectorSource.getState() === 'ready') {
+        console.log('Loaded', vectorSource.getFeatures().length, 'features');
+      }
+    });
+
+    vectorSource.on('error', function(event) {
+      console.error('Error loading GeoJSON:', event);
+    });
+
+    // Initialize map
+    const map = new ol.Map({
+      target: "map",
+      layers: [base, points],
+      view: new ol.View({
+        center: ol.proj.fromLonLat([-84.3903, 33.7490]), // Atlanta
+        zoom: 11
+      })
+    });
+    
+    console.log('Map created successfully');
+
+    // Simple click handler
+    map.on("singleclick", (evt) => {
+      const px = evt.pixel;
+      map.forEachFeatureAtPixel(px, (feat) => {
+        const p = feat.getProperties();
+        console.log('Clicked feature:', p);
+        alert(`Permit: ${p.record || 'N/A'}\nAddress: ${p.address || 'N/A'}\nOwner: ${p.owner || 'N/A'}`);
+        return true;
+      });
+    });
+
+    // Expose for debugging
+    window.map = map;
+    window.vectorSource = vectorSource;
+  </script>
+</body>
+</html>
