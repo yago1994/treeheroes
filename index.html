@@ -64,6 +64,14 @@
       font-weight: 700;
       color: var(--white);
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-image {
+      height: 32px;
+      width: auto;
     }
 
     .nav-links {
@@ -167,14 +175,20 @@
 
     .tree-icon {
       width: 100%;
-      height: 300px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 20px;
+      height: auto;
+      background: transparent;
+      border-radius: 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 8rem;
-      backdrop-filter: blur(10px);
+      backdrop-filter: none;
+      padding: 0;
+    }
+
+    .hero-logo {
+      height: 320px;
+      width: auto;
+      opacity: 0.9;
     }
 
     /* Purpose Section */
@@ -186,7 +200,7 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 2rem;
+      padding: 0 0rem;
     }
 
     .section-title {
@@ -227,12 +241,12 @@
 
     /* Map Section */
     .map-section {
-      padding: 8rem 0 15rem 0;
+      padding: 8rem 0 6rem 0;
       background: var(--light-green);
       width: 100vw;
       margin-left: calc(-50vw + 50%);
-      padding-left: 2rem;
-      padding-right: 2rem;
+      /* padding-left: 2rem; */
+      /* padding-right:tre 2rem; */
     }
 
     .map-container {
@@ -262,6 +276,18 @@
     .map-header p {
       color: var(--text-light);
       font-size: 1.1rem;
+    }
+
+    .map-date-range {
+      color: var(--forest-green);
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 0.75rem;
+      padding: 0.5rem 1rem;
+      background: rgba(107, 124, 50, 0.1);
+      border-radius: 8px;
+      border-left: 4px solid var(--sage-green);
+      display: inline-block;
     }
 
     #map {
@@ -380,6 +406,11 @@
 
     /* Responsive Design */
     @media (max-width: 768px) {
+      /* Prevent fixed header overlap while keeping hero background flush */
+      .hero {
+        padding-top: 64px;
+        margin-top: 0;
+      }
       .nav-links {
         display: none;
       }
@@ -407,11 +438,33 @@
       }
 
       .map-section {
-        padding: 8rem 0 12rem 0;
+        padding: 8rem 0 4rem 0;
         width: 100vw;
         margin-left: calc(-50vw + 50%);
         padding-left: 1rem;
         padding-right: 1rem;
+      }
+
+      .tree-icon {
+        height: 200px;
+      }
+
+      .hero-logo {
+        height: 80px;
+        width: auto;
+      }
+
+      .logo-image {
+        height: 24px;
+        width: auto;
+      }
+
+      /* Make popup text much smaller on phones */
+      .ol-popup {
+        font-size: 0.55rem;
+      }
+      .ol-popup strong {
+        font-size: 0.75rem;
       }
     }
 
@@ -433,17 +486,17 @@
 
     .ol-popup {
       background: var(--white);
-      padding: 15px 20px;
+      padding: 12px 14px;
       border-radius: 10px;
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
       border: 2px solid var(--moss-green);
-      max-width: 300px;
+      max-width: 260px;
       font-family: 'Source Sans Pro', sans-serif;
     }
 
     .ol-popup strong {
       color: var(--forest-green);
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
 
     .ol-popup a {
@@ -459,11 +512,27 @@
       background: var(--sage-green);
       color: var(--white);
       border: none;
-      padding: 5px 10px;
+      padding: 4px 8px;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 12px;
+      font-size: 11px;
       margin-left: 10px;
+    }
+
+    /* Tighter popup on very small screens */
+    @media (max-width: 420px) {
+      .ol-popup {
+        max-width: 220px;
+        padding: 10px 12px;
+        font-size: 0.55rem;
+      }
+      .ol-popup strong {
+        font-size: 0.7rem;
+      }
+      .ol-popup button {
+        font-size: 10px;
+        padding: 3px 6px;
+      }
     }
 
     .ol-popup button:hover {
@@ -492,7 +561,9 @@
   <!-- Header -->
   <header class="header">
     <nav class="nav">
-      <a href="#" class="logo">🌳 Tree Heroes</a>
+      <a href="#" class="logo">
+        <img src="assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" class="logo-image">
+      </a>
       <ul class="nav-links">
         <li><a href="#map-section">Explore Map</a></li>
         <li><a href="#purpose">About</a></li>
@@ -511,7 +582,9 @@
         <a href="#map-section" class="cta-button">Explore the Map</a>
       </div>
       <div class="hero-visual">
-        <div class="tree-icon">🌳</div>
+        <div class="tree-icon">
+          <img src="assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" class="hero-logo">
+        </div>
       </div>
     </div>
   </section>
@@ -544,7 +617,7 @@
         <div class="map-header">
           <h2>Atlanta Tree Removal Permits Map</h2>
           <p>Click on any marker to view permit details, including tree species, size, location, and reason for removal</p>
-          <p class="map-date-range">Showing permits from the past week</p>
+          <p class="map-date-range">Showing permits from 09/20/2025 to 09/27/2025</p>
         </div>
         <div id="map">
           <div class="loading-text">Loading map...</div>
@@ -654,24 +727,36 @@
           const radius = Math.min(24, Math.max(4, Math.round((2 + dbhScale) * zoomScale)));
 
           return new ol.style.Style({
-            image: new ol.style.Circle({
+        image: new ol.style.Circle({
               radius,
               fill: new ol.style.Fill({ color: "rgba(139, 69, 19, 0.9)" }),
-              stroke: new ol.style.Stroke({ color: "white", width: 2 })
-            })
+          stroke: new ol.style.Stroke({ color: "white", width: 2 })
+        })
           });
         }
-      });
+    });
 
       // Create map
-      const map = new ol.Map({
-        target: "map",
-        layers: [base, points],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([-84.3903, 33.7490]), // Atlanta
-          zoom: 11
-        })
+    const map = new ol.Map({
+      target: "map",
+      layers: [base, points],
+      view: new ol.View({
+        center: ol.proj.fromLonLat([-84.3903, 33.7490]), // Atlanta
+        zoom: 11
+      })
+    });
+
+      // Create a reusable overlay anchored to map coordinates (moves with the map)
+      const popupEl = document.createElement('div');
+      popupEl.className = 'ol-popup';
+      const popupOverlay = new ol.Overlay({
+        element: popupEl,
+        positioning: 'bottom-center',
+        offset: [0, -10],
+        stopEvent: true,
+        autoPan: { animation: { duration: 250 } }
       });
+      map.addOverlay(popupOverlay);
       
       mapInitialized = true;
       console.log('Map created successfully');
@@ -688,46 +773,47 @@
         }
       }, 10);
 
-      // Add click handler
-      map.on("singleclick", (evt) => {
-      const px = evt.pixel;
-        map.forEachFeatureAtPixel(px, (feat) => {
+      // Add click handler using an overlay so the popup follows the map
+    map.on("singleclick", (evt) => {
+        let handled = false;
+        map.forEachFeatureAtPixel(evt.pixel, (feat) => {
         window.lastFeature = feat;
         const p = feat.getProperties();
-          const html = `
-            <div class="ol-popup">
-              <button class="popup-close" title="Close" onclick="this.parentElement.remove()">×</button>
-              <strong><a href="https://aca-prod.accela.com/ATLANTA_GA/Default.aspx" target="_blank" style="color: #6b7c32; text-decoration: none;">${p.record || "Record"}</a></strong>
-              <button onclick="navigator.clipboard.writeText('${p.record || ""}').then(() => alert('Permit copied to clipboard!'))" style="margin-left: 8px; padding: 2px 6px; font-size: 10px; background: #6b7c32; color: white; border: none; border-radius: 3px; cursor: pointer;">Copy</button><br/>
-              ${p.address || ""}<br/>
-              ${p.status || ""} ${p.date ? "• " + p.date : ""}<br/>
-              ${p.description ? `Description: ${p.description}<br/>` : ""}
-              ${p.tree_number ? `Tree #: ${p.tree_number}<br/>` : ""}
-              ${p.species ? `Species: ${p.species}<br/>` : ""}
-              ${p.tree_dbh ? `Tree Size (DBH): ${p.tree_dbh}<br/>` : ""}
-              ${p.tree_location ? `Tree Location: ${p.tree_location}<br/>` : ""}
-              ${p.tree_description ? `Tree Description: ${p.tree_description}<br/>` : ""}
-              ${p.owner ? `Owner: ${p.owner}<br/>` : ""}
-              ${p.reason_removal ? `Reason: ${p.reason_removal}` : ""}
-            </div>`;
+          const content = `
+            <button class="popup-close" title="Close">×</button>
+            <strong><a href="https://aca-prod.accela.com/ATLANTA_GA/Default.aspx" target="_blank" style="color: #6b7c32; text-decoration: none;">${p.record || "Record"}</a></strong>
+            <button onclick="navigator.clipboard.writeText('${p.record || ""}').then(() => alert('Permit copied to clipboard!'))" style="margin-left: 8px; padding: 2px 6px; font-size: 10px; background: #6b7c32; color: white; border: none; border-radius: 3px; cursor: pointer;">Copy</button><br/>
+            ${p.address || ""}<br/>
+            ${p.status || ""} ${p.date ? "• " + p.date : ""}<br/>
+            ${p.description ? `Description: ${p.description}<br/>` : ""}
+            ${p.tree_number ? `Tree #: ${p.tree_number}<br/>` : ""}
+            ${p.species ? `Species: ${p.species}<br/>` : ""}
+            ${p.tree_dbh ? `Tree Size (DBH): ${p.tree_dbh}<br/>` : ""}
+            ${p.tree_location ? `Tree Location: ${p.tree_location}<br/>` : ""}
+            ${p.tree_description ? `Tree Description: ${p.tree_description}<br/>` : ""}
+            ${p.owner ? `Owner: ${p.owner}<br/>` : ""}
+            ${p.reason_removal ? `Reason: ${p.reason_removal}` : ""}
+          `;
 
-          // Remove any existing popups inside the map
-          const mapEl = document.getElementById('map');
-          mapEl.querySelectorAll('.ol-popup').forEach(n => n.remove());
-
-          // Add the popup inside the map container so it overlays the map only
-          const el = document.createElement('div');
-          el.innerHTML = html;
-          const popup = el.querySelector('.ol-popup');
-          if (popup) {
-            popup.style.position = 'absolute';
-            popup.style.left = px[0] + 'px';
-            popup.style.top = px[1] + 'px';
-            popup.style.zIndex = '1000';
-            mapEl.appendChild(popup);
+          // Update overlay content
+          popupEl.innerHTML = content;
+          // Wire up close action to hide overlay instead of removing element
+          const closeBtn = popupEl.querySelector('.popup-close');
+          if (closeBtn) {
+            closeBtn.addEventListener('click', () => popupOverlay.setPosition(undefined), { once: true });
           }
-          return true;
+
+          // Anchor popup to the feature's coordinate so it moves with the map
+          const geom = feat.getGeometry();
+          const coord = geom.getClosestPoint ? geom.getClosestPoint(evt.coordinate) : geom.getCoordinates();
+          popupOverlay.setPosition(coord);
+          handled = true;
+          return true; // stop iteration
         });
+        if (!handled) {
+          // Clicked empty map area: hide any open popup
+          popupOverlay.setPosition(undefined);
+        }
       });
 
       // Monitor data loading
