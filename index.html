@@ -774,16 +774,26 @@
       }, 10);
 
       // Add click handler using an overlay so the popup follows the map
-    map.on("singleclick", (evt) => {
+      map.on("singleclick", (evt) => {
         let handled = false;
         map.forEachFeatureAtPixel(evt.pixel, (feat) => {
         window.lastFeature = feat;
         const p = feat.getProperties();
+          // Determine coordinates for Google Maps link
+          const geom = feat.getGeometry();
+          const coord = geom.getClosestPoint ? geom.getClosestPoint(evt.coordinate) : geom.getCoordinates();
+          const lonLat = ol.proj.toLonLat(coord);
+          // Build Google Street View link centered on the feature coordinates
+          const streetViewUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lonLat[1]},${lonLat[0]}`;
+          const addressLine = (p.address && String(p.address).trim().length > 0)
+            ? `<a href="${streetViewUrl}" target="_blank" rel="noopener" style="color:#6b7c32; text-decoration: underline;">${p.address}</a><br/>`
+            : `<a href="${streetViewUrl}" target="_blank" rel="noopener" style="color:#6b7c32; text-decoration: underline;">Open Street View</a><br/>`;
+
           const content = `
             <button class="popup-close" title="Close">×</button>
             <strong><a href="https://aca-prod.accela.com/ATLANTA_GA/Default.aspx" target="_blank" style="color: #6b7c32; text-decoration: none;">${p.record || "Record"}</a></strong>
             <button onclick="navigator.clipboard.writeText('${p.record || ""}').then(() => alert('Permit copied to clipboard!'))" style="margin-left: 8px; padding: 2px 6px; font-size: 10px; background: #6b7c32; color: white; border: none; border-radius: 3px; cursor: pointer;">Copy</button><br/>
-            ${p.address || ""}<br/>
+            ${addressLine}
             ${p.status || ""} ${p.date ? "• " + p.date : ""}<br/>
             ${p.description ? `Description: ${p.description}<br/>` : ""}
             ${p.tree_number ? `Tree #: ${p.tree_number}<br/>` : ""}
@@ -804,8 +814,6 @@
           }
 
           // Anchor popup to the feature's coordinate so it moves with the map
-          const geom = feat.getGeometry();
-          const coord = geom.getClosestPoint ? geom.getClosestPoint(evt.coordinate) : geom.getCoordinates();
           popupOverlay.setPosition(coord);
           handled = true;
           return true; // stop iteration
