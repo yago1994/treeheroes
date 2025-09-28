@@ -7,6 +7,7 @@ const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson";
 const GEOCODE_CACHE = "data/geocode-cache.json";
 const CITY_SUFFIX = ", Atlanta, GA";
 const CENSUS_URL = "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress";
+const DAYS_BACK = Number(process.env.DAYS_BACK || 7);
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -98,6 +99,78 @@ async function scrapeRecords() {
     console.log("Selected Arborist Dead Dying Hazardous Tree");
   } catch (error) {
     console.log("Could not select Permit Type:", error.message);
+  }
+  
+  // Apply date range filter: last N days
+  try {
+    const to = new Date();
+    const from = new Date(to.getTime() - (DAYS_BACK - 1) * 24 * 60 * 60 * 1000);
+    const fmt = (d) => `${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}/${d.getFullYear()}`;
+    const fromStr = fmt(from);
+    const toStr = fmt(to);
+
+    // Try to choose a date type if present (prefer Applied/Application)
+    const dateTypeCandidates = [
+      "select#ctl00_PlaceHolderMain_generalSearchForm_ddlGSDateType",
+      'select[id*="ddlGSDateType"]',
+      'select[name*="ddlGSDateType"]'
+    ];
+    for (const sel of dateTypeCandidates) {
+      try {
+        const dd = page.locator(sel).first();
+        if (await dd.count() > 0) {
+          await dd.selectOption({ label: /Applied|Application|Submitted|Record|Created/i });
+          console.log("Selected date type on", sel);
+          break;
+        }
+      } catch {}
+    }
+
+    // Fill From / To date fields using several likely selectors
+    const fromSelectors = [
+      "input#ctl00_PlaceHolderMain_generalSearchForm_txtGSFromDate",
+      "input#ctl00_PlaceHolderMain_generalSearchForm_txtGSStartDate",
+      'input[id*="FromDate"]',
+      'input[id*="StartDate"]',
+      'input[name*="FromDate"]',
+      'input[name*="StartDate"]'
+    ];
+    const toSelectors = [
+      "input#ctl00_PlaceHolderMain_generalSearchForm_txtGSToDate",
+      "input#ctl00_PlaceHolderMain_generalSearchForm_txtGSEndDate",
+      'input[id*="ToDate"]',
+      'input[id*="EndDate"]',
+      'input[name*="ToDate"]',
+      'input[name*="EndDate"]'
+    ];
+
+    let filled = false;
+    for (const fsSel of fromSelectors) {
+      try {
+        const inp = page.locator(fsSel).first();
+        if (await inp.count() > 0) {
+          await inp.fill("");
+          await inp.type(fromStr, { delay: 10 });
+          filled = true;
+          console.log("Filled From date on", fsSel, fromStr);
+          break;
+        }
+      } catch {}
+    }
+    for (const tsSel of toSelectors) {
+      try {
+        const inp = page.locator(tsSel).first();
+        if (await inp.count() > 0) {
+          await inp.fill("");
+          await inp.type(toStr, { delay: 10 });
+          console.log("Filled To date on", tsSel, toStr);
+          break;
+        }
+      } catch {}
+    }
+    if (!filled) console.log("Date fields not found; continuing without form date filter");
+  } catch (error) {
+    console.log("Could not set date range:", error?.message);
   }
   
   // Fill city only (no date filter to see what records exist)
@@ -450,14 +523,49 @@ function toGeoJSON(items, coordsByAddr) {
   // Deduplicate on record id
   const unique = Array.from(new Map(rows.map(r => [r.record ?? r.address, r])).values());
 
+  // Parse and filter to the last N days as a safeguard
+  function parseUsDateToUtc(dateStr) {
+    if (!dateStr || typeof dateStr !== "string") return null;
+    const m = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
+    if (!m) return null;
+    const mm = Number(m[1]);
+    const dd = Number(m[2]);
+    const yyyy = Number(m[3].length === 2 ? (Number(m[3]) + 2000) : m[3]);
+    if (!yyyy || !mm || !dd) return null;
+    const d = new Date(Date.UTC(yyyy, mm - 1, dd, 0, 0, 0));
+    return isNaN(d.getTime()) ? null : d;
+  }
+  function isWithinLastNDays(dateUtc, days) {
+    if (!dateUtc) return false;
+    const now = new Date();
+    const nowUtcMidnight = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+    const cutoffMs = nowUtcMidnight.getTime() - (days - 1) * 24 * 60 * 60 * 1000; // inclusive window
+    return dateUtc.getTime() >= cutoffMs;
+  }
+
+  const filtered = unique.filter((r) => isWithinLastNDays(parseUsDateToUtc(r.date), DAYS_BACK));
+
+  // Also compute and write a date-range file for UI if desired
+  const times = filtered
+    .map((r) => parseUsDateToUtc(r.date))
+    .filter((d) => d)
+    .map((d) => d.getTime());
+  const fmt = (d) => `${String(d.getUTCMonth() + 1).padStart(2, "0")}/${String(d.getUTCDate()).padStart(2, "0")}/${d.getUTCFullYear()}`;
+  if (times.length > 0) {
+    const min = new Date(Math.min(...times));
+    const max = new Date(Math.max(...times));
+    await fs.mkdir("docs/data", { recursive: true });
+    await fs.writeFile("docs/data/date-range.json", JSON.stringify({ start: fmt(min), end: fmt(max) }, null, 2));
+  }
+
   const cache = await loadCache();
   const coordsByAddr = {};
-  for (const r of unique) {
+  for (const r of filtered) {
     const coords = await geocodeOneLine(r.address, cache);
     if (coords) coordsByAddr[r.address] = coords;
   }
 
   await fs.mkdir("docs/data", { recursive: true });
-  await fs.writeFile(OUT_GEOJSON, JSON.stringify(toGeoJSON(unique, coordsByAddr), null, 2));
-  console.log(`Wrote ${OUT_GEOJSON} with ${Object.keys(coordsByAddr).length} points.`);
+  await fs.writeFile(OUT_GEOJSON, JSON.stringify(toGeoJSON(filtered, coordsByAddr), null, 2));
+  console.log(`Wrote ${OUT_GEOJSON} with ${Object.keys(coordsByAddr).length} points (last ${DAYS_BACK} days).`);
 })();
