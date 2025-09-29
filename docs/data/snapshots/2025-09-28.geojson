@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504936",
+        "address": "649 CLOVER ST SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "09/28/2025",
+        "description": null,
+        "owner": "REYNOLDS JEROME",
+        "tree_dbh": "20",
+        "tree_location": "backyard back fence",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.452807395947,
+          33.737459263821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-053597",
+        "address": "1895 DEFOOR AVE NW, ATLANTA GA 30318",
+        "status": "",
+        "date": "09/28/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.424909271877,
+          33.807412136527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-053608",
+        "address": "1147 UNIVERSITY DR NE, ATLANTA GA 30306",
+        "status": "",
+        "date": "09/28/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.349846997672,
+          33.791693379797
+        ]
+      }
+    }
+  ]
+}
