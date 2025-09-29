@@ -290,6 +290,44 @@
       display: inline-block;
     }
 
+    /* Styled range selector to match the map-date-range badge */
+    .range-select {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      position: relative;
+    }
+    .range-select label {
+      color: var(--forest-green);
+      font-weight: 600;
+      margin: 0;
+    }
+    .range-select select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: transparent;
+      border: none;
+      color: var(--forest-green);
+      font-weight: 600;
+      padding: 4px 22px 4px 6px; /* space for custom arrow */
+      cursor: pointer;
+    }
+    .range-select select:focus { outline: none; }
+    .range-select::after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 10px;
+      height: 6px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path fill="%236b7c32" d="M1 1l4 4 4-4"/></svg>');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      pointer-events: none;
+    }
+
     #map {
       width: 100%;
       aspect-ratio: 1 / 1;
@@ -617,7 +655,12 @@
         <div class="map-header">
           <h2>Atlanta Tree Removal Permits Map</h2>
           <p>Click on any marker to view permit details, including tree species, size, location, and reason for removal</p>
-          <p class="map-date-range">Showing permits from 09/20/2025 to 09/27/2025</p>
+          <div class="map-date-range range-select" style="margin-top: 12px;">
+            <label for="range-select">View:</label>
+            <select id="range-select">
+              <option value="ALL">All data (entire history)</option>
+            </select>
+          </div>
         </div>
         <div id="map">
           <div class="loading-text">Loading map...</div>
@@ -746,6 +789,9 @@
       })
     });
 
+      // Expose for later updates
+      window.pointsLayer = points;
+
       // Create a reusable overlay anchored to map coordinates (moves with the map)
       const popupEl = document.createElement('div');
       popupEl.className = 'ol-popup';
@@ -845,6 +891,141 @@
           loadingText.style.color = '#e74c3c';
         }
       });
+
+      // Range selector: ALL or specific week from all.ndjson
+      async function fetchAllNdjson() {
+        const res = await fetch('./docs/data/all.ndjson', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('Failed to fetch all.ndjson');
+        const text = await res.text();
+        return text
+          .split(/\r?\n/)
+          .filter(Boolean)
+          .map((ln) => {
+            try { return JSON.parse(ln); } catch { return null; }
+          })
+          .filter(Boolean)
+          .filter((o) => Array.isArray(o.coords) && o.coords.length === 2);
+      }
+
+      function parseUsDateToUtc(dateStr) {
+        if (!dateStr || typeof dateStr !== 'string') return null;
+        const m = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
+        if (!m) return null;
+        const mm = Number(m[1]);
+        const dd = Number(m[2]);
+        const yyyy = Number(m[3].length === 2 ? (Number(m[3]) + 2000) : m[3]);
+        const d = new Date(Date.UTC(yyyy, mm - 1, dd));
+        return isNaN(d.getTime()) ? null : d;
+      }
+
+      function weekKeyForUtcDate(dUtc) {
+        // Monday-Sunday week
+        const day = dUtc.getUTCDay(); // 0..6 (Sun..Sat)
+        const offsetToMonday = (day + 6) % 7; // Sun->6, Mon->0, ...
+        const start = new Date(Date.UTC(dUtc.getUTCFullYear(), dUtc.getUTCMonth(), dUtc.getUTCDate() - offsetToMonday));
+        const end = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate() + 6));
+        const fmt = (x) => `${x.getUTCFullYear()}-${String(x.getUTCMonth()+1).padStart(2,'0')}-${String(x.getUTCDate()).padStart(2,'0')}`;
+        return { key: `${fmt(start)}..${fmt(end)}`, start, end };
+      }
+
+      function buildWeeksIndex(rows) {
+        const map = new Map();
+        for (const r of rows) {
+          const d = parseUsDateToUtc(r.date);
+          if (!d) continue;
+          const wk = weekKeyForUtcDate(d);
+          if (!map.has(wk.key)) map.set(wk.key, wk);
+        }
+        const list = Array.from(map.values()).sort((a, b) => b.start.getTime() - a.start.getTime());
+        return list;
+      }
+
+      function recordsToGeoJSON(rows) {
+        return {
+          type: 'FeatureCollection',
+          features: rows.filter((r) => Array.isArray(r.coords)).map((r) => ({
+            type: 'Feature',
+            properties: {
+              record: r.record || null,
+              address: r.address || null,
+              status: r.status || null,
+              date: r.date || null,
+              description: r.description || null,
+              owner: r.owner || null,
+              tree_dbh: r.tree_dbh || null,
+              tree_location: r.tree_location || null,
+              reason_removal: r.reason_removal || null,
+              tree_description: r.tree_description || null,
+              tree_number: r.tree_number || null,
+              species: r.species || null
+            },
+            geometry: { type: 'Point', coordinates: r.coords }
+          }))
+        };
+      }
+
+      function applyGeoJSONToMap(geojson) {
+        const fmt = new ol.format.GeoJSON();
+        const feats = fmt.readFeatures(geojson, { dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857' });
+        const src = new ol.source.Vector({ features: feats });
+        window.pointsLayer.setSource(src);
+        // Force update
+        setTimeout(() => { map.updateSize(); map.render(); }, 50);
+      }
+
+      async function setupRangeSelector() {
+        const selectEl = document.getElementById('range-select');
+        if (!selectEl) return;
+        let rows;
+        try {
+          rows = await fetchAllNdjson();
+        } catch (e) {
+          console.warn('Failed to load all.ndjson for range selector:', e);
+          return;
+        }
+
+        // Build week options
+        const weeks = buildWeeksIndex(rows);
+        for (const wk of weeks) {
+          const opt = document.createElement('option');
+          const fmt = (x) => `${String(x.getUTCMonth()+1).padStart(2,'0')}/${String(x.getUTCDate()).padStart(2,'0')}/${x.getUTCFullYear()}`;
+          opt.value = `W:${wk.key}`;
+          opt.textContent = `Week ${fmt(wk.start)} – ${fmt(wk.end)}`;
+          selectEl.appendChild(opt);
+        }
+
+        async function handleChange() {
+          const v = selectEl.value;
+          if (v === 'ALL') {
+            applyGeoJSONToMap(recordsToGeoJSON(rows));
+            return;
+          }
+          if (v.startsWith('W:')) {
+            const [startStr, endStr] = v.slice(2).split('..');
+            const start = new Date(`${startStr}T00:00:00Z`);
+            const end = new Date(`${endStr}T00:00:00Z`);
+            const inRange = rows.filter((r) => {
+              const d = parseUsDateToUtc(r.date);
+              return d && d.getTime() >= start.getTime() && d.getTime() <= (end.getTime() + 24*60*60*1000 - 1);
+            });
+            applyGeoJSONToMap(recordsToGeoJSON(inRange));
+            return;
+          }
+        }
+
+        selectEl.addEventListener('change', handleChange);
+        // Default to OLDEST week if available; else ALL
+        if (weeks.length > 0) {
+          // Select the newest week (first in descending list)
+          selectEl.value = `W:${weeks[0].key}`;
+        } else {
+          selectEl.value = 'ALL';
+        }
+        await handleChange();
+      }
+
+      // Initialize selector after map
+      setupRangeSelector();
 
       // Force map to update size and position
       setTimeout(() => {

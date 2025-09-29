@@ -3,11 +3,16 @@ import { chromium } from "playwright";
 import fs from "fs/promises";
 import fetch from "node-fetch";
 
-const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson";
+const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson"; // latest (map loads this)
+const SNAPSHOT_DIR = "docs/data/snapshots"; // daily immutable snapshots
+const CHANGES_DIR = "docs/data/changes"; // daily delta reports
+const ALL_NDJSON = "docs/data/all.ndjson"; // append/merge store
 const GEOCODE_CACHE = "data/geocode-cache.json";
 const CITY_SUFFIX = ", Atlanta, GA";
 const CENSUS_URL = "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress";
-const DAYS_BACK = Number(process.env.DAYS_BACK || 7);
+const MAP_DAYS = Number(process.env.MAP_DAYS || 7); // window for latest map
+const SCRAPE_RUN_DAY_UTC = process.env.SCRAPE_RUN_DAY_UTC || null; // YYYY-MM-DD, simulate run "today" in UTC
+const DEBUG_LOG_RECORDS = process.env.DEBUG_LOG_RECORDS === '1';
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -18,6 +23,57 @@ async function loadCache() {
 async function saveCache(cache) {
   await fs.mkdir("data", { recursive: true });
   await fs.writeFile(GEOCODE_CACHE, JSON.stringify(cache, null, 2));
+}
+
+function formatMMDDYYYY(d) {
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  const yyyy = d.getFullYear();
+  return `${mm}/${dd}/${yyyy}`;
+}
+
+function toUtcMidnight(d) {
+  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+}
+
+function parseUsDateToUtc(dateStr) {
+  if (!dateStr || typeof dateStr !== "string") return null;
+  const m = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
+  if (!m) return null;
+  const mm = Number(m[1]);
+  const dd = Number(m[2]);
+  const yyyy = Number(m[3].length === 2 ? (Number(m[3]) + 2000) : m[3]);
+  if (!yyyy || !mm || !dd) return null;
+  const d = new Date(Date.UTC(yyyy, mm - 1, dd, 0, 0, 0));
+  return isNaN(d.getTime()) ? null : d;
+}
+
+function sameUtcDay(a, b) {
+  if (!a || !b) return false;
+  return a.getUTCFullYear() === b.getUTCFullYear() && a.getUTCMonth() === b.getUTCMonth() && a.getUTCDate() === b.getUTCDate();
+}
+
+function withinLastNDaysUtc(dateUtc, days) {
+  if (!dateUtc) return false;
+  const now = new Date();
+  const nowMid = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+  const cutoff = new Date(nowMid.getTime() - (days - 1) * 24 * 60 * 60 * 1000);
+  return dateUtc.getTime() >= cutoff.getTime();
+}
+
+function parseRunDayUtcOrNowMinus(daysFromNow) {
+  if (SCRAPE_RUN_DAY_UTC) {
+    const m = SCRAPE_RUN_DAY_UTC.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (m) {
+      const yyyy = Number(m[1]);
+      const mm = Number(m[2]);
+      const dd = Number(m[3]);
+      const d = new Date(Date.UTC(yyyy, mm - 1, dd));
+      if (!isNaN(d.getTime())) return d;
+    }
+  }
+  const now = new Date();
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + (daysFromNow || 0)));
 }
 
 async function geocodeOneLine(addr, cache) {
@@ -51,6 +107,9 @@ async function geocodeOneLine(addr, cache) {
 async function scrapeRecords() {
   const browser = await chromium.launch({ args: ["--no-sandbox"] });
   const page = await browser.newPage();
+  // Determine target scrape date (yesterday relative to run-day)
+  const runDayUtc = parseRunDayUtcOrNowMinus(0);
+  const targetDateUtc = new Date(Date.UTC(runDayUtc.getUTCFullYear(), runDayUtc.getUTCMonth(), runDayUtc.getUTCDate() - 1));
 
   // 1) Open portal home and go to "Search Submitted Applications and Permits" → Building
   await page.goto("https://aca-prod.accela.com/atlanta_ga/Default.aspx", { waitUntil: "domcontentloaded", timeout: 180000 });
@@ -101,13 +160,12 @@ async function scrapeRecords() {
     console.log("Could not select Permit Type:", error.message);
   }
   
-  // Apply date range filter: last N days
+  // Apply date range filter: yesterday only
   try {
-    const to = new Date();
-    const from = new Date(to.getTime() - (DAYS_BACK - 1) * 24 * 60 * 60 * 1000);
-    const fmt = (d) => `${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}/${d.getFullYear()}`;
-    const fromStr = fmt(from);
-    const toStr = fmt(to);
+    // Convert target UTC date to a local Date instance with same Y/M/D to fill form
+    const yLocal = new Date(targetDateUtc.getUTCFullYear(), targetDateUtc.getUTCMonth(), targetDateUtc.getUTCDate());
+    const fromStr = formatMMDDYYYY(yLocal);
+    const toStr = fromStr;
 
     // Try to choose a date type if present (prefer Applied/Application)
     const dateTypeCandidates = [
@@ -195,6 +253,7 @@ async function scrapeRecords() {
   // 4) Parse the results - look through all tables for permit data and handle pagination
   let results = [];
   let pageNum = 1;
+  let stopAfterThisPage = false;
   
   while (true) {
     console.log(`\n--- Processing page ${pageNum} ---`);
@@ -202,7 +261,10 @@ async function scrapeRecords() {
     const tables = await page.locator("table").all();
     console.log(`Checking ${tables.length} tables for permit data...`);
     
-    let foundRecordsOnThisPage = 0;
+    let foundRecordsOnThisPage = 0; // total rows encountered that look like data rows
+    let addedTargetRowsOnThisPage = 0; // rows actually collected for the target date
+    let pageMaxDateUtc = null;
+    let pageMinDateUtc = null;
     
     for (let i = 0; i < tables.length; i++) {
       const table = tables[i];
@@ -286,11 +348,26 @@ async function scrapeRecords() {
                 description: cells[idxDescription]?.trim(),
                 detailUrl
               };
+              // Track date stats for early-exit and only keep target-day rows
+              try {
+                const parsed = parseUsDateToUtc(rec.date);
+                if (parsed && (!pageMaxDateUtc || parsed.getTime() > pageMaxDateUtc.getTime())) {
+                  pageMaxDateUtc = parsed;
+                }
+                if (parsed && (!pageMinDateUtc || parsed.getTime() < pageMinDateUtc.getTime())) {
+                  pageMinDateUtc = parsed;
+                }
+                // Only keep rows from the target date
+                if (!parsed || !sameUtcDay(parsed, targetDateUtc)) {
+                  continue;
+                }
+              } catch {}
               
-              // If we found a record with an address or record number, add it
+              // If we found a target-date record with an address or record number, add it
               if ((rec.address && rec.address.length > 5) || (rec.record && rec.record.length > 3)) {
-                console.log("Found record:", rec);
+                if (DEBUG_LOG_RECORDS) console.log("Found record:", rec);
                 results.push(rec);
+                addedTargetRowsOnThisPage++;
                 foundRecordsOnThisPage++;
               }
             }
@@ -299,7 +376,13 @@ async function scrapeRecords() {
       }
     }
     
-    console.log(`Found ${foundRecordsOnThisPage} records on page ${pageNum}. Total so far: ${results.length}`);
+    console.log(`Found ${addedTargetRowsOnThisPage} target-day rows on page ${pageNum}. Total collected: ${results.length}`);
+    // If the newest date found on this page is already older than the target (yesterday),
+    // subsequent pages will only be older. Stop paginating to keep the crawl tight.
+    if (pageMaxDateUtc && pageMaxDateUtc.getTime() < targetDateUtc.getTime()) {
+      console.log("Newest date on this page is older than yesterday; stopping pagination.");
+      break;
+    }
     
     // Check if there's a "Next" link to continue pagination
     try {
@@ -523,40 +606,10 @@ function toGeoJSON(items, coordsByAddr) {
   // Deduplicate on record id
   const unique = Array.from(new Map(rows.map(r => [r.record ?? r.address, r])).values());
 
-  // Parse and filter to the last N days as a safeguard
-  function parseUsDateToUtc(dateStr) {
-    if (!dateStr || typeof dateStr !== "string") return null;
-    const m = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
-    if (!m) return null;
-    const mm = Number(m[1]);
-    const dd = Number(m[2]);
-    const yyyy = Number(m[3].length === 2 ? (Number(m[3]) + 2000) : m[3]);
-    if (!yyyy || !mm || !dd) return null;
-    const d = new Date(Date.UTC(yyyy, mm - 1, dd, 0, 0, 0));
-    return isNaN(d.getTime()) ? null : d;
-  }
-  function isWithinLastNDays(dateUtc, days) {
-    if (!dateUtc) return false;
-    const now = new Date();
-    const nowUtcMidnight = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
-    const cutoffMs = nowUtcMidnight.getTime() - (days - 1) * 24 * 60 * 60 * 1000; // inclusive window
-    return dateUtc.getTime() >= cutoffMs;
-  }
-
-  const filtered = unique.filter((r) => isWithinLastNDays(parseUsDateToUtc(r.date), DAYS_BACK));
-
-  // Also compute and write a date-range file for UI if desired
-  const times = filtered
-    .map((r) => parseUsDateToUtc(r.date))
-    .filter((d) => d)
-    .map((d) => d.getTime());
-  const fmt = (d) => `${String(d.getUTCMonth() + 1).padStart(2, "0")}/${String(d.getUTCDate()).padStart(2, "0")}/${d.getUTCFullYear()}`;
-  if (times.length > 0) {
-    const min = new Date(Math.min(...times));
-    const max = new Date(Math.max(...times));
-    await fs.mkdir("docs/data", { recursive: true });
-    await fs.writeFile("docs/data/date-range.json", JSON.stringify({ start: fmt(min), end: fmt(max) }, null, 2));
-  }
+  // Determine run-day and target scrape date again (for filter and filenames)
+  const runDayUtc = parseRunDayUtcOrNowMinus(0);
+  const targetDateUtc = new Date(Date.UTC(runDayUtc.getUTCFullYear(), runDayUtc.getUTCMonth(), runDayUtc.getUTCDate() - 1));
+  const filtered = unique.filter((r) => sameUtcDay(parseUsDateToUtc(r.date), targetDateUtc));
 
   const cache = await loadCache();
   const coordsByAddr = {};
@@ -566,6 +619,122 @@ function toGeoJSON(items, coordsByAddr) {
   }
 
   await fs.mkdir("docs/data", { recursive: true });
-  await fs.writeFile(OUT_GEOJSON, JSON.stringify(toGeoJSON(filtered, coordsByAddr), null, 2));
-  console.log(`Wrote ${OUT_GEOJSON} with ${Object.keys(coordsByAddr).length} points (last ${DAYS_BACK} days).`);
+
+  // Derive target date string and paths
+  await fs.mkdir(SNAPSHOT_DIR, { recursive: true });
+  const yStr = `${String(targetDateUtc.getUTCFullYear())}-${String(targetDateUtc.getUTCMonth() + 1).padStart(2, "0")}-${String(targetDateUtc.getUTCDate()).padStart(2, "0")}`;
+  const snapshotPath = `${SNAPSHOT_DIR}/${yStr}.geojson`;
+
+  // Read prior snapshot (if any) BEFORE writing, to compute deltas
+  let priorKeys = new Set();
+  try {
+    const existing = JSON.parse(await fs.readFile(snapshotPath, "utf8"));
+    priorKeys = new Set(
+      (existing.features || []).map((f) => f.properties?.record || `${f.properties?.address || ""}|${f.properties?.date || ""}`)
+    );
+  } catch {}
+
+  // 1) Write snapshot for yesterday
+  await fs.writeFile(snapshotPath, JSON.stringify(toGeoJSON(filtered, coordsByAddr), null, 2));
+
+  // 2) Merge into all.ndjson (append/replace by key)
+  const keyOf = (r) => r.record || `${r.address || ""}|${r.date || ""}`;
+  const readAllStore = async () => {
+    try {
+      const raw = await fs.readFile(ALL_NDJSON, "utf8");
+      const lines = raw.split(/\r?\n/).filter(Boolean);
+      return lines.map((ln) => JSON.parse(ln));
+    } catch { return []; }
+  };
+  const writeAllStore = async (rows) => {
+    const text = rows.map((o) => JSON.stringify(o)).join("\n") + "\n";
+    await fs.writeFile(ALL_NDJSON, text);
+  };
+
+  const prevAll = await readAllStore();
+  const byKey = new Map(prevAll.map((o) => [o.key || keyOf(o), o]));
+
+  const newRows = [];
+  const updatedRows = [];
+
+  for (const r of filtered) {
+    const coords = coordsByAddr[r.address] || null;
+    const obj = {
+      key: keyOf(r),
+      date: r.date || null,
+      record: r.record || null,
+      address: r.address || null,
+      status: r.status || null,
+      description: r.description || null,
+      owner: r.owner || null,
+      tree_dbh: r.tree_dbh || null,
+      tree_location: r.tree_location || null,
+      reason_removal: r.reason_removal || null,
+      tree_description: r.tree_description || null,
+      tree_number: r.tree_number || null,
+      species: r.species || null,
+      coords
+    };
+    const k = obj.key;
+    const prev = byKey.get(k);
+    if (!prev) {
+      byKey.set(k, obj);
+      newRows.push(obj);
+    } else {
+      const prevComparable = { ...prev }; delete prevComparable.key;
+      const nextComparable = { ...obj }; delete nextComparable.key;
+      if (JSON.stringify(prevComparable) !== JSON.stringify(nextComparable)) {
+        byKey.set(k, obj);
+        updatedRows.push({ before: prev, after: obj });
+      }
+    }
+  }
+
+  await writeAllStore(Array.from(byKey.values()));
+
+  // 3) Delta report compared to prior snapshot of same date (if existed)
+  await fs.mkdir(CHANGES_DIR, { recursive: true });
+  const changesPath = `${CHANGES_DIR}/${yStr}.json`;
+  const currentKeys = new Set(filtered.map((r) => keyOf(r)));
+  const newly = Array.from(currentKeys).filter((k) => !priorKeys.has(k));
+  const missing = Array.from(priorKeys).filter((k) => !currentKeys.has(k));
+
+  const delta = {
+    date: yStr,
+    new: newly,
+    updated: updatedRows.map((u) => u.after.key),
+    missing: missing
+  };
+  await fs.writeFile(changesPath, JSON.stringify(delta, null, 2));
+
+  // 4) Rebuild latest map file from ALL_NDJSON for last MAP_DAYS
+  const allNow = Array.from(byKey.values());
+  const windowRows = allNow.filter((o) => withinLastNDaysUtc(parseUsDateToUtc(o.date), MAP_DAYS));
+
+  // Ensure we have coords for window rows
+  for (const o of windowRows) {
+    if (!o.coords && o.address) {
+      const c = await geocodeOneLine(o.address, cache);
+      if (c) o.coords = c;
+    }
+  }
+
+  // Persist any newly added coords back to store
+  await writeAllStore(Array.from(new Map(allNow.map((o) => [o.key, o])).values()));
+
+  const coordsDict = {};
+  for (const o of windowRows) {
+    if (o.coords && o.address) coordsDict[o.address] = o.coords;
+  }
+  await fs.writeFile(OUT_GEOJSON, JSON.stringify(toGeoJSON(windowRows, coordsDict), null, 2));
+  console.log(`Wrote ${OUT_GEOJSON} with ${windowRows.length} features (last ${MAP_DAYS} days).`);
+
+  // Also write date-range for UI
+  const times = windowRows.map((o) => parseUsDateToUtc(o.date)).filter(Boolean).map((d) => d.getTime());
+  if (times.length > 0) {
+    const min = new Date(Math.min(...times));
+    const max = new Date(Math.max(...times));
+    const fmtUtc = (d) => `${String(d.getUTCMonth() + 1).padStart(2, "0")}/${String(d.getUTCDate()).padStart(2, "0")}/${d.getUTCFullYear()}`;
+    await fs.writeFile("docs/data/date-range.json", JSON.stringify({ start: fmtUtc(min), end: fmtUtc(max) }, null, 2));
+  }
 })();

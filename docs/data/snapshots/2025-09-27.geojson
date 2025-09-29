@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504934",
+        "address": "65 PEACHTREE MEMORIAL DR NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "09/27/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "42",
+        "tree_location": "Front at steet",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Structurally damaged with uncorrectable defectReason for Removal:Uncorrectable defectComments:Recent failure caused damages to adjacent property and building\n\t\t\n\t\t\n\t\t\tTree number:2Species:Quercus nigraTree Size (DBH):39Tree location:Front at streetDescription of Tree:HazardousReason for Removal:Significant cavity/area of decayComments:Significant uncorrectable defects\n\t\t\n\t\t\n\t\t\tTree number:3Species:Quercus nigraTree Size (DBH):34Tree location:Front at streeDescription of Tree:Uncorrectable defectsReason for Removal:Uncorrectable defectComments:Causing damage to city curb, driveway and is within failing distance of electrical transformer\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01110002107 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Quercus nigra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.391791185245,
+          33.81680756314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504935",
+        "address": "3041 RHODENHAVEN DR NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "09/27/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "36",
+        "tree_location": "Front left side of driveway",
+        "reason_removal": "Other",
+        "tree_description": "Potentially hazardousReason for Removal:OtherComments:Position, size and possible decay and fruiting bodies give cause for concern. Targets cannot be move red or their use restricted. Failure of this tree will cause severe/catastrophic damages to property and persons.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01570003018 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Red Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411078337319,
+          33.837612514636
+        ]
+      }
+    }
+  ]
+}
