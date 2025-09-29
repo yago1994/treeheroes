@@ -2164,418 +2164,34 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202504820",
-        "address": "85 PEACHTREE HILLS AVE NE, ATLANTA GA 30305",
-        "status": "Accepted",
-        "date": "09/22/2025",
+        "record": "BA-202504936",
+        "address": "649 CLOVER ST SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "09/28/2025",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "REYNOLDS JEROME",
+        "tree_dbh": "20",
+        "tree_location": "backyard back fence",
+        "reason_removal": "Other",
         "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_number": "1",
+        "species": "oak"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.385360423451,
-          33.817377395958
+          -84.452807395947,
+          33.737459263821
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202504803",
-        "address": "911 HIGHLAND TER NE, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.357492143068,
-          33.785888725963
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504805",
-        "address": "1765 PEACHTREE ST NE, A2, ATLANTA GA 30309",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.387639346578,
-          33.798736379067
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504818",
-        "address": "1113 CASCADE AVE SW, ATLANTA GA 30311",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.450311476853,
-          33.724087383149
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504809",
-        "address": "1174 MCDONALD DR SE, ATLANTA GA 30315",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.381713344743,
-          33.721937266318
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504814",
-        "address": "411 HILLSIDE DR NW, ATLANTA GA 30342",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.40119533707,
-          33.869991202245
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504819",
-        "address": "152 RIDGELAND WAY NE, ATLANTA GA 30305",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.383331540495,
-          33.820318665427
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504806",
-        "address": "387 GARDEN LN NW, ATLANTA GA 30309",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.401031441265,
-          33.798141924726
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504810",
-        "address": "61 CLAY ST NE, ATLANTA GA 30317",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.33022424249,
-          33.754508967163
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504811",
-        "address": "1480 LANIER PL NE, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.354676677201,
-          33.794038152241
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504812",
-        "address": "743 BONAVENTURE AVE NE, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.360903745884,
-          33.774932480629
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504807",
-        "address": "167 WHITEFOORD AVE NE, ATLANTA GA 30307",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.341907549972,
-          33.75803798263
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504821",
-        "address": "130 PECAN DR SW, ATLANTA GA 30315",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.392686894322,
-          33.697437603968
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504808",
-        "address": "2091 MCKINLEY RD NW, ATLANTA GA 30318",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.41212056392,
-          33.812531751287
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504816",
-        "address": "834 COMMONWEALTH AVE SE, ATLANTA GA 30312",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.362952293056,
-          33.729725692371
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504798",
-        "address": "225 VALLEY RD NW, ATLANTA GA 30305",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.395011841375,
-          33.855595224521
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504802",
-        "address": "3089 BROWNS MILL RD SE, ATLANTA GA 30354",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.381543290477,
-          33.670591747469
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "25TMP-052204",
-        "address": "1443 BRIDGES AVE SW, ATLANTA GA 30310",
+        "record": "25TMP-053597",
+        "address": "1895 DEFOOR AVE NW, ATLANTA GA 30318",
         "status": null,
-        "date": "09/22/2025",
+        "date": "09/28/2025",
         "description": null,
         "owner": null,
         "tree_dbh": null,
@@ -2588,90 +2204,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.433037184327,
-          33.726604769122
+          -84.424909271877,
+          33.807412136527
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202504815",
-        "address": "361 OAKDALE RD NE, ATLANTA GA 30307",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.34168984246,
-          33.764083983166
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504801",
-        "address": "2115 WILSON AVE NW, ATLANTA GA 30314",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.458271969904,
-          33.753619865075
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504800",
-        "address": "933 NEAL ST NW, ATLANTA GA 30314",
-        "status": "Accepted",
-        "date": "09/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.418106630952,
-          33.766482493808
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "25TMP-046883",
-        "address": "2072 CHICAGO AVE NW, ATLANTA GA 30314",
+        "record": "25TMP-053608",
+        "address": "1147 UNIVERSITY DR NE, ATLANTA GA 30306",
         "status": null,
-        "date": "09/22/2025",
+        "date": "09/28/2025",
         "description": null,
         "owner": null,
         "tree_dbh": null,
@@ -2684,8 +2228,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.455074830417,
-          33.764525466946
+          -84.349846997672,
+          33.791693379797
         ]
       }
     }
