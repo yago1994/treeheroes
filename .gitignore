@@ -9,3 +9,7 @@ longer-date-range-debug.png
 after-submit-debug.png
 .DS_Store
 .gitattributes
+
+.env
+.env.*
+dist/

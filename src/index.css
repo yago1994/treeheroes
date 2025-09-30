@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+@import "tailwindcss";
+@plugin './hero.ts';
+/* Note: You may need to change the path to fit your project structure */
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary-50: #f0f9f0;
+  --color-primary-100: #dcf2dc;
+  --color-primary-200: #bce4bc;
+  --color-primary-300: #8dd08d;
+  --color-primary-400: #5bb85b;
+  --color-primary-500: #3a9d3a;
+  --color-primary-600: #2d7d2d;
+  --color-primary-700: #256325;
+  --color-primary-800: #215021;
+  --color-primary-900: #1e421e;
+  --color-primary-950: #0d240d;
+  --color-primary: #3a9d3a;
+  --color-primary-foreground: #ffffff;
+  --color-focus: #3a9d3a;
+}
