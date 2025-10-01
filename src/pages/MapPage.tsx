@@ -1,6 +1,6 @@
 import { SharedHeader } from '../components/SharedHeader';
 import { SharedFooter } from '../components/SharedFooter';
-import MapApp from '../components/MapApp';
+import MapAppOL from '../components/MapAppOL';
 
 type MapPageProps = {
   apiKey: string;
@@ -18,11 +18,11 @@ export default function MapPage({ apiKey, mapId }: MapPageProps): JSX.Element {
           <div className="flex flex-col gap-1">
             <h1 className="text-3xl font-semibold text-foreground">Atlanta Tree Removal Permits</h1>
             <p className="text-sm text-foreground-600">
-              Customize the sidebar width, filter by date range or removal reason, and tap markers for Street View context.
+              Filter by date range or removal reason, and tap markers for Street View context.
             </p>
           </div>
           <div className="flex-1">
-            <MapApp apiKey={apiKey} mapId={mapId} />
+            <MapAppOL apiKey={apiKey} mapId={mapId} />
           </div>
         </div>
       </main>

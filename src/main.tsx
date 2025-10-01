@@ -4,6 +4,7 @@ import { HeroUIProvider } from "@heroui/react";
 import { ThemeProvider, useTheme } from "./contexts/ThemeContext";
 import App from "./App";
 import "./index.css";
+import "ol/ol.css";
 
 const rootElement = document.getElementById("root");
 
