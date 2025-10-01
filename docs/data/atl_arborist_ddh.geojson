@@ -532,1038 +532,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202504867",
-        "address": "1200 WOODS CIR NE, ATLANTA GA 30324",
-        "status": "Issued",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.348236191838,
-          33.842204291834
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504893",
-        "address": "2516 FERNLEAF CT NW, ATLANTA GA 30318",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.439751973939,
-          33.82041783937
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504873",
-        "address": "923 UNITED AVE SE, ATLANTA GA 30316",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.357782512126,
-          33.726637324896
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504876",
-        "address": "596 PELHAM RD NE, ATLANTA GA 30324",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.369495239372,
-          33.800903131871
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504857",
-        "address": "7 PARKSIDE CT NW, ATLANTA GA 30342",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.38727915145,
-          33.876046943846
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504887",
-        "address": "224 PEACHTREE CIR NE, ATLANTA GA 30309",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.385451258913,
-          33.795345052021
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504869",
-        "address": "106 RICHMOND ST SE, ATLANTA GA 30312",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.384137952783,
-          33.73997880176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504868",
-        "address": "63 ROGERS ST SE, ATLANTA GA 30317",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.329211437132,
-          33.752479145731
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504865",
-        "address": "361 CAMDEN RD NE, ATLANTA GA 30309",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.382955121392,
-          33.811999875241
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504883",
-        "address": "1164 BRIARCLIFF CT NE, REAR, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.349353065524,
-          33.778174664616
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504874",
-        "address": "2367 NORTH CIRCLE DR NW, ATLANTA GA 30318",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.465872347887,
-          33.786901575224
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504870",
-        "address": "723 PIEDMONT AVE NE, ATLANTA GA 30308",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.381549127078,
-          33.774176195244
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504878",
-        "address": "1215 EAST BEECHWOOD DR NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.426359751983,
-          33.854226092487
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504858",
-        "address": "701 PERSHING AVE SE, ATLANTA GA 30312",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.364925070438,
-          33.721843053183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504890",
-        "address": "4279 EAST BROOKHAVEN DR NE, ATLANTA GA 30319",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.349315628561,
-          33.871526813076
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504871",
-        "address": "971 MT PARAN RD NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.414187793283,
-          33.875767455011
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504860",
-        "address": "1159 LONETIA AVE SE, ATLANTA GA 30312",
-        "status": "Issued",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.366532544967,
-          33.723926656307
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504882",
-        "address": "3400 PINE MEADOW RD NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.425655008877,
-          33.845948250641
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504872",
-        "address": "3391 PINESTREAM RD NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.422096587341,
-          33.84731413656
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504884",
-        "address": "2916 RIVERMEADE DR NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.453844375313,
-          33.835523719544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504885",
-        "address": "830 WEST CONWAY DR NW, ATLANTA GA 0",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.412724762556,
-          33.865129757761
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "25TMP-052912",
-        "address": "1928 SUNBURY PL NW, ATLANTA GA 30318",
-        "status": null,
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.408940578444,
-          33.807580973426
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504859",
-        "address": "175 CARTER AVE SE, ATLANTA GA 30317",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.305232703615,
-          33.747786937215
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504891",
-        "address": "465 BRYAN ST SE, ATLANTA GA 30312",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.372377579503,
-          33.744208159189
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504856",
-        "address": "2260 BEECHER RD SW, ATLANTA GA 30311",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.462918351527,
-          33.727583084103
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504863",
-        "address": "2551 POTOMAC AVE NE, ATLANTA GA 30305",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.384738485717,
-          33.824186000602
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504866",
-        "address": "379 9TH ST NE, ATLANTA GA 30309",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.3748372434,
-          33.780502202115
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504875",
-        "address": "816 PIEDMONT AVE NE, 1, ATLANTA GA 30308",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.381427250188,
-          33.77687753475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504855",
-        "address": "47 28TH ST NW, ATLANTA GA 30309",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.397027948789,
-          33.805192898631
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504889",
-        "address": "371 CHEROKEE PL SE, ATLANTA GA 30312",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.375209458062,
-          33.737731568356
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504853",
-        "address": "2451 MAIN ST NW, ATLANTA GA 30318",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.468374247479,
-          33.803644415587
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "25TMP-053047",
-        "address": "497 CARTER AVE SE, ATLANTA GA 30317",
-        "status": null,
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.305178061283,
-          33.739216542038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504886",
-        "address": "3568 CLOUDLAND DR NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.434218054127,
-          33.852845314039
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504879",
-        "address": "900 LOS ANGELES AVE NE, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.357831390686,
-          33.783950374027
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504862",
-        "address": "4397 EAST BROOKHAVEN DR NE, ATLANTA GA 30319",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.350210238965,
-          33.87456666237
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504877",
-        "address": "361 10TH ST NW, ATLANTA GA 30318",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.399078357937,
-          33.781568854809
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "25TMP-053048",
-        "address": "497 CARTER AVE SE, ATLANTA GA 30317",
-        "status": null,
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.305178061283,
-          33.739216542038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504864",
-        "address": "1016 WILDWOOD RD NE, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.353920382271,
-          33.803564848426
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504892",
-        "address": "792 DREWRY ST NE, ATLANTA GA 30306",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.361034146741,
-          33.777790054199
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504861",
-        "address": "479 ARGONNE DR NW, ATLANTA GA 30305",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.402967821705,
-          33.835649913138
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504852",
-        "address": "4200 WICKERSHAM DR NW, ATLANTA GA 30327",
-        "status": "Accepted",
-        "date": "09/24/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.412658790596,
-          33.870416203301
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504888",
-        "address": "2109 BROWNS MILL RD SE, ATLANTA GA 30315",
-        "status": "Issued",
-        "date": "09/24/2025",
-        "description": "DDH",
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.373869332543,
-          33.696541396397
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202504854",
-        "address": "2939 ROCKINGHAM DR NW, ATLANTA GA 30327",
-        "status": "Issued",
-        "date": "09/24/2025",
-        "description": "DDH",
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.413241167192,
-          33.837141356632
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202504936",
         "address": "649 CLOVER ST SW, ATLANTA GA 30310",
         "status": "ACA Pending",
@@ -2398,6 +1366,342 @@
         "coordinates": [
           -84.402073805729,
           33.716818866572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504989",
+        "address": "344 8TH ST NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": "MARTIN JEFFREY K",
+        "tree_dbh": "40",
+        "tree_location": "NE Quadrant",
+        "reason_removal": "Dying tree",
+        "tree_description": "Dying mature elm with 30% canopy decline.Reason for Removal:Dying treeComments:Steady declining canopy health, dropping larger limbs.  Possible lighting strike. Pruning no longer viable to maintain safety.  Neighbors are complaining about safety.  I am concerned about liability.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00540004074 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Elm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375959512461,
+          33.779558348963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504984",
+        "address": "579 FLAT SHOALS AVE SE, ATLANTA GA 30316",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": "STEIN DESIGNS INC",
+        "tree_dbh": "9",
+        "tree_location": "Back Center",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead tree, no live canopyReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 176 01 075 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.343424837166,
+          33.738536042825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504982",
+        "address": "1820 GARRAUX RD NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": "Parker Blanchard",
+        "tree_dbh": "12",
+        "tree_location": "Front right corner of house",
+        "reason_removal": "Dying tree",
+        "tree_description": "45% canopy death\nfruiting bodies on branchesReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:4Species:PoplarTree Size (DBH):8Tree location:right side of houseDescription of Tree:within 5'Reason for Removal:Within 5 ft of occupied dwelling\n\t\t\n\t\t\n\t\t\tTree number:5Species:MapleTree Size (DBH):15Tree location:right side of houseDescription of Tree:basal cavityReason for Removal:Significant cavity/area of decay\n\t\t\n\t\t\n\t\t\tTree number:6Species:PoplarTree Size (DBH):12Tree location:back right cornerDescription of Tree:within 5'Reason for Removal:Within 5 ft of occupied dwelling\n\t\t\n\t\t\n\t\t\tTree number:7Species:PineTree Size (DBH):12Tree location:Back right of pool houseDescription of Tree:failedReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:8Species:MapleTree Size (DBH):21Tree location:back right of pool houseReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:9Species:PineTree Size (DBH):9Tree location:back center in woodsDescription of Tree:failedReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:10Species:mapleTree Size (DBH):18Tree location:back left pool houseReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:11Species:mapleTree Size (DBH):4Tree location:front right tennis courtDescription of Tree:50% canopy deathReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:12Species:PineTree Size (DBH):6Tree location:right side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:13Species:pineTree Size (DBH):6Tree location:right side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:14Species:PineTree Size (DBH):6Tree location:right side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:15Species:PoplarTree Size (DBH):6Tree location:back right tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:16Species:pineTree Size (DBH):4Tree location:back side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:17Species:PoplarTree Size (DBH):6Tree location:back side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:18Species:pineTree Size (DBH):4Tree location:back side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:19Species:PineTree Size (DBH):4Tree location:back side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:20Species:PineTree Size (DBH):4Tree location:back side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:21Species:pineTree Size (DBH):4Tree location:back side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:22Species:PoplarTree Size (DBH):5Tree location:Back left tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:23Species:PineTree Size (DBH):6Tree location:left side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:24Species:PineTree Size (DBH):4Tree location:left side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:25Species:PineTree Size (DBH):12Tree location:left side tennis courtReason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:26Species:MagnoliaTree Size (DBH):18Tree location:left side of poolDescription of Tree:60% canopy deathReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0234  LL067 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.447952148646,
+          33.853843418226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504988",
+        "address": "992 WASHITA AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "36",
+        "tree_location": "Front",
+        "reason_removal": "Dead tree",
+        "tree_description": "- Tree is DDH, this tree has been attacked by ambrosia beetle.",
+        "tree_number": "1",
+        "species": "Water Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354743497315,
+          33.765218275963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-053919",
+        "address": "3206 PYRITE CIR SW, ATLANTA GA 30331",
+        "status": null,
+        "date": "09/30/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.49186890615,
+          33.676277409471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-054078",
+        "address": "3303 CHATHAM RD NW, ATLANTA GA 30305",
+        "status": null,
+        "date": "09/30/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.391438801583,
+          33.844468998213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504983",
+        "address": "537 GREENWOOD AVE NE, ATLANTA GA 30308",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "6",
+        "tree_location": "Front Right",
+        "reason_removal": "Other",
+        "tree_description": "Tree is healthy but client would like to remove. Reason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:2Species:Cherry LaurelTree Size (DBH):8Tree location:Front RightDescription of Tree:This tree is bifurcated with some flux coming out at the base.Reason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:3Species:Cherry LaurelTree Size (DBH):6Tree location:Front RightDescription of Tree:This tree is bifurcated and one of the leads is dead. Has an approximate 15 degree lean over the sidewalk.Reason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:4Species:Cherry LaurelTree Size (DBH):6Tree location:Back LeftDescription of Tree:Tree is healthy client would like to removeReason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00480008014 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Cherry Laurel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.369271076771,
+          33.776810263323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504975",
+        "address": "2901 LENOX RD NE, ATLANTA GA 30324",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "22",
+        "tree_location": "Behind building 100",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Leaning pine with major crack along the back of the trunk. IS a threat to the building.Reason for Removal:Uncorrectable defectComments:Gate code is #3726\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00070008000 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.357212590339,
+          33.833817748936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504973",
+        "address": "119 HOWARD ST NE, ATLANTA GA 30317",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": "MOORE BETTY A MOORE JESSICA",
+        "tree_dbh": "22",
+        "tree_location": "rear right",
+        "reason_removal": "Within 5 ft of occupied dwelling",
+        "tree_description": "Silver Maple rear right, leaning, declining tips, encroaching street lights and wires, close to houseReason for Removal:Within 5 ft of occupied dwellingComments:Silver Maple rear right, leaning, declining tips, encroaching street lights and wires, close to house\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 211 02 081 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Silver Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.323087331457,
+          33.755606777857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504985",
+        "address": "37 SOUTH PRADO NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": "Vaughn Connerty",
+        "tree_dbh": "1",
+        "tree_location": "At Street",
+        "reason_removal": "Other",
+        "tree_description": "Single tree on north west end of drivewayReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:ZelkovaTree Size (DBH):1.5Tree location:At StreetDescription of Tree:Single tree on south west end of drivewayReason for Removal:OtherComments:The tree that is symmetrical with this on the driveway is dead and I would like this removed for symmetry in front of my house.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00550004032 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Zelkova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.376657029024,
+          33.790181575088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504976",
+        "address": "367 OAKDALE RD NE, ATLANTA GA 30307",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "12",
+        "tree_location": "right side of property, close to neighbor's property",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "More than 20 degree leanReason for Removal:Uncorrectable defectComments:Ribbon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 209 01 041 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.341687214009,
+          33.764200385758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504990",
+        "address": "465 WOODWARD AVE SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "09/30/2025",
+        "description": null,
+        "owner": "George Robert Kissinger and Andrea McCulloch",
+        "tree_dbh": "6",
+        "tree_location": "near NW corner of house",
+        "reason_removal": "Other",
+        "tree_description": "Tree is labeled 'TTT' on the tree protection plan. Reason for Removal:OtherComments:The tree's structural root plate will be disturbed when the existing house foundations are excavated and repaired to preserve the historic structure. \n\t\t\n\t\t\n\t\t\tTree number:2Species:HackberryTree Size (DBH):6Tree location:along western edge of property near midpoint of existing houseDescription of Tree:Tree is labeled 'OOO' on the tree protection plan. Reason for Removal:OtherComments:The tree's structural root plate will be disturbed when the existing house foundations are excavated and repaired to preserve the historic structure. \n\t\t\n\t\t\n\t\t\tTree number:3Species:HackberryTree Size (DBH):6Tree location:western edge of the property at about midpoint of the existing houseDescription of Tree:Tree is labeled 'NNN' on the tree protection plan. Reason for Removal:OtherComments:The tree's structural root plate will be disturbed when the existing house foundations are excavated and repaired to preserve the historic structure. \n\t\t\n\t\t\n\t\t\tTree number:4Species:HackberryTree Size (DBH):9Tree location:western edge of property at about midpoint of the existing houseDescription of Tree:Tree is labeled 'LLL' on the tree protection plan. Reason for Removal:OtherComments:The tree's structural root plate will be disturbed when the existing house foundations are excavated and repaired to preserve the historic structure. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00440002041 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.372262553771,
+          33.745470030477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504986",
+        "address": "1224 NORTH HIGHLAND AVE NE, ATLANTA GA 30306",
+        "status": "Accepted",
+        "date": "09/30/2025",
+        "description": "Hardwood leaning towards neighbors house, hazard",
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "back right",
+        "reason_removal": "Other",
+        "tree_description": "tree can be clearly seen from 932 kings crtReason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\t0) Parcel Number:17 00020010020Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hardwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35548275373,
+          33.788234898952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202504977",
+        "address": "207 THE PRADO NE, ATLANTA GA 30309",
+        "status": "Issued",
+        "date": "09/30/2025",
+        "description": "DDH",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.380281799241,
+          33.795108438456
         ]
       }
     }
