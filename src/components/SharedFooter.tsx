@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logoUrl from '../../assets/treeheroes-logo-3.png';
 
 interface SharedFooterProps {
   onOpenMapPath?: string;
@@ -9,7 +10,7 @@ export function SharedFooter({ onOpenMapPath = "/map" }: SharedFooterProps) {
     <footer className="bg-[#2d5016] py-14 text-white">
       <div className="mx-auto flex max-w-6xl flex-col gap-5 px-4 sm:px-6">
         <div className="flex items-center gap-3">
-          <img src="/assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" className="h-11 w-11" />
+          <img src={logoUrl} alt="Tree Heroes Logo" className="h-11 w-11" />
           <span className="text-lg font-semibold">Tree Heroes</span>
         </div>
         <p className="max-w-3xl text-sm text-white/80">

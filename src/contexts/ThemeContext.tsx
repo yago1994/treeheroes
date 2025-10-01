@@ -26,8 +26,8 @@ interface ThemeProviderProps {
 
 export function ThemeProvider({ 
   children, 
-  defaultTheme = 'system',
-  storageKey = 'treeheroes-theme'
+  defaultTheme = 'light',
+  storageKey = 'treeheroes-theme-v2'
 }: ThemeProviderProps) {
   const [theme, setTheme] = useState<Theme>(() => {
     if (typeof window === 'undefined') return defaultTheme;
