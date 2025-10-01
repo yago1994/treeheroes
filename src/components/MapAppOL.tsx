@@ -23,7 +23,8 @@ import 'ol/ol.css';
 const DEFAULT_CENTER: [number, number] = [-84.3903, 33.749];
 const DEFAULT_ZOOM = 11;
 const DEFAULT_STREET_VIEW_MSG = 'Select a permit marker to see Street View imagery here.';
-const DEFAULT_GEOJSON_URL = '/docs/data/atl_arborist_ddh.geojson';
+const BASE_PATH = (import.meta as any).env?.BASE_URL || '/';
+const DEFAULT_GEOJSON_URL = `${BASE_PATH}docs/data/atl_arborist_ddh.geojson`;
 
 const DEFAULT_EXCLUDED_REASON_KEYS = new Set<string>();
 const UNKNOWN_REASON_KEY = 'UNKNOWN';
@@ -498,7 +499,7 @@ export default function MapAppOL({
     setLoadingRecords(true);
     setDataError(null);
 
-    loadPermitData('/docs/data/all.ndjson', geojsonUrl)
+    loadPermitData(`${BASE_PATH}docs/data/all.ndjson`, geojsonUrl)
       .then((loaded) => {
         if (cancelled) return;
         setRecords(loaded);
