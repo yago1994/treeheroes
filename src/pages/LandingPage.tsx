@@ -98,11 +98,11 @@ function HeroSection({ onOpenMapPath }: LandingPageProps) {
             <h3 className="text-xl font-semibold !text-white">Why track permits?</h3>
             <p className="text-sm text-white/80">Open data is powerful when the community can see what&apos;s happening nearby.</p>
           </CardHeader>
-          <CardBody className="flex flex-col gap-3 text-sm text-white/85">
+          <CardBody className="flex flex-col gap-2 text-sm text-white/85 pb-1">
             <p>• Spot tree removal hotspots and trends.</p>
             <p>• Prepare for hearings with permit-level details.</p>
             <p>• Rally neighbors around canopy preservation.</p>
-            <p className="pt-2 text-xs text-white/70">
+            <p className="text-xs text-white/70">
               Powered by civic data and refreshed frequently. We handle the visuals—you bring the insight.
             </p>
           </CardBody>
@@ -187,7 +187,7 @@ function InstructionsSection() {
               Tree Heroes thrives when residents surface patterns. Share insights, submit clarifications, or recommend improvements—we will fold them into future releases.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
-              <Button as="a" href="mailto:info@treeheroes.org" color="primary" radius="full" size="md">
+              <Button as="a" href="mailto:info@treeheroesatl.org" color="primary" radius="full" size="md">
                 Email the team
               </Button>
               <Button as={Link} to="/map" variant="bordered" color="primary" radius="full" size="md">
