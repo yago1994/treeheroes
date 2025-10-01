@@ -77,7 +77,7 @@ const streetViewStyles: {
     height: 0,
     minHeight: 0,
     padding: 0,
-    borderWidth: 0,
+    border: '0',
     margin: 0,
   },
   canvas: {
@@ -1018,8 +1018,31 @@ export default function MapApp({
   useEffect(() => {
     const ctx = contextRef.current;
     if (!ctx?.panorama) return;
-    ctx.panorama.setVisible(streetViewVisible && streetViewReady);
-  }, [streetViewVisible, streetViewReady]);
+
+    const shouldShow = streetViewVisible && streetViewReady && (isDesktop || showMobileDetails);
+    ctx.panorama.setVisible(shouldShow);
+
+    if (!shouldShow) {
+      return;
+    }
+
+    const triggerResize = () => {
+      try {
+        ctx.maps.event.trigger(ctx.panorama as google.maps.StreetViewPanorama, 'resize');
+      } catch (error) {
+        // Swallow resize errors to avoid interrupting the UI when Maps is mid-transition.
+      }
+    };
+
+    triggerResize();
+    const rafId = window.requestAnimationFrame(triggerResize);
+    const timeoutId = window.setTimeout(triggerResize, 360);
+
+    return () => {
+      window.cancelAnimationFrame(rafId);
+      window.clearTimeout(timeoutId);
+    };
+  }, [streetViewVisible, streetViewReady, isDesktop, showMobileDetails]);
 
   useEffect(() => {
     if (!selectedRecord) {
