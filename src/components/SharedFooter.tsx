@@ -9,7 +9,7 @@ export function SharedFooter({ onOpenMapPath = "/map" }: SharedFooterProps) {
     <footer className="bg-primary py-14 text-primary-foreground">
       <div className="mx-auto flex max-w-6xl flex-col gap-5 px-4 sm:px-6">
         <div className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary-foreground/20 text-2xl">🌳</span>
+          <img src="/assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" className="h-11 w-11" />
           <span className="text-lg font-semibold">Tree Heroes</span>
         </div>
         <p className="max-w-3xl text-sm text-primary-foreground/70">

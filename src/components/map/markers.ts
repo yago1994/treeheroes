@@ -17,14 +17,15 @@ export function computeMarkerDimensions(
 ): { size: number; coreSize: number; dbh: number | null } {
   const dbh = extractDbhValue(record.tree_dbh);
   if (!dbh) {
-    const size = 24;
-    const coreSize = 12;
+    const size = 12;
+    const coreSize = 6;
     return { size, coreSize, dbh: null };
   }
 
-  const clampedDbh = Math.min(Math.max(dbh, 4), 60);
-  const size = Math.min(40, Math.round(18 + clampedDbh * 0.35));
-  const coreSize = Math.max(10, Math.round(size * 0.5));
+  const clampedDbh = Math.min(Math.max(dbh, 2), 60);
+  // More aggressive scaling: starts at 8px for 2" DBH, grows to 40px at 60" DBH
+  const size = Math.min(40, Math.round(8 + clampedDbh * 0.55));
+  const coreSize = Math.max(4, Math.round(size * 0.5));
   return { size, coreSize, dbh };
 }
 

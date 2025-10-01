@@ -27,7 +27,7 @@ export function SharedHeader({
     <header className="sticky top-0 z-30 border-b border-divider bg-background/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link to="/" className="flex items-center gap-2 text-foreground">
-          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/10 text-2xl">🌳</span>
+          <img src="/assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" className="h-11 w-11" />
           <span className="text-lg font-semibold text-foreground">Tree Heroes</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-semibold text-foreground-600 sm:flex">

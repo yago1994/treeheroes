@@ -1069,52 +1069,11 @@ export default function MapApp({
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-3">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-          <div className="max-w-xl space-y-2">
-            <h2 className="text-2xl font-bold text-foreground">Atlanta Tree Removal Permits Map</h2>
-            <p className="text-sm text-foreground-600">
-              Click on any marker to view permit details, including tree species, size, location, and reason for removal.
-            </p>
-          </div>
-          <div className="flex w-full flex-col gap-3 sm:max-w-xs">
-            <Select
-              label="View"
-              labelPlacement="outside"
-              placeholder="Select a range"
-              selectedKeys={selectedKeys}
-              onSelectionChange={handleSelectChange}
-              isDisabled={loadingRecords || (!!dataError && records.length === 0)}
-              className="w-full"
-              disallowEmptySelection
-            >
-              <SelectItem key="ALL" textValue="All data">
-                All data (entire history)
-              </SelectItem>
-              <>
-                {weekOptions.map((option) => (
-                  <SelectItem key={option.value} textValue={option.label}>
-                    {option.label}
-                  </SelectItem>
-                ))}
-              </>
-            </Select>
-            <Select
-              label="Removal reasons"
-              labelPlacement="outside"
-              placeholder="Filter removal reasons"
-              selectionMode="multiple"
-              selectedKeys={reasonSelectedKeys}
-              onSelectionChange={handleReasonSelectionChange}
-              isDisabled={!reasonOptions.length}
-              className="w-full"
-            >
-              {reasonOptions.map((option) => (
-                <SelectItem key={option.key} textValue={option.label}>
-                  {option.label}
-                </SelectItem>
-              ))}
-            </Select>
-          </div>
+        <div className="max-w-xl space-y-2">
+          <h2 className="text-2xl font-bold text-foreground">Atlanta Tree Removal Permits Map</h2>
+          <p className="text-sm text-foreground-600">
+            Click on any marker to view permit details, including tree species, size, location, and reason for removal.
+          </p>
         </div>
         <div className="flex flex-wrap items-center gap-2 text-sm">
           <Badge color="primary" variant="flat">
@@ -1136,6 +1095,46 @@ export default function MapApp({
             {dataError}
           </Alert>
         )}
+      </div>
+
+      <div className="flex w-full flex-col gap-3 sm:flex-row sm:gap-4">
+        <Select
+          label="View all data"
+          labelPlacement="outside"
+          placeholder="Select a range"
+          selectedKeys={selectedKeys}
+          onSelectionChange={handleSelectChange}
+          isDisabled={loadingRecords || (!!dataError && records.length === 0)}
+          className="w-full sm:max-w-xs"
+          disallowEmptySelection
+        >
+          <SelectItem key="ALL" textValue="All data">
+            All data (entire history)
+          </SelectItem>
+          <>
+            {weekOptions.map((option) => (
+              <SelectItem key={option.value} textValue={option.label}>
+                {option.label}
+              </SelectItem>
+            ))}
+          </>
+        </Select>
+        <Select
+          label="Removal reasons"
+          labelPlacement="outside"
+          placeholder="Filter removal reasons"
+          selectionMode="multiple"
+          selectedKeys={reasonSelectedKeys}
+          onSelectionChange={handleReasonSelectionChange}
+          isDisabled={!reasonOptions.length}
+          className="w-full sm:max-w-xs"
+        >
+          {reasonOptions.map((option) => (
+            <SelectItem key={option.key} textValue={option.label}>
+              {option.label}
+            </SelectItem>
+          ))}
+        </Select>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
