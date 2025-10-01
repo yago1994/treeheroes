@@ -189,6 +189,8 @@ export default function MapAppOL({
   const streetViewRef = useRef<HTMLDivElement | null>(null);
   const olMapRef = useRef<OLMap | null>(null);
   const vectorLayerRef = useRef<VectorLayer<VectorSource> | null>(null);
+  const recordByIdRef = useRef<Map<string, PermitRecord>>(new Map());
+  const recordsRef = useRef<PermitRecord[]>([]);
 
   const [dataError, setDataError] = useState<string | null>(null);
   const [records, setRecords] = useState<PermitRecord[]>([]);
@@ -390,10 +392,32 @@ export default function MapAppOL({
     map.on('singleclick', (evt) => {
       let handled = false;
       map.forEachFeatureAtPixel(evt.pixel, (feature) => {
-        const props = feature.getProperties();
-        
-        // Find matching record
-        const matchingRecord = records.find((r) => r.record === props.record);
+        const props = feature.getProperties() as any;
+        const lookupKey: string | undefined = props.id || props.record;
+        let matchingRecord: PermitRecord | undefined = lookupKey
+          ? recordByIdRef.current.get(String(lookupKey))
+          : undefined;
+
+        if (!matchingRecord) {
+          // Fallback: nearest by coordinate
+          try {
+            const geometry: any = (feature as any).getGeometry?.();
+            const coord = geometry?.getCoordinates?.();
+            if (Array.isArray(coord)) {
+              const [lon, lat] = toLonLat(coord);
+              let best: { d: number; rec: PermitRecord } | null = null;
+              for (const rec of recordsRef.current) {
+                if (!rec.coords) continue;
+                const dx = Number(rec.coords[0]) - lon;
+                const dy = Number(rec.coords[1]) - lat;
+                const d = dx * dx + dy * dy;
+                if (!best || d < best.d) best = { d, rec };
+              }
+              if (best) matchingRecord = best.rec;
+            }
+          } catch {}
+        }
+
         if (matchingRecord) {
           setSelectedRecord(matchingRecord);
           
@@ -425,7 +449,18 @@ export default function MapAppOL({
     return () => {
       map.setTarget(undefined);
     };
-  }, [geojsonUrl, records, apiKey, clearSelection]);
+  }, [apiKey, clearSelection]);
+
+  // Keep lookup maps in sync with current records
+  useEffect(() => {
+    recordsRef.current = records;
+    const next = new Map<string, PermitRecord>();
+    for (const r of records) {
+      if (r.id) next.set(r.id, r);
+      if (r.record) next.set(r.record, r);
+    }
+    recordByIdRef.current = next;
+  }, [records]);
 
   const loadStreetView = useCallback((record: PermitRecord) => {
     if (!apiKey || !streetViewRef.current) return;
@@ -483,7 +518,25 @@ export default function MapAppOL({
       const geocoder = new window.google.maps.Geocoder();
       geocoder.geocode({ address }, (results, status) => {
         if (status === 'OK' && results && results[0]?.geometry?.location) {
-          trySV(results[0].geometry.location);
+          const loc = results[0].geometry.location;
+          const meters = (a: google.maps.LatLng | google.maps.LatLngLiteral, b: google.maps.LatLng | google.maps.LatLngLiteral) => {
+            const toLL = (p: any) => ('lat' in p ? { lat: p.lat, lng: p.lng } : { lat: p.lat(), lng: p.lng() });
+            const A = toLL(a);
+            const B = toLL(b);
+            const R = 6371000;
+            const dLat = (Math.PI / 180) * (B.lat - A.lat);
+            const dLng = (Math.PI / 180) * (B.lng - A.lng);
+            const s1 = Math.sin(dLat / 2);
+            const s2 = Math.sin(dLng / 2);
+            const aa = s1 * s1 + Math.cos((Math.PI / 180) * A.lat) * Math.cos((Math.PI / 180) * B.lat) * s2 * s2;
+            return 2 * R * Math.atan2(Math.sqrt(aa), Math.sqrt(1 - aa));
+          };
+          // If geocoded point is far from original coords, prefer original coords
+          if (meters(loc, defaultPosition) > 120) {
+            trySV(defaultPosition);
+          } else {
+            trySV(loc);
+          }
         } else {
           trySV(defaultPosition);
         }
