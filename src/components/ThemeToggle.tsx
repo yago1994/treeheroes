@@ -41,7 +41,7 @@ export function ThemeToggle() {
         <Button
           variant="light"
           size="sm"
-          className="min-w-0 px-2"
+          className="min-w-0 px-2 text-white hover:bg-white/10"
           startContent={<CurrentIcon />}
         >
           <span className="hidden sm:inline">{currentTheme.label}</span>

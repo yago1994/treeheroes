@@ -8,8 +8,8 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { label: 'Purpose', href: '/#purpose' },
-  { label: 'How it works', href: '/#instructions' },
+  { label: 'Purpose', href: '#purpose' },
+  { label: 'How it works', href: '#instructions' },
 ];
 
 interface SharedHeaderProps {
@@ -24,21 +24,21 @@ export function SharedHeader({
   backButtonPath = "/"
 }: SharedHeaderProps) {
   return (
-    <header className="sticky top-0 z-30 border-b border-divider bg-background/80 backdrop-blur">
+    <header className="sticky top-0 z-30 bg-[#2d5016] shadow-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
-        <Link to="/" className="flex items-center gap-2 text-foreground">
+        <Link to="/" className="flex items-center gap-2 text-white">
           <img src="/assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" className="h-11 w-11" />
-          <span className="text-lg font-semibold text-foreground">Tree Heroes</span>
+          <span className="text-lg font-semibold text-white">Tree Heroes</span>
         </Link>
-        <nav className="hidden items-center gap-6 text-sm font-semibold text-foreground-600 sm:flex">
+        <nav className="hidden items-center gap-6 text-sm font-semibold text-white/90 sm:flex">
           {navLinks.map((link) => (
-            <Link key={link.href} to={link.href} className="transition-colors hover:text-primary">
+            <Link key={link.href} to={link.href} className="transition-colors hover:text-white">
               {link.label}
             </Link>
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           {showBackButton ? (
             <Button 
               as={Link} 
