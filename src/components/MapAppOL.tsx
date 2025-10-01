@@ -15,7 +15,7 @@ import GeoJSON from 'ol/format/GeoJSON';
 import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
 import { fromLonLat, toLonLat } from 'ol/proj';
-import { Style, Circle, Fill, Stroke } from 'ol/style';
+import { Style, Circle, Fill, Stroke, Icon } from 'ol/style';
 import Overlay from 'ol/Overlay';
 import type { FeatureLike } from 'ol/Feature';
 import 'ol/ol.css';
@@ -55,6 +55,93 @@ function extractDbhValue(value: string | null): number | null {
     .filter((num) => Number.isFinite(num) && num > 0);
   if (!numericValues.length) return null;
   return Math.max(...numericValues);
+}
+
+// SVG marker cache so we don't regenerate per feature
+const markerSvgCache = new Map<string, string>();
+
+function buildMarkerSvg(radius: number, selected: boolean): string {
+  const key = `${radius}|${selected ? '1' : '0'}`;
+  const cached = markerSvgCache.get(key);
+  if (cached) return cached;
+
+  const size = Math.ceil(radius * 2);
+
+  // Outer wood-grain like circle and inner core highlight
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <defs>
+      <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff" stop-opacity="0.35"/>
+        <stop offset="55%" stop-color="#000" stop-opacity="0.08"/>
+        <stop offset="100%" stop-color="#000" stop-opacity="0.18"/>
+      </radialGradient>
+      <radialGradient id="core" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fde8c5"/>
+        <stop offset="35%" stop-color="#f1c98c"/>
+        <stop offset="70%" stop-color="#d68f4d"/>
+        <stop offset="100%" stop-color="rgba(130,73,30,0.85)"/>
+      </radialGradient>
+    </defs>
+    <g>
+      <circle cx="${radius}" cy="${radius}" r="${radius - 1}" fill="#b8804b"/>
+      <circle cx="${radius}" cy="${radius}" r="${radius - 1}" fill="url(#g1)"/>
+      <circle cx="${radius}" cy="${radius}" r="${Math.max(2, Math.round(radius * 0.5))}" fill="url(#core)" stroke="rgba(133,79,43,0.6)" stroke-width="1"/>
+    </g>
+  </svg>`;
+
+  const dataUrl = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+  markerSvgCache.set(key, dataUrl);
+  return dataUrl;
+}
+
+function buildTreeSvg(size: number): string {
+  const key = `tree|${size}`;
+  const cached = markerSvgCache.get(key);
+  if (cached) return cached;
+
+  const w = Math.ceil(size * 1.6);
+  const h = Math.ceil(size * 1.8);
+  const cx = Math.round(w / 2);
+  const trunkW = Math.max(4, Math.round(size * 0.3));
+  const trunkH = Math.max(6, Math.round(size * 0.6));
+
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+    <defs>
+      <linearGradient id="leaf" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="#5bb85b"/>
+        <stop offset="100%" stop-color="#2d7d2d"/>
+      </linearGradient>
+    </defs>
+    <!-- canopy -->
+    <circle cx="${cx}" cy="${Math.round(h * 0.55)}" r="${Math.round(size * 0.9)}" fill="url(#leaf)" stroke="#1e5a2e" stroke-width="2"/>
+    <!-- trunk -->
+    <rect x="${cx - Math.round(trunkW/2)}" y="${h - trunkH - 2}" width="${trunkW}" height="${trunkH}" rx="2" fill="#8b5a2b" stroke="#5a381a" stroke-width="1"/>
+  </svg>`;
+
+  const dataUrl = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+  markerSvgCache.set(key, dataUrl);
+  return dataUrl;
+}
+
+function buildEmojiSvg(size: number, emoji: string): string {
+  const key = `emoji|${emoji}|${size}`;
+  const cached = markerSvgCache.get(key);
+  if (cached) return cached;
+
+  const w = Math.ceil(size);
+  const h = Math.ceil(size);
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" font-size="${Math.round(
+      size * 0.9
+    )}" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">${emoji}</text>
+  </svg>`;
+
+  const dataUrl = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+  markerSvgCache.set(key, dataUrl);
+  return dataUrl;
 }
 
 type MapAppOLProps = {
@@ -202,15 +289,14 @@ export default function MapAppOL({
         const props = feature.getProperties();
         const dbhRaw = props.tree_dbh || props.DBH || props.dbh;
         const dbh = extractDbhValue(dbhRaw) || 0;
-        
-        // Scale radius based on DBH
         const radius = Math.max(4, Math.min(20, 4 + dbh * 0.25));
-
+        const svgUrl = buildMarkerSvg(radius, false);
         return new Style({
-          image: new Circle({
-            radius,
-            fill: new Fill({ color: 'rgba(139, 69, 19, 0.9)' }),
-            stroke: new Stroke({ color: 'rgba(90, 54, 31, 0.9)', width: 2 }),
+          image: new Icon({
+            src: svgUrl,
+            anchor: [radius, radius],
+            anchorXUnits: 'pixels',
+            anchorYUnits: 'pixels',
           }),
         });
       },
@@ -539,24 +625,19 @@ export default function MapAppOL({
       const dbh = extractDbhValue(dbhRaw) || 0;
       const baseRadius = Math.max(4, Math.min(20, 4 + dbh * 0.25));
       const isSelected = matchingRecord && selectedRecord && matchingRecord.id === selectedRecord.id;
-      const main = new Style({
-        image: new Circle({
-          radius: isSelected ? baseRadius + 2 : baseRadius,
-          fill: new Fill({ color: 'rgba(139, 69, 19, 0.95)' }),
-          stroke: new Stroke({ color: 'rgba(60, 30, 15, 0.95)', width: isSelected ? 3 : 2 }),
+      const iconRadius = isSelected ? baseRadius + 1 : baseRadius;
+      const svgUrl = isSelected
+        ? buildEmojiSvg(iconRadius * 1.8, '🌳')
+        : buildMarkerSvg(iconRadius, false);
+      return new Style({
+        zIndex: isSelected ? 1000 : 0,
+        image: new Icon({
+          src: svgUrl,
+          anchor: [iconRadius, iconRadius],
+          anchorXUnits: 'pixels',
+          anchorYUnits: 'pixels',
         }),
       });
-      if (isSelected) {
-        const ring = new Style({
-          image: new Circle({
-            radius: baseRadius + 6,
-            fill: new Fill({ color: 'rgba(0,0,0,0)' }),
-            stroke: new Stroke({ color: 'rgba(58, 157, 58, 0.6)', width: 4 }),
-          }),
-        });
-        return [ring, main];
-      }
-      return main;
     });
   }, [filteredRecords, records, selectedRecord, selectedRange, selectedReasons.size]);
 
@@ -568,7 +649,6 @@ export default function MapAppOL({
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-3">
         <div className="max-w-xl space-y-2">
-          <h2 className="text-2xl font-bold text-foreground">Atlanta Tree Removal Permits Map</h2>
           <p className="text-sm text-foreground-600">
             Click on any marker to view permit details, including tree species, size, location, and reason for removal.
           </p>

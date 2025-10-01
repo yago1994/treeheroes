@@ -30,6 +30,7 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
 
   const recordLabel = record.record ?? record.address ?? 'Permit';
   const streetViewUrl = buildStreetViewUrl(record);
+  const accelaUrl = 'https://aca-prod.accela.com/ATLANTA_GA/Default.aspx';
 
   const handleCopy = useCallback(() => {
     if (!record.record) return;
@@ -73,18 +74,7 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
             </Tooltip>
           )}
         </div>
-        <div className="flex flex-wrap items-center gap-2">
-          {record.status && (
-            <Badge color="success" variant="flat">
-              {record.status}
-            </Badge>
-          )}
-          {record.date && (
-            <Badge color="default" variant="flat">
-              {record.date}
-            </Badge>
-          )}
-        </div>
+        {/* Removed top badges (status/date) to avoid duplication with details list */}
       </div>
 
       <Button
@@ -111,6 +101,17 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
               </div>
             );
           })}
+          <Button
+            as="a"
+            href={accelaUrl}
+            target="_blank"
+            rel="noopener"
+            variant="bordered"
+            color="primary"
+            endContent={<LinkIcon className="h-4 w-4" />}
+          >
+            Open Atlanta Permits (Accela)
+          </Button>
         </div>
       ) : (
         <p className="text-sm text-slate-500">No additional metadata is available for this permit.</p>
