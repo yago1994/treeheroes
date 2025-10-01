@@ -8,8 +8,8 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { label: 'Purpose', href: '#purpose' },
-  { label: 'How it works', href: '#instructions' },
+  { label: 'Purpose', href: '/#purpose' },
+  { label: 'How it works', href: '/#instructions' },
 ];
 
 interface SharedHeaderProps {
