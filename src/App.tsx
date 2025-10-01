@@ -1,4 +1,5 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import MapPage from './pages/MapPage';
 
@@ -39,16 +40,43 @@ function resolveGoogleMapsKey(): { apiKey: string; mapId: string } {
   return { apiKey, mapId };
 }
 
-export default function App(): JSX.Element {
+function ScrollToHashElement() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      // Wait a bit for the page to render
+      setTimeout(() => {
+        const element = document.querySelector(location.hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
+  return null;
+}
+
+function AppRoutes() {
   const { apiKey, mapId } = resolveGoogleMapsKey();
 
   return (
-    <BrowserRouter>
+    <>
+      <ScrollToHashElement />
       <Routes>
         <Route path="/" element={<LandingPage onOpenMapPath="/map" />} />
         <Route path="/map" element={<MapPage apiKey={apiKey} mapId={mapId} />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+    </>
+  );
+}
+
+export default function App(): JSX.Element {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
     </BrowserRouter>
   );
 }

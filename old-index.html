@@ -1,0 +1,1175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tree Heroes - Atlanta Tree Removal Awareness</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol/ol.css">
+  <style>
+    :root {
+      --forest-green: #2d5016;
+      --sage-green: #6b7c32;
+      --moss-green: #8fbc8f;
+      --earth-brown: #8b4513;
+      --bark-brown: #654321;
+      --cream: #f5f5dc;
+      --light-green: #f0f8f0;
+      --white: #ffffff;
+      --text-dark: #2c3e50;
+      --text-light: #5a6c7d;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      line-height: 1.6;
+      color: var(--text-dark);
+      background: linear-gradient(135deg, var(--light-green) 0%, var(--cream) 100%);
+    }
+
+    /* Header */
+    .header {
+      background: rgba(45, 80, 22, 0.95);
+      backdrop-filter: blur(10px);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 1rem 0;
+      box-shadow: 0 2px 20px rgba(45, 80, 22, 0.1);
+    }
+
+    .nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--white);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-image {
+      height: 32px;
+      width: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    .nav-links a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--moss-green);
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, var(--forest-green) 0%, var(--sage-green) 100%);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="leaves" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23leaves)"/></svg>');
+      opacity: 0.3;
+    }
+
+    .hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .hero-text h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .hero-subtitle {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      opacity: 0.95;
+      line-height: 1.6;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      border-radius: 10px;
+      border-left: 4px solid var(--moss-green);
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--moss-green);
+      color: var(--white);
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .cta-button:hover {
+      background: transparent;
+      border-color: var(--moss-green);
+      transform: translateY(-2px);
+    }
+
+    .hero-visual {
+      position: relative;
+    }
+
+    .tree-icon {
+      width: 100%;
+      height: auto;
+      background: transparent;
+      border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: none;
+      padding: 0;
+    }
+
+    .hero-logo {
+      height: 320px;
+      width: auto;
+      opacity: 0.9;
+    }
+
+    /* Purpose Section */
+    .purpose {
+      padding: 5rem 0;
+      background: var(--white);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 0rem;
+    }
+
+    .section-title {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: var(--forest-green);
+    }
+
+    .purpose-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .purpose-card {
+      background: var(--light-green);
+      padding: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .purpose-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .purpose-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--forest-green);
+    }
+
+    .purpose-card p {
+      color: var(--text-light);
+    }
+
+    /* Map Section */
+    .map-section {
+      padding: 8rem 0 6rem 0;
+      background: var(--light-green);
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      /* padding-left: 2rem; */
+      /* padding-right:tre 2rem; */
+    }
+
+    .map-container {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 1;
+      max-width: none;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .map-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .map-header h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.2rem;
+      color: var(--forest-green);
+      margin-bottom: 1rem;
+    }
+
+    .map-header p {
+      color: var(--text-light);
+      font-size: 1.1rem;
+    }
+
+    .map-date-range {
+      color: var(--forest-green);
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 0.75rem;
+      padding: 0.5rem 1rem;
+      background: rgba(107, 124, 50, 0.1);
+      border-radius: 8px;
+      border-left: 4px solid var(--sage-green);
+      display: inline-block;
+    }
+
+    /* Styled range selector to match the map-date-range badge */
+    .range-select {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      position: relative;
+    }
+    .range-select label {
+      color: var(--forest-green);
+      font-weight: 600;
+      margin: 0;
+    }
+    .range-select select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: transparent;
+      border: none;
+      color: var(--forest-green);
+      font-weight: 600;
+      padding: 4px 22px 4px 6px; /* space for custom arrow */
+      cursor: pointer;
+    }
+    .range-select select:focus { outline: none; }
+    .range-select::after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 10px;
+      height: 6px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path fill="%236b7c32" d="M1 1l4 4 4-4"/></svg>');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      pointer-events: none;
+    }
+
+    #map {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      background: #f8f9fa;
+      position: relative;
+      z-index: 10;
+      contain: layout style paint;
+      display: block;
+      isolation: isolate;
+    }
+
+    .loading-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: var(--text-light);
+      font-size: 1.1rem;
+      z-index: 5;
+      pointer-events: none;
+      background: rgba(248, 249, 250, 0.9);
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    #map .ol-viewport {
+      border-radius: 15px;
+      height: 100% !important;
+      width: 100% !important;
+      position: relative !important;
+      z-index: 2 !important;
+    }
+
+    #map canvas {
+      border-radius: 15px !important;
+      position: relative !important;
+      z-index: 2 !important;
+    }
+
+    #map .ol-overlaycontainer-stopevent {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #map .ol-overlaycontainer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Instructions Section */
+    .instructions {
+      padding: 5rem 0;
+      background: var(--white);
+    }
+
+    .instructions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .instruction-step {
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    .step-number {
+      width: 50px;
+      height: 50px;
+      background: var(--sage-green);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 0 auto 1rem;
+    }
+
+    .instruction-step h3 {
+      color: var(--forest-green);
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--forest-green);
+      color: var(--white);
+      padding: 3rem 0 2rem;
+      text-align: center;
+    }
+
+    .footer p {
+      opacity: 0.8;
+      margin-bottom: 1rem;
+    }
+
+    .footer a {
+      color: var(--moss-green);
+      text-decoration: none;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      /* Prevent fixed header overlap while keeping hero background flush */
+      .hero {
+        padding-top: 64px;
+        margin-top: 0;
+      }
+      .nav-links {
+        display: none;
+      }
+
+      .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+      }
+
+      .hero-text h1 {
+        font-size: 2.5rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .map-container {
+        padding: 1rem;
+      }
+
+      #map {
+        aspect-ratio: 1 / 1;
+      }
+
+      .map-section {
+        padding: 8rem 0 4rem 0;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .tree-icon {
+        height: 200px;
+      }
+
+      .hero-logo {
+        height: 200px;
+        width: auto;
+      }
+
+      .logo-image {
+        height: 24px;
+        width: auto;
+      }
+
+      /* Make popup text much smaller on phones */
+      .ol-popup {
+        font-size: 0.55rem;
+      }
+      .ol-popup strong {
+        font-size: 0.75rem;
+      }
+    }
+
+    /* Map controls styling */
+    .ol-control {
+      background: rgba(45, 80, 22, 0.8) !important;
+      border-radius: 8px !important;
+    }
+
+    .ol-control button {
+      background: transparent !important;
+      color: var(--white) !important;
+      border: none !important;
+    }
+
+    .ol-control button:hover {
+      background: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .ol-popup {
+      background: var(--white);
+      padding: 12px 14px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+      border: 2px solid var(--moss-green);
+      max-width: 260px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .ol-popup strong {
+      color: var(--forest-green);
+      font-size: 1rem;
+    }
+
+    .ol-popup a {
+      color: var(--sage-green);
+      text-decoration: none;
+    }
+
+    .ol-popup a:hover {
+      text-decoration: underline;
+    }
+
+    .ol-popup button {
+      background: var(--sage-green);
+      color: var(--white);
+      border: none;
+      padding: 4px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 11px;
+      margin-left: 10px;
+    }
+
+    /* Tighter popup on very small screens */
+    @media (max-width: 420px) {
+      .ol-popup {
+        max-width: 220px;
+        padding: 10px 12px;
+        font-size: 0.55rem;
+      }
+      .ol-popup strong {
+        font-size: 0.7rem;
+      }
+      .ol-popup button {
+        font-size: 10px;
+        padding: 3px 6px;
+      }
+    }
+
+    .ol-popup button:hover {
+      background: var(--forest-green);
+    }
+
+    /* Popup close button */
+    .ol-popup .popup-close {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background: transparent;
+      color: var(--text-light);
+      border: none;
+      padding: 0 6px;
+      font-size: 16px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .ol-popup .popup-close:hover {
+      color: var(--forest-green);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">
+        <img src="assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" class="logo-image">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#map-section">Explore Map</a></li>
+        <li><a href="#purpose">About</a></li>
+        <li><a href="#instructions">How to Use</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Protecting Atlanta's Urban Forest</h1>
+        <p class="hero-subtitle">We made this site after a beloved street tree on our block was cut down overnight. By mapping Atlanta's tree-removal permits, we shine light on what's planned—so neighbors can speak up before the next canopy falls.</p>
+        <p>Discover tree removal permits in your neighborhood. Stay informed, take action, and help preserve Atlanta's green canopy for future generations.</p>
+        <a href="#map-section" class="cta-button">Explore the Map</a>
+      </div>
+      <div class="hero-visual">
+        <div class="tree-icon">
+          <img src="assets/treeheroes-logo-3.png" alt="Tree Heroes Logo" class="hero-logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Purpose Section -->
+  <section id="purpose" class="purpose">
+    <div class="container">
+      <h2 class="section-title">Why Protecting Our Trees Matters</h2>
+      <div class="purpose-grid">
+        <div class="purpose-card">
+          <h3>🔍 Transparency</h3>
+          <p>Make tree removal decisions visible to all citizens. See what's happening in your neighborhood and understand the impact on your community.</p>
+        </div>
+        <div class="purpose-card">
+          <h3>⚖️ Advocacy</h3>
+          <p>Empower residents to appeal inappropriate tree removals. Access permit information and connect with the city's decision-making process.</p>
+        </div>
+        <div class="purpose-card">
+          <h3>🌱 Awareness</h3>
+          <p>Learn about the importance of urban trees and the environmental, social, and economic benefits they provide to our city.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section id="map-section" class="map-section">
+    <div class="container">
+      <div class="map-container">
+        <div class="map-header">
+          <h2>Atlanta Tree Removal Permits Map</h2>
+          <p>Click on any marker to view permit details, including tree species, size, location, and reason for removal</p>
+          <div class="map-date-range range-select" style="margin-top: 12px;">
+            <label for="range-select">View:</label>
+            <select id="range-select">
+              <option value="ALL">All data (entire history)</option>
+            </select>
+          </div>
+        </div>
+        <div id="map">
+          <div class="loading-text">Loading map...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructions Section -->
+  <section id="instructions" class="instructions">
+    <div class="container">
+      <h2 class="section-title">How to Use This Site</h2>
+      <div class="instructions-grid">
+        <div class="instruction-step">
+          <div class="step-number">1</div>
+          <h3>Explore the Map</h3>
+          <p>Navigate around Atlanta to find tree removal permits in your area. Each brown marker represents a permit.</p>
+        </div>
+        <div class="instruction-step">
+          <div class="step-number">2</div>
+          <h3>Click for Details</h3>
+          <p>Click on any marker to see detailed information about the permit, including tree size, and reason for removal.</p>
+        </div>
+        <div class="instruction-step">
+          <div class="step-number">3</div>
+          <h3>Take Action</h3>
+          <p>Use the permit information to appeal inappropriate removals or stay informed about changes in your neighborhood.</p>
+        </div>
+        <div class="instruction-step">
+          <div class="step-number">4</div>
+          <h3>Share Knowledge</h3>
+          <p>Help spread awareness about tree preservation and encourage others to engage with their local environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Tree Heroes - Making Atlanta's tree management transparent and accessible</p>
+      <p style="font-style: italic; margin: 1rem 0; font-size: 1.1rem; line-height: 1.8;">"Trees are the silent citizens of our city, standing tall through seasons and storms, breathing life into our streets, and asking only for our protection in return. Like any neighbor, they have the right to flourish, to grow old gracefully, and to contribute to the community they call home."</p>
+      <p>Data source: <a href="https://aca-prod.accela.com/ATLANTA_GA/Default.aspx" target="_blank">Atlanta Arborist DDH Permits</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/ol@9.2.4/dist/ol.js"></script>
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Prevent multiple map instances
+    let mapInitialized = false;
+
+    // Simplified map initialization like the working test file
+    function initializeMap() {
+      if (mapInitialized) {
+        console.log('Map already initialized, skipping...');
+        return window.map;
+      }
+
+      console.log('Starting map initialization...');
+      
+      // Check if there's already a map in the target element
+      const mapElement = document.getElementById('map');
+      if (mapElement.querySelector('.ol-viewport')) {
+        console.log('Map viewport already exists, skipping initialization');
+        return window.map;
+      }
+      
+      // Create layers
+      const base = new ol.layer.Tile({ 
+        source: new ol.source.OSM() 
+      });
+
+      const vectorSource = new ol.source.Vector({
+        url: "./docs/data/atl_arborist_ddh.geojson",
+        format: new ol.format.GeoJSON()
+      });
+
+      const points = new ol.layer.Vector({
+        source: vectorSource,
+        style: (feature, resolution) => {
+          // Radius scales with tree DBH (diameter at breast height) and gently with zoom
+          const props = feature.getProperties();
+          const dbhRaw = props.tree_dbh || props.DBH || props.dbh;
+          const dbh = Math.max(0, parseFloat(dbhRaw)) || 0; // inches
+
+          // Use square-root scaling so very large trees don't dominate
+          const dbhScale = Math.sqrt(Math.max(dbh, 1)); // 1 -> 1, 9 -> 3, 25 -> 5
+
+          // Zoom/resolution scaling (smaller resolution = more zoomed in)
+          const zoomScale = Math.max(0.9, Math.min(3.5, 8 / (resolution || 1)));
+
+          // Base + DBH-driven size, then adjusted by zoom
+          const radius = Math.min(24, Math.max(4, Math.round((2 + dbhScale) * zoomScale)));
+
+          return new ol.style.Style({
+        image: new ol.style.Circle({
+              radius,
+              fill: new ol.style.Fill({ color: "rgba(139, 69, 19, 0.9)" }),
+          stroke: new ol.style.Stroke({ color: "white", width: 2 })
+        })
+          });
+        }
+    });
+
+      // Create map
+    const map = new ol.Map({
+      target: "map",
+      layers: [base, points],
+      view: new ol.View({
+        center: ol.proj.fromLonLat([-84.3903, 33.7490]), // Atlanta
+        zoom: 11
+      })
+    });
+
+      // Expose for later updates
+      window.pointsLayer = points;
+
+      // Create a reusable overlay anchored to map coordinates (moves with the map)
+      const popupEl = document.createElement('div');
+      popupEl.className = 'ol-popup';
+      const popupOverlay = new ol.Overlay({
+        element: popupEl,
+        positioning: 'bottom-center',
+        offset: [0, -10],
+        stopEvent: true,
+        autoPan: { animation: { duration: 250 } }
+      });
+      map.addOverlay(popupOverlay);
+      
+      mapInitialized = true;
+      console.log('Map created successfully');
+      
+      // Immediately move the viewport to the correct location
+      setTimeout(() => {
+        const mapElement = document.getElementById('map');
+        const viewport = document.querySelector('.ol-viewport');
+        
+        if (viewport && mapElement && viewport.parentNode !== mapElement) {
+          console.log('Moving viewport to map element...');
+          mapElement.appendChild(viewport);
+          console.log('Viewport moved successfully');
+        }
+      }, 10);
+
+      // Add click handler using an overlay so the popup follows the map
+      map.on("singleclick", (evt) => {
+        let handled = false;
+        map.forEachFeatureAtPixel(evt.pixel, (feat) => {
+        window.lastFeature = feat;
+        const p = feat.getProperties();
+          // Determine coordinates for Google Maps link
+          const geom = feat.getGeometry();
+          const coord = geom.getClosestPoint ? geom.getClosestPoint(evt.coordinate) : geom.getCoordinates();
+          const lonLat = ol.proj.toLonLat(coord);
+          // Build Google Street View link centered on the feature coordinates
+          const streetViewUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lonLat[1]},${lonLat[0]}`;
+          const addressLine = (p.address && String(p.address).trim().length > 0)
+            ? `<a href="${streetViewUrl}" target="_blank" rel="noopener" style="color:#6b7c32; text-decoration: underline;">${p.address}</a><br/>`
+            : `<a href="${streetViewUrl}" target="_blank" rel="noopener" style="color:#6b7c32; text-decoration: underline;">Open Street View</a><br/>`;
+
+          const content = `
+            <button class="popup-close" title="Close">×</button>
+            <strong><a href="https://aca-prod.accela.com/ATLANTA_GA/Default.aspx" target="_blank" style="color: #6b7c32; text-decoration: none;">${p.record || "Record"}</a></strong>
+            <button onclick="navigator.clipboard.writeText('${p.record || ""}').then(() => alert('Permit copied to clipboard!'))" style="margin-left: 8px; padding: 2px 6px; font-size: 10px; background: #6b7c32; color: white; border: none; border-radius: 3px; cursor: pointer;">Copy</button><br/>
+            ${addressLine}
+            ${p.status || ""} ${p.date ? "• " + p.date : ""}<br/>
+            ${p.description ? `Description: ${p.description}<br/>` : ""}
+            ${p.tree_number ? `Tree #: ${p.tree_number}<br/>` : ""}
+            ${p.species ? `Species: ${p.species}<br/>` : ""}
+            ${p.tree_dbh ? `Tree Size (DBH): ${p.tree_dbh}<br/>` : ""}
+            ${p.tree_location ? `Tree Location: ${p.tree_location}<br/>` : ""}
+            ${p.tree_description ? `Tree Description: ${p.tree_description}<br/>` : ""}
+            ${p.owner ? `Owner: ${p.owner}<br/>` : ""}
+            ${p.reason_removal ? `Reason: ${p.reason_removal}` : ""}
+          `;
+
+          // Update overlay content
+          popupEl.innerHTML = content;
+          // Wire up close action to hide overlay instead of removing element
+          const closeBtn = popupEl.querySelector('.popup-close');
+          if (closeBtn) {
+            closeBtn.addEventListener('click', () => popupOverlay.setPosition(undefined), { once: true });
+          }
+
+          // Anchor popup to the feature's coordinate so it moves with the map
+          popupOverlay.setPosition(coord);
+          handled = true;
+          return true; // stop iteration
+        });
+        if (!handled) {
+          // Clicked empty map area: hide any open popup
+          popupOverlay.setPosition(undefined);
+        }
+      });
+
+      // Monitor data loading
+      vectorSource.on('change', function() {
+        console.log('Vector source state:', vectorSource.getState());
+        if (vectorSource.getState() === 'ready') {
+          console.log('Loaded', vectorSource.getFeatures().length, 'features');
+          // Hide loading text
+          const loadingText = document.querySelector('.loading-text');
+          if (loadingText) {
+            loadingText.style.display = 'none';
+          }
+        }
+      });
+
+      vectorSource.on('error', function(event) {
+        console.error('Error loading GeoJSON:', event);
+        const loadingText = document.querySelector('.loading-text');
+        if (loadingText) {
+          loadingText.textContent = 'Error loading map data';
+          loadingText.style.color = '#e74c3c';
+        }
+      });
+
+      // Range selector: ALL or specific week from all.ndjson
+      async function fetchAllNdjson() {
+        const res = await fetch('./docs/data/all.ndjson', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('Failed to fetch all.ndjson');
+        const text = await res.text();
+        return text
+          .split(/\r?\n/)
+          .filter(Boolean)
+          .map((ln) => {
+            try { return JSON.parse(ln); } catch { return null; }
+          })
+          .filter(Boolean)
+          .filter((o) => Array.isArray(o.coords) && o.coords.length === 2);
+      }
+
+      function parseUsDateToUtc(dateStr) {
+        if (!dateStr || typeof dateStr !== 'string') return null;
+        const m = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
+        if (!m) return null;
+        const mm = Number(m[1]);
+        const dd = Number(m[2]);
+        const yyyy = Number(m[3].length === 2 ? (Number(m[3]) + 2000) : m[3]);
+        const d = new Date(Date.UTC(yyyy, mm - 1, dd));
+        return isNaN(d.getTime()) ? null : d;
+      }
+
+      function weekKeyForUtcDate(dUtc) {
+        // Monday-Sunday week
+        const day = dUtc.getUTCDay(); // 0..6 (Sun..Sat)
+        const offsetToMonday = (day + 6) % 7; // Sun->6, Mon->0, ...
+        const start = new Date(Date.UTC(dUtc.getUTCFullYear(), dUtc.getUTCMonth(), dUtc.getUTCDate() - offsetToMonday));
+        const end = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate() + 6));
+        const fmt = (x) => `${x.getUTCFullYear()}-${String(x.getUTCMonth()+1).padStart(2,'0')}-${String(x.getUTCDate()).padStart(2,'0')}`;
+        return { key: `${fmt(start)}..${fmt(end)}`, start, end };
+      }
+
+      function buildWeeksIndex(rows) {
+        const map = new Map();
+        for (const r of rows) {
+          const d = parseUsDateToUtc(r.date);
+          if (!d) continue;
+          const wk = weekKeyForUtcDate(d);
+          if (!map.has(wk.key)) map.set(wk.key, wk);
+        }
+        const list = Array.from(map.values()).sort((a, b) => b.start.getTime() - a.start.getTime());
+        return list;
+      }
+
+      function recordsToGeoJSON(rows) {
+        return {
+          type: 'FeatureCollection',
+          features: rows.filter((r) => Array.isArray(r.coords)).map((r) => ({
+            type: 'Feature',
+            properties: {
+              record: r.record || null,
+              address: r.address || null,
+              status: r.status || null,
+              date: r.date || null,
+              description: r.description || null,
+              owner: r.owner || null,
+              tree_dbh: r.tree_dbh || null,
+              tree_location: r.tree_location || null,
+              reason_removal: r.reason_removal || null,
+              tree_description: r.tree_description || null,
+              tree_number: r.tree_number || null,
+              species: r.species || null
+            },
+            geometry: { type: 'Point', coordinates: r.coords }
+          }))
+        };
+      }
+
+      function applyGeoJSONToMap(geojson) {
+        const fmt = new ol.format.GeoJSON();
+        const feats = fmt.readFeatures(geojson, { dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857' });
+        const src = new ol.source.Vector({ features: feats });
+        window.pointsLayer.setSource(src);
+        // Force update
+        setTimeout(() => { map.updateSize(); map.render(); }, 50);
+      }
+
+      async function setupRangeSelector() {
+        const selectEl = document.getElementById('range-select');
+        if (!selectEl) return;
+        let rows;
+        try {
+          rows = await fetchAllNdjson();
+        } catch (e) {
+          console.warn('Failed to load all.ndjson for range selector:', e);
+          return;
+        }
+
+        // Build week options
+        const weeks = buildWeeksIndex(rows);
+        for (const wk of weeks) {
+          const opt = document.createElement('option');
+          const fmt = (x) => `${String(x.getUTCMonth()+1).padStart(2,'0')}/${String(x.getUTCDate()).padStart(2,'0')}/${x.getUTCFullYear()}`;
+          opt.value = `W:${wk.key}`;
+          opt.textContent = `Week ${fmt(wk.start)} – ${fmt(wk.end)}`;
+          selectEl.appendChild(opt);
+        }
+
+        async function handleChange() {
+          const v = selectEl.value;
+          if (v === 'ALL') {
+            applyGeoJSONToMap(recordsToGeoJSON(rows));
+            return;
+          }
+          if (v.startsWith('W:')) {
+            const [startStr, endStr] = v.slice(2).split('..');
+            const start = new Date(`${startStr}T00:00:00Z`);
+            const end = new Date(`${endStr}T00:00:00Z`);
+            const inRange = rows.filter((r) => {
+              const d = parseUsDateToUtc(r.date);
+              return d && d.getTime() >= start.getTime() && d.getTime() <= (end.getTime() + 24*60*60*1000 - 1);
+            });
+            applyGeoJSONToMap(recordsToGeoJSON(inRange));
+            return;
+          }
+        }
+
+        selectEl.addEventListener('change', handleChange);
+        // Default to OLDEST week if available; else ALL
+        if (weeks.length > 0) {
+          // Select the newest week (first in descending list)
+          selectEl.value = `W:${weeks[0].key}`;
+        } else {
+          selectEl.value = 'ALL';
+        }
+        await handleChange();
+      }
+
+      // Initialize selector after map
+      setupRangeSelector();
+
+      // Force map to update size and position
+      setTimeout(() => {
+        map.updateSize();
+        console.log('Map size updated');
+        
+        // Check and move viewport if needed
+        const mapElement = document.getElementById('map');
+        const viewport = document.querySelector('.ol-viewport');
+        
+        if (viewport && mapElement) {
+          if (viewport.parentNode !== mapElement) {
+            console.log('Viewport is outside map element, moving it...');
+            mapElement.appendChild(viewport);
+            console.log('Viewport moved to map element');
+          }
+          
+          // Style the viewport
+          viewport.style.position = 'relative';
+          viewport.style.zIndex = '2';
+          console.log('Viewport positioned');
+        }
+        
+        // Style canvas if it exists
+        const canvas = mapElement.querySelector('canvas');
+        if (canvas) {
+          canvas.style.position = 'relative';
+          canvas.style.zIndex = '2';
+          console.log('Canvas positioned');
+        }
+        
+        // Force a re-render
+        map.render();
+        console.log('Map re-rendered');
+        
+      }, 100);
+
+      // Additional check after a longer delay
+      setTimeout(() => {
+        const mapElement = document.getElementById('map');
+        const viewport = document.querySelector('.ol-viewport');
+        
+        if (viewport && mapElement && viewport.parentNode !== mapElement) {
+          console.log('Final check - moving viewport again...');
+          mapElement.appendChild(viewport);
+          map.updateSize();
+          map.render();
+        }
+      }, 500);
+
+      // Expose for debugging
+      window.map = map;
+      window.lastFeature = null;
+      
+      return map;
+    }
+
+    // Debug map loading issues
+    console.log('Script loaded, checking DOM...');
+    
+    // Check if map element exists
+    function checkMapElement() {
+      const mapElement = document.getElementById('map');
+      console.log('Map element found:', !!mapElement);
+      if (mapElement) {
+        console.log('Map element dimensions:', mapElement.offsetWidth, 'x', mapElement.offsetHeight);
+        console.log('Map element computed style:', window.getComputedStyle(mapElement).display);
+      }
+      return mapElement;
+    }
+
+    // Try multiple initialization approaches
+    function tryInitializeMap() {
+      console.log('Attempting map initialization...');
+      
+      const mapElement = checkMapElement();
+      if (!mapElement) {
+        console.error('Map element not found!');
+        return false;
+      }
+
+      if (mapElement.offsetWidth === 0 || mapElement.offsetHeight === 0) {
+        console.error('Map element has zero dimensions!');
+        return false;
+      }
+
+      try {
+        initializeMap();
+        return true;
+      } catch (error) {
+        console.error('Map initialization failed:', error);
+        document.querySelector('.loading-text').textContent = 'Failed to load map: ' + error.message;
+        return false;
+      }
+    }
+
+    // Wait for everything to be ready and ensure proper targeting
+    function waitAndInitialize() {
+      const mapElement = document.getElementById('map');
+      if (!mapElement) {
+        console.error('Map element not found!');
+        return;
+      }
+      
+      console.log('Map element found, dimensions:', mapElement.offsetWidth, 'x', mapElement.offsetHeight);
+      console.log('Map element parent:', mapElement.parentNode);
+      
+      // Ensure the map element is visible and has dimensions
+      if (mapElement.offsetWidth === 0 || mapElement.offsetHeight === 0) {
+        console.log('Map element has zero dimensions, waiting...');
+        setTimeout(waitAndInitialize, 200);
+        return;
+      }
+      
+      try {
+        initializeMap();
+      } catch (error) {
+        console.error('Map initialization failed:', error);
+      }
+    }
+
+    // Initialize map only once
+    function initializeOnce() {
+      if (window.map && mapInitialized) {
+        console.log('Map already exists, skipping initialization');
+        return;
+      }
+      waitAndInitialize();
+    }
+
+    // Try multiple times to ensure proper initialization
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(initializeOnce, 100);
+      });
+    } else {
+      setTimeout(initializeOnce, 100);
+    }
+
+    window.addEventListener('load', () => {
+      setTimeout(initializeOnce, 500);
+    });
+
+
+  </script>
+</body>
+</html>

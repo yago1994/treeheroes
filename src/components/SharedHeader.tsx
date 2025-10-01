@@ -8,8 +8,8 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { label: 'Purpose', href: '#purpose' },
-  { label: 'How it works', href: '#instructions' },
+  { label: 'Purpose', href: '/#purpose' },
+  { label: 'How it works', href: '/#instructions' },
 ];
 
 interface SharedHeaderProps {
@@ -32,9 +32,9 @@ export function SharedHeader({
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-semibold text-foreground-600 sm:flex">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href} className="transition-colors hover:text-primary">
+            <Link key={link.href} to={link.href} className="transition-colors hover:text-primary">
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
         <div className="flex items-center gap-3">

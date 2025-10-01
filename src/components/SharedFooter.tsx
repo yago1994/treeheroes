@@ -16,13 +16,13 @@ export function SharedFooter({ onOpenMapPath = "/map" }: SharedFooterProps) {
           Built with open data to keep Atlanta&apos;s canopy thriving. Licensed under ISC. Contributions welcome—fork the project and help neighbors defend their shade.
         </p>
         <div className="flex flex-wrap items-center gap-6 text-sm text-primary-foreground/75">
-          <a href="#map" className="transition-colors hover:text-primary-foreground">
+          <Link to="/#map" className="transition-colors hover:text-primary-foreground">
             Map overview
-          </a>
+          </Link>
           <Link to={onOpenMapPath} className="transition-colors hover:text-primary-foreground">
             Launch map
           </Link>
-          <a href="https://github.com/elibosley/treeheroes" target="_blank" rel="noopener" className="transition-colors hover:text-primary-foreground">
+          <a href="https://github.com/yagoarconada/treeheroes" target="_blank" rel="noopener" className="transition-colors hover:text-primary-foreground">
             GitHub
           </a>
           <a href="mailto:info@treeheroes.org" className="transition-colors hover:text-primary-foreground">

@@ -1079,11 +1079,6 @@ export default function MapApp({
           <Badge color="primary" variant="flat">
             {statsText}
           </Badge>
-          {selectedRecord && (
-            <Badge color="secondary" variant="flat">
-              {selectedRecord.address || selectedRecord.record || 'Selected permit'}
-            </Badge>
-          )}
         </div>
         {mapsError && (
           <Alert color="warning" title="Google Maps not configured" className="max-w-2xl">

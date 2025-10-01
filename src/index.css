@@ -7,18 +7,26 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-primary-50: #f0f9f0;
-  --color-primary-100: #dcf2dc;
-  --color-primary-200: #bce4bc;
-  --color-primary-300: #8dd08d;
-  --color-primary-400: #5bb85b;
-  --color-primary-500: #3a9d3a;
-  --color-primary-600: #2d7d2d;
-  --color-primary-700: #256325;
-  --color-primary-800: #215021;
-  --color-primary-900: #1e421e;
-  --color-primary-950: #0d240d;
-  --color-primary: #3a9d3a;
+  --color-primary-50: #f5f9f5;
+  --color-primary-100: #e8f3e8;
+  --color-primary-200: #d1e7d1;
+  --color-primary-300: #b3d8b3;
+  --color-primary-400: #8fbc8f;
+  --color-primary-500: #8fbc8f;
+  --color-primary-600: #6b9d6b;
+  --color-primary-700: #507850;
+  --color-primary-800: #3e5f3e;
+  --color-primary-900: #2d4a2d;
+  --color-primary-950: #1a2e1a;
+  --color-primary: #8fbc8f;
   --color-primary-foreground: #ffffff;
-  --color-focus: #3a9d3a;
+  --color-focus: #8fbc8f;
+  --color-forest-green: #2d5016;
+}
+
+/* Apply forest green to all headings except those in hero section */
+main h1:not(#hero h1), 
+main h2, 
+main h3 {
+  color: var(--color-forest-green);
 }

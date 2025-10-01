@@ -12,19 +12,19 @@ type PurposeCard = {
 
 const purposeCards: PurposeCard[] = [
   {
-    title: 'Equitable canopy',
-    description: 'Understand where removals cluster so communities can advocate for balance.',
-    icon: '🗺️',
+    title: 'Transparency',
+    description: "Make tree removal decisions visible to all citizens. See what's happening in your neighborhood and understand the impact on your community.",
+    icon: '🔍',
   },
   {
-    title: 'Faster research',
-    description: 'Permit details, dates, and reasons in one place speed up case preparation.',
-    icon: '⚡',
+    title: 'Advocacy',
+    description: "Empower residents to appeal inappropriate tree removals. Access permit information and connect with the city's decision-making process.",
+    icon: '⚖️',
   },
   {
-    title: 'Community action',
+    title: 'Awareness',
     description: 'Share insights, organize appeals, and celebrate preservation successes together.',
-    icon: '🤝',
+    icon: '🌱',
   },
 ];
 
@@ -59,14 +59,22 @@ type LandingPageProps = {
 
 function HeroSection({ onOpenMapPath }: LandingPageProps) {
   return (
-    <section id="hero" className="relative overflow-hidden bg-gradient-to-br from-primary/90 to-primary-600/85 text-primary-foreground">
+    <section id="hero" className="relative overflow-hidden bg-gradient-to-br from-[#2d5016] to-[#6b7c32] text-primary-foreground">
       <div className="mx-auto grid max-w-6xl gap-14 px-4 py-24 sm:px-6 md:grid-cols-2">
         <div className="flex flex-col gap-6">
           <h1 className="font-display text-4xl font-extrabold tracking-tight md:text-5xl">
             Protect Atlanta&apos;s Urban Forest
           </h1>
-          <p className="max-w-xl text-lg text-primary-foreground/80">
-            Interactive permit data helps you monitor tree removals, plan neighborhood advocacy, and celebrate preservation wins.
+          <div className="max-w-xl">
+            <p className="text-lg font-medium italic text-white/95">
+              We made this site after a beloved street tree on our block was cut down overnight. By mapping Atlanta&apos;s tree-removal permits, we shine light on what&apos;s planned—so neighbors can speak up before the next canopy falls.
+            </p>
+            <p className="mt-2 text-sm font-semibold text-white/90">
+              — Tree Heroes Team
+            </p>
+          </div>
+          <p className="max-w-xl text-base text-primary-foreground/85">
+            Discover tree removal permits in your neighborhood. Stay informed, take action, and help preserve Atlanta&apos;s green canopy for future generations.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Button as={Link} to={onOpenMapPath} color="primary" radius="full" size="lg" variant="solid">
@@ -86,15 +94,15 @@ function HeroSection({ onOpenMapPath }: LandingPageProps) {
           </div>
         </div>
         <Card className="bg-primary-foreground/15 backdrop-blur" radius="lg" shadow="sm">
-          <CardHeader className="flex flex-col gap-2 pb-0 text-primary-foreground">
-            <h3 className="text-xl font-semibold">Why track permits?</h3>
-            <p className="text-sm text-primary-foreground/70">Open data is powerful when the community can see what&apos;s happening nearby.</p>
+          <CardHeader className="flex flex-col gap-2 pb-0 text-white">
+            <h3 className="text-xl font-semibold !text-white">Why track permits?</h3>
+            <p className="text-sm text-white/80">Open data is powerful when the community can see what&apos;s happening nearby.</p>
           </CardHeader>
-          <CardBody className="flex flex-col gap-3 text-sm text-primary-foreground/75">
+          <CardBody className="flex flex-col gap-3 text-sm text-white/85">
             <p>• Spot tree removal hotspots and trends.</p>
             <p>• Prepare for hearings with permit-level details.</p>
             <p>• Rally neighbors around canopy preservation.</p>
-            <p className="pt-2 text-xs text-primary-foreground/60">
+            <p className="pt-2 text-xs text-white/70">
               Powered by civic data and refreshed frequently. We handle the visuals—you bring the insight.
             </p>
           </CardBody>
@@ -109,9 +117,9 @@ function PurposeSection() {
     <section id="purpose" className="py-20">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 sm:px-6">
         <div className="flex flex-col gap-3">
-          <h2 className="text-3xl font-bold text-foreground">What Tree Heroes provides</h2>
+          <h2 className="text-3xl font-bold text-foreground">Why Protecting Our Trees Matters</h2>
           <p className="max-w-3xl text-foreground-600">
-            Understand canopy change faster with a dashboard designed for neighborhood advocates and researchers.
+            Understanding tree removal decisions helps us protect Atlanta's green canopy for future generations.
           </p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -134,28 +142,15 @@ function MapInvitation({ onOpenMapPath }: LandingPageProps) {
   return (
     <section id="map" className="py-20">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 sm:px-6">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col items-center gap-6 text-center">
           <h2 className="text-3xl font-bold text-foreground">Explore the permits map</h2>
-          <p className="text-sm text-foreground-600">
+          <p className="max-w-2xl text-base text-foreground-600">
             Head to the full-screen map experience for Street View context, reason filters, and permit level detail.
           </p>
+          <Button as={Link} to={onOpenMapPath} color="primary" radius="full" size="lg" variant="solid">
+            Launch full map
+          </Button>
         </div>
-        <Card radius="lg" shadow="sm" className="border border-divider">
-          <CardBody className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <div className="max-w-xl space-y-2">
-              <p className="text-sm text-foreground-600">
-                The map opens in its own workspace so you get every pixel for analysis. Adjust the sidebar, filter by week or
-                removal reason, and copy permit numbers instantly.
-              </p>
-              <p className="text-xs text-foreground-500">
-                Google Maps keys load automatically when configured via environment variables or the `window.TREEHEROES_CONFIG` helper.
-              </p>
-            </div>
-            <Button as={Link} to={onOpenMapPath} color="primary" radius="full" size="lg" variant="solid">
-              Launch full map
-            </Button>
-          </CardBody>
-        </Card>
       </div>
     </section>
   );
