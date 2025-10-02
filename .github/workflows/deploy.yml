@@ -36,8 +36,21 @@ jobs:
 
       - name: Write .env from GitHub Secrets
         run: |
-          echo "VITE_GOOGLE_MAPS_API_KEY=${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}" >> .env
-          if [ -n "${{ secrets.VITE_GOOGLE_MAPS_MAP_ID }}" ]; then echo "VITE_GOOGLE_MAPS_MAP_ID=${{ secrets.VITE_GOOGLE_MAPS_MAP_ID }}" >> .env; fi
+          echo "Checking if secrets are available..."
+          if [ -n "${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}" ]; then
+            echo "✅ VITE_GOOGLE_MAPS_API_KEY secret is set"
+            echo "VITE_GOOGLE_MAPS_API_KEY=${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}" >> .env
+          else
+            echo "❌ VITE_GOOGLE_MAPS_API_KEY secret is NOT set"
+          fi
+          if [ -n "${{ secrets.VITE_GOOGLE_MAPS_MAP_ID }}" ]; then
+            echo "✅ VITE_GOOGLE_MAPS_MAP_ID secret is set"
+            echo "VITE_GOOGLE_MAPS_MAP_ID=${{ secrets.VITE_GOOGLE_MAPS_MAP_ID }}" >> .env
+          else
+            echo "⚠️ VITE_GOOGLE_MAPS_MAP_ID secret is NOT set (optional)"
+          fi
+          echo "Contents of .env file:"
+          cat .env || echo "No .env file created"
 
       - name: Determine Vite base path
         id: pages_base
