@@ -60,6 +60,11 @@ function ScrollToHashElement() {
 
 function AppRoutes() {
   const { apiKey, mapId } = resolveGoogleMapsKey();
+  // Non-sensitive diagnostic: only indicates presence, not value
+  try {
+    // eslint-disable-next-line no-console
+    console.info('[TreeHeroes] App-resolved Google Maps API key present:', Boolean(apiKey));
+  } catch {}
 
   return (
     <>
