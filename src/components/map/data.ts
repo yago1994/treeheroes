@@ -109,7 +109,7 @@ async function fetchNdjson(url?: string): Promise<PermitRecord[]> {
         records.push(normalized);
       }
     } catch (err) {
-      console.warn('Skipped malformed NDJSON line', err);
+      // Skip malformed NDJSON lines silently in production
     }
   }
 
@@ -143,7 +143,7 @@ export async function loadPermitData(dataUrl?: string, geojsonUrl?: string): Pro
       return ndjsonRecords;
     }
   } catch (err) {
-    console.warn('Failed to load NDJSON data', err);
+    // Fallback to GeoJSON if NDJSON fails
   }
 
   const fallback = await fetchGeojson(geojsonUrl);

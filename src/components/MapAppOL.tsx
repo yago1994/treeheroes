@@ -466,7 +466,6 @@ export default function MapAppOL({
     if (!streetViewRef.current) return;
 
     if (!apiKey || !apiKey.trim()) {
-      console.warn('[StreetView] Missing API key');
       setStreetViewReady(false);
       setStreetViewVisible(false);
       setStreetViewMessage('Street View requires an API key.');
@@ -481,11 +480,9 @@ export default function MapAppOL({
       script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
       script.async = true;
       script.onload = () => {
-        console.info('[StreetView] Google Maps JS loaded');
         initStreetView(record);
       };
       script.onerror = () => {
-        console.error('[StreetView] Failed to load Google Maps JS');
         setStreetViewReady(false);
         setStreetViewVisible(false);
         setStreetViewMessage('Failed to load Google Maps. Check API key/referrer.');
