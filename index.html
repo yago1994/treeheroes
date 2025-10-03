@@ -7,6 +7,18 @@
     <title>Tree Heroes – Atlanta Tree Removal Awareness</title>
   </head>
   <body>
+    <script>
+      // Clean up GitHub Pages SPA fallback ("?/<path>") to a clean path ("/<path>")
+      (function(){
+        try {
+          if (location.search && location.search.startsWith('?/')) {
+            var target = location.search.slice(2);
+            if (target && target.charAt(0) !== '/') target = '/' + target;
+            history.replaceState(null, '', target + location.hash);
+          }
+        } catch(e) {}
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
