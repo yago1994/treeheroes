@@ -463,7 +463,15 @@ export default function MapAppOL({
   }, [records]);
 
   const loadStreetView = useCallback((record: PermitRecord) => {
-    if (!apiKey || !streetViewRef.current) return;
+    if (!streetViewRef.current) return;
+
+    if (!apiKey || !apiKey.trim()) {
+      console.warn('[StreetView] Missing API key');
+      setStreetViewReady(false);
+      setStreetViewVisible(false);
+      setStreetViewMessage('Street View requires an API key.');
+      return;
+    }
 
     setStreetViewMessage('Loading Street View imagery...');
 
@@ -473,7 +481,14 @@ export default function MapAppOL({
       script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
       script.async = true;
       script.onload = () => {
+        console.info('[StreetView] Google Maps JS loaded');
         initStreetView(record);
+      };
+      script.onerror = () => {
+        console.error('[StreetView] Failed to load Google Maps JS');
+        setStreetViewReady(false);
+        setStreetViewVisible(false);
+        setStreetViewMessage('Failed to load Google Maps. Check API key/referrer.');
       };
       document.head.appendChild(script);
     } else {
@@ -495,9 +510,11 @@ export default function MapAppOL({
     );
 
     const streetViewService = new window.google.maps.StreetViewService();
-    const trySV = (pos: google.maps.LatLng | google.maps.LatLngLiteral) => {
+
+    const trySV = (pos: google.maps.LatLng | google.maps.LatLngLiteral, onDone?: (ok: boolean) => void) => {
       streetViewService.getPanorama({ location: pos, radius: 75 }, (data, status) => {
-        if (status === window.google.maps.StreetViewStatus.OK && data?.location?.latLng) {
+        const ok = status === window.google.maps.StreetViewStatus.OK && !!data?.location?.latLng;
+        if (ok && data?.location?.latLng) {
           panorama.setPosition(data.location.latLng);
           panorama.setVisible(true);
           setStreetViewReady(true);
@@ -509,41 +526,22 @@ export default function MapAppOL({
           setStreetViewVisible(false);
           setStreetViewMessage('Street View imagery is not available at this location.');
         }
+        if (onDone) onDone(ok);
       });
     };
 
-    // Prefer geocoding the address for better pano placement; fallback to coords
-    const address = record.address?.trim();
-    if (address) {
+    // First try the coordinates; if not found, try geocoded address
+    trySV(defaultPosition, (ok) => {
+      if (ok) return;
+      const address = record.address?.trim();
+      if (!address) return;
       const geocoder = new window.google.maps.Geocoder();
       geocoder.geocode({ address }, (results, status) => {
         if (status === 'OK' && results && results[0]?.geometry?.location) {
-          const loc = results[0].geometry.location;
-          const meters = (a: google.maps.LatLng | google.maps.LatLngLiteral, b: google.maps.LatLng | google.maps.LatLngLiteral) => {
-            const toLL = (p: any) => ('lat' in p ? { lat: p.lat, lng: p.lng } : { lat: p.lat(), lng: p.lng() });
-            const A = toLL(a);
-            const B = toLL(b);
-            const R = 6371000;
-            const dLat = (Math.PI / 180) * (B.lat - A.lat);
-            const dLng = (Math.PI / 180) * (B.lng - A.lng);
-            const s1 = Math.sin(dLat / 2);
-            const s2 = Math.sin(dLng / 2);
-            const aa = s1 * s1 + Math.cos((Math.PI / 180) * A.lat) * Math.cos((Math.PI / 180) * B.lat) * s2 * s2;
-            return 2 * R * Math.atan2(Math.sqrt(aa), Math.sqrt(1 - aa));
-          };
-          // If geocoded point is far from original coords, prefer original coords
-          if (meters(loc, defaultPosition) > 120) {
-            trySV(defaultPosition);
-          } else {
-            trySV(loc);
-          }
-        } else {
-          trySV(defaultPosition);
+          trySV(results[0].geometry.location);
         }
       });
-    } else {
-      trySV(defaultPosition);
-    }
+    });
   }, []);
 
   // Load permit data
