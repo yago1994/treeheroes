@@ -9,5 +9,15 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Diagnostic: indicate if API key is present (no key value exposed)
+      (function(){
+        try {
+          var hasEnv = !!(window.__vite__ || {}).env && !!(window.__vite__.env && window.__vite__.env.VITE_GOOGLE_MAPS_API_KEY);
+          var hasGlobal = !!(window.TREEHEROES_CONFIG && window.TREEHEROES_CONFIG.googleMapsApiKey) || !!window.TREEHEROES_GOOGLE_MAPS_API_KEY;
+          console.info('[TreeHeroes] Google Maps API key detected:', hasEnv || hasGlobal);
+        } catch(e) {}
+      })();
+    </script>
   </body>
 </html>

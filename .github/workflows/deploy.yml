@@ -73,6 +73,8 @@ jobs:
           cp -R docs/data/* dist/docs/data/
           mkdir -p dist/assets
           cp -R assets/* dist/assets/
+          # Add SPA 404 redirect so deep links work on refresh
+          cp index.html dist/404.html
           cp 404.html dist/
 
       - name: Add CNAME for custom domain
