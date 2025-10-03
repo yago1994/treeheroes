@@ -61,6 +61,10 @@ jobs:
           mkdir -p dist/assets
           cp -R assets/* dist/assets/
 
+      - name: Add CNAME for custom domain
+        run: |
+          echo "treeheroesatl.org" > dist/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
