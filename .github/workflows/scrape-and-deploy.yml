@@ -64,10 +64,35 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Write .env from GitHub Secrets
+        run: |
+          if [ -n "${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}" ]; then
+            echo "VITE_GOOGLE_MAPS_API_KEY=${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}" >> .env
+          fi
+          if [ -n "${{ secrets.VITE_GOOGLE_MAPS_MAP_ID }}" ]; then
+            echo "VITE_GOOGLE_MAPS_MAP_ID=${{ secrets.VITE_GOOGLE_MAPS_MAP_ID }}" >> .env
+          fi
+
+      - name: Build
+        run: npm run build
+
+      - name: Copy static data to dist
+        run: |
+          mkdir -p dist/docs/data
+          cp -R docs/data/* dist/docs/data/
+          mkdir -p dist/assets
+          cp -R assets/* dist/assets/
+          # SPA 404 redirect
+          cp index.html dist/404.html
+          cp 404.html dist/ || true
+
+      - name: Add CNAME for custom domain
+        run: echo "treeheroesatl.org" > dist/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
 
   deploy:
     environment:
