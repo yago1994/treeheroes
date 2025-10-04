@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useState, useEffect } from 'react';
 import { Badge, Button, Card, CardBody, CardHeader, Divider, Tooltip } from '@heroui/react';
 import { AnchorIcon, CheckIcon, CopyIcon, LinkIcon } from '@heroui/shared-icons';
 import type { PermitRecord } from './types';
@@ -8,8 +8,9 @@ export type PermitDetailsPanelProps = {
   onClear: () => void;
 };
 
-function buildStreetViewUrl(record: PermitRecord): string {
-  return `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${record.latLng.lat},${record.latLng.lng}`;
+function buildStreetViewUrl(record: PermitRecord, geocodedCoords?: { lat: number; lng: number }): string {
+  const coords = geocodedCoords || record.latLng;
+  return `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${coords.lat},${coords.lng}`;
 }
 
 const infoEntries: Array<{ key: keyof PermitRecord; label: string }> = [
@@ -27,9 +28,27 @@ const infoEntries: Array<{ key: keyof PermitRecord; label: string }> = [
 
 export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.Element {
   const [copied, setCopied] = useState(false);
+  const [geocodedCoords, setGeocodedCoords] = useState<{ lat: number; lng: number } | null>(null);
 
   const recordLabel = record.record ?? record.address ?? 'Permit';
-  const streetViewUrl = buildStreetViewUrl(record);
+  
+  // Geocode the address for more accurate Street View URL
+  useEffect(() => {
+    if (!record.address || !window.google?.maps) return;
+    
+    const geocoder = new window.google.maps.Geocoder();
+    geocoder.geocode({ address: record.address }, (results, status) => {
+      if (status === 'OK' && results && results[0]?.geometry?.location) {
+        const location = results[0].geometry.location;
+        setGeocodedCoords({
+          lat: location.lat(),
+          lng: location.lng()
+        });
+      }
+    });
+  }, [record.address]);
+
+  const streetViewUrl = buildStreetViewUrl(record, geocodedCoords || undefined);
   const accelaUrl = 'https://aca-prod.accela.com/ATLANTA_GA/Default.aspx';
 
   const handleCopy = useCallback(() => {

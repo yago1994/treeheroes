@@ -527,18 +527,23 @@ export default function MapAppOL({
       });
     };
 
-    // First try the coordinates; if not found, try geocoded address
-    trySV(defaultPosition, (ok) => {
-      if (ok) return;
-      const address = record.address?.trim();
-      if (!address) return;
+    // Always geocode the address first for most accurate coordinates, then try Street View
+    const address = record.address?.trim();
+    if (address) {
       const geocoder = new window.google.maps.Geocoder();
       geocoder.geocode({ address }, (results, status) => {
         if (status === 'OK' && results && results[0]?.geometry?.location) {
+          // Use geocoded coordinates (more accurate)
           trySV(results[0].geometry.location);
+        } else {
+          // Fallback to original coordinates if geocoding fails
+          trySV(defaultPosition);
         }
       });
-    });
+    } else {
+      // No address available, use original coordinates
+      trySV(defaultPosition);
+    }
   }, []);
 
   // Load permit data
