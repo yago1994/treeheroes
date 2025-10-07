@@ -503,6 +503,15 @@ export default function MapAppOL({
         position: defaultPosition,
         pov: { heading: 0, pitch: 0 },
         visible: false,
+        // iOS Safari compatibility options
+        disableDefaultUI: false,
+        panControl: true,
+        zoomControl: true,
+        fullscreenControl: true,
+        motionTracking: false, // Disable motion tracking on iOS
+        clickToGo: true,
+        scrollwheel: false, // Disable scrollwheel on mobile
+        keyboardShortcuts: false, // Disable keyboard shortcuts on mobile
       }
     );
 
@@ -513,10 +522,13 @@ export default function MapAppOL({
         const ok = status === window.google.maps.StreetViewStatus.OK && !!data?.location?.latLng;
         if (ok && data?.location?.latLng) {
           panorama.setPosition(data.location.latLng);
-          panorama.setVisible(true);
-          setStreetViewReady(true);
-          setStreetViewVisible(true);
-          setStreetViewMessage('');
+          // Small delay for iOS Safari compatibility
+          setTimeout(() => {
+            panorama.setVisible(true);
+            setStreetViewReady(true);
+            setStreetViewVisible(true);
+            setStreetViewMessage('');
+          }, 100);
         } else {
           panorama.setVisible(false);
           setStreetViewReady(false);
@@ -815,7 +827,16 @@ export default function MapAppOL({
                   <div 
                     ref={streetViewRef} 
                     className="w-full h-[320px] rounded-lg overflow-hidden bg-gray-200"
-                    style={{ display: streetViewVisible ? 'block' : 'none' }}
+                    style={{ 
+                      display: streetViewVisible ? 'block' : 'none',
+                      // iOS Safari fixes for Google Street View
+                      WebkitTransform: 'translateZ(0)',
+                      transform: 'translateZ(0)',
+                      WebkitBackfaceVisibility: 'hidden',
+                      backfaceVisibility: 'hidden',
+                      position: 'relative',
+                      zIndex: 1
+                    }}
                   />
                 </div>
               </CardBody>
@@ -866,7 +887,16 @@ export default function MapAppOL({
                 <div 
                   ref={streetViewRef} 
                   className="w-full h-[260px] rounded-lg overflow-hidden bg-gray-200"
-                  style={{ display: streetViewVisible ? 'block' : 'none' }}
+                  style={{ 
+                    display: streetViewVisible ? 'block' : 'none',
+                    // iOS Safari fixes for Google Street View
+                    WebkitTransform: 'translateZ(0)',
+                    transform: 'translateZ(0)',
+                    WebkitBackfaceVisibility: 'hidden',
+                    backfaceVisibility: 'hidden',
+                    position: 'relative',
+                    zIndex: 1
+                  }}
                 />
               </div>
 
