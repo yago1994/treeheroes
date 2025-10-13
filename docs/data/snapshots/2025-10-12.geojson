@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505203",
+        "address": "2590 HOWELL MILL RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "10/12/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "front left",
+        "reason_removal": "Dying tree",
+        "tree_description": "tree is dead, has yellow marking tapeReason for Removal:Dead treeComments:yellow tape\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):24Tree location:back yard leftDescription of Tree:24 inch pine with lesions, cavity on stem of treeReason for Removal:Significant cavity/area of decayComments:marked with yellow tape\n\t\t\n\t\t\n\t\t\tTree number:3Species:oak (white or red)Tree Size (DBH):12Tree location:front leftDescription of Tree:dead oak, dead leaves in canopyReason for Removal:Dead treeComments:marked with yellow tape\n\t\t\n\t\t\n\t\t\tTree number:4Species:unknownTree Size (DBH):10Tree location:front yard centerDescription of Tree:100% dead treeReason for Removal:Dead treeComments:marked with yellow tape\n\t\t\n\t\t\n\t\t\tTree number:5Species:HornbeamTree Size (DBH):12Tree location:right side of front drivewayDescription of Tree:tree is dying/declining, canopy die back, bark lesionsReason for Removal:Dying treeComments:yellow tape\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01840001030 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4166964924,
+          33.826814488282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505204",
+        "address": "13 ROCKMART DR NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "10/12/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "15",
+        "tree_location": "Front Yard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "I believe it's a large oak treeReason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01410002045 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "I believe it's oak but not sure"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.429123500431,
+          33.755115975895
+        ]
+      }
+    }
+  ]
+}
