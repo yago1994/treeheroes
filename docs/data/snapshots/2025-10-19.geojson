@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-057694",
+        "address": "3041 RHODENHAVEN DR NW, ATLANTA GA 30327",
+        "status": "",
+        "date": "10/19/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411078337319,
+          33.837612514636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505337",
+        "address": "1643 WESTHAVEN DR SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "10/19/2025",
+        "description": null,
+        "owner": "Foster Branson",
+        "tree_dbh": "72",
+        "tree_location": "Back Yard",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.441694644874,
+          33.732628932386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505336",
+        "address": "65 PEACHTREE MEMORIAL DR NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "10/19/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "34",
+        "tree_location": "Front right at driveway",
+        "reason_removal": "Other",
+        "tree_description": "34” Water Oak, growing in limited rooting space with the canopy in conflict with utility linesReason for Removal:OtherComments:This oak poses a potential whole  tree failure hazard due to an imbalanced root system. The root system has likely only grown on the side of the tree that has access to water. An imbalanced root system increases the likelihood of a tree toppling. Failure will be toward the street and overhead utility lines.",
+        "tree_number": "1",
+        "species": "Quercus nigra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.391791185245,
+          33.81680756314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505338",
+        "address": "1221 CROSS CREEK PKWY NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "10/19/2025",
+        "description": null,
+        "owner": "CROSS CREEK CONDOMINIUM ASSOC INC",
+        "tree_dbh": "42",
+        "tree_location": "South or center",
+        "reason_removal": "Diseased",
+        "tree_description": "Major dieback and wood decay fungi at base.Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:ArborvitaeTree Size (DBH):6Tree location:CenterDescription of Tree:Infested with Botryosphaeria canker. Reason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:3Species:ArborvitaeTree Size (DBH):6Tree location:CenterDescription of Tree:Infested with Botryosphaeria canker. Reason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:4Species:ArborvitaeTree Size (DBH):6Tree location:CenterDescription of Tree:Infested with Botryosphaeria canker. Reason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:5Species:ArborvitaeTree Size (DBH):6Tree location:CenterDescription of Tree:Infested with Botryosphaeria canker. Reason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:6Species:ArborvitaeTree Size (DBH):6Tree location:CeneterDescription of Tree:Infested with Botryosphaeria canker. Reason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:7Species:ArborvitaeTree Size (DBH):6Tree location:CenterDescription of Tree:Infested with Botryosphaeria canker. Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0194  LL155 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Silver maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412344158611,
+          33.814155076169
+        ]
+      }
+    }
+  ]
+}
