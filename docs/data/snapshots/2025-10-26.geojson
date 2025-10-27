@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505464",
+        "address": "2642 ARBOR AVE SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "10/26/2025",
+        "description": null,
+        "owner": "RUSSELL AVA OR KANKA JAROSLAV",
+        "tree_dbh": "32",
+        "tree_location": "front center",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "32” DBH DDH Water Oak located in the front yard at center.",
+        "tree_number": "1",
+        "species": "water oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.300117350639,
+          33.750274819449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505463",
+        "address": "36 EAST LAKE DR SE, ATLANTA GA 00000",
+        "status": "ACA Pending",
+        "date": "10/26/2025",
+        "description": null,
+        "owner": "HOLLOWAY LONNIE",
+        "tree_dbh": "24",
+        "tree_location": "back right corner",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "24” DBH Magnolia located at the rear right corner of the house.",
+        "tree_number": "1",
+        "species": "magnolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.301275134897,
+          33.750540371819
+        ]
+      }
+    }
+  ]
+}
