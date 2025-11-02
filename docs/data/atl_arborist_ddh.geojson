@@ -4,54 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202505464",
-        "address": "2642 ARBOR AVE SE, ATLANTA GA 30317",
-        "status": "ACA Pending",
-        "date": "10/26/2025",
-        "description": null,
-        "owner": "RUSSELL AVA OR KANKA JAROSLAV",
-        "tree_dbh": "32",
-        "tree_location": "front center",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "32” DBH DDH Water Oak located in the front yard at center.",
-        "tree_number": "1",
-        "species": "water oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.300117350639,
-          33.750274819449
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202505463",
-        "address": "36 EAST LAKE DR SE, ATLANTA GA 00000",
-        "status": "ACA Pending",
-        "date": "10/26/2025",
-        "description": null,
-        "owner": "HOLLOWAY LONNIE",
-        "tree_dbh": "24",
-        "tree_location": "back right corner",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "24” DBH Magnolia located at the rear right corner of the house.",
-        "tree_number": "1",
-        "species": "magnolia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.301275134897,
-          33.750540371819
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202505482",
         "address": "80 STRATFORD PL NE, ATLANTA GA 30342",
         "status": "Accepted",
@@ -2398,6 +2350,30 @@
         "coordinates": [
           -84.397759475795,
           33.871438532952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505575",
+        "address": "747 CUMBERLAND RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "11/01/2025",
+        "description": null,
+        "owner": "Franklin Johnson",
+        "tree_dbh": "22",
+        "tree_location": "Front yard",
+        "reason_removal": "Diseased",
+        "tree_description": "A dying Prunus serrulata (Japanese cherry) tree with significant trunk rot and decaying limbs. The tree is structurally unsound and poses a hazard to nearby people and property. Prunus serrulata is not well-suited to Atlanta’s climate and soil conditions, and this specimen has reached the end of its viable life. Removal is necessary to eliminate the safety risk and prevent potential property damage.Reason for Removal:DiseasedComments:Diseased, dying, and undesirable\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00520002004 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Prunus serrulata (Japanese cherry)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.362643261264,
+          33.796127184804
         ]
       }
     }
