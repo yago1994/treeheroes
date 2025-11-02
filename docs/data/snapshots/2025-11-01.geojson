@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505575",
+        "address": "747 CUMBERLAND RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "11/01/2025",
+        "description": null,
+        "owner": "Franklin Johnson",
+        "tree_dbh": "22",
+        "tree_location": "Front yard",
+        "reason_removal": "Diseased",
+        "tree_description": "A dying Prunus serrulata (Japanese cherry) tree with significant trunk rot and decaying limbs. The tree is structurally unsound and poses a hazard to nearby people and property. Prunus serrulata is not well-suited to Atlanta’s climate and soil conditions, and this specimen has reached the end of its viable life. Removal is necessary to eliminate the safety risk and prevent potential property damage.Reason for Removal:DiseasedComments:Diseased, dying, and undesirable\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00520002004 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Prunus serrulata (Japanese cherry)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.362643261264,
+          33.796127184804
+        ]
+      }
+    }
+  ]
+}
