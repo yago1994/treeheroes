@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505576",
+        "address": "576 GLENWOOD PL SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "11/02/2025",
+        "description": null,
+        "owner": "Giselle Arnold",
+        "tree_dbh": "24",
+        "tree_location": "Front of home",
+        "reason_removal": "Within 5 ft of occupied dwelling",
+        "tree_description": "Large Magnolia tree in the front yard have roots that are really close to the foundation of the property.Reason for Removal:Within 5 ft of occupied dwellingComments:Homeowner is requesting removal of this magnolia tree because of the roots being so close to her home, she's, trying to prevent future foundation issues.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00120010030 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Magnolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354831951006,
+          33.738467764618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505577",
+        "address": "1011 HILBURN DR SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "11/02/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "37",
+        "tree_location": "backyard on the left",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "red tapeReason for Removal:Uncorrectable defectComments:Tree is dropping limbs and root flare is damaged.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 147 09 067 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "tulip poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.326658329898,
+          33.726857113126
+        ]
+      }
+    }
+  ]
+}
