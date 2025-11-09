@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505717",
+        "address": "1720 FLAGLER AVE NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "11/08/2025",
+        "description": null,
+        "owner": "RAGAN GORDON BILLY JR",
+        "tree_dbh": "32",
+        "tree_location": "left side yard inside fence",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Leaning approx 20 degrees  with all weigh to one sideReason for Removal:Uncorrectable defectComments:vulnerable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:Loblolly PineTree Size (DBH):26Tree location:left side yard inside fenceDescription of Tree:Sparse crown, decliningReason for Removal:Dying treeComments:Poor condition\n\t\t\n\t\t\n\t\t\tTree number:3Species:Loblolly PineTree Size (DBH):30Tree location:left side yard inside fenceDescription of Tree:Leaning with all weight one-sided/ all weight over roadReason for Removal:Uncorrectable defectComments:Vulnerable trees to failure with busy road\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00560001026 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Loblolly Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.373678682285,
+          33.801834830317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-062251",
+        "address": "535 REGENCY PARK DR SW, ATLANTA GA 30331",
+        "status": "",
+        "date": "11/08/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.530513486773,
+          33.730509721215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505715",
+        "address": "1690 LANIER DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "11/08/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "10",
+        "tree_location": "Side of home",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.425188952253,
+          33.707932988936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-062260",
+        "address": "4245 RICKENBACKER WAY NE, ATLANTA GA 30342",
+        "status": "",
+        "date": "11/08/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377744061077,
+          33.870534549958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505716",
+        "address": "804 VIRGINIA CIR NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "11/08/2025",
+        "description": null,
+        "owner": "ADAMS Elizabeth",
+        "tree_dbh": "48",
+        "tree_location": "back yard off Arcadia St",
+        "reason_removal": "Diseased",
+        "tree_description": "Above ground appears mostly healthy.  4 recent Inonotus dryadeus conks on north buttress roots (hollowing). Reason for Removal:DiseasedComments:Homeowner says conks have appeared in the past.  Compromised root system of a very large tree with multiple targets.  No cure or mitigation.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00530009025 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "So Red Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.361033829618,
+          33.780909454794
+        ]
+      }
+    }
+  ]
+}
