@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505772",
+        "address": "393 ATWOOD ST SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "MaShon Wilson",
+        "tree_dbh": "30",
+        "tree_location": "West End",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.428846747479,
+          33.744301225923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505776",
+        "address": "1819 KING ALFRED DR SW, ATLANTA GA 30331",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "Veronica Williams",
+        "tree_dbh": "40",
+        "tree_location": "Side of driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "5",
+        "species": "Sycamore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512655231641,
+          33.70522552105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505774",
+        "address": "2415 HANOVER WEST LN NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "Adjacent to the left rear corner of the house",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead PineReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01950005039 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.433064033086,
+          33.821265300349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505769",
+        "address": "871 SPRINGDALE RD NE, ATLANTA GA 30306",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "LANGBERG JONATHAN J OR SCHAFFER JILL M",
+        "tree_dbh": "26",
+        "tree_location": "Back yeard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Decayed Oak tree with dead limbs. The limbs could fall near the garage and cause property damageReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 241 01 049 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.342643028669,
+          33.778441095386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505773",
+        "address": "3361 PINESTREAM RD NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "28",
+        "tree_location": "rear left",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "uncorrectable growth pattern extending over home",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.422099060687,
+          33.846735380852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505775",
+        "address": "998 LOOKOUT AVE NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "FRANCIS ARTIGUE",
+        "tree_dbh": "30",
+        "tree_location": "left back",
+        "reason_removal": "Dying tree",
+        "tree_description": "tree has large areas of decay and covered in kudzuReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02480006013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.466216223047,
+          33.781912156104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505777",
+        "address": "1819 KING ALFRED DR SW, ATLANTA GA 30331",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "Veronica Williams",
+        "tree_dbh": "38",
+        "tree_location": "Left side of the driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512655231641,
+          33.70522552105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505768",
+        "address": "1011 KATHERWOOD DR SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "Anthony Moultry",
+        "tree_dbh": "12345",
+        "tree_location": "backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Old tree, may be dangerous. Reason for Removal:Dying treeComments:We need the tree inspected by a city arborist to determine if it should be removed.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01210003138 *Block:--Lot:--Subdivision:--",
+        "tree_number": "12345",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.421499706894,
+          33.710532017055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505780",
+        "address": "746 LEXINGTON AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "11/12/2025",
+        "description": null,
+        "owner": "Angel Poventud",
+        "tree_dbh": "14",
+        "tree_location": "Front yard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Poor Form/Tree has been ToppedReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:2Species:Water OakTree Size (DBH):21Tree location:Front YardDescription of Tree:Erosion within Structural Root Plate/Confined Root ZoneReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:3Species:Red OakTree Size (DBH):27Tree location:Front yardDescription of Tree:Heavily Imbalanced Canopy/Poor StructureReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01060012010 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Red Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411990499873,
+          33.724468826302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505779",
+        "address": "500 EMILY REED LN NE, ATLANTA GA 30342",
+        "status": "Issued",
+        "date": "11/12/2025",
+        "description": "DDH",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.370618094658,
+          33.916141616362
+        ]
+      }
+    }
+  ]
+}
