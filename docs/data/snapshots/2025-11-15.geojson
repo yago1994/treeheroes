@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505813",
+        "address": "3342 ANNELAINE DR SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "11/15/2025",
+        "description": null,
+        "owner": "CAMPBELL SONYA NICOLE",
+        "tree_dbh": "30",
+        "tree_location": "Front yard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Compromised; Covered in IvyReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):28Tree location:Front yard by drivewayDescription of Tree:Compromised; covered in IvyReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:Pine Tree Size (DBH):24Tree location:Front yard beside drivewayDescription of Tree:CompromisedReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:4Species:PineTree Size (DBH):19Tree location:Front yard beside drivewayDescription of Tree:Compromised;  covered in Ivy Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:5Species:PineTree Size (DBH):17Tree location:Front yardDescription of Tree:Compromised; covered in ivyReason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 02460003077 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.497866732517,
+          33.735061346875
+        ]
+      }
+    }
+  ]
+}
