@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505817",
+        "address": "2886 WEST ROXBORO RD NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "11/16/2025",
+        "description": null,
+        "owner": "Joan Reese",
+        "tree_dbh": "14",
+        "tree_location": "behind garage",
+        "reason_removal": "Dead tree",
+        "tree_description": "This is a dead tree, located immediately behind the garage.Reason for Removal:Dead treeComments:2886 W Roxboro Rd, NE\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00070002029 *Block:--Lot:--Subdivision:--",
+        "tree_number": "5",
+        "species": "poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35031867958,
+          33.833185865005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505818",
+        "address": "2900 WEST ROXBORO RD NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "11/16/2025",
+        "description": null,
+        "owner": "Joan Reese",
+        "tree_dbh": "27",
+        "tree_location": "immediately next to tree #1",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "This has significant rot.  Please see attached arborist report.Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:pineTree Size (DBH):17Tree location:between house and W RoxboroDescription of Tree:This is a completely dead tree, located close to the line between 2900 and 2892 W Roxboro Rd.Reason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:7Species:pineTree Size (DBH):13Tree location:very close to the line between 2900 W Roxboro and 1118 Norwich Circle.Description of Tree:Tree has a significant lean and looks weak.Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:8Species:hackberryTree Size (DBH):11Tree location:immediately next to tree #1Description of Tree:This hackberry has a significant lean towards our house at 2900 W Roxboro Rd.Reason for Removal:Uncorrectable defectComments:There is an attached picture of the tree.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00070002027 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.349967541933,
+          33.833608917514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505819",
+        "address": "3437 ROCKHAVEN CIR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "11/16/2025",
+        "description": null,
+        "owner": "WILLIAMS BRUCE L",
+        "tree_dbh": "11",
+        "tree_location": "back yard, enter",
+        "reason_removal": "Other",
+        "tree_description": "healthy specimenReason for Removal:OtherComments:Removal for landscape purposes: To make room to plant a vegetable garden. Needs more direct sunlight. Tree shades area to be cultivated.\n\t\t\n\t\t\n\t\t\tTree number:2Species:water oakTree Size (DBH):8.6Tree location:back yard, enterDescription of Tree:healthy specimenReason for Removal:OtherComments:Removal for landscape purposes: To make room to plant a vegetable garden. Needs more direct sunlight. Tree shades area to be cultivated.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00090007025 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35189915264,
+          33.845903253399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505814",
+        "address": "468 GIFT AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "11/16/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "11",
+        "tree_location": "468 gift backyard",
+        "reason_removal": "Within 5 ft of occupied dwelling",
+        "tree_description": "invasive mimosa treeReason for Removal:Within 5 ft of occupied dwelling\n\t\t\n\t\t\n\t\t\tTree number:2Species:MimosaTree Size (DBH):9Tree location:468 gift backyardDescription of Tree:invasive mimosa treeReason for Removal:Within 5 ft of occupied dwelling\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00120007094 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "mimosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.353410150813,
+          33.741336986508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505820",
+        "address": "1710 HOMESTEAD AVE NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "11/16/2025",
+        "description": null,
+        "owner": "TAYLOR ANNE K",
+        "tree_dbh": "4",
+        "tree_location": "Along driveway (right) across from house",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "2-trunk (3\"/4\")Reason for Removal:Invasive/undesirable treeComments:Undesirable/None-native/Invasive tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:RedbudTree Size (DBH):11Tree location:rear center near driveway cornerDescription of Tree:Leaning, decliningReason for Removal:Dying treeComments:Significant lean over 20 degrees and several dead limbs and tips\n\t\t\n\t\t\n\t\t\tTree number:3Species:Cherry LaurelTree Size (DBH):8Tree location:Along driveway (right) across from houseDescription of Tree:Leaning over driveway  Reason for Removal:Invasive/undesirable treeComments:Invasive, nuisance tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:18 056 04 072 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Mimosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.348072234779,
+          33.801148950129
+        ]
+      }
+    }
+  ]
+}
