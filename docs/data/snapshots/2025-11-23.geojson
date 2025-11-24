@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505946",
+        "address": "2140 BROOKVIEW DR NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "11/23/2025",
+        "description": null,
+        "owner": "STEELY HERBERT A",
+        "tree_dbh": "20",
+        "tree_location": "Front yard right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Leaning Pine tree with large cavity.  Marked with orange ribbonReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01850003007 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.420009703519,
+          33.815118480068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505941",
+        "address": "1607 MARLBROOK DR NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "11/23/2025",
+        "description": null,
+        "owner": "TIM ALLEN HOMES LLC",
+        "tree_dbh": "12",
+        "tree_location": "Rear/Fence",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "5 Leylands @ rear",
+        "tree_number": "1",
+        "species": "5 Leylands @ rear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.335245119623,
+          33.767407848463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505945",
+        "address": "1432 FUNSTON ST SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "11/23/2025",
+        "description": null,
+        "owner": "BENNEDSEN KARIN J",
+        "tree_dbh": "24",
+        "tree_location": "Back of house",
+        "reason_removal": "Dying tree",
+        "tree_description": "Approx. 25 feet tall. English Ivy was 'girdled' on the tree 3 years ago. Hit by lightning July 11, 2025 just before 6:30pm.Reason for Removal:Dying treeComments:Had to guestimate the DBH as I can't access the tree right now. Needs inspection to see if it is dying or can be saved.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00240004004 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.365299003844,
+          33.715182591947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505944",
+        "address": "2536 EDWARDS DR NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "11/23/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "38",
+        "tree_location": "Right Rear of Property",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "The tree exhibits several structural and physiological concerns.",
+        "tree_number": "5",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.471241143988,
+          33.815364625702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505943",
+        "address": "841 WOODLEY DR NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "11/23/2025",
+        "description": null,
+        "owner": "Marian Gardner",
+        "tree_dbh": "12",
+        "tree_location": "On the left side of the house right next to the AC unit",
+        "reason_removal": "Other",
+        "tree_description": "Bush is partially dead as well as growing too close to the roof. For us to trim correctly, there would not really be any foliage left. Reason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01540009034 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Glossy Privet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.415246325493,
+          33.818540334851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505942",
+        "address": "1609 SOUTH PONCE DE LEON AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "11/23/2025",
+        "description": null,
+        "owner": "LEVIN LAWRENCE OR WHEELER PATRICIA",
+        "tree_dbh": "49",
+        "tree_location": "Rear/off driveway",
+        "reason_removal": "Diseased",
+        "tree_description": "Declining",
+        "tree_number": "1",
+        "species": "Red Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.335842228724,
+          33.773955217517
+        ]
+      }
+    }
+  ]
+}
