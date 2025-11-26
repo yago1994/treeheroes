@@ -47,6 +47,21 @@ type ReasonOption = {
   label: string;
 };
 
+// Status filtering helpers
+const UNKNOWN_STATUS_KEY = 'UNKNOWN';
+const UNKNOWN_STATUS_LABEL = 'Unknown status';
+function normalizeStatusKey(value: string | null): string {
+  if (!value) return UNKNOWN_STATUS_KEY;
+  const trimmed = value.trim();
+  return trimmed.length ? trimmed.toUpperCase() : UNKNOWN_STATUS_KEY;
+}
+function statusLabelFrom(value: string | null): string {
+  if (!value) return UNKNOWN_STATUS_LABEL;
+  const trimmed = value.trim();
+  return trimmed.length ? trimmed : UNKNOWN_STATUS_LABEL;
+}
+type StatusOption = { key: string; label: string };
+
 function extractDbhValue(value: string | null): number | null {
   if (!value) return null;
   const matches = value.match(/\d+(?:\.\d+)?/g);
@@ -197,6 +212,8 @@ export default function MapAppOL({
   const [weekOptions, setWeekOptions] = useState<WeekOption[]>([]);
   const [reasonOptions, setReasonOptions] = useState<ReasonOption[]>([]);
   const [selectedReasons, setSelectedReasons] = useState<Set<string>>(() => new Set());
+  const [statusOptions, setStatusOptions] = useState<StatusOption[]>([]);
+  const [selectedStatuses, setSelectedStatuses] = useState<Set<string>>(() => new Set());
   const [selectedRange, setSelectedRange] = useState<string>('ALL');
   const [selectedRecord, setSelectedRecord] = useState<PermitRecord | null>(null);
 
@@ -222,11 +239,18 @@ export default function MapAppOL({
 
   const filteredRecords = useMemo(() => {
     if (!rangeFilteredRecords.length) return rangeFilteredRecords;
-    if (!selectedReasons.size) return rangeFilteredRecords;
-    return rangeFilteredRecords.filter((record) => selectedReasons.has(normalizeReasonKey(record.reason_removal)));
-  }, [rangeFilteredRecords, selectedReasons]);
+    let next = rangeFilteredRecords;
+    if (selectedReasons.size) {
+      next = next.filter((record) => selectedReasons.has(normalizeReasonKey(record.reason_removal)));
+    }
+    if (selectedStatuses.size) {
+      next = next.filter((record) => selectedStatuses.has(normalizeStatusKey(record.status)));
+    }
+    return next;
+  }, [rangeFilteredRecords, selectedReasons, selectedStatuses]);
 
   const reasonSelectedKeys = useMemo(() => new Set(selectedReasons), [selectedReasons]);
+  const statusSelectedKeys = useMemo(() => new Set(selectedStatuses), [selectedStatuses]);
 
   const selectValue = selectedRange || 'ALL';
   const selectedKeys = useMemo(() => new Set([selectValue]), [selectValue]);
@@ -254,14 +278,41 @@ export default function MapAppOL({
         return;
       }
       const next = new Set<string>();
+      let allRequested = false;
       for (const key of keys as Iterable<Key>) {
         if (typeof key === 'string') {
-          next.add(key);
+          if (key === 'ALL_REASONS') {
+            allRequested = true;
+          } else {
+            next.add(key);
+          }
         }
       }
-      setSelectedReasons(next);
+      setSelectedReasons(allRequested ? new Set(reasonOptions.map(o => o.key)) : next);
     },
     [reasonOptions],
+  );
+
+  const handleStatusSelectionChange = useCallback(
+    (keys: Selection) => {
+      if (keys === 'all') {
+        setSelectedStatuses(new Set(statusOptions.map((option) => option.key)));
+        return;
+      }
+      const next = new Set<string>();
+      let allRequested = false;
+      for (const key of keys as Iterable<Key>) {
+        if (typeof key === 'string') {
+          if (key === 'ALL_STATUS') {
+            allRequested = true;
+          } else {
+            next.add(key);
+          }
+        }
+      }
+      setSelectedStatuses(allRequested ? new Set(statusOptions.map(o => o.key)) : next);
+    },
+    [statusOptions],
   );
 
   const toggleStreetView = useCallback(() => {
@@ -511,7 +562,6 @@ export default function MapAppOL({
         motionTracking: false, // Disable motion tracking on iOS
         clickToGo: true,
         scrollwheel: false, // Disable scrollwheel on mobile
-        keyboardShortcuts: false, // Disable keyboard shortcuts on mobile
       }
     );
 
@@ -673,12 +723,44 @@ export default function MapAppOL({
     });
   }, [records]);
 
+  // Build status options
+  useEffect(() => {
+    if (!records.length) {
+      setStatusOptions([]);
+      setSelectedStatuses(new Set<string>());
+      return;
+    }
+    const optionMap = new Map<string, StatusOption>();
+    for (const record of records) {
+      const key = normalizeStatusKey(record.status);
+      if (!optionMap.has(key)) {
+        optionMap.set(key, { key, label: statusLabelFrom(record.status) });
+      }
+    }
+    const options = Array.from(optionMap.values()).sort((a, b) => a.label.localeCompare(b.label));
+    const defaultSelection = new Set<string>(options.map(o => o.key));
+    setStatusOptions(options);
+    const validKeys = new Set(options.map(o => o.key));
+    setSelectedStatuses((prev) => {
+      if (prev.size) {
+        const next = new Set<string>();
+        prev.forEach((value) => {
+          if (validKeys.has(value)) {
+            next.add(value);
+          }
+        });
+        if (next.size) return next;
+      }
+      return defaultSelection;
+    });
+  }, [records]);
+
   // Filter features on the map based on selected filters
   useEffect(() => {
     if (!vectorLayerRef.current) return;
 
     const filteredIds = new Set(filteredRecords.map(r => r.id));
-    const filteringActive = selectedRange !== 'ALL' || selectedReasons.size > 0;
+    const filteringActive = selectedRange !== 'ALL' || selectedReasons.size > 0 || selectedStatuses.size > 0;
     
     vectorLayerRef.current.setStyle((feature: FeatureLike) => {
       const props = feature.getProperties();
@@ -763,11 +845,37 @@ export default function MapAppOL({
           isDisabled={!reasonOptions.length}
           className="w-full sm:max-w-xs"
         >
-          {reasonOptions.map((option) => (
-            <SelectItem key={option.key} textValue={option.label}>
-              {option.label}
-            </SelectItem>
-          ))}
+          <SelectItem key="ALL_REASONS" textValue="All reasons">
+            All reasons
+          </SelectItem>
+          <>
+            {reasonOptions.map((option) => (
+              <SelectItem key={option.key} textValue={option.label}>
+                {option.label}
+              </SelectItem>
+            ))}
+          </>
+        </Select>
+        <Select
+          label="Status"
+          labelPlacement="outside"
+          placeholder="Filter status"
+          selectionMode="multiple"
+          selectedKeys={statusSelectedKeys}
+          onSelectionChange={handleStatusSelectionChange}
+          isDisabled={!statusOptions.length}
+          className="w-full sm:max-w-xs"
+        >
+          <SelectItem key="ALL_STATUS" textValue="All statuses">
+            All statuses
+          </SelectItem>
+          <>
+            {statusOptions.map((option) => (
+              <SelectItem key={option.key} textValue={option.label}>
+                {option.label}
+              </SelectItem>
+            ))}
+          </>
         </Select>
       </div>
 

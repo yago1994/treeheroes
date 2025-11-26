@@ -26,9 +26,6 @@ export function SharedFooter({ onOpenMapPath = "/map" }: SharedFooterProps) {
           <Link to={onOpenMapPath} className="transition-colors hover:text-white">
             Launch map
           </Link>
-          <a href="https://github.com/yago1994/treeheroes" target="_blank" rel="noopener" className="transition-colors hover:text-white">
-            GitHub
-          </a>
           <a href="mailto:info@treeheroesatl.org" className="transition-colors hover:text-white">
             Contact
           </a>
