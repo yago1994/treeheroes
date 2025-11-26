@@ -48,8 +48,8 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
     });
   }, [record.address]);
 
-  const streetViewUrl = buildStreetViewUrl(record, geocodedCoords || undefined);
   const accelaUrl = 'https://aca-prod.accela.com/ATLANTA_GA/Default.aspx';
+  const streetViewUrl = buildStreetViewUrl(record, geocodedCoords || undefined);
 
   const handleCopy = useCallback(() => {
     if (!record.record) return;
@@ -98,14 +98,14 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
 
       <Button
         as="a"
-        href={streetViewUrl}
+        href={accelaUrl}
         target="_blank"
         rel="noopener"
         variant="bordered"
-        color="success"
+        color="primary"
         endContent={<LinkIcon className="h-4 w-4" />}
       >
-        Open in Google Maps Street View
+        Open Atlanta Permits (Accela)
       </Button>
 
       {hasDetails ? (
@@ -120,17 +120,7 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
               </div>
             );
           })}
-          <Button
-            as="a"
-            href={accelaUrl}
-            target="_blank"
-            rel="noopener"
-            variant="bordered"
-            color="primary"
-            endContent={<LinkIcon className="h-4 w-4" />}
-          >
-            Open Atlanta Permits (Accela)
-          </Button>
+          
         </div>
       ) : (
         <p className="text-sm text-slate-500">No additional metadata is available for this permit.</p>

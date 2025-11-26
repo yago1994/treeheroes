@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Key } from 'react';
 import type { Selection } from '@react-types/shared';
 import { Alert, Badge, Button, Card, CardBody, Select, SelectItem, Spinner } from '@heroui/react';
+import { LinkIcon } from '@heroui/shared-icons';
 import PermitDetailsPanel from './map/PermitDetailsPanel';
 import { buildWeekOptions, filterRecordsByRange, loadPermitData } from './map/data';
 import type { PermitRecord, WeekOption } from './map/types';
@@ -910,16 +911,6 @@ export default function MapAppOL({
                       <p className="text-sm text-foreground-600">Select a marker to preview the location.</p>
                     </div>
                     <div className="flex w-full flex-wrap items-center gap-2 sm:w-auto sm:flex-nowrap">
-                      <Button
-                        variant="flat"
-                        color="primary"
-                        size="sm"
-                        onPress={toggleStreetView}
-                        isDisabled={!streetViewReady}
-                        className="w-full sm:w-auto"
-                      >
-                        {streetViewVisible ? 'Hide Street View' : 'Show Street View'}
-                      </Button>
                       {selectedRecord && (
                         <Button variant="light" size="sm" onPress={clearSelection} className="w-full sm:w-auto">
                           Clear
@@ -927,6 +918,24 @@ export default function MapAppOL({
                       )}
                     </div>
                   </div>
+                  {selectedRecord && (
+                    <div className="flex flex-col gap-2 mb-2">
+                      <Button
+                        as="a"
+                        href={`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${selectedRecord.latLng.lat},${selectedRecord.latLng.lng}`}
+                        target="_blank"
+                        rel="noopener"
+                        variant="bordered"
+                        color="success"
+                        radius="md"
+                        endContent={<LinkIcon className="h-4 w-4" />}
+                        size="md"
+                        className="w-full"
+                      >
+                        Open in Google Maps Street View
+                      </Button>
+                    </div>
+                  )}
                   {!streetViewVisible && (
                     <div className="min-h-[200px] flex items-center justify-center rounded-lg border border-dashed border-foreground-300 bg-foreground-50/50 p-6 text-center">
                       <p className="text-sm text-foreground-600">{streetViewMessage}</p>
@@ -977,35 +986,48 @@ export default function MapAppOL({
               </div>
 
               <div className="flex flex-col gap-4 mb-6">
-                <Button
-                  variant="flat"
-                  color="primary"
-                  size="sm"
-                  onPress={toggleStreetView}
-                  isDisabled={!streetViewReady}
-                  className="w-full"
-                >
-                  {streetViewVisible ? 'Hide Street View' : 'Show Street View'}
-                </Button>
                 {!streetViewVisible && (
                   <div className="min-h-[180px] flex items-center justify-center rounded-lg border border-dashed border-foreground-300 bg-foreground-50/50 p-4 text-center">
-                    <p className="text-sm text-foreground-600">{streetViewMessage}</p>
+                    <p className="text-sm text-foreground-600">
+                      {streetViewMessage}
+                      {!isDesktop && (
+                        <> If you are on a mobile device the Street View may not load, click the button above to view in Google Maps directly.</>
+                      )}
+                    </p>
                   </div>
                 )}
-                <div 
-                  ref={streetViewRef} 
-                  className="w-full h-[260px] rounded-lg overflow-hidden bg-gray-200"
-                  style={{ 
-                    display: streetViewVisible ? 'block' : 'none',
-                    // iOS Safari fixes for Google Street View
-                    WebkitTransform: 'translateZ(0)',
-                    transform: 'translateZ(0)',
-                    WebkitBackfaceVisibility: 'hidden',
-                    backfaceVisibility: 'hidden',
-                    position: 'relative',
-                    zIndex: 1
-                  }}
-                />
+                <div className="flex flex-col gap-2 w-full">
+                  {selectedRecord && (
+                    <Button
+                      as="a"
+                      href={`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${selectedRecord.latLng.lat},${selectedRecord.latLng.lng}`}
+                      target="_blank"
+                      rel="noopener"
+                      variant="bordered"
+                      color="success"
+                      radius="md"
+                      endContent={<LinkIcon className="h-4 w-4" />}
+                      size="md"
+                      className="w-full"
+                    >
+                      Open in Google Maps Street View
+                    </Button>
+                  )}
+                  <div 
+                    ref={streetViewRef} 
+                    className="w-full h-[260px] rounded-lg overflow-hidden bg-gray-200"
+                    style={{ 
+                      display: streetViewVisible ? 'block' : 'none',
+                      // iOS Safari fixes for Google Street View
+                      WebkitTransform: 'translateZ(0)',
+                      transform: 'translateZ(0)',
+                      WebkitBackfaceVisibility: 'hidden',
+                      backfaceVisibility: 'hidden',
+                      position: 'relative',
+                      zIndex: 1
+                    }}
+                  />
+                </div>
               </div>
 
               {selectedRecord && (
