@@ -1516,6 +1516,30 @@
     {
       "type": "Feature",
       "properties": {
+        "record": "25TMP-065743",
+        "address": "524 Paines Avenue Northwest, United States",
+        "status": null,
+        "date": "11/25/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.414573965834,
+          33.76903604215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "record": "BA-202505967",
         "address": "78 BATES AVE NE, ATLANTA GA 30317",
         "status": "ACA Pending",
