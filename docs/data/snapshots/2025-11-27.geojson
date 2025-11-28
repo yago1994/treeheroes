@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505985",
+        "address": "1115 MORELAND PL SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "11/27/2025",
+        "description": null,
+        "owner": "PHILLIPS CYNTHIA",
+        "tree_dbh": "34",
+        "tree_location": "frontward left corner of driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "Dying water oakReason for Removal:Dying treeComments:The water oak is losing more and more of the canopy. Holes in the base and mushrooms all over the trunk\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00120011067 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.351150280156,
+          33.73838779091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-065938",
+        "address": "670 SW Erin AVE, Atlanta Georgia 30310",
+        "status": "",
+        "date": "11/27/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409661130589,
+          33.719462277097
+        ]
+      }
+    }
+  ]
+}
