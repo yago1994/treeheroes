@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505986",
+        "address": "3321 GRANT VALLEY RD NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "11/28/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "30",
+        "tree_location": "right corner of house",
+        "reason_removal": "Dying tree",
+        "tree_description": "red tapReason for Removal:Dying treeComments:Severe dieback, dying and hazardous.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00980004011 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "water oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.386176632474,
+          33.846175502183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505987",
+        "address": "701 WEST PACES FERRY RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "11/28/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "26",
+        "tree_location": "backyard on the left",
+        "reason_removal": "Dying tree",
+        "tree_description": "Red tapeReason for Removal:Dying treeComments:Dying\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0158  LL086 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "tulip poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409714004911,
+          33.84827802777
+        ]
+      }
+    }
+  ]
+}
