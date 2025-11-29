@@ -4,102 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202505938",
-        "address": "746 GLADSTONE RD NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "11/22/2025",
-        "description": null,
-        "owner": "GREENFIELD TERUHO",
-        "tree_dbh": "16",
-        "tree_location": "front yard beside driveway",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "Magnolia along driveway with large decay pocket on trunk from large limbs being removed in the past Reason for Removal:Significant cavity/area of decayComments:In addition to the signifigant cavity the new driveway installed may have caused root damage that cannot be visibly inspected \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01540003079 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Southern Magnolia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.411643559233,
-          33.81427257173
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202505940",
-        "address": "1034 FOREST VALLEY DR SE, ATLANTA GA 30354",
-        "status": "ACA Pending",
-        "date": "11/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "32",
-        "tree_location": "side of house",
-        "reason_removal": "Within 5 ft of occupied dwelling",
-        "tree_description": "extremely tall pine tree w/shallow roots. It will destroy the house and potentially the neighbors' houses when it fallsReason for Removal:Invasive/undesirable treeComments:There is a high chance of a windstorm at this address, so pine trees with shallow roots will fall\n\t\t\n\t\t\n\t\t\tTree number:2Species:OakTree Size (DBH):34.39Tree location:front yardDescription of Tree:dead and covered in vinesReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:pineTree Size (DBH):34.71Tree location:back yardDescription of Tree:covered in vines; extremely tall pine tree w/shallow roots. It will destroy the house and potentially the neighbors' houses when it fallsReason for Removal:Dying treeComments:There is a high chance of a windstorm at this address, so pine trees with shallow roots will fall\n\t\t\n\t\t\n\t\t\tTree number:4Species:pineTree Size (DBH):36.31Tree location:side of houseDescription of Tree:covered in vines; extremely tall pine tree w/shallow roots. It will destroy the house and potentially the neighbors' houses when it fallsReason for Removal:Within 5 ft of occupied dwellingComments:There is a high chance of a windstorm at this address, so pine trees with shallow roots will fall\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00010001044 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.356371480525,
-          33.651237977893
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202505937",
-        "address": "4431 REID LN NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "11/22/2025",
-        "description": null,
-        "owner": "MONTALTO STEVEN",
-        "tree_dbh": "26",
-        "tree_location": "Right Rear",
-        "reason_removal": "Dead tree",
-        "tree_description": "None Reason for Removal:Dead treeComments:This pine appears to be in the late stages of mortality. The crown is almost entirely brown, well beyond\nwhat would be considered any normal seasonal shedding\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01380002065 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Pine"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.399387605169,
-          33.87662661907
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202505939",
-        "address": "80 HUNTINGTON RD NE, ATLANTA GA 30309",
-        "status": "ACA Pending",
-        "date": "11/22/2025",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "14",
-        "tree_location": "right side of house",
-        "reason_removal": "Within 5 ft of occupied dwelling",
-        "tree_description": "oakReason for Removal:Within 5 ft of occupied dwelling\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01090003010 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.389522099808,
-          33.802630974227
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202505946",
         "address": "2140 BROOKVIEW DR NW, ATLANTA GA 30318",
         "status": "ACA Pending",
@@ -1174,6 +1078,54 @@
         "coordinates": [
           -84.409661130589,
           33.719462277097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505986",
+        "address": "3321 GRANT VALLEY RD NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "11/28/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "30",
+        "tree_location": "right corner of house",
+        "reason_removal": "Dying tree",
+        "tree_description": "red tapReason for Removal:Dying treeComments:Severe dieback, dying and hazardous.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00980004011 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "water oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.386176632474,
+          33.846175502183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505987",
+        "address": "701 WEST PACES FERRY RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "11/28/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "26",
+        "tree_location": "backyard on the left",
+        "reason_removal": "Dying tree",
+        "tree_description": "Red tapeReason for Removal:Dying treeComments:Dying\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0158  LL086 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "tulip poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409714004911,
+          33.84827802777
         ]
       }
     }
