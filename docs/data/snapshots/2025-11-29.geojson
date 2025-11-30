@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-066005",
+        "address": "2486 IVYDALE DR SW, ATLANTA GA 30311",
+        "status": "",
+        "date": "11/29/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.470533733872,
+          33.69879049288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505988",
+        "address": "2050 MOREHOUSE DR NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "11/29/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "10",
+        "tree_location": "Front at retaining wall",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "10\" Hardwood growing into retaining wallReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:OakTree Size (DBH):18Tree location:left side middleDescription of Tree:Hard leaning dying tree full of vinesReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:OakTree Size (DBH):16Tree location:Middle of lotDescription of Tree:Dead treeReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:4Species:oakTree Size (DBH):26Tree location:Rear rightDescription of Tree:26\" dead treeReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:5Species:oakTree Size (DBH):10Tree location:Front middleDescription of Tree:10\" Hardwood vines choked outReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:6Species:cypressTree Size (DBH):20Tree location:Front right of driveway on retaining wallDescription of Tree:20\" split cypress treeReason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01740007006 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.454488858753,
+          33.761082537454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505989",
+        "address": "315 ORMOND ST SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "11/29/2025",
+        "description": null,
+        "owner": "WRIGHTSON GLENN S",
+        "tree_dbh": "23",
+        "tree_location": "Front of the house",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Hardwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377446542528,
+          33.731425076532
+        ]
+      }
+    }
+  ]
+}
