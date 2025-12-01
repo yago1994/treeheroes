@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202505990",
+        "address": "2780 EMERALD CT SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "11/30/2025",
+        "description": null,
+        "owner": "Domian Ohienmhen",
+        "tree_dbh": "15",
+        "tree_location": "front home",
+        "reason_removal": "Dying tree",
+        "tree_description": "dying Reason for Removal:Dying treeComments:marked with x\n\t\t\n\t\t\n\t\t\tTree number:2Species:mapleTree Size (DBH):12Tree location:front homeDescription of Tree:dying and damaging foundationReason for Removal:Dying treeComments:marked with x\n\t\t\n\t\t\n\t\t\tTree number:3Species:mapleTree Size (DBH):16Tree location:front homeDescription of Tree:dying and damaging foundationReason for Removal:Dying treeComments:marked with x\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 0212  LL117 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.480306122533,
+          33.751597165614
+        ]
+      }
+    }
+  ]
+}
