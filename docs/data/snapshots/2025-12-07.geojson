@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506087",
+        "address": "612 CLIFTON RD NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "12/07/2025",
+        "description": null,
+        "owner": "WASSON B JOY OR THROOP ELIZABETH C",
+        "tree_dbh": "22",
+        "tree_location": "Rear left of the house close to the property line",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead, marked with orange XReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:CryptoTree Size (DBH):12Tree location:Rear left property behind the house near tree #1Description of Tree:All dead and brown marked with yellow XReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 239 01 227 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.333100793002,
+          33.770884072291
+        ]
+      }
+    }
+  ]
+}
