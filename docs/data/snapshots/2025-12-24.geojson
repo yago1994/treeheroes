@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506308",
+        "address": "1644 WOODLAND AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "12/24/2025",
+        "description": null,
+        "owner": "SHEPPARD JEFFERY D",
+        "tree_dbh": "20",
+        "tree_location": "southeast corner",
+        "reason_removal": "Other",
+        "tree_description": "large pine treeReason for Removal:OtherComments:Tree is within the area of teh sewer drain line that was recently replaced because of pine tree roots.\n\t\t\n\t\t\n\t\t\tTree number:2Species:OAKTree Size (DBH):30Tree location:southeast rear yardDescription of Tree:Large oak treeReason for Removal:DiseasedComments:tree has large mushrooms growing at the base and is dropping large limbs\n\t\t\n\t\t\n\t\t\tTree number:3Species:pineTree Size (DBH):20Tree location:southeast corner of yardDescription of Tree:duplicate picture of pine treeReason for Removal:OtherComments:duplicate picture\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00080009032 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.352462102171,
+          33.70940637955
+        ]
+      }
+    }
+  ]
+}
