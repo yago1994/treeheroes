@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506313",
+        "address": "1258 ANCHOR TER SW, ATLANTA GA 30311",
+        "status": "Accepted",
+        "date": "12/26/2025",
+        "description": null,
+        "owner": "BOOKER BETTY J",
+        "tree_dbh": "100",
+        "tree_location": "In front of house",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead/Dying tree Reason for Removal:Dead treeComments:I do not know what the species is and the tree size.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01690004067 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.450001319556,
+          33.720616210131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506309",
+        "address": "2489 RUTHERFORD ST NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "12/26/2025",
+        "description": null,
+        "owner": "NAGEL JONNENE",
+        "tree_dbh": "51",
+        "tree_location": "left front of home, right side of driveway, understory of large Southern Red Oak",
+        "reason_removal": "Dead tree",
+        "tree_description": "wood decay mushrooms at base, significant phototropic lean over roadReason for Removal:Uncorrectable defectComments:Ribbon\n\t\t\n\t\t\n\t\t\tTree number:2Species:DogwoodTree Size (DBH):10Tree location:left front of home, right side of driveway, understory of large Southern Red OakDescription of Tree:DeadReason for Removal:Dead treeComments:Ribbon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02530001107 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Dogwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.470116447213,
+          33.817181420795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506315",
+        "address": "3643 KINGSBORO RD NE, ATLANTA GA 30319",
+        "status": "ACA Pending",
+        "date": "12/26/2025",
+        "description": null,
+        "owner": "GRAY JAMES GLENN",
+        "tree_dbh": "20",
+        "tree_location": "backyard",
+        "reason_removal": "Dead tree",
+        "tree_description": "tree is dead Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00100008027 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.350304934343,
+          33.853898723706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506314",
+        "address": "1450 MOORES MILL RD NW, ATLANTA GA 30327",
+        "status": "Applied Online-Pending",
+        "date": "12/26/2025",
+        "description": null,
+        "owner": "XIAOSONG CHEN AND YANG LI REVOCABLE",
+        "tree_dbh": "55",
+        "tree_location": "Back yard behind the 2nd garage",
+        "reason_removal": "Dying tree",
+        "tree_description": "This tree's branch is falling down, and might hit the garage roof.Reason for Removal:Dying treeComments:I was wondering if the tree is dying, and pretty close to my garage, not very safe\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01950001013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "red oak tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.435473035269,
+          33.82905274519
+        ]
+      }
+    }
+  ]
+}
