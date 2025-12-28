@@ -648,6 +648,54 @@
           33.82905274519
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506316",
+        "address": "73 ROCKY FORD RD NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "12/27/2025",
+        "description": null,
+        "owner": "GWINN JEFF OR",
+        "tree_dbh": "50",
+        "tree_location": "Midway back on left side of backyard",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Large Water Oak tree in back yard has a large gash and is hollowed out inside with rotted wood. Had one Arborist check it out and they recommended removal. I have two more coming out Monday January 5th.Reason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 205 01 081 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Water Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.316098487834,
+          33.753776758599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506317",
+        "address": "1450 MOORES MILL RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "12/27/2025",
+        "description": null,
+        "owner": "XIAOSONG CHEN AND YANG LI REVOCABLE",
+        "tree_dbh": "55",
+        "tree_location": "Back yard behind the 2nd garage",
+        "reason_removal": "Within 5 ft of occupied dwelling",
+        "tree_description": "Branches are falling down, and the tree is very close to the garage. Reason for Removal:Within 5 ft of occupied dwellingComments:The tree is too close to the foundation of my house and is dropping limb's constantly\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01950001013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "red oak tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.435473035269,
+          33.82905274519
+        ]
+      }
     }
   ]
 }
