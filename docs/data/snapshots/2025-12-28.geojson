@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506318",
+        "address": "4200 WICKERSHAM DR NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "12/28/2025",
+        "description": null,
+        "owner": "Kathryn Roberts",
+        "tree_dbh": "20",
+        "tree_location": "front yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "leaning northern red oakReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01600003026 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "red oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412658790596,
+          33.870416203301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506319",
+        "address": "669 HAMILTON AVE SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "12/28/2025",
+        "description": null,
+        "owner": "Harris Park",
+        "tree_dbh": "9",
+        "tree_location": "West Boundary",
+        "reason_removal": "Dying tree",
+        "tree_description": "Hackberrys covered in ivyReason for Removal:Dying treeComments:We were asked by Mr. Barrie to take these down\n\t\t\n\t\t\n\t\t\tTree number:19Species:HackberryTree Size (DBH):8Tree location:West borderDescription of Tree:Hackberry covered in IvyReason for Removal:DiseasedComments:Mr Barrie asked us to take these out\n\t\t\n\t\t\n\t\t\tTree number:20Species:HackberryTree Size (DBH):10Tree location:West boundaryDescription of Tree:HackberryReason for Removal:DiseasedComments:Mr Barrie asked us to take these out\n\t\t\n\t\t\n\t\t\tTree number:21Species:HackberryTree Size (DBH):18Tree location:west boundaryDescription of Tree:HackberryReason for Removal:Dead treeComments:Mr Barrie said take out\n\t\t\n\t\t\n\t\t\tTree number:22Species:HackberryTree Size (DBH):18Tree location:west boundaryDescription of Tree:Hackberry Reason for Removal:Dying treeComments:Mr Barrie said take out\n\t\t\n\t\t\n\t\t\tTree number:23Species:HackberryTree Size (DBH):7Tree location:West BoundaryDescription of Tree:HackberryReason for Removal:DiseasedComments:Mr Barrie said take out\n\t\t\n\t\t\n\t\t\tTree number:24Species:HackberryTree Size (DBH):12Tree location:West BoundaryDescription of Tree:HackberryReason for Removal:Dying treeComments:Mr Barrie said take out\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:T14 00230009017 01 *Block:--Lot:--Subdivision:SD-22-013 - 673 HAMILTON AVE SE",
+        "tree_number": "18",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366022771433,
+          33.725716598122
+        ]
+      }
+    }
+  ]
+}
