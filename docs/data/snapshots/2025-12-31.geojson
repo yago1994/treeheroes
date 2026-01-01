@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506363",
+        "address": "2303 STRATHMORE DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "12/31/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "7",
+        "tree_location": "Front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Located to left of front door at left side of house.Reason for Removal:Dead treeComments:Maple died approximately 18 months ago during heat wave in June '24.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00050004043 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.357766781913,
+          33.817920913542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506367",
+        "address": "1647 FERNLEAF CIR NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "12/31/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "Back right corner of house",
+        "reason_removal": "Other",
+        "tree_description": "Poplar 18\", located back right corner of house, excessive leanReason for Removal:OtherComments:Poplar 18\", located back right corner of house, excessive lean\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02200006030 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sweetgum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.440653979075,
+          33.82117980659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506368",
+        "address": "1283 WOODLAND AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "12/31/2025",
+        "description": null,
+        "owner": "LINDURST MICHAEL",
+        "tree_dbh": "12",
+        "tree_location": "Back right",
+        "reason_removal": "Dying tree",
+        "tree_description": "Mimosa 12\", back right, dead, covered in kudzuReason for Removal:Dead treeComments:Mimosa 12\", back right, dead, covered in kudzu\n\t\t\n\t\t\n\t\t\tTree number:2Species:PoplarTree Size (DBH):12Tree location:Back rightDescription of Tree:Poplar 12\", back right, 2 trunked, declining, covered in kudzuReason for Removal:Dying treeComments:Poplar 12\", back right, 2 trunked, declining, covered in kudzu\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00090002033 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Mimosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.353757752206,
+          33.719504844663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "25TMP-071690",
+        "address": "486 PARKWAY DR NE, ATLANTA GA 30308",
+        "status": "",
+        "date": "12/31/2025",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.373290575689,
+          33.767540457742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202506366",
+        "address": "805 CHARLES ALLEN DR NE, ATLANTA GA 30308",
+        "status": "ACA Pending",
+        "date": "12/31/2025",
+        "description": null,
+        "owner": "Theodore Moore",
+        "tree_dbh": "10",
+        "tree_location": "Front Yard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "UndesirableReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:Golden RaintreeTree Size (DBH):15Tree location:Front YardDescription of Tree:UndesirableReason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00480007010 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Golden Raintree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.372699370118,
+          33.776690295734
+        ]
+      }
+    }
+  ]
+}
