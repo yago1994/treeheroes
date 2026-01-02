@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600001",
+        "address": "232 FARRINGTON AVE SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "01/01/2026",
+        "description": null,
+        "owner": "ABERCROMBIE GEORGE R  ET AL",
+        "tree_dbh": "5",
+        "tree_location": "Backyard, westside",
+        "reason_removal": "Other",
+        "tree_description": "Diseased tree, only growing leaves on one side of tree. DBH >6 inchesReason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:2Species:Red MapleTree Size (DBH):5.5Tree location:Front of house, west side, closest to houseDescription of Tree:Planted under city suggested 20ft from another tree.  They are competing for nutrients. DBH >6inchesReason for Removal:Invasive/undesirable treeComments:Will remove and replace with a smaller native species.\n\t\t\n\t\t\n\t\t\tTree number:3Species:PecanTree Size (DBH):18Tree location:Backyard, westsideDescription of Tree:Hazardous pecan tree.  Regularly shedding large limbs. Reason for Removal:OtherComments:Neighbor has requested in writing to remove major limbs overhanging their property. Tree specialist recommends removing, as cutting major limbs may kill tree.  Will replace with another native species.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00550006042 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Red Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.380161135311,
+          33.726820253445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-000002",
+        "address": "2285 BELVEDERE AVE SW, ATLANTA GA 30311",
+        "status": "",
+        "date": "01/01/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.462757007167,
+          33.721182610246
+        ]
+      }
+    }
+  ]
+}
