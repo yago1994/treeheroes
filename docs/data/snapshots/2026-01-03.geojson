@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600014",
+        "address": "2130 MAIN ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "01/03/2026",
+        "description": null,
+        "owner": "Ashley Dopson",
+        "tree_dbh": "50",
+        "tree_location": "Front right of home",
+        "reason_removal": "Within 5 ft of occupied dwelling",
+        "tree_description": "American Elm tree dangerously close Reason for Removal:Within 5 ft of occupied dwellingComments:Tree is dangerously close to my daughters bedroom\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02530005032 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "American Elm Tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.474189365981,
+          33.813722978391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-000155",
+        "address": "1193 MARTIN L KING JR DR SW, ATLANTA GA 00000",
+        "status": "",
+        "date": "01/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.426419897356,
+          33.75356079974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600015",
+        "address": "486 PARKWAY DR NE, ATLANTA GA 30308",
+        "status": "ACA Pending",
+        "date": "01/03/2026",
+        "description": null,
+        "owner": "Mohleen Kang",
+        "tree_dbh": "29",
+        "tree_location": "Backyard",
+        "reason_removal": "Other",
+        "tree_description": "Pecan Tree in the backyardReason for Removal:OtherComments:The tree has been dropping limbs over last several months and these limbs have fallen on the car (only place on the property where a car can be parked) and sometimes close to occupants of the house. The larger limbs pose a hazard to the car but also the people living who use this area frequently. The tree was examined by arborist who noted crown dieback and recommended removal of tree for safety. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00470005013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pecan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.373290575689,
+          33.767540457742
+        ]
+      }
+    }
+  ]
+}
