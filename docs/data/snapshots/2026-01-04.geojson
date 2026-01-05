@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600017",
+        "address": "1193 MARTIN L KING JR DR SW, ATLANTA GA 00000",
+        "status": "ACA Pending",
+        "date": "01/04/2026",
+        "description": null,
+        "owner": "Edward G Slate LLC",
+        "tree_dbh": "14",
+        "tree_location": "Rear west side of home",
+        "reason_removal": "Dying tree",
+        "tree_description": "Tree #13 exhibits extensive vine infestation along the trunk and into the canopy, significantly increasing canopy weight and wind resistance. The upper canopy shows visible dieback, deadwood, and irregular branch distribution, indicating declining structural integrity. Vine loading masks defects and contributes to unpredictable limb failure. The tree is located immediately adjacent to the structure, and limb failure would directly impact the building and access areas. Based on vine-induced stress, canopy decline, and proximity to occupied space, the tree qualifies as hazardous under DDH standards.Reason for Removal:Dying treeComments:Tree #13 exhibits extensive vine infestation along the trunk and into the canopy, significantly increasing canopy weight and wind resistance. The upper canopy shows visible dieback, deadwood, and irregular branch distribution, indicating declining structural integrity. Vine loading masks defects and contributes to unpredictable limb failure. The tree is located immediately adjacent to the structure, and limb failure would directly impact the building and access areas. Based on vine-induced stress, canopy decline, and proximity to occupied space, the tree qualifies as hazardous under DDH standards.\n\t\t\n\t\t\n\t\t\tTree number:5Species:sweetgumTree Size (DBH):14Tree location:right side of drivewayDescription of Tree:Tree #5 is a mature hardwood with a tall, unbalanced vertical form and sparse upper canopy structure. Primary scaffold limbs extend laterally with limited taper and minimal secondary branching, creating increased lever-arm stress. The tree is located within falling distance of the adjacent structure and paved use areas. Due to its height, narrow crown architecture, and limb orientation, any limb or upper-stem failure would result in direct impact to the structure or areas of regular pedestrian use. These conditions constitute a hazardous tree under DDH criteria.Reason for Removal:Dying treeComments:Tree #5 is a mature hardwood with a tall, unbalanced vertical form and sparse upper canopy structure. Primary scaffold limbs extend laterally with limited taper and minimal secondary branching, creating increased lever-arm stress. The tree is located within falling distance of the adjacent structure and paved use areas. Due to its height, narrow crown architecture, and limb orientation, any limb or upper-stem failure would result in direct impact to the structure or areas of regular pedestrian use. These conditions constitute a hazardous tree under DDH criteria.\n\t\t\n\t\t\n\t\t\tTree number:15Species:OakTree Size (DBH):16Tree location:Rear west side of homeDescription of Tree:Tree #15 is a tall, slender hardwood with a narrow, suppressed crown and limited lateral branching. The tree is growing in close competition with adjacent mature trees, resulting in reduced crown development and increased height-to-diameter ratio. This form increases susceptibility to windthrow and upper-stem failure. The tree is within falling distance of nearby structures and fencing, and failure would pose a safety hazard to property and occupants. Due to form, competition stress, and proximity, the tree meets DDH criteria as a hazardous tree.Reason for Removal:Dying treeComments:Tree #15 is a tall, slender hardwood with a narrow, suppressed crown and limited lateral branching. The tree is growing in close competition with adjacent mature trees, resulting in reduced crown development and increased height-to-diameter ratio. This form increases susceptibility to windthrow and upper-stem failure. The tree is within falling distance of nearby structures and fencing, and failure would pose a safety hazard to property and occupants. Due to form, competition stress, and proximity, the tree meets DDH criteria as a hazardous tree.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01410003095 *Block:--Lot:--Subdivision:--",
+        "tree_number": "13",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.426419897356,
+          33.75356079974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600016",
+        "address": "245 BEVERLY RD NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "01/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "Right, front corner of house",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Cryptomeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.379177743738,
+          33.79668225944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600018",
+        "address": "1012 ALLENE AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "01/04/2026",
+        "description": null,
+        "owner": "GRIFFIN WILLIE E H HISTORICAL DISTRICT",
+        "tree_dbh": "35",
+        "tree_location": "Back right side",
+        "reason_removal": "Within 5 ft of occupied dwelling",
+        "tree_description": "Split trunk treeReason for Removal:Within 5 ft of occupied dwellingComments:Too close to foundation of home\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01060007025 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sweet gum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.413529378379,
+          33.727156071165
+        ]
+      }
+    }
+  ]
+}
