@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600032",
+        "address": "1221 CROSS CREEK PKWY NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "01/05/2026",
+        "description": null,
+        "owner": "CROSS CREEK CONDOMINIUM ASSOC INC",
+        "tree_dbh": "32",
+        "tree_location": "62 Lamsden Lane",
+        "reason_removal": "Diseased",
+        "tree_description": "32-in oak tree with Ganoderma at the base of tree located at 62 Lamsden LaneReason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0194  LL155 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412344158611,
+          33.814155076169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600022",
+        "address": "782 CHARLES ALLEN DR NE, ATLANTA GA 30308",
+        "status": "Accepted",
+        "date": "01/05/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "20",
+        "tree_location": "FRONT RIGHT CONRER OF HOUSE",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "PECAN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.372837229559,
+          33.776108263605
+        ]
+      }
+    }
+  ]
+}
