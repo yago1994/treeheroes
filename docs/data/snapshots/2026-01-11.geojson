@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600127",
+        "address": "436 HAROLD AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "01/11/2026",
+        "description": null,
+        "owner": "BRYAN MARY JO",
+        "tree_dbh": "12",
+        "tree_location": "Backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.330702062678,
+          33.766811913903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600128",
+        "address": "34 ROANOKE AVE NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "01/11/2026",
+        "description": null,
+        "owner": "Phil Good",
+        "tree_dbh": "12",
+        "tree_location": "tree is just left of the front of house facing roanoke av",
+        "reason_removal": "Diseased",
+        "tree_description": "Tree is leaning toward the houseReason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01020001027 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.384894241832,
+          33.819215846231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600126",
+        "address": "1247 AVONWOOD CIR SW, ATLANTA GA 00000",
+        "status": "ACA Pending",
+        "date": "01/11/2026",
+        "description": null,
+        "owner": "Skukalek Victor",
+        "tree_dbh": "24",
+        "tree_location": "Back Yard, Near dead pine",
+        "reason_removal": "Dying tree",
+        "tree_description": "Marked with a white XReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:OakTree Size (DBH):36Tree location:Back Yard, Near dead pineDescription of Tree:Marked a white XReason for Removal:Dying treeComments:Tree has been dropping large limbs.  It hangs over the home.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01520013005 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "PINE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.443641804773,
+          33.721577854966
+        ]
+      }
+    }
+  ]
+}
