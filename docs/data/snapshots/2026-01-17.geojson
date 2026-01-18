@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600219",
+        "address": "181 EUREKA DR NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "01/17/2026",
+        "description": null,
+        "owner": "LANIER CARYN P",
+        "tree_dbh": "36",
+        "tree_location": "Front",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "multiple ganoderma in root flareReason for Removal:Significant cavity/area of decay\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):24Tree location:RightDescription of Tree:significant lean towards home/heavingReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01020002032 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.381227149683,
+          33.820676254386
+        ]
+      }
+    }
+  ]
+}
