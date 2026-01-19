@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600220",
+        "address": "918 GLENBROOK DR NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "01/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "Right side of driveway",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Leyland Cypress - 18\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 18\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:2Species:Leyland CypressTree Size (DBH):9Tree location:Right side of drivewayDescription of Tree:Leyland Cypress - 9\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 9\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:3Species:Leyland CypressTree Size (DBH):12Tree location:Right side of drivewayDescription of Tree:Leyland Cypress - 12\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 12\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:4Species:Leyland cypressTree Size (DBH):18Tree location:Right side of drivewayDescription of Tree:Leyland Cypress - 18\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 18\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:5Species:Leyland cypressTree Size (DBH):9Tree location:right side of drivewayDescription of Tree:Leyland Cypress - 9\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 9\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:6Species:Leyland CypressTree Size (DBH):19Tree location:Right side of drivewayDescription of Tree:Leyland Cypress - 19\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 19\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:7Species:Leyland CypressTree Size (DBH):17Tree location:Right side of drivewayDescription of Tree:Leyland Cypress - 17\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 17\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\t\n\t\t\tTree number:8Species:Leland CypressTree Size (DBH):15Tree location:Right side of drivewayDescription of Tree:Leyland Cypress - 15\", all in a row, right side of driveway, declining, at life span, undesirable speciesReason for Removal:Invasive/undesirable treeComments:Leyland Cypress - 15\", all in a row, right side of driveway, declining, at life span, undesirable species\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01540007071 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Leyland Cypress"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.418034214613,
+          33.814967614848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600221",
+        "address": "835 ARGONNE AVE NE, ATLANTA GA 30308",
+        "status": "ACA Pending",
+        "date": "01/18/2026",
+        "description": null,
+        "owner": "BOWLING MATTHEW D",
+        "tree_dbh": "22",
+        "tree_location": "Front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Maple 22\", Front yard, DeadReason for Removal:Dead treeComments:Maple 22\", Front yard, Dead\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00480001060 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377597865761,
+          33.777323931844
+        ]
+      }
+    }
+  ]
+}
