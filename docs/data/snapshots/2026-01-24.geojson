@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600315",
+        "address": "500 MEAD ST SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "01/24/2026",
+        "description": null,
+        "owner": "WARREN TINA L",
+        "tree_dbh": "15",
+        "tree_location": "Rear left",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Mushrooms at baseReason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:2Species:MapleTree Size (DBH):8Tree location:Right sideDescription of Tree:SplitReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00420003084 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.370785817017,
+          33.727529413633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600316",
+        "address": "511 TERRACE AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "01/24/2026",
+        "description": null,
+        "owner": "DESPARD LAURA M",
+        "tree_dbh": "84",
+        "tree_location": "Backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.335899776482,
+          33.769072873077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600317",
+        "address": "2101 CASCADE RD SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "01/24/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "0",
+        "tree_location": "Back Yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Dying/Dead, invasive, and within 5 feet of dwelling, tree heavily surrounded by kudzu and vines.Reason for Removal:Dying treeComments:Re uploaded (correct) picture of our 3rd tree referring to our first application. Tree Size/Species Unknown.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01690001003 *Block:--Lot:--Subdivision:--",
+        "tree_number": "3",
+        "species": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.456629768332,
+          33.721618226685
+        ]
+      }
+    }
+  ]
+}
