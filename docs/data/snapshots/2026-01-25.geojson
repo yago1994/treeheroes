@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600318",
+        "address": "134 WYMAN ST NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "01/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "37",
+        "tree_location": "Left Back",
+        "reason_removal": "Other",
+        "tree_description": "Tree #1 - DDH  37” – Tree is in Dying Condition.Reason for Removal:Dying treeComments:Tree #1 - DDH  37” – Tree is in Dying Condition. Pealing all over.\n\t\t\n\t\t\n\t\t\tTree number:2Species:OakTree Size (DBH):28Tree location:Mid BackDescription of Tree:28” Oak, should Get DDH  BECOUSE TREE 1 and 3  are Both DDH, he can't Survive\nalso in Major asymmetry.",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.333141001471,
+          33.749779324895
+        ]
+      }
+    }
+  ]
+}
