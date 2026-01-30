@@ -1545,13 +1545,13 @@
         "status": "ACA Pending",
         "date": "01/29/2026",
         "description": null,
-        "owner": "ENTELES PHILIP OR HICKS DIANA M",
-        "tree_dbh": "12",
-        "tree_location": "rear center",
-        "reason_removal": "Other",
-        "tree_description": "Client would like to remove a 12in Red Maple and replace with a Longleaf MagnoliaReason for Removal:OtherComments:Client would like to remove a 12in Red Maple and replace with a Longleaf Magnolia\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 211 04 098 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Red Maple"
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -1569,13 +1569,13 @@
         "status": null,
         "date": "01/29/2026",
         "description": null,
-        "owner": "BRAD ANDERSON",
-        "tree_dbh": "12",
-        "tree_location": "Front",
-        "reason_removal": "Diseased",
-        "tree_description": "Tree are in decline, we have growth regulated them back in 2024 as well as other Magnolias in the property. These 3 did not take in the product and have continued to decline Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:MagnoliaTree Size (DBH):12Tree location:In panhandle along W Pine ValleyDescription of Tree:Tree are in decline, we have growth regulated them back in 2024 as well as other Magnolias in the property. These 3 did not take in the product and have continued to decline Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:MagnoliaTree Size (DBH):10Tree location:In panhandle along W Pine ValleyDescription of Tree:Tree are in decline, we have growth regulated them back in 2024 as well as other Magnolias in the property. These 3 did not take in the product and have continued to decline Reason for Removal:Dying treeComments:Twin 10*10 (DBH)\n\t\t\n\t\t\n\t\t\tTree number:4Species:pineTree Size (DBH):24Tree location:FrontDescription of Tree:Large canker 2/3 the way up caused by old breakout Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01420001068 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Magnolia"
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -1617,13 +1617,13 @@
         "status": "ACA Pending",
         "date": "01/29/2026",
         "description": null,
-        "owner": "TAYLOR E DIXON AKA MCKAIN ANN ELIZABETH",
-        "tree_dbh": "40",
-        "tree_location": "Right/ middle/ rear",
-        "reason_removal": "Other",
-        "tree_description": "None Reason for Removal:OtherComments:The subject tree exhibits a large, vertically oriented basal mechanical wound extending through the outer bark and into underlying woody tissues. The wound margins show evidence of long-term exposure, with early decay development visible along the lower and interior portions of the injury. This defect appears chronic and indicative of prior mechanical impact rather than recent damage.",
-        "tree_number": "1",
-        "species": "White Oak"
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -1641,13 +1641,13 @@
         "status": "Accepted",
         "date": "01/29/2026",
         "description": null,
-        "owner": "BAUGH JACQUELINE H",
-        "tree_dbh": "37",
-        "tree_location": "Righjt rear of dwelling",
-        "reason_removal": "Other",
-        "tree_description": "NoneReason for Removal:OtherComments:This is a 37-inch Beech located in the right rear of the dwelling at 1880 Wellbourne, Atlanta. The tree exhibits a pronounced co-dominant stem structure originating at the basal area, with the stems diverging from a common base. An extended zone of included bark is present and measures approximately nine feet in vertical length from the base upward. Evidence that the inclusion extends to the basal area is most apparent on the rear, downhill-facing side of the tree, where the seam is more clearly expressed.",
-        "tree_number": "1",
-        "species": "Beech"
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -1665,19 +1665,163 @@
         "status": "Accepted",
         "date": "01/29/2026",
         "description": null,
-        "owner": "Franklin Johnson",
-        "tree_dbh": "47",
-        "tree_location": "Rear Yard",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "The subject pine exhibits advanced structural failure and internal decay. There is a large open cavity extending vertically along the trunk, with visible loss of structural wood and evidence of advanced internal rot. The cavity is extensive in size, penetrates deeply into the trunk, and significantly compromises the tree’s load-bearing capacity.",
-        "tree_number": "1",
-        "species": "Loblolly Pine"
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -84.362643261264,
           33.796127184804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600387",
+        "address": "1947 BADER AVE SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "01/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.414283280766,
+          33.701940903316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-005847",
+        "address": "1976 SPINK ST NW, ATLANTA GA 30318",
+        "status": null,
+        "date": "01/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.467574499342,
+          33.809199108561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600398",
+        "address": "1262 REEDER CIR NE, ATLANTA GA 00000",
+        "status": "ACA Pending",
+        "date": "01/29/2026",
+        "description": null,
+        "owner": "MAYER HELEN L",
+        "tree_dbh": "15",
+        "tree_location": "back left",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "small hardwood in a location leaning over house. Has been trimmed away from home and roof many times. in a location in between 2 fences and on top of retaining wall. Reason for Removal:Invasive/undesirable treeComments:small hardwood in a location leaning over house. Has been trimmed away from home and roof many times. in a location in between 2 fences and on top of retaining wall. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:18 055 13 071 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "hardwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.346304887967,
+          33.793516996487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600388",
+        "address": "4372 GLENGARY DR NE, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "01/29/2026",
+        "description": null,
+        "owner": "Kristin Rowe",
+        "tree_dbh": "15",
+        "tree_location": "Rear of backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": "DeadReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:SweetgumTree Size (DBH):19Tree location:Rear of backyardDescription of Tree:30% of dead materialReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00420006019 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363433148383,
+          33.873862175479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600389",
+        "address": "3151 RILMAN RD NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "01/29/2026",
+        "description": null,
+        "owner": "JAN IRWIN",
+        "tree_dbh": "22",
+        "tree_location": "Closest to the home",
+        "reason_removal": "Other",
+        "tree_description": "Has an unbalanced canopy and is causing significant damage to the front walkway causing a tripping hazard. Only remediation for that is pouring a new walkway and that would adversely effect the crz of the tree Reason for Removal:Other\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):24Tree location:Front centerDescription of Tree:Has a canker 70' up at the first union on top of the swirl in the trunk. Also further up the canopy hard to depict in a photo a canker just below the main leadReason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:3Species:pineTree Size (DBH):14Tree location:Over roadwayDescription of Tree:Tree is leaning over the roadway with a lean greater than 20%Reason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01820002057 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.419828219843,
+          33.841573815706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600390",
+        "address": "3095 ARDEN RD NW, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "01/29/2026",
+        "description": null,
+        "owner": "BRAD ANDERSON",
+        "tree_dbh": "12",
+        "tree_location": "Front",
+        "reason_removal": "Diseased",
+        "tree_description": "Tree are in decline, we have growth regulated them back in 2024 as well as other Magnolias in the property. These 3 did not take in the product and have continued to decline Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:MagnoliaTree Size (DBH):12Tree location:In panhandle along W Pine ValleyDescription of Tree:Tree are in decline, we have growth regulated them back in 2024 as well as other Magnolias in the property. These 3 did not take in the product and have continued to decline Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:MagnoliaTree Size (DBH):10Tree location:In panhandle along W Pine ValleyDescription of Tree:Tree are in decline, we have growth regulated them back in 2024 as well as other Magnolias in the property. These 3 did not take in the product and have continued to decline Reason for Removal:Dying treeComments:Twin 10*10 (DBH)\n\t\t\n\t\t\n\t\t\tTree number:4Species:pineTree Size (DBH):24Tree location:FrontDescription of Tree:Large canker 2/3 the way up caused by old breakout Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01420001068 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Magnolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40208282807,
+          33.839840007511
         ]
       }
     },
