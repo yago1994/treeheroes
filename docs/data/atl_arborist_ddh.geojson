@@ -28,30 +28,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202600318",
-        "address": "134 WYMAN ST NE, ATLANTA GA 30317",
-        "status": "ACA Pending",
-        "date": "01/25/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "37",
-        "tree_location": "Left Back",
-        "reason_removal": "Other",
-        "tree_description": "Tree #1 - DDH  37” – Tree is in Dying Condition.Reason for Removal:Dying treeComments:Tree #1 - DDH  37” – Tree is in Dying Condition. Pealing all over.\n\t\t\n\t\t\n\t\t\tTree number:2Species:OakTree Size (DBH):28Tree location:Mid BackDescription of Tree:28” Oak, should Get DDH  BECOUSE TREE 1 and 3  are Both DDH, he can't Survive\nalso in Major asymmetry.",
-        "tree_number": "1",
-        "species": "Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.333141001471,
-          33.749779324895
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202600328",
         "address": "1849 WILDWOOD PL NE, ATLANTA GA 30324",
         "status": "ACA Pending",
@@ -2326,6 +2302,30 @@
         "coordinates": [
           -84.466859751001,
           33.799900891488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600421",
+        "address": "88 WADDELL ST NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "01/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "backyard",
+        "reason_removal": "Dead tree",
+        "tree_description": "The tree is falling down and deteriorating in our back yard.Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00190011025 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "unknonw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363340944789,
+          33.75648988645
         ]
       }
     }
