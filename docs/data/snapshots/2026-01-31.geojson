@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600421",
+        "address": "88 WADDELL ST NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "01/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "backyard",
+        "reason_removal": "Dead tree",
+        "tree_description": "The tree is falling down and deteriorating in our back yard.Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00190011025 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "unknonw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363340944789,
+          33.75648988645
+        ]
+      }
+    }
+  ]
+}
