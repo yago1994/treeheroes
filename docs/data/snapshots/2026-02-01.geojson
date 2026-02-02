@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600423",
+        "address": "3463 ROXBORO RD NE, ATLANTA GA 30326",
+        "status": "ACA Pending",
+        "date": "02/01/2026",
+        "description": null,
+        "owner": "Green Implementation Group",
+        "tree_dbh": "10",
+        "tree_location": "On the eastern boundary, about 85' from the street",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "4",
+        "species": "Chinaberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.355076225133,
+          33.849557417416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600422",
+        "address": "640 BERNE ST SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "02/01/2026",
+        "description": null,
+        "owner": "brittany weiner",
+        "tree_dbh": "12",
+        "tree_location": "Located at the midpoint of back property line.",
+        "reason_removal": "Dying tree",
+        "tree_description": "12\" tree located next to back of property line. Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00220001059 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Unsure"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366150024428,
+          33.736847021284
+        ]
+      }
+    }
+  ]
+}
