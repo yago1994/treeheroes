@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600649",
+        "address": "94 GLENN ST SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "02/14/2026",
+        "description": null,
+        "owner": "Clinton Azotea",
+        "tree_dbh": "18181212",
+        "tree_location": "This\ttree\tis\tlocated\ton\tthe\ton\tthe\tnorthwest\tcorner\tof\tthe\thouse.\tThe\ttree\tis\tsurrounded\tby\t fencing\ton\tthree\tsides.",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "he\ttree\tin\tquestion\tappears\tto\tbe\tin\tvery\tpoor\thealth\toverall\tand\tis\tlikely\thazardous.",
+        "tree_number": "7",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.384769018169,
+          33.737962912776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600648",
+        "address": "460 ROBINSON AVE SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "02/14/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "36",
+        "tree_location": "Back side of house",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Hardwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.371752300991,
+          33.728455999041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-009508",
+        "address": "460 ROBINSON AVE SE, ATLANTA GA 30315",
+        "status": "",
+        "date": "02/14/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.371752300991,
+          33.728455999041
+        ]
+      }
+    }
+  ]
+}
