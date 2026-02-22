@@ -1929,13 +1929,13 @@
         "status": "ACA Pending",
         "date": "02/21/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Zachary Cloud",
+        "tree_dbh": "18",
+        "tree_location": "left of driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "Tree is decliningReason for Removal:Dying treeComments:Numerous dead, brittle-looking branches with no visible buds.",
+        "tree_number": "1",
+        "species": "Hickory"
       },
       "geometry": {
         "type": "Point",
