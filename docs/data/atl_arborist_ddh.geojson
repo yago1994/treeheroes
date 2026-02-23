@@ -1594,12 +1594,12 @@
         "date": "02/22/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "tree_dbh": "34",
+        "tree_location": "Backyard",
+        "reason_removal": "Diseased",
         "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_number": "1",
+        "species": "Leyland cypress (Cupressocyparis leylandii)"
       },
       "geometry": {
         "type": "Point",
