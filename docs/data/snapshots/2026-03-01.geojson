@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-012928",
+        "address": "225 EAST SIMON TER NW, ATLANTA GA 00000",
+        "status": "",
+        "date": "03/01/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.474548242331,
+          33.761356264967
+        ]
+      }
+    }
+  ]
+}
