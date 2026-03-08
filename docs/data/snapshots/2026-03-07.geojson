@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600963",
+        "address": "2444 FERNLEAF CT NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "03/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "patio",
+        "reason_removal": "Other",
+        "tree_description": "leaning tree with flag tree branchesReason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02200006019 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.439810960346,
+          33.821389575194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600965",
+        "address": "3207 PACES FERRY PL NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "03/07/2026",
+        "description": null,
+        "owner": "PACES FERRY ASSOCIATES LLC",
+        "tree_dbh": "13",
+        "tree_location": "in-between building units.",
+        "reason_removal": "Dying tree",
+        "tree_description": "dying wild cherry with decay on base of trunk. Cherry is also leaning and Reason for Removal:Dying treeComments:Marked with orange paint.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00990002118 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Wild Cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.381865787829,
+          33.841438481224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600964",
+        "address": "2577 RIDGEWOOD TER NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "03/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "36",
+        "tree_location": "FRONT RIGHT HOUSE",
+        "reason_removal": "Other",
+        "tree_description": "GROWING INTO FOUNDATIONReason for Removal:OtherComments:TREE IS GROWING IN THE BASEMENT\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02310001003 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "POPLAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44802256878,
+          33.825048543223
+        ]
+      }
+    }
+  ]
+}
