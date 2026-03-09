@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-014712",
+        "address": "1005 ARDEN AVE SW, ATLANTA GA 30310",
+        "status": "",
+        "date": "03/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.421162994022,
+          33.717092690211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600968",
+        "address": "1867 OAKMONT DR NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "03/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "23",
+        "tree_location": "Right property line",
+        "reason_removal": "Dying tree",
+        "tree_description": "Right side property line boundary tree grown through chain link fenceReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01740011030 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "HW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44850325898,
+          33.758855990179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600966",
+        "address": "1005 ARDEN AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "03/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "20",
+        "tree_location": "rear yard on left side property line near the edge of the propsed driveway.",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "20 inch hardwood pecan tree.Reason for Removal:Uncorrectable defectComments:Remove as DDH. The lean is approximately 30 degrees over the proposed driveway.  \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01200005044 *Block:--Lot:--Subdivision:--",
+        "tree_number": "20",
+        "species": "Pecan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.421162994022,
+          33.717092690211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600967",
+        "address": "1093 LANIER BLVD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "03/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.351576540949,
+          33.784377315245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600970",
+        "address": "1317 PEACHTREE BATTLE AVE NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "03/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.430849236295,
+          33.825871616453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202600969",
+        "address": "262 PINELAND RD NW, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "03/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395844567326,
+          33.865189272457
+        ]
+      }
+    }
+  ]
+}
