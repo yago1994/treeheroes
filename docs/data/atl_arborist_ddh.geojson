@@ -2524,30 +2524,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-015923",
-        "address": "823 Fairburn Road Northwest, United States",
-        "status": null,
-        "date": "03/11/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.500305454244,
-          33.778873197675
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "26TMP-015886",
         "address": "2395 MAIN ST NW, ATLANTA GA 30318",
         "status": null,
@@ -2625,13 +2601,13 @@
         "status": "ACA Pending",
         "date": "03/11/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Andrew Bruner",
+        "tree_dbh": "36",
+        "tree_location": "in the backyard",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Cut and remove a damaged/hollow oak tree in the backyard. Reason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00590003037 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Quercus"
       },
       "geometry": {
         "type": "Point",
@@ -2649,13 +2625,13 @@
         "status": "ACA Pending",
         "date": "03/11/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Kristin Dorage",
+        "tree_dbh": "12",
+        "tree_location": "right side driveway, between the last Hemlock on the right and the creek",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "significant stem canker along main stem, dieback/decline exceeding 1/3 total canopyReason for Removal:Uncorrectable defectComments:Ribbon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 176 02 066 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Boxelder"
       },
       "geometry": {
         "type": "Point",
@@ -2673,13 +2649,13 @@
         "status": "ACA Pending",
         "date": "03/11/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "LEFCO JANE D",
+        "tree_dbh": "20",
+        "tree_location": "REAR",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree exhibits an approximate 15–20° lean toward the rear of the dwelling, directly over a primary target structure. A large area of visible decay is present in the mid-section of the trunk, indicating structural deterioration and increased potential for failure. Both pine trees are located less than two (2) feet from the structural foundation of the main dwelling, measured from the base of the trunk. Due to the extreme proximity to the structure, the trees present a potential hazard and create a severely limited fall zone in the event of structural failure. Trees are located within two (2) feet of the structural foundation of the dwelling in accordance with the City of Atlanta Tree Protection Ordinance §158-101(i).Reason for Removal:Significant cavity/area of decay\n\t\t\n\t\t\n\t\t\tTree number:2Species:PINETree Size (DBH):20Tree location:REARDescription of Tree:**Tree 2** exhibits an approximate 15–20° lean toward the rear of the dwelling, directly over a primary target structure. Both pine trees are located less than two (2) feet from the structural foundation of the main dwelling, measured from the base of the trunk. Due to the extreme proximity to the structure, the trees present a potential hazard and create a severely limited fall zone in the event of structural failure. Trees are located within two (2) feet of the structural foundation of the dwelling in accordance with the City of Atlanta Tree Protection Ordinance §158-101(i).Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:3Species:MAPLETree Size (DBH):14Tree location:REARDescription of Tree:**Tree 3** exhibits an approximate 15–20° lean toward the rear of the dwelling, directly over a primary target structure. Due to the extreme proximity to the structure, the trees present a potential hazard and create a severely limited fall zone in the event of structural failure.Reason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01610004007 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "PINE"
       },
       "geometry": {
         "type": "Point",
