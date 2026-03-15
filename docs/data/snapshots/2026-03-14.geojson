@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601117",
+        "address": "4585 CLUB DR NE, ATLANTA GA 30319",
+        "status": "ACA Pending",
+        "date": "03/14/2026",
+        "description": null,
+        "owner": "Sven Hinrichsen",
+        "tree_dbh": "23",
+        "tree_location": "Front right (from street)",
+        "reason_removal": "Dying tree",
+        "tree_description": "Pine has a large crack half way up..Reason for Removal:Significant cavity/area of decayComments:Significant concern of it breaking\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):29Tree location:Front right (from street)Description of Tree:Pine with large limb growth.Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:3Species:MapleTree Size (DBH):21Tree location:In front of garageDescription of Tree:Tree has significant overhang towards the garage and playgroundReason for Removal:Uncorrectable defectComments:Tree poses significant risk of damaging or injuring. \n\t\t\n\t\t\n\t\t\tTree number:4Species:PineTree Size (DBH):21Tree location:Front left (from street)Description of Tree:Tree has an early onset of what appears to be a disease and is hazardous as it is leaning towards the house.Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:5Species:MagnoliaTree Size (DBH):9Tree location:Right side of houseDescription of Tree:Magnolia appears to be in shock and doesn't look healthyReason for Removal:Dying treeComments:Hoping to not have to cut this tree down, but if it is dying, then we rather take care of it now instead of waiting and it potentially falling on our neighbors or our own house.\n\t\t\n\t\t\n\t\t\tTree number:6Species:Sweet GumTree Size (DBH):12Tree location:Front right (from street)Description of Tree:Tree has significant vine growthReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00120005041 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.351410647481,
+          33.876994998818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601116",
+        "address": "1011 LINDBERGH DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "03/14/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354631205531,
+          33.81936040632
+        ]
+      }
+    }
+  ]
+}
