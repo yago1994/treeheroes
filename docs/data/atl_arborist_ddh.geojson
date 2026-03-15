@@ -28,150 +28,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-014712",
-        "address": "1005 ARDEN AVE SW, ATLANTA GA 30310",
-        "status": null,
-        "date": "03/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.421162994022,
-          33.717092690211
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202600968",
-        "address": "1867 OAKMONT DR NW, ATLANTA GA 30314",
-        "status": "ACA Pending",
-        "date": "03/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "23",
-        "tree_location": "Right property line",
-        "reason_removal": "Dying tree",
-        "tree_description": "Right side property line boundary tree grown through chain link fenceReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01740011030 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "HW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.44850325898,
-          33.758855990179
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202600966",
-        "address": "1005 ARDEN AVE SW, ATLANTA GA 30310",
-        "status": "ACA Pending",
-        "date": "03/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "20",
-        "tree_location": "rear yard on left side property line near the edge of the propsed driveway.",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "20 inch hardwood pecan tree.Reason for Removal:Uncorrectable defectComments:Remove as DDH. The lean is approximately 30 degrees over the proposed driveway.  \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01200005044 *Block:--Lot:--Subdivision:--",
-        "tree_number": "20",
-        "species": "Pecan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.421162994022,
-          33.717092690211
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202600967",
-        "address": "1093 LANIER BLVD NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "03/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.351576540949,
-          33.784377315245
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202600970",
-        "address": "1317 PEACHTREE BATTLE AVE NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "03/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.430849236295,
-          33.825871616453
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202600969",
-        "address": "262 PINELAND RD NW, ATLANTA GA 30342",
-        "status": "ACA Pending",
-        "date": "03/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.395844567326,
-          33.865189272457
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202600979",
         "address": "3652 REMBRANDT RD NW, ATLANTA GA 30327",
         "status": "ACA Pending",
@@ -3454,6 +3310,54 @@
         "coordinates": [
           -84.373845558643,
           33.803991880298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601117",
+        "address": "4585 CLUB DR NE, ATLANTA GA 30319",
+        "status": "ACA Pending",
+        "date": "03/14/2026",
+        "description": null,
+        "owner": "Sven Hinrichsen",
+        "tree_dbh": "23",
+        "tree_location": "Front right (from street)",
+        "reason_removal": "Dying tree",
+        "tree_description": "Pine has a large crack half way up..Reason for Removal:Significant cavity/area of decayComments:Significant concern of it breaking\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):29Tree location:Front right (from street)Description of Tree:Pine with large limb growth.Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:3Species:MapleTree Size (DBH):21Tree location:In front of garageDescription of Tree:Tree has significant overhang towards the garage and playgroundReason for Removal:Uncorrectable defectComments:Tree poses significant risk of damaging or injuring. \n\t\t\n\t\t\n\t\t\tTree number:4Species:PineTree Size (DBH):21Tree location:Front left (from street)Description of Tree:Tree has an early onset of what appears to be a disease and is hazardous as it is leaning towards the house.Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:5Species:MagnoliaTree Size (DBH):9Tree location:Right side of houseDescription of Tree:Magnolia appears to be in shock and doesn't look healthyReason for Removal:Dying treeComments:Hoping to not have to cut this tree down, but if it is dying, then we rather take care of it now instead of waiting and it potentially falling on our neighbors or our own house.\n\t\t\n\t\t\n\t\t\tTree number:6Species:Sweet GumTree Size (DBH):12Tree location:Front right (from street)Description of Tree:Tree has significant vine growthReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00120005041 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.351410647481,
+          33.876994998818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601116",
+        "address": "1011 LINDBERGH DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "03/14/2026",
+        "description": null,
+        "owner": "Haocheng Gu",
+        "tree_dbh": "60",
+        "tree_location": "Front yard on the east side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": null,
+        "tree_number": "81",
+        "species": "Pinus taeda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354631205531,
+          33.81936040632
         ]
       }
     }
