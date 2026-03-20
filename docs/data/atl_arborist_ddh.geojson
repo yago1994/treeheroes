@@ -2242,12 +2242,12 @@
         "date": "03/19/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "30",
-        "tree_location": "Front Yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "Tree has lots of decay and is leaning directly over the houseReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 02440002026 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Pecan"
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -2313,13 +2313,13 @@
         "status": "Accepted",
         "date": "03/19/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "SETO WILLIAM R",
+        "tree_dbh": "22",
+        "tree_location": "Front yard, center, next to walk way and another tree.",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "22\", Beech tree.Reason for Removal:Invasive/undesirable treeComments:Tree is marked with orange dot. Reason for removal request is, the tree is too close to house and other trees. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00630008005 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Beech"
       },
       "geometry": {
         "type": "Point",
