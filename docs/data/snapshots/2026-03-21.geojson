@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601229",
+        "address": "705 COOLEDGE AVE NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "03/21/2026",
+        "description": null,
+        "owner": "Doug Tarkington",
+        "tree_dbh": "31",
+        "tree_location": "Backyard far left southeast corner",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Pecan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.365066609511,
+          33.782582308405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601227",
+        "address": "376 PINECREST RD NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "03/21/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "29",
+        "tree_location": "right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree is 5' from foundation with a compromised root system.  Most of the weight and limbs are directly over the roof of the home with an unbalanced crown. Reason for Removal:Uncorrectable defectComments:This tree has had several branch failures with roof damage.  A new roof was just put on the home. Additional pruning will not eliminate additional property damage.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00640002052 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Yellow-poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375226116894,
+          33.868651631092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601226",
+        "address": "1943 SUMTER ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "03/21/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.450915346648,
+          33.814829881422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601228",
+        "address": "600 FALLS DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "03/21/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.503263808842,
+          33.743430950758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601230",
+        "address": "1566 AVON AVE SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "03/21/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.439195990868,
+          33.722441277554
+        ]
+      }
+    }
+  ]
+}
