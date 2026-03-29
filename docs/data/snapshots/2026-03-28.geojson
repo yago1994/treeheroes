@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601350",
+        "address": "2250 BERNARD RD NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "03/28/2026",
+        "description": null,
+        "owner": "Dezso Gavaller",
+        "tree_dbh": "8",
+        "tree_location": "Middle left-hand side of property",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Tree is dried out and dying. Leaning over with no leaves on branchesReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:HardwoodTree Size (DBH):9Tree location:Back left-hand side of propertyDescription of Tree:Top of the tree has snapped off and fallen on groundReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:HardwoodTree Size (DBH):9Tree location:Back left-hand side of propertyDescription of Tree:Top of tree has broken off. Tree has no leaves and is visibly dyingReason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:4Species:HardwoodTree Size (DBH):10Tree location:Middle left-hand side of propertyDescription of Tree:Tree is connected to tree #5. Visible structural cracks in the treeReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:5Species:HardwoodTree Size (DBH):6Tree location:Middle left-hand side of the propertyDescription of Tree:Connected to tree #4. Visible structural cracks in the treeReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:6Species:HardwoodTree Size (DBH):9Tree location:Middle left-hand side of propertyDescription of Tree:Rotted hole in the base of the trunk. Tree is dried out and dyingReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0253  LL029 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hardwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.474337608951,
+          33.818612600183
+        ]
+      }
+    }
+  ]
+}
