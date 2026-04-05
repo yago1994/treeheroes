@@ -2808,6 +2808,54 @@
           33.755194948659
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601469",
+        "address": "1754 JOHNSON RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "04/04/2026",
+        "description": null,
+        "owner": "Ryan Johnston",
+        "tree_dbh": "18",
+        "tree_location": "Next to garage",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "From arborist - 18 in river birch, co-dominant split, has small maple growing in split, 5 feet (or less) from structureReason for Removal:Invasive/undesirable treeComments:Tree's proximity to structure is a concern and many trees / limbs have gone down on our property recently (had to repair main house from different tree). Garage floor disrupted likely by tree roots. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:18 056 01 085 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "River birch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.342605624935,
+          33.80147683125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601468",
+        "address": "2900 CASTLEWOOD DR NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "04/04/2026",
+        "description": null,
+        "owner": "PHILLIP AND JOANNE ISAACS",
+        "tree_dbh": "27",
+        "tree_location": "backyard, about 10 behind tree 1",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "likely oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409954729579,
+          33.834804899149
+        ]
+      }
     }
   ]
 }
