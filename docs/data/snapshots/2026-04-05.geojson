@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601470",
+        "address": "919 WALKER AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "04/05/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "backyard",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.359560546062,
+          33.729126509053
+        ]
+      }
+    }
+  ]
+}
