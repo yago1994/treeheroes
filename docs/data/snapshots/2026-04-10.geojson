@@ -1,0 +1,317 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601577",
+        "address": "582 FORMWALT ST SW, ATLANTA GA 30312",
+        "status": "Issued",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": "GALLMAN ADA",
+        "tree_dbh": "1",
+        "tree_location": "582 Formwalt St SW",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "The tree has developed a significant and worsening lean over the past coupleweeks, and the root system appears to be compromised, with visible loosening at the base. Based on its current condition, I am concerned the tree is at imminent risk of failure.",
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395724561705,
+          33.738755655763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601572",
+        "address": "587 UNIVERSITY PL NW, ATLANTA GA 30314",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.407010662872,
+          33.755540860672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601576",
+        "address": "2788 DALE CREEK DR NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.478470869864,
+          33.765506637388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601569",
+        "address": "1300 CASCADE FALLS DR SW, ATLANTA GA 30311",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.492723741447,
+          33.720535433849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601578",
+        "address": "3365 HABERSHAM RD NW, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.393810042731,
+          33.846933267934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601570",
+        "address": "2627 BIRCHWOOD DR NE, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.374231759795,
+          33.826448865065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601587",
+        "address": "50 PALISADES RD NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.390350062526,
+          33.805550507813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601585",
+        "address": "337 DEERING RD NW, ATLANTA GA 30309",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.399283967762,
+          33.796227746687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601575",
+        "address": "4266 EXETER CLOSE NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.406376534397,
+          33.870556538363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601571",
+        "address": "698 IRA ST SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.399889001063,
+          33.735826766276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601574",
+        "address": "868 DURANT PL NE, ATLANTA GA 30308",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375312850557,
+          33.778187783224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601573",
+        "address": "481 HARDENDORF AVE NE, ATLANTA GA 30307",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.331767293499,
+          33.767423345559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601580",
+        "address": "616 WAYNES CT SE, ATLANTA GA 30354",
+        "status": "Accepted",
+        "date": "04/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.368613832494,
+          33.672041735238
+        ]
+      }
+    }
+  ]
+}
