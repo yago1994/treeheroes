@@ -52,30 +52,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202601470",
-        "address": "919 WALKER AVE SE, ATLANTA GA 30316",
-        "status": "ACA Pending",
-        "date": "04/05/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "18",
-        "tree_location": "backyard",
-        "reason_removal": "Dead tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "pine"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.359560546062,
-          33.729126509053
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202601501",
         "address": "1511 MOORES MILL RD NW, REAR, ATLANTA GA 30327",
         "status": "ACA Pending",
@@ -2830,6 +2806,54 @@
         "coordinates": [
           -84.368613832494,
           33.672041735238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601589",
+        "address": "1860 KING ALFRED DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "04/11/2026",
+        "description": null,
+        "owner": "HARRIS PATRICIA R",
+        "tree_dbh": "18",
+        "tree_location": "backyard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "tall and leaning Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00070004040 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512514714216,
+          33.704494189438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601588",
+        "address": "2809 TUPELO ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "04/11/2026",
+        "description": null,
+        "owner": "JOHNSON JOE L",
+        "tree_dbh": "27",
+        "tree_location": "Backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": "The Pine tree has a DBH of 27in. is a dying tree. The foliage is low and contains a lot of broken branches. Alongside with thick vines growing onto the trunk. The targets in this area are the residents and the area of the home.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 203 03 136 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.294921111429,
+          33.748821710165
         ]
       }
     }
