@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601589",
+        "address": "1860 KING ALFRED DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "04/11/2026",
+        "description": null,
+        "owner": "HARRIS PATRICIA R",
+        "tree_dbh": "18",
+        "tree_location": "backyard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "tall and leaning Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00070004040 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512514714216,
+          33.704494189438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601588",
+        "address": "2809 TUPELO ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "04/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.294921111429,
+          33.748821710165
+        ]
+      }
+    }
+  ]
+}
