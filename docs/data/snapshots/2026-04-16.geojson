@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601685",
+        "address": "251 WEST PACES FERRY RD NW, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "04/16/2026",
+        "description": null,
+        "owner": "MOSS DAN JR",
+        "tree_dbh": "20",
+        "tree_location": "front yard",
+        "reason_removal": "Other",
+        "tree_description": "Picture of treeReason for Removal:OtherComments:necrotic canopy >30% \n\t\t\n\t\t\n\t\t\tTree number:2Species:ChestnutTree Size (DBH):20Tree location:front yard Description of Tree:Picture of treeReason for Removal:OtherComments:dying, necrotic canopy > 30% trunk lean > 20 degrees\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01140001024 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Chestnut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.394185946335,
+          33.844148521395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601686",
+        "address": "289 9TH ST NE, ATLANTA GA 30309",
+        "status": "Accepted",
+        "date": "04/16/2026",
+        "description": null,
+        "owner": "SEMRAU MICHAEL J",
+        "tree_dbh": "19",
+        "tree_location": "right front",
+        "reason_removal": "Diseased",
+        "tree_description": "Large cavity in trunkReason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01060012061 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37788658225,
+          33.780509262851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601692",
+        "address": "4240 NORTHSIDE PKWY NW, COMMON, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "04/16/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.447022586072,
+          33.86399104306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601702",
+        "address": "380 OLIVER ST NW, ATLANTA GA 30314",
+        "status": "Accepted",
+        "date": "04/16/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.415650209316,
+          33.765121961094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601688",
+        "address": "1290 WESLEY PL NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "04/16/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "26",
+        "tree_location": "front right",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "This tree has bacterial leaf scorch with large dead leads. Client would like to remove. Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0196  LL192 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "white oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.430646710449,
+          33.835589253039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601696",
+        "address": "1463 CLIFTON RD NE, ATLANTA GA 30329",
+        "status": "Accepted",
+        "date": "04/16/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.321000060033,
+          33.794605424141
+        ]
+      }
+    }
+  ]
+}
