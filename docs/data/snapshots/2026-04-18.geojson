@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-025027",
+        "address": "1466 LAKEWOOD AVE SE, ATLANTA GA 30315",
+        "status": "",
+        "date": "04/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.380928069067,
+          33.71445106024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-025042",
+        "address": "453 ARGONNE DR NW, ATLANTA GA 30305",
+        "status": "",
+        "date": "04/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.402144277233,
+          33.835948909308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601745",
+        "address": "2868 HABERSHAM RD NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "04/18/2026",
+        "description": null,
+        "owner": "HELGET BONNIE W",
+        "tree_dbh": "23",
+        "tree_location": "Backyard Left side",
+        "reason_removal": "Dying tree",
+        "tree_description": "This American beech tree is located in the backyard left side. This American Beech is in a state of advanced decline and presents an immediate safety hazard. The tree exhibits basal bark peeling and a large portion of the upper canopy consists of deadwood.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01130003017 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "American Beech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.394912454069,
+          33.833214607179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601744",
+        "address": "2115 WILSON AVE NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "04/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "16",
+        "tree_location": "back left corner of lot see site plan",
+        "reason_removal": "Dying tree",
+        "tree_description": "Hardwood approximately 16 inches DBH in poor condition with visible decline and structural weakness. Limited canopy vitality and potential internal decay present.",
+        "tree_number": "6",
+        "species": "Hardwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.458271969904,
+          33.753619865075
+        ]
+      }
+    }
+  ]
+}
