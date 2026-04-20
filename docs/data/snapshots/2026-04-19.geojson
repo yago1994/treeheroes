@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-025095",
+        "address": "1429 EZRA CHURCH DR NW, ATLANTA GA 30314",
+        "status": "",
+        "date": "04/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.434465911763,
+          33.75662319377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601747",
+        "address": "1488 HAWTHORNE AVE NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "04/19/2026",
+        "description": null,
+        "owner": "CARTER ROBERT T",
+        "tree_dbh": "10",
+        "tree_location": "Front of House",
+        "reason_removal": "Dying tree",
+        "tree_description": "TBD if Dying, but several dead branches fell this year with the high windsReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01480001068 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Gumball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.405622298383,
+          33.795176408035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-025097",
+        "address": "776 NEAL ST NW, ATLANTA GA 30318",
+        "status": "",
+        "date": "04/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412975145444,
+          33.766339943594
+        ]
+      }
+    }
+  ]
+}
