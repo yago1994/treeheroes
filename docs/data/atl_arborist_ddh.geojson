@@ -2314,12 +2314,12 @@
         "date": "04/20/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "24",
-        "tree_location": "Rear",
-        "reason_removal": "Other",
-        "tree_description": "NoneReason for Removal:OtherComments:Tree appears dead \n\t\t\n\t\t\n\t\t\tTree number:2Species:White Oak Tree Size (DBH):34Tree location:RearDescription of Tree:NoneReason for Removal:OtherComments:Tree appears dead \n\t\t\n\t\t\n\t\t\tTree number:3Species:White Oak Tree Size (DBH):25Tree location:RearDescription of Tree:NoneReason for Removal:OtherComments:The subject tree exhibits a phototropic, asymmetrical canopy with an upper canopy lean\nsubordinate to adjacent Tree 2. The tree shares a deformed/shared structural root plate\ncondition with Tree 2, with an approximate trunk separation of four feet. A pond feature\nlocated nearby was reported to have been constructed approximately three years prior to the\ncurrent owner’s tenure, indicating prior land disturbance within the immediate rooting area.",
-        "tree_number": "1",
-        "species": "White Oak"
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -2577,13 +2577,13 @@
         "status": "Accepted",
         "date": "04/20/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "BAKER LINDA R OR SMITH JULIE A",
+        "tree_dbh": "22",
+        "tree_location": "Backyard",
+        "reason_removal": "Dead tree",
+        "tree_description": "This tree is completely dead.Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 205 04 066 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Ash"
       },
       "geometry": {
         "type": "Point",
@@ -2601,13 +2601,13 @@
         "status": "Accepted",
         "date": "04/20/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "WARNER A H III WARNER BRADFORD",
+        "tree_dbh": "41",
+        "tree_location": "Backyard right side by the parking area",
+        "reason_removal": "Dying tree",
+        "tree_description": "The subject tree is a mature oak located within close proximity to adjacent residential structures. At the base of the trunk, multiple fungal fruiting bodies are present, including decayed conks and active fungal growth emerging from the root flare. These indicators are consistent with internal decay within the lower trunk and root system. Given the location of the fungal activity, decay is likely affecting structural root wood, which is critical for overall tree stability.",
+        "tree_number": "1",
+        "species": "Water Oak"
       },
       "geometry": {
         "type": "Point",
