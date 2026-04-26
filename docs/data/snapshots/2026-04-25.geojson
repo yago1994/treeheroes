@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601864",
+        "address": "830 MARSTEVAN DR NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "04/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "33",
+        "tree_location": "front left close to road",
+        "reason_removal": "Dying tree",
+        "tree_description": "mushroom growth on the main trunk and cavities in the trunk. potential hazard. growing too close to high voltage power lines. growing too close to house. has been severely cut back by power companyReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00520002076 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.359659556787,
+          33.794111195167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-025097",
+        "address": "776 NEAL ST NW, ATLANTA GA 30318",
+        "status": "",
+        "date": "04/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412975145444,
+          33.766339943594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601868",
+        "address": "643 MARTIN L KING JR DR NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "04/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.408822657971,
+          33.754757860907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601865",
+        "address": "1120 CENTER ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "04/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.402883727679,
+          33.784998150829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601866",
+        "address": "2317 MELANTE DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "04/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.353693237962,
+          33.818208840256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601867",
+        "address": "2512 PERKERSON RD SW, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "04/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409569515983,
+          33.686265032129
+        ]
+      }
+    }
+  ]
+}
