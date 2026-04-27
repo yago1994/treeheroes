@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601870",
+        "address": "2609 BOHLER RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "04/26/2026",
+        "description": null,
+        "owner": "King Kendall",
+        "tree_dbh": "6",
+        "tree_location": "Backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Elm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.429229466713,
+          33.826298505752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601869",
+        "address": "252 BEVERLY RD NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "04/26/2026",
+        "description": null,
+        "owner": "SUNIT PATEL",
+        "tree_dbh": "15",
+        "tree_location": "Back Rear Right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Large basal cavity with decay.Reason for Removal:Significant cavity/area of decayComments:Reissuance: Ref BA-202501522\n\t\t\n\t\t\n\t\t\tTree number:12Species:Tulip PoplarTree Size (DBH):26Tree location:Front Yard RightDescription of Tree:Large basal cavity with decayReason for Removal:Significant cavity/area of decayComments:Reissuance: Ref: BA-202501522\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01040009022 *Block:--Lot:--Subdivision:--",
+        "tree_number": "3",
+        "species": "Red Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.378801828369,
+          33.796794161278
+        ]
+      }
+    }
+  ]
+}
