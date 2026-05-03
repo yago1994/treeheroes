@@ -52,54 +52,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202601870",
-        "address": "2609 BOHLER RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "04/26/2026",
-        "description": null,
-        "owner": "King Kendall",
-        "tree_dbh": "6",
-        "tree_location": "Backyard",
-        "reason_removal": "Dying tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "Elm"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.429229466713,
-          33.826298505752
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202601869",
-        "address": "252 BEVERLY RD NE, ATLANTA GA 30309",
-        "status": "ACA Pending",
-        "date": "04/26/2026",
-        "description": null,
-        "owner": "SUNIT PATEL",
-        "tree_dbh": "15",
-        "tree_location": "Back Rear Right",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "Large basal cavity with decay.Reason for Removal:Significant cavity/area of decayComments:Reissuance: Ref BA-202501522\n\t\t\n\t\t\n\t\t\tTree number:12Species:Tulip PoplarTree Size (DBH):26Tree location:Front Yard RightDescription of Tree:Large basal cavity with decayReason for Removal:Significant cavity/area of decayComments:Reissuance: Ref: BA-202501522\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01040009022 *Block:--Lot:--Subdivision:--",
-        "tree_number": "3",
-        "species": "Red Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.378801828369,
-          33.796794161278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202601881",
         "address": "871 WYLIE ST SE, ATLANTA GA 30316",
         "status": "Accepted",
@@ -2566,6 +2518,126 @@
         "coordinates": [
           -84.348105300042,
           33.738337490237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601973",
+        "address": "668 KIRKWOOD AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "05/02/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "10",
+        "tree_location": "far rear left above stone retaining wall",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "DEADReason for Removal:Dead treeComments:Only the trunk remains with bifurcated short leads\n\t\t\n\t\t\n\t\t\tTree number:2Species:Purple leaf plumTree Size (DBH):9Tree location:left sideDescription of Tree:Multi-trunked, several dead leads, decliningReason for Removal:Dying treeComments:poor condition\n\t\t\n\t\t\n\t\t\tTree number:3Species:SweetgumTree Size (DBH):11Tree location:rear left sideDescription of Tree:Large basal wound with decayReason for Removal:Significant cavity/area of decayComments:weak tree with weight toward neighbor's house\n\t\t\n\t\t\n\t\t\tTree number:4Species:HackberryTree Size (DBH):18Tree location:far rear left above stone retaining wallDescription of Tree:Leaning toward neighbor's home with all weight past vertical.  Compromised root system, SRP exposedReason for Removal:Uncorrectable defectComments:High risk of failure with target\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00200005052 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Purple leaf plum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36507069802,
+          33.75038386022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601974",
+        "address": "1079 REDFORD DR SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "05/02/2026",
+        "description": null,
+        "owner": "THOMAS CHARLES",
+        "tree_dbh": "20",
+        "tree_location": "back left side of back yard",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.355767902281,
+          33.686937710841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601972",
+        "address": "262 PINELAND RD NW, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "05/02/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395844567326,
+          33.865189272457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601976",
+        "address": "4153 ROSWELL RD NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "05/02/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.381023701224,
+          33.867588845151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601975",
+        "address": "1310 MONROE DR NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "05/02/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.367224186701,
+          33.790539334802
         ]
       }
     }
