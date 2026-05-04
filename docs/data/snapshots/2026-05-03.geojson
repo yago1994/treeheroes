@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601977",
+        "address": "4744 GREENBRIAR TRL SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "05/03/2026",
+        "description": null,
+        "owner": "C Dinaa Williams",
+        "tree_dbh": "20",
+        "tree_location": "back yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "tree full of vines growth no canopyReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00640003050 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.542325185435,
+          33.70476034618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601979",
+        "address": "1955 MARVIN LN SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "05/03/2026",
+        "description": null,
+        "owner": "WRIGHT OLLIE B",
+        "tree_dbh": "6",
+        "tree_location": "back yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "this is a very large pine tree with a wide base, it  Reason for Removal:Dying treeComments: it has been dropping branches over the past year. It has a dead spot in the center and it is leaning to the left. it appears to get worse after a storm and the  dead branches fall off.  It has a lot of movement on windy days.  It looks like it is going to fall soon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01990001009 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.473090613684,
+          33.701559033537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-028713",
+        "address": "2789 DEARWOOD DR SW, ATLANTA GA 30315",
+        "status": "",
+        "date": "05/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.404540818915,
+          33.678887853098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202601978",
+        "address": "1490 JOSEPH E BOONE BLVD NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "05/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.437037820405,
+          33.763508268685
+        ]
+      }
+    }
+  ]
+}
