@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602063",
+        "address": "796 ASHLAND AVE NE, ATLANTA GA 30307",
+        "status": "Accepted",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": "Rachel Kompare",
+        "tree_dbh": "11",
+        "tree_location": "Right side",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Undesirable species",
+        "tree_number": "1",
+        "species": "Ligustrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.361427373938,
+          33.757963725918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602069",
+        "address": "3650 ADKINS RD NW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.508278481763,
+          33.772274539467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602072",
+        "address": "1936 WILDWOOD PL NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.362697765123,
+          33.806218322117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602071",
+        "address": "2252 BERNARD RD NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.474308477726,
+          33.818644068136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602061",
+        "address": "202 CASCADE PARK DR SW, ATLANTA GA 30331",
+        "status": "Accepted",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50892091788,
+          33.718095902031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602074",
+        "address": "392 ASHLEY AVE NE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363687626911,
+          33.76486348671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602068",
+        "address": "1914 DELANO DR NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.325206338593,
+          33.75539685767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602064",
+        "address": "1332 ELIZABETH AVE SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.435500160487,
+          33.718139746848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602066",
+        "address": "1658 WEST SUSSEX RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.353769906774,
+          33.800069774874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602075",
+        "address": "675 WEST PACES FERRY RD NW, 1, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409029618026,
+          33.848025304099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602065",
+        "address": "437 HARDENDORF AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.331766241496,
+          33.766808956893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602070",
+        "address": "4288 EXETER CLOSE NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.406199201567,
+          33.870814869009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602073",
+        "address": "252 BEVERLY RD NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.378801828369,
+          33.796794161278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602060",
+        "address": "3050 RIVERMEADE LN NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "05/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.454511697433,
+          33.839290333078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602059",
+        "address": "1729 DELOWE DR SW, ATLANTA GA 30311",
+        "status": "Accepted",
+        "date": "05/07/2026",
+        "description": "DDH",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.458778527275,
+          33.707934147721
+        ]
+      }
+    }
+  ]
+}
