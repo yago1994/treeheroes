@@ -4,102 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202601977",
-        "address": "4744 GREENBRIAR TRL SW, ATLANTA GA 30331",
-        "status": "ACA Pending",
-        "date": "05/03/2026",
-        "description": null,
-        "owner": "C Dinaa Williams",
-        "tree_dbh": "20",
-        "tree_location": "back yard",
-        "reason_removal": "Dead tree",
-        "tree_description": "tree full of vines growth no canopyReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00640003050 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "pine"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.542325185435,
-          33.70476034618
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202601979",
-        "address": "1955 MARVIN LN SW, ATLANTA GA 30311",
-        "status": "ACA Pending",
-        "date": "05/03/2026",
-        "description": null,
-        "owner": "WRIGHT OLLIE B",
-        "tree_dbh": "6",
-        "tree_location": "back yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "this is a very large pine tree with a wide base, it  Reason for Removal:Dying treeComments: it has been dropping branches over the past year. It has a dead spot in the center and it is leaning to the left. it appears to get worse after a storm and the  dead branches fall off.  It has a lot of movement on windy days.  It looks like it is going to fall soon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01990001009 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "pine"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.473090613684,
-          33.701559033537
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "26TMP-028713",
-        "address": "2789 DEARWOOD DR SW, ATLANTA GA 30315",
-        "status": null,
-        "date": "05/03/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.404540818915,
-          33.678887853098
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202601978",
-        "address": "1490 JOSEPH E BOONE BLVD NW, ATLANTA GA 30314",
-        "status": "ACA Pending",
-        "date": "05/03/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.437037820405,
-          33.763508268685
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "26TMP-028763",
         "address": "1027 FAITH AVE SE, ATLANTA GA 30316",
         "status": null,
@@ -2359,7 +2263,7 @@
         "record": "26TMP-028395",
         "address": "1608 JOHNSON RD NE, ATLANTA GA 30306",
         "status": null,
-        "date": "05/08/2026",
+        "date": "05/09/2026",
         "description": null,
         "owner": null,
         "tree_dbh": null,
@@ -2566,6 +2470,150 @@
         "coordinates": [
           -84.363631963404,
           33.726172283529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602088",
+        "address": "1944 ARDMORE RD NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": "LOVELESS KATHY J",
+        "tree_dbh": "38",
+        "tree_location": "right of home",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Removal of the DDH 38” DBH water oak located to the right of the home. Reason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01460006001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.398553202361,
+          33.80756594067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602089",
+        "address": "2192 LENOX RD NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": "Garett and Jennifer Bethenod",
+        "tree_dbh": "23",
+        "tree_location": "Backyard/Right.",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "130",
+        "species": "Loblolly Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.351859856537,
+          33.814680204112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602087",
+        "address": "3200 WOOD VALLEY RD NW, ATLANTA GA 0",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": "JONES MARY R",
+        "tree_dbh": "34",
+        "tree_location": "Front right",
+        "reason_removal": "Dying tree",
+        "tree_description": "Significant decline, multiple broken limbsReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0182  LL117 *Block:--Lot:--Subdivision:--",
+        "tree_number": "204",
+        "species": "Tulip poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.417250093481,
+          33.842892626449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602090",
+        "address": "340 SUTHERLAND PL NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": "Botchwey Edward Nisha",
+        "tree_dbh": "15",
+        "tree_location": "rear corner of the property",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "large mature maple that appears to be cracking at the trunk on the west side. Reason for Removal:Uncorrectable defectComments:I would like an arborist to check the tree to see if it remains safe.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 211 04 103 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.326192064192,
+          33.762894529306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602091",
+        "address": "380 GRANT CIR SE, UNIT 203, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "23",
+        "tree_location": "Back of unit 203",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead Sycamore tree located in the back of unit 203. Marked in orange tapeReason for Removal:Dead treeComments:Gate code for the condos is #5580\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 0042  LL042 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sycamore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375615240037,
+          33.725580171428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-030414",
+        "address": "625 KENT ST SE, ATLANTA GA 30312",
+        "status": null,
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377508562561,
+          33.737526169648
         ]
       }
     }
