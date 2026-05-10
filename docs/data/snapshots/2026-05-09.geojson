@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602088",
+        "address": "1944 ARDMORE RD NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": "LOVELESS KATHY J",
+        "tree_dbh": "38",
+        "tree_location": "right of home",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Removal of the DDH 38” DBH water oak located to the right of the home. Reason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01460006001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.398553202361,
+          33.80756594067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-028395",
+        "address": "1608 JOHNSON RD NE, ATLANTA GA 30306",
+        "status": "",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.347936057485,
+          33.798809948448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602089",
+        "address": "2192 LENOX RD NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": "Garett and Jennifer Bethenod",
+        "tree_dbh": "23",
+        "tree_location": "Backyard/Right.",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "130",
+        "species": "Loblolly Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.351859856537,
+          33.814680204112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602087",
+        "address": "3200 WOOD VALLEY RD NW, ATLANTA GA 0",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.417250093481,
+          33.842892626449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602090",
+        "address": "340 SUTHERLAND PL NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.326192064192,
+          33.762894529306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602091",
+        "address": "380 GRANT CIR SE, UNIT 203, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375615240037,
+          33.725580171428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-030414",
+        "address": "625 KENT ST SE, ATLANTA GA 30312",
+        "status": "",
+        "date": "05/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377508562561,
+          33.737526169648
+        ]
+      }
+    }
+  ]
+}
