@@ -1446,7 +1446,7 @@
       "properties": {
         "record": "BA-202602137",
         "address": "690 HOLDERNESS ST SW, ATLANTA GA 30310",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
         "owner": "Mariann Martin",
@@ -1470,16 +1470,16 @@
       "properties": {
         "record": "BA-202602127",
         "address": "3905 TUXEDO RD NW, ATLANTA GA 30342",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
-        "owner": "WESTMORELAND JOHN R",
-        "tree_dbh": "30",
-        "tree_location": "Right of front yard in wooded area",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead SycamoreReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0116  LL147 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Sycamore"
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -1542,16 +1542,16 @@
       "properties": {
         "record": "BA-202602136",
         "address": "4300 GARMON RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_dbh": "25",
+        "tree_location": "right of home",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Tree has a large canker at approx. 30' up on the mainstem. Canker is over 30' long and over a 1' wide. The decayed area seems to be affecting the growth of the tree causing a depression on mainstem and growing up into the upper third of the canopy. Reason for Removal:Significant cavity/area of decayComments:Flagged as #1 in the field.\n\t\t\n\t\t\n\t\t\tTree number:2Species:Bradford PearTree Size (DBH):17Tree location:front right of driveway Description of Tree:Tree has many large over extended branches that are causing stress and included bark on the unions on the tree at the mainstem to worsen. Reason for Removal:Invasive/undesirable treeComments:Flagged as #2 in the field. \n\t\t\n\t\t\n\t\t\tTree number:3Species:Bradford PearTree Size (DBH):14Tree location:front right of driveway Description of Tree:Tree has many large over extended branches that are causing stress and included bark on the unions on the tree at the mainstem to worsen. Reason for Removal:Invasive/undesirable treeComments:Flagged as #3 in the field.\n\t\t\n\t\t\n\t\t\tTree number:4Species:Bradford PearTree Size (DBH):14Tree location:front right of drivewayDescription of Tree:Tree has many large over extended branches that are causing stress and included bark on the unions on the tree at the mainstem to worsen. Reason for Removal:Invasive/undesirable treeComments:Flagged as #4 in the field. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0201  LL120 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Loblolly Pine"
       },
       "geometry": {
         "type": "Point",
@@ -1566,16 +1566,16 @@
       "properties": {
         "record": "BA-202602135",
         "address": "1070 ROSEDALE DR NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_dbh": "18",
+        "tree_location": "front left of home",
+        "reason_removal": "Diseased",
+        "tree_description": "18\" Maple, front left of home, tree is in decline, mushrooms on lower trunk and root zone, brittle cinder fungus on lower trunkReason for Removal:DiseasedComments:18\" Maple, front left of home, tree is in decline, mushrooms on lower trunk and root zone, brittle cinder fungus on lower trunk\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00010010075 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
       },
       "geometry": {
         "type": "Point",
@@ -1590,7 +1590,7 @@
       "properties": {
         "record": "BA-202602132",
         "address": "1302 HANOVER WEST DR NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
         "owner": null,
@@ -1614,16 +1614,16 @@
       "properties": {
         "record": "BA-202602129",
         "address": "666 EDINBORO RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "PHILLIPS JAYNE L",
+        "tree_dbh": "20",
+        "tree_location": "front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "tree is dead Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01560004003 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "maple"
       },
       "geometry": {
         "type": "Point",
@@ -1662,16 +1662,16 @@
       "properties": {
         "record": "BA-202602138",
         "address": "194 WALLACE RD SW, ATLANTA GA 30354",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Nordia Coleen Jarrett",
+        "tree_dbh": "12",
+        "tree_location": "Rear of home",
+        "reason_removal": "Other",
+        "tree_description": "Leaning/Falling tree towards the home",
+        "tree_number": "1",
+        "species": "Virginia Pine"
       },
       "geometry": {
         "type": "Point",
@@ -1686,16 +1686,16 @@
       "properties": {
         "record": "BA-202602134",
         "address": "4205 WHITEWATER CREEK RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "tree_dbh": "13",
+        "tree_location": "Back yard",
+        "reason_removal": "Uncorrectable defect",
         "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_number": "1",
+        "species": "Oak"
       },
       "geometry": {
         "type": "Point",
@@ -1710,16 +1710,16 @@
       "properties": {
         "record": "BA-202602131",
         "address": "1551 OLYMPIAN WAY SW, ATLANTA GA 30310",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "WILSON MARILYN L",
+        "tree_dbh": "100",
+        "tree_location": "back yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "look like an oak, maybeReason for Removal:Dying treeComments:cannot sleep in bedrooms of house because when the trees fall it will fall in the bedrooms.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01500006028 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "dont know"
       },
       "geometry": {
         "type": "Point",
@@ -1734,16 +1734,16 @@
       "properties": {
         "record": "BA-202602130",
         "address": "7 HABERSHAM WAY NW, ATLANTA GA 30305",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "tree_dbh": "32",
+        "tree_location": "Back Yard Right Side",
+        "reason_removal": "Dead tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_number": "1",
+        "species": "Hardwood"
       },
       "geometry": {
         "type": "Point",
@@ -1758,16 +1758,16 @@
       "properties": {
         "record": "BA-202602128",
         "address": "2895 NORMANDY DR NW, ATLANTA GA 30305",
-        "status": "ACA Pending",
+        "status": "Accepted",
         "date": "05/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Spence Godfrey",
+        "tree_dbh": "7",
+        "tree_location": "Center Front Yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Trees are over 50% dead. Major limbs are decayed and breaking off frequently.",
+        "tree_number": "1",
+        "species": "Cherry"
       },
       "geometry": {
         "type": "Point",
