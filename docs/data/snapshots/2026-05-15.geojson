@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602200",
+        "address": "200 TRADEPORT BLVD SW, ATLANTA GA 30354",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": "CABOT II GA ONE W ZERO ONE W ZERO FIVE LLC",
+        "tree_dbh": "12",
+        "tree_location": "along front of property",
+        "reason_removal": "Dying tree",
+        "tree_description": "12\" Riverbirch, DecliningReason for Removal:Dying treeComments:12\" Riverbirch, Declining\n\t\t\n\t\t\n\t\t\tTree number:2Species:RiverbirchTree Size (DBH):12Tree location:front center of buildingDescription of Tree:12\" 2 trunk Riverbirch, DecliningReason for Removal:Dying treeComments:12\" 2 trunk Riverbirch, Declining\n\t\t\n\t\t\n\t\t\tTree number:1Species:PineTree Size (DBH):12Tree location:far side of parking lotDescription of Tree:12\" Pine, DeadReason for Removal:Dead treeComments:12\" Pine, Dead\n\t\t\n\t\t\n\t\t\tTree number:4Species:RiverbirchTree Size (DBH):10Tree location:front right side of buildingDescription of Tree:10\" Riverbirch, DecliningReason for Removal:Dying treeComments:10\" Riverbirch, Declining\n\t\t\n\t\t\n\t\t\tTree number:5Species:RiverbirchTree Size (DBH):10Tree location:front right side of buildingDescription of Tree:10\" Riverbirch, DecliningReason for Removal:Dying treeComments:10\" Riverbirch, Declining\n\t\t\n\t\t\n\t\t\tTree number:6Species:OakTree Size (DBH):20Tree location:along front of propertyDescription of Tree:20\" Oak, canopy dieback and mistletoe infestationReason for Removal:Dying treeComments:20\" Oak, canopy dieback and mistletoe infestation\n\t\t\n\t\t\n\t\t\tTree number:7Species:OakTree Size (DBH):20Tree location:along front of propertyDescription of Tree:20\" Oak, canopy dieback and mistletoe infestationReason for Removal:Dying treeComments:20\" Oak, canopy dieback and mistletoe infestation\n\t\t\n\t\t\n\t\t\tTree number:8Species:OakTree Size (DBH):30Tree location:along front of propertyDescription of Tree:30\" Oak, dead central leader and part of canopy deadReason for Removal:Dying treeComments:30\" Oak, dead central leader and part of canopy dead\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 0065  LL099 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Riverbirch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.393161130366,
+          33.650249463425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602204",
+        "address": "69 DELMONT DR NE, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "near 83 Delmont Dr front",
+        "reason_removal": "Diseased",
+        "tree_description": "Decline in excess of 30%\n +Fungal bodies on trunk\n +Limb failuresReason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01000006003 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.380753051195,
+          33.833414055704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602207",
+        "address": "197 FAIRBURN RD SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": "Byron Simmons",
+        "tree_dbh": "4",
+        "tree_location": "Front of yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead, dying hazardousReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:N/ATree Size (DBH):4.5Tree location:Front of yardDescription of Tree:Dead, dying, hazardous tree.  Top of canopy goneReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00130001005 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "N/A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.507786383908,
+          33.749795228748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602194",
+        "address": "821 RALPH MCGILL BLVD NE, ATLANTA GA 30306",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360505204293,
+          33.76749412699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602196",
+        "address": "702 DEFOORS MILL CIR NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.427868229444,
+          33.813666829002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602198",
+        "address": "155 WEST PACES FERRY RD NW, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387727754817,
+          33.843809653551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602190",
+        "address": "532 BOULEVARD PL NE, ATLANTA GA 30308",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.369400229863,
+          33.769970732735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602203",
+        "address": "2135 PARKVIEW LN NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.463130382646,
+          33.816414876425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602197",
+        "address": "1201 DEFOORS MILL DR NW, ATLANTA GA 00000",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.428604497787,
+          33.813650862651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-032080",
+        "address": "2656 MARGARET MITCHELL DR NW, ATLANTA GA 30327",
+        "status": "",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44178161232,
+          33.827986376318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-026664",
+        "address": "1716 DELOWE DR SW, ATLANTA GA 30311",
+        "status": "",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.459336407262,
+          33.708810797319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602189",
+        "address": "1286 MCPHERSON AVE SE, ATLANTA GA 30316",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": "PIRALI SHAHRAM",
+        "tree_dbh": "30",
+        "tree_location": "Front yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "red tapeReason for Removal:Dying treeComments:Extensive internal decay/rot identified within the main trunk structure. The tree appears to be hollow or\nseverely compromised internally, reducing its structural integrity and load-bearing capability.\n• Multiple visible cavities/holes were observed on both sides of the trunk. These openings are indicators\nof advanced decay and deterioration within the tree.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 177 04 075 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Post oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.345413206913,
+          33.744255439451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-031946",
+        "address": "1101 LONGLEY AVE NW, ATLANTA GA 30318",
+        "status": "",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.423882348436,
+          33.784519908516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-032084",
+        "address": "3323 FERNCLIFF PL NE, ATLANTA GA 30324",
+        "status": "",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.355360711101,
+          33.845165684416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602208",
+        "address": "1911 MAIN ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": "Hoai Trinh",
+        "tree_dbh": "25",
+        "tree_location": "side of house",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "NA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46711429457,
+          33.807716079644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602195",
+        "address": "902 DEFOORS MILL CIR NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": "KENNEDY STUART S",
+        "tree_dbh": "13",
+        "tree_location": "In the front of 902",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.428040590947,
+          33.813661357215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-031941",
+        "address": "2249 BEECHER RD SW, ATLANTA GA 30311",
+        "status": "",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.462607627829,
+          33.72799949481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-031944",
+        "address": "197 FAIRBURN RD SW, ATLANTA GA 30331",
+        "status": "",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.507786383908,
+          33.749795228748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602193",
+        "address": "718 BOULEVARD SE, ATLANTA GA 30312",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "Right front corner of home",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Significant decay at base, dieback/decline exceeding 1/3 total canopyReason for Removal:Uncorrectable defectComments:Ribbon\n\t\t\n\t\t\n\t\t\tTree number:2Species:Multi-stem MulberryTree Size (DBH):21Tree location:Right front of homeDescription of Tree:tree too closely encroaching on adjacent utility infrastructure, physically contacting (2) electrical service drops and grown into cable/telecom wires running along front of propertyReason for Removal:Uncorrectable defectComments:Ribbon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00220004039 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Multi-stem Mulberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.368168808277,
+          33.73482864286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602201",
+        "address": "3960 WILLOW COVE WAY SW, ATLANTA GA 30331",
+        "status": "Accepted",
+        "date": "05/15/2026",
+        "description": "DDH",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.517553587564,
+          33.742756611103
+        ]
+      }
+    }
+  ]
+}
