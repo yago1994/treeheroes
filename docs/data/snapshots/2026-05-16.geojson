@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602210",
+        "address": "1670 BREWER BLVD SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "05/16/2026",
+        "description": null,
+        "owner": "LANDMON DANIEL J",
+        "tree_dbh": "36",
+        "tree_location": "Front yard",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Unsure of diameter of large tree in front yard.Reason for Removal:Significant cavity/area of decayComments:The trunk/base of tree is definitely dying/decaying/rotten and several large limbs have fallen into power lines recently. Georgia Power removed downed limbs from power lines.  I can see the decay/rot in the trunk and concerned the tree will fall soon and cause more damage.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01040003041 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.417116443389,
+          33.709109453344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602209",
+        "address": "1437 WESSYNGTON RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "05/16/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.356082894897,
+          33.794324643352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-032132",
+        "address": "2880 CASTLEWOOD DR NW, ATLANTA GA 30327",
+        "status": "",
+        "date": "05/16/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.410313437055,
+          33.834395756977
+        ]
+      }
+    }
+  ]
+}
