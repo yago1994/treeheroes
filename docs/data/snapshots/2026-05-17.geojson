@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602212",
+        "address": "2789 DEARWOOD DR SW, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "05/17/2026",
+        "description": null,
+        "owner": "TERRY CHARLIE C",
+        "tree_dbh": "100",
+        "tree_location": "front yard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "oak tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.404540818915,
+          33.678887853098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-029551",
+        "address": "484 GLEN IRIS DR NE, ATLANTA GA 30308",
+        "status": "",
+        "date": "05/17/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.367816171938,
+          33.76777858963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602211",
+        "address": "2561 LOGHAVEN DR NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "05/17/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.471936133555,
+          33.760308427667
+        ]
+      }
+    }
+  ]
+}

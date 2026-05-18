@@ -2194,12 +2194,12 @@
         "date": "05/17/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "150",
-        "tree_location": "Property Line (Woods)",
-        "reason_removal": "Dead tree",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "Longleaf Pine"
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
