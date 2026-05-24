@@ -4,30 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-029551",
-        "address": "484 GLEN IRIS DR NE, ATLANTA GA 30308",
-        "status": null,
-        "date": "05/17/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.367816171938,
-          33.76777858963
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "26TMP-031941",
         "address": "2249 BEECHER RD SW, ATLANTA GA 30311",
         "status": null,
@@ -46,54 +22,6 @@
         "coordinates": [
           -84.462607627829,
           33.72799949481
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602212",
-        "address": "2789 DEARWOOD DR SW, ATLANTA GA 30315",
-        "status": "ACA Pending",
-        "date": "05/17/2026",
-        "description": null,
-        "owner": "TERRY CHARLIE C",
-        "tree_dbh": "100",
-        "tree_location": "front yard",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "oak tree"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.404540818915,
-          33.678887853098
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602211",
-        "address": "2561 LOGHAVEN DR NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "05/17/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.471936133555,
-          33.760308427667
         ]
       }
     },
@@ -2734,6 +2662,174 @@
         "coordinates": [
           -84.366053445404,
           33.798199579338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-033898",
+        "address": "1291 LANIER BLVD NE, ATLANTA GA 30306",
+        "status": null,
+        "date": "05/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34978360766,
+          33.790159356056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602338",
+        "address": "2111 CASCADE RD SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "05/23/2026",
+        "description": null,
+        "owner": "AMBER WILSON",
+        "tree_dbh": "19",
+        "tree_location": "Back of the house",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Regular tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.457037869877,
+          33.721691198505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602335",
+        "address": "1374 KENILWORTH DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "05/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "56",
+        "tree_location": "Right Rear",
+        "reason_removal": "Dying tree",
+        "tree_description": "Maple tree on the right rear with the DBH of 56in. Tree has woundwood and some white root on the trunk. Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01370005037 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.434089849073,
+          33.718198642596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-033909",
+        "address": "552 NORFOLK ST NW, ATLANTA GA 30314",
+        "status": null,
+        "date": "05/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.418720737881,
+          33.769627000139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602336",
+        "address": "585 HARDENDORF AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "05/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.331785450672,
+          33.770143323676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602334",
+        "address": "2249 BEECHER RD SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "05/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.462607627829,
+          33.72799949481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602337",
+        "address": "130 LITTLE JOHN TRL NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "05/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.381425696326,
+          33.804142092762
         ]
       }
     }
