@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602341",
+        "address": "3312 LANDINGS SOUTH DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "05/24/2026",
+        "description": null,
+        "owner": "Asher Homes",
+        "tree_dbh": "11",
+        "tree_location": "middle",
+        "reason_removal": "Diseased",
+        "tree_description": "Dad upper limbs, declining, heavy vine presenceReason for Removal:Dying treeComments:Poor condition.",
+        "tree_number": "1",
+        "species": "Black Cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.521245584916,
+          33.662459490196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602339",
+        "address": "3321 GRANT VALLEY RD NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "05/24/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.386176632474,
+          33.846175502183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602340",
+        "address": "95 TALL PINES CT NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "05/24/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39001712963,
+          33.880652583911
+        ]
+      }
+    }
+  ]
+}
