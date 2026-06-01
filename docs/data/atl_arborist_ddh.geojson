@@ -1872,6 +1872,150 @@
           33.794260738257
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602427",
+        "address": "604 ALFRED RD NW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "05/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "10",
+        "tree_location": "604 Alfred rd nw",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.509904070295,
+          33.771684713518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602428",
+        "address": "201 EAST WESLEY RD NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "05/31/2026",
+        "description": null,
+        "owner": "Susan Hendricks",
+        "tree_dbh": "46",
+        "tree_location": "Rear Left Corner of Home",
+        "reason_removal": "Dying tree",
+        "tree_description": "46\" DBH DDH Red Oak",
+        "tree_number": "1",
+        "species": "Red Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.380906836397,
+          33.828605252679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602429",
+        "address": "20 POLO DR NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "05/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375698964771,
+          33.796421061236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-035355",
+        "address": "659 HAMILTON E HOLMES DR NW, ATLANTA GA 30318",
+        "status": null,
+        "date": "05/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47349942144,
+          33.773033294461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602430",
+        "address": "370 HERRINGTON DR NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "05/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.376020085756,
+          33.867345097009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-033947",
+        "address": "659 HAMILTON E HOLMES DR NW, ATLANTA GA 30318",
+        "status": null,
+        "date": "05/31/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47349942144,
+          33.773033294461
+        ]
+      }
     }
   ]
 }
