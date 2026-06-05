@@ -1,0 +1,653 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602535",
+        "address": "692 BOULEVARD SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "left of house",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00220004001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Elm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.368157169123,
+          33.735519230502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602524",
+        "address": "995 VELTRE CIR SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47677602334,
+          33.725791651346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602545",
+        "address": "1958 GRANDVIEW AVE NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.473001056153,
+          33.808925413096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602528",
+        "address": "1405 MERIDIAN ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.341419091599,
+          33.750691845288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602539",
+        "address": "2942 RHODENHAVEN DR NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411520665027,
+          33.835969165293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602526",
+        "address": "2280 COTTAGE GROVE AVE SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.312863748598,
+          33.749761176597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602533",
+        "address": "586 ASBURY CIR NE, ATLANTA GA",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.324292553904,
+          33.792991430786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-036815",
+        "address": "2337 HURST DR NE, ATLANTA GA 30305",
+        "status": "",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.379056613768,
+          33.819433545045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602527",
+        "address": "864 ADAIR AVE NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.358933394096,
+          33.780039279138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-036686",
+        "address": "2376 CLARISSA DR NW, ATLANTA GA 30318",
+        "status": "",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.458730159761,
+          33.797236927707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602538",
+        "address": "2616 DELLWOOD DR NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.399910699792,
+          33.826270832517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602543",
+        "address": "281 RUMSON RD NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.378571018402,
+          33.830015214748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602534",
+        "address": "756 LILLIAN AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412299417336,
+          33.731125611767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-033898",
+        "address": "1291 LANIER BLVD NE, ATLANTA GA 30306",
+        "status": "",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34978360766,
+          33.790159356056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602531",
+        "address": "3255 BUCKHEAD FOREST MEWS NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "HOWELL CHARLES A",
+        "tree_dbh": "9",
+        "tree_location": "Backyard",
+        "reason_removal": "Other",
+        "tree_description": "9\" Sweetgum",
+        "tree_number": "1",
+        "species": "Sweetgum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.374970338002,
+          33.84672941435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602542",
+        "address": "241 PATTERSON AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "LEITCH MEGAN E",
+        "tree_dbh": "33",
+        "tree_location": "Front left of house",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree has a 5 degree lean towards client's house where all of the canopy is unbalanced over the roof and large limb failures have caused repeated damage to the roof.Reason for Removal:Uncorrectable defectComments:Pink ribbon\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 177 01 063 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "White Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34324071656,
+          33.746562289685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602521",
+        "address": "1296 EDMUND PARK DR NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "Allison Leach",
+        "tree_dbh": "27",
+        "tree_location": "Backyard",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Decay pocket at base, included bark at leader union, damaged drainage system and down spouts",
+        "tree_number": "1",
+        "species": "River Birch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.342460082297,
+          33.794778128919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602530",
+        "address": "1476 FAIRVIEW RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "Terre Gardens",
+        "tree_dbh": "10",
+        "tree_location": "Front left",
+        "reason_removal": "Dead tree",
+        "tree_description": "Non-livingReason for Removal:Dead treeComments:Orange dot\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 242 01 081 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Black Cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.339400817857,
+          33.772574313009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602546",
+        "address": "164 CRUMLEY ST SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "9",
+        "tree_location": "Right rear of house",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree has a significant lean towards homeReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:2Species:PineTree Size (DBH):11Tree location:Right rear of houseDescription of Tree:Tree has significant lean towards house with no room to grow correctly Reason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00530008082 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Mulberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.382350993192,
+          33.739502863191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602536",
+        "address": "630 MEANS DR NE, ATLANTA GA",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "Emory University",
+        "tree_dbh": "22",
+        "tree_location": "630 means drive",
+        "reason_removal": "Dying tree",
+        "tree_description": "declining maple tree across from AMUC on Emory's campus.  Multiple trunk lesions and more then 33% of canopy deadReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:18 053 01 001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.322507428083,
+          33.79377084151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602532",
+        "address": "348 CAMDEN RD NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "ECKL MARY L M",
+        "tree_dbh": "30",
+        "tree_location": "right of driveway",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "undesirable species, included bark, leaningReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:Bradford PearTree Size (DBH):20Tree location:right of drivewayDescription of Tree:undesirable species, included bark, leaningReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:Bradford PearTree Size (DBH):25Tree location:right of drivewayDescription of Tree:undesirable species, included bark, leaning Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01030002040 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Bradford Pear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38325297701,
+          33.811936875623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602547",
+        "address": "230 BOLLING RD NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "24",
+        "tree_location": "front left",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "tree presenting multiple cavities and big branches severely damaged after the stormReason for Removal:Significant cavity/area of decayComments:looking forward to remove the tree asap, a branch is severely damaged\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01000003067 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "water oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.379539536819,
+          33.829617761571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602540",
+        "address": "637 LONGLEAF DR NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "TAP ASSOCIATES",
+        "tree_dbh": "29",
+        "tree_location": "left rear corner of house",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "red oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36725528435,
+          33.856066168345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602525",
+        "address": "1785 HOLLYWOOD RD NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "26",
+        "tree_location": "Back of Church",
+        "reason_removal": "Dead tree",
+        "tree_description": "DeadReason for Removal:Dead treeComments:Not yet tagged\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02510003002 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Tulip Poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.470331159706,
+          33.804319045454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602529",
+        "address": "839 VIRGIL ST NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "Laurel Bivens",
+        "tree_dbh": "14",
+        "tree_location": "Left side of backyard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "greater than 70% canopy die back – ambrosia beetle infestationReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00190009051 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Ornamental Cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360464561463,
+          33.758351631084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602523",
+        "address": "1229 BEECH VALLEY RD NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": "Kate Hendrickson",
+        "tree_dbh": "38",
+        "tree_location": "Front of home",
+        "reason_removal": "Dying tree",
+        "tree_description": "40% canopy dieback, Co-dominant stem is dead with Hypoxylon visible on the main stem",
+        "tree_number": "1",
+        "species": "Red Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.346589778527,
+          33.796657794354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602537",
+        "address": "692 BOULEVARD SE, ATLANTA GA 30312",
+        "status": "ACA Pending",
+        "date": "06/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "40",
+        "tree_location": "Front Yard",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Decay at the base of the treeReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00220004001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sweetgum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.368157169123,
+          33.735519230502
+        ]
+      }
+    }
+  ]
+}
