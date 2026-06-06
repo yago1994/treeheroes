@@ -4,6 +4,30 @@
     {
       "type": "Feature",
       "properties": {
+        "record": "26TMP-033697",
+        "address": "487 LARCHMONT CIR NW, ATLANTA GA 30318",
+        "status": null,
+        "date": "06/05/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.485477185454,
+          33.768465321765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "record": "26TMP-033898",
         "address": "1291 LANIER BLVD NE, ATLANTA GA 30306",
         "status": null,
@@ -22,126 +46,6 @@
         "coordinates": [
           -84.34978360766,
           33.790159356056
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602422",
-        "address": "509 PAINES AVE NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "05/30/2026",
-        "description": null,
-        "owner": "JENKINS ELBERT",
-        "tree_dbh": "14",
-        "tree_location": "front left",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "taggedReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:Bradford pearTree Size (DBH):10Tree location:front leftDescription of Tree:taggedReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:ElmTree Size (DBH):10Tree location:front right fenceDescription of Tree:taggedReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:4Species:ElmTree Size (DBH):8Tree location:front right fenceDescription of Tree:taggedReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:5Species:White MulberryTree Size (DBH):8Tree location:right fenceDescription of Tree:taggedReason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:6Species:LigustrumTree Size (DBH):14Tree location:rear rightDescription of Tree:taggedReason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:7Species:PecanTree Size (DBH):21Tree location:rear centerDescription of Tree:taggedReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:8Species:PecanTree Size (DBH):24Tree location:rear CenterDescription of Tree:taggedReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:9Species:HackberryTree Size (DBH):13Tree location:rear left fenceDescription of Tree:taggedReason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:10Species:PecanTree Size (DBH):10Tree location:Rear centerDescription of Tree:taggedReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01110001155 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Bradford pear"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.41444204341,
-          33.768549632105
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602424",
-        "address": "2901 LENOX RD NE, ATLANTA GA 30324",
-        "status": "ACA Pending",
-        "date": "05/30/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "30",
-        "tree_location": "left front corner of bldg 1100",
-        "reason_removal": "Dead tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "river birch"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.357212590339,
-          33.833817748936
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602426",
-        "address": "754 HILLPINE TER NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "05/30/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.362005181881,
-          33.793935424548
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602423",
-        "address": "3296 MATHIESON DR NE, ATLANTA GA 30305",
-        "status": "ACA Pending",
-        "date": "05/30/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.377379787716,
-          33.844861616033
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602425",
-        "address": "1450 HILLPINE LN NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "05/30/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "23",
-        "tree_location": "rear",
-        "reason_removal": "Other",
-        "tree_description": "Large tree with weight and growth toward building/homesReason for Removal:OtherComments:Homeowners are very concerned\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00520009014 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Cottonwood"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.361927731543,
-          33.794260738257
         ]
       }
     },
@@ -2950,6 +2854,54 @@
         "coordinates": [
           -84.368157169123,
           33.735519230502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602563",
+        "address": "2723 MEMORIAL DR SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "06/05/2026",
+        "description": null,
+        "owner": "TWENTY SEVEN TWENTY THREE MEMORIAL DRIVE TRUST",
+        "tree_dbh": "27",
+        "tree_location": "4' from house foundation",
+        "reason_removal": "Other",
+        "tree_description": "old magnolia treeReason for Removal:OtherComments:Tree is too close to house and A/C unit.  Recently more and more limbs have been falling off over the last 35+ years.  They land on the flat part of the roof.  Big magnolia leaves cause year-round clogging of gutters and downspouts.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 182 04 013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "magnolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.297889681179,
+          33.747070531097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-037049",
+        "address": "2848 BAKER RIDGE DR NW, ATLANTA GA 30318",
+        "status": null,
+        "date": "06/05/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.480745376196,
+          33.767299875978
         ]
       }
     }
