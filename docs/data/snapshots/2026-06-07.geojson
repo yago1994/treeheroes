@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602566",
+        "address": "1461 LANVALE DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "06/07/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "18",
+        "tree_location": "Backyard",
+        "reason_removal": "Other",
+        "tree_description": "Large tree with exposed rootsReason for Removal:Dying treeComments:Tree is extremely hazardous and dying\n\t\t\n\t\t\n\t\t\tTree number:2Species:OakTree Size (DBH):18.5Tree location:BackyardReason for Removal:OtherComments:Hazardous\n\t\t\n\t\t\n\t\t\tTree number:3Species:OakTree Size (DBH):18.5Tree location:BackyardReason for Removal:OtherComments:Hazardous\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01380005116 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.435365850111,
+          33.724308358531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602568",
+        "address": "1303 METROPOLITAN AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "06/07/2026",
+        "description": null,
+        "owner": "KLOC NOREEN",
+        "tree_dbh": "15",
+        "tree_location": "front of house",
+        "reason_removal": "Dead tree",
+        "tree_description": "I do not know speciesReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 177 03 108 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.345408040411,
+          33.742345325476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602567",
+        "address": "1437 OGLETHORPE AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "06/07/2026",
+        "description": null,
+        "owner": "LEWIS MAGRICK",
+        "tree_dbh": "20",
+        "tree_location": "Backyard",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.434609192374,
+          33.736901865685
+        ]
+      }
+    }
+  ]
+}
