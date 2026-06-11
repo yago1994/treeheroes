@@ -1618,12 +1618,12 @@
         "date": "06/10/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "32",
-        "tree_location": "Right rear of house.",
-        "reason_removal": "Dead tree",
-        "tree_description": "Rear of home off right corner.Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01560006024 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Red Oak"
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -1785,13 +1785,13 @@
         "status": "ACA Pending",
         "date": "06/10/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "BRIGHT RUBY R",
+        "tree_dbh": "26",
+        "tree_location": "front of house",
+        "reason_removal": "Significant cavity/area of decay",
         "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_number": "1",
+        "species": "magnolia"
       },
       "geometry": {
         "type": "Point",
@@ -1809,13 +1809,13 @@
         "status": "ACA Pending",
         "date": "06/10/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "SMITH CLIFFORD A",
+        "tree_dbh": "30",
+        "tree_location": "Back, right corner of house",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Tree has dense ivy coverage enveloping canopy. After clearing a portion from around the base a cavity was observed. The teee is located within 5 feet of a shed and is within failing distance to the target (house).Reason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00340002070 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Acer rubrum"
       },
       "geometry": {
         "type": "Point",
