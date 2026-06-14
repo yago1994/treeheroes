@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602696",
+        "address": "255 PINELAND RD NW, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "06/13/2026",
+        "description": null,
+        "owner": "Angela Ellinwood",
+        "tree_dbh": "40",
+        "tree_location": "Far rear right",
+        "reason_removal": "Dying tree",
+        "tree_description": "Co-dominant (20\"/25\"), root damage and decay, crown diebackReason for Removal:Dying treeComments:Declining tree where kids play\n\t\t\n\t\t\n\t\t\tTree number:2Species:SweetgumTree Size (DBH):22Tree location:Far rear leftDescription of Tree:Crown dieback Reason for Removal:Dying treeComments:Declining tree where kids play\n\t\t\n\t\t\n\t\t\tTree number:3Species:Loblolly pineTree Size (DBH):29Tree location:Front left in azaleasDescription of Tree:Fusiform rust trunk canker; crown weight toward neighbor's houseReason for Removal:Significant cavity/area of decayComments:Weak tree with target\n\t\t\n\t\t\n\t\t\tTree number:4Species:SweetgumTree Size (DBH):28Tree location:Front leftDescription of Tree:Crown dieback; upper bend toward homeReason for Removal:Dying treeComments:Declining tree\n\t\t\n\t\t\n\t\t\tTree number:5Species:Loblolly PineTree Size (DBH):25Tree location:Front right (left of driveway)Description of Tree:Bifurcated upper trunk; sparse crown with dieback; Low LCRReason for Removal:Dying treeComments:All trees are orange tagged with numbers on the flagging tape.  Gated - call first 404-547-0443\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0117  LL049 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Loblolly pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395857074094,
+          33.865432153666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602694",
+        "address": "4210 EAST CONWAY DR NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "06/13/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40863175393,
+          33.872364086497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602695",
+        "address": "1775 MT PARAN RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "06/13/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.433199362158,
+          33.868280259892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602693",
+        "address": "3043 NANCY CREEK RD NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "06/13/2026",
+        "description": "DDH",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.444751890452,
+          33.837273271798
+        ]
+      }
+    }
+  ]
+}
