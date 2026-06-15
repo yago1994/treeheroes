@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602697",
+        "address": "101 ROGERS ST SE, ATLANTA GA 30317",
+        "status": "Accepted",
+        "date": "06/14/2026",
+        "description": null,
+        "owner": "GOEL SHEILA C",
+        "tree_dbh": "2",
+        "tree_location": "Side yard",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.329212421856,
+          33.751941501848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-038869",
+        "address": "1098 EDIE AVE SE, ATLANTA GA 30312",
+        "status": "",
+        "date": "06/14/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363642211975,
+          33.724502034748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-038868",
+        "address": "1084 EDIE AVE SE, ATLANTA GA 30312",
+        "status": "",
+        "date": "06/14/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363633230889,
+          33.72489720162
+        ]
+      }
+    }
+  ]
+}
