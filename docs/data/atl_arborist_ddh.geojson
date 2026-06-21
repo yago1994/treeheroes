@@ -4,78 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202602697",
-        "address": "101 ROGERS ST SE, ATLANTA GA 30317",
-        "status": "Accepted",
-        "date": "06/14/2026",
-        "description": null,
-        "owner": "GOEL SHEILA C",
-        "tree_dbh": "2",
-        "tree_location": "Side yard",
-        "reason_removal": "Dead tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "Poplar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.329212421856,
-          33.751941501848
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "26TMP-038869",
-        "address": "1098 EDIE AVE SE, ATLANTA GA 30312",
-        "status": null,
-        "date": "06/14/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.363642211975,
-          33.724502034748
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "26TMP-038868",
-        "address": "1084 EDIE AVE SE, ATLANTA GA 30312",
-        "status": null,
-        "date": "06/14/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.363633230889,
-          33.72489720162
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202602707",
         "address": "492 OLIVER ST NW, ATLANTA GA 30314",
         "status": "Accepted",
@@ -2638,6 +2566,30 @@
         "coordinates": [
           -84.363852634208,
           33.695214239267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602810",
+        "address": "1449 GLENWOOD AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "06/20/2026",
+        "description": null,
+        "owner": "Mick rehrig",
+        "tree_dbh": "15",
+        "tree_location": "front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "dead tree at bus stop and power linesReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 176 01 001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "dogwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.340353078278,
+          33.740018744894
         ]
       }
     }
