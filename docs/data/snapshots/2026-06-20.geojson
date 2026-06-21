@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602810",
+        "address": "1449 GLENWOOD AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "06/20/2026",
+        "description": null,
+        "owner": "Mick rehrig",
+        "tree_dbh": "15",
+        "tree_location": "front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "dead tree at bus stop and power linesReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 176 01 001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "dogwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.340353078278,
+          33.740018744894
+        ]
+      }
+    }
+  ]
+}
