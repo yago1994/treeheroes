@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-040385",
+        "address": "2089 BUTLER WAY NW, ATLANTA GA 30318",
+        "status": "",
+        "date": "06/21/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.483095619962,
+          33.812360191739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602811",
+        "address": "719 GREENVIEW AVE NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "06/21/2026",
+        "description": null,
+        "owner": "DAVIS PETER V",
+        "tree_dbh": "13",
+        "tree_location": "Front, Right side of driveway",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Significant lean and growing into clients roof/residenceReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00460011057 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Redbud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.364019619623,
+          33.837621538498
+        ]
+      }
+    }
+  ]
+}
