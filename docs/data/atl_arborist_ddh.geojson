@@ -28,54 +28,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-040385",
-        "address": "2089 BUTLER WAY NW, ATLANTA GA 30318",
-        "status": null,
-        "date": "06/21/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.483095619962,
-          33.812360191739
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602811",
-        "address": "719 GREENVIEW AVE NE, ATLANTA GA 30305",
-        "status": "ACA Pending",
-        "date": "06/21/2026",
-        "description": null,
-        "owner": "DAVIS PETER V",
-        "tree_dbh": "13",
-        "tree_location": "Front, Right side of driveway",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "Significant lean and growing into clients roof/residenceReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00460011057 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Redbud"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.364019619623,
-          33.837621538498
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202602840",
         "address": "1234 TUCKAWANNA DR SW, ATLANTA GA 30311",
         "status": "ACA Pending",
@@ -2998,6 +2950,102 @@
         "coordinates": [
           -84.405622298383,
           33.795176408035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602939",
+        "address": "394 MCWILLIAMS AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "06/27/2026",
+        "description": null,
+        "owner": "NORTHBROOKE HOMES INC",
+        "tree_dbh": "17",
+        "tree_location": "far back right of lot",
+        "reason_removal": "Dying tree",
+        "tree_description": "17\" Sweetgum, right side of lot next to fence, dead wood thru out canopy, leaning toward neighborReason for Removal:Dying treeComments:17\" Sweetgum, right side of lot next to fence, dead wood thru out canopy, leaning toward neighbor\n\t\t\n\t\t\n\t\t\tTree number:2Species:PoplarTree Size (DBH):28Tree location:far back right of lotDescription of Tree:28\" Poplar, far back right of lot, dead/dying, covered in wisteria, broken topReason for Removal:Dying treeComments:28\" Poplar, far back right of lot, dead/dying, covered in wisteria, broken top\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 178 03 001 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33600633002,
+          33.742262444885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-042156",
+        "address": "211 SUNSET AVE NW, ATLANTA GA 30314",
+        "status": null,
+        "date": "06/27/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409848985057,
+          33.760412725517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602937",
+        "address": "719 EMILY PL NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "06/27/2026",
+        "description": null,
+        "owner": "Sergio Vasquez",
+        "tree_dbh": "40",
+        "tree_location": "Backyard/left side",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "White Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.452170295221,
+          33.774011593314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602938",
+        "address": "2569 BOHLER RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "06/27/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.429222105902,
+          33.823991942668
         ]
       }
     }
