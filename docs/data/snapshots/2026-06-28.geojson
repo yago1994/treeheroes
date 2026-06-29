@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602941",
+        "address": "1775 MT PARAN RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "06/28/2026",
+        "description": null,
+        "owner": "Mark Hughes",
+        "tree_dbh": "12",
+        "tree_location": "Front left",
+        "reason_removal": "Dying tree",
+        "tree_description": "Sparse, low live crown Reason for Removal:Dying treeComments:Tree is struggling in this location.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0200  LL188 *Block:--Lot:--Subdivision:--",
+        "tree_number": "10",
+        "species": "Bald Cypress"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.433199362158,
+          33.868280259892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602942",
+        "address": "2093 RIVER WAY NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "06/28/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "14",
+        "tree_location": "near park",
+        "reason_removal": "Diseased",
+        "tree_description": "Reason for Removal: The subject hardwood tree exhibits advanced structural defects, including a large open trunk cavity with extensive internal decay, multiple old wounds, and significant bark loss on the main stem. The decay is located on the primary load-bearing trunk directly beneath major scaffold limbs, reducing the tree’s structural stability. The tree also has codominant stems originating above the decayed section, increasing the potential for stem failure during high winds or storm events. Due to the extent and location of the decay and the tree’s proximity to an occupied residential structure, pedestrian sidewalk, and common-use area, the tree presents an elevated risk of structural failure. Removal is recommended to eliminate the potential hazard to people and property.Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02300003166 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.455368006034,
+          33.813253475079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-042193",
+        "address": "3511 ADKINS RD NW, ATLANTA GA 30331",
+        "status": "",
+        "date": "06/28/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.505109723025,
+          33.772869600562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202602940",
+        "address": "547 EAST WESLEY RD NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "06/28/2026",
+        "description": null,
+        "owner": "GY Track LLC",
+        "tree_dbh": "18",
+        "tree_location": "backyard on borderline",
+        "reason_removal": "Other",
+        "tree_description": "large branch leaning over on the top of neighbor's roof.Reason for Removal:OtherComments:This tree is not dead or dying. But the large branches are leaning over neighbor's house and touching their roof, creating a hazard to neighbor's house.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00600006098 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "American Elm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.369130323238,
+          33.829171883904
+        ]
+      }
+    }
+  ]
+}
