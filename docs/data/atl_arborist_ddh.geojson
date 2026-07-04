@@ -4,102 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202602939",
-        "address": "394 MCWILLIAMS AVE SE, ATLANTA GA 30316",
-        "status": "ACA Pending",
-        "date": "06/27/2026",
-        "description": null,
-        "owner": "NORTHBROOKE HOMES INC",
-        "tree_dbh": "17",
-        "tree_location": "far back right of lot",
-        "reason_removal": "Dying tree",
-        "tree_description": "17\" Sweetgum, right side of lot next to fence, dead wood thru out canopy, leaning toward neighborReason for Removal:Dying treeComments:17\" Sweetgum, right side of lot next to fence, dead wood thru out canopy, leaning toward neighbor\n\t\t\n\t\t\n\t\t\tTree number:2Species:PoplarTree Size (DBH):28Tree location:far back right of lotDescription of Tree:28\" Poplar, far back right of lot, dead/dying, covered in wisteria, broken topReason for Removal:Dying treeComments:28\" Poplar, far back right of lot, dead/dying, covered in wisteria, broken top\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 178 03 001 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Poplar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.33600633002,
-          33.742262444885
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "26TMP-042156",
-        "address": "211 SUNSET AVE NW, ATLANTA GA 30314",
-        "status": null,
-        "date": "06/27/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.409848985057,
-          33.760412725517
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602937",
-        "address": "719 EMILY PL NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "06/27/2026",
-        "description": null,
-        "owner": "Sergio Vasquez",
-        "tree_dbh": "40",
-        "tree_location": "Backyard/left side",
-        "reason_removal": "Other",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "White Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.452170295221,
-          33.774011593314
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202602938",
-        "address": "2569 BOHLER RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "06/27/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.429222105902,
-          33.823991942668
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202602941",
         "address": "1775 MT PARAN RD NW, ATLANTA GA 30327",
         "status": "ACA Pending",
@@ -2446,6 +2350,222 @@
         "coordinates": [
           -84.508327392586,
           33.74834177305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603061",
+        "address": "3511 ADKINS RD NW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": "FARLEY CLARA",
+        "tree_dbh": "0",
+        "tree_location": "BACKYARD",
+        "reason_removal": "Dying tree",
+        "tree_description": "VERY LARGE WATEROAK LEANING TOWARDS HOUSE / COULD POTENTIALLY FALL AND DEMOLISH HOME.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00160006022 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "WATEROAK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.505109723025,
+          33.772869600562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603060",
+        "address": "2672 BATTLE OVERLOOK NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.413387344657,
+          33.828265952544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-043412",
+        "address": "1638 WOODLAND AVE SE, ATLANTA GA 30316",
+        "status": null,
+        "date": "07/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35244597519,
+          33.709649750422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603059",
+        "address": "4269 HARRIS TRL NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": "FINE CATHY S",
+        "tree_dbh": "10",
+        "tree_location": "front right",
+        "reason_removal": "Dying tree",
+        "tree_description": "crown dieback Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:pineTree Size (DBH):23Tree location:front right Description of Tree:uncorrectable growth pattern with crown dieback Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:3Species:red oakTree Size (DBH):40Tree location:front of front parking area Description of Tree:severe dieback throughout with severe decay near base Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:4Species:red oak Tree Size (DBH):25Tree location:front right side of property Description of Tree:severe lean over side driveway with crown dieback Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:5Species:pineTree Size (DBH):13Tree location:front rightDescription of Tree:heavy unbalanced canopy Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:6Species:white oakTree Size (DBH):8Tree location:front right Description of Tree:decay in trunk Reason for Removal:Significant cavity/area of decay\n\t\t\n\t\t\n\t\t\tTree number:7Species:oakTree Size (DBH):19Tree location:front right Description of Tree:canker in  base Reason for Removal:Significant cavity/area of decay\n\t\t\n\t\t\n\t\t\tTree number:8Species:Red Oak Tree Size (DBH):25Tree location:front of property at streetDescription of Tree:heavy unbalanced canopy over street and powerlines Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:9Species:red oak Tree Size (DBH):45Tree location:Front at street Description of Tree:heavy canopy over street and powerlines",
+        "tree_number": "1",
+        "species": "Japanese maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.433885908303,
+          33.871931175715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603064",
+        "address": "211 JOE LOUIS DR NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "41",
+        "tree_location": "front left",
+        "reason_removal": "Dying tree",
+        "tree_description": "root decay, past branch failures, die backReason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01790005093 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "red oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.460107487852,
+          33.759865032665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603062",
+        "address": "1415 WESLEY PKWY NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "17",
+        "tree_location": "front left",
+        "reason_removal": "Diseased",
+        "tree_description": "This pine has no live canopy. Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:loblolly pine Tree Size (DBH):13Tree location:front leftDescription of Tree: tree has a slight lean with basal decay on the holding side. Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0196  LL115 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "loblolly pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.43432414573,
+          33.832269866585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603065",
+        "address": "1920 JOSEPH E BOONE BLVD NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": "FEINBERG NELSON",
+        "tree_dbh": "15",
+        "tree_location": "front right",
+        "reason_removal": "Diseased",
+        "tree_description": "small pocket of decay in trunk.Reason for Removal:Diseased\n\t\t\n\t\t\n\t\t\tTree number:2Species:walnutTree Size (DBH):12Tree location:front leftDescription of Tree:Small Pocket of decay in trunk.Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01750009035 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "hickory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.449746533528,
+          33.763986827607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603063",
+        "address": "1415 WESLEY PKWY NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "07/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "17",
+        "tree_location": "front left",
+        "reason_removal": "Diseased",
+        "tree_description": "This pine has no live canopy. Reason for Removal:Dying tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:loblolly pine Tree Size (DBH):13Tree location:front leftDescription of Tree:This tree has a slight lean with basal decay on the holding side. Reason for Removal:Diseased\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0196  LL115 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "loblolly pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.43432414573,
+          33.832269866585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-043348",
+        "address": "251 WEST PACES FERRY RD NW, ATLANTA GA 30305",
+        "status": null,
+        "date": "07/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.394185946335,
+          33.844148521395
         ]
       }
     }
