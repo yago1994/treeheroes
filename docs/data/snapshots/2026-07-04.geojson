@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603066",
+        "address": "438 GRIFFIN ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "07/04/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "14",
+        "tree_location": "highlighted in orange on attached survey",
+        "reason_removal": "Other",
+        "tree_description": "Tree appears stressed and damaged by drought, poor soil, or root damageReason for Removal:OtherComments:The tree is also leaning and parts of the branches are resting on the roof.  The trunk is also extremely close to the house.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01110005090 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411236451143,
+          33.766518265445
+        ]
+      }
+    }
+  ]
+}
