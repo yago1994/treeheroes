@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603067",
+        "address": "1316 LORENZO DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "07/05/2026",
+        "description": null,
+        "owner": "BURSON BARBARA",
+        "tree_dbh": "16",
+        "tree_location": "near rear of home",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.432477614086,
+          33.71953729615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603068",
+        "address": "19 EAST LAKE DR SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "07/05/2026",
+        "description": null,
+        "owner": "BRESLIN KATHRYN OR BRESLIN DAVID",
+        "tree_dbh": "30",
+        "tree_location": "back right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "fungus indicative of decay/root rotReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 204 04 040 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "water oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.301417347492,
+          33.750911716972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603069",
+        "address": "975 ADAIR AVE NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "07/05/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.355519453413,
+          33.780225103405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603070",
+        "address": "500 CANDLER PARK DR NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "07/05/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.339426750279,
+          33.767945804014
+        ]
+      }
+    }
+  ]
+}
