@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603199",
+        "address": "1638 WOODLAND AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "07/11/2026",
+        "description": null,
+        "owner": "SABIR SAFIYYAH",
+        "tree_dbh": "55",
+        "tree_location": "back right",
+        "reason_removal": "Dead tree",
+        "tree_description": "tree is leaning Reason for Removal:Dead treeComments:3 of 3 trees\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00080009031 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35244597519,
+          33.709649750422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603198",
+        "address": "439 ATLANTA AVE SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "07/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.372942411027,
+          33.73017430008
+        ]
+      }
+    }
+  ]
+}
