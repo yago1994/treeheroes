@@ -4,78 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-045191",
-        "address": "719 COURTENAY DR NE, ATLANTA GA 30306",
-        "status": null,
-        "date": "07/12/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.363535761372,
-          33.789457662172
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603200",
-        "address": "4010 BEECHWOOD DR NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "07/12/2026",
-        "description": null,
-        "owner": "RODGERS THOMAS M JR",
-        "tree_dbh": "12",
-        "tree_location": "rear left silt fence",
-        "reason_removal": "Other",
-        "tree_description": "see report and fine receiptReason for Removal:OtherComments:see report\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0200  LL153 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Maple"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.432222765014,
-          33.863885698349
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603201",
-        "address": "2460 OLDFIELD RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "07/12/2026",
-        "description": null,
-        "owner": "Steven Acchione",
-        "tree_dbh": "23",
-        "tree_location": "Back corner of yard",
-        "reason_removal": "Dead tree",
-        "tree_description": "Tree has two trunks. Tree has died and has dead wood throughout canopy. Reason for Removal:Dead treeComments:Tree is over both our yard and our neighbor's. We are both working with the same tree company (Castor) and want to have this tree removed. The tree is a danger to our houses and children. Tree size listed is one of the two trunks, as it's a double trunk tree. \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01550002063 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.410860472991,
-          33.822307787216
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202603221",
         "address": "385 IVY KNOLL NE, ATLANTA GA 30342",
         "status": "Accepted",
@@ -3238,6 +3166,78 @@
         "coordinates": [
           -84.416520021795,
           33.82012458829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603354",
+        "address": "1231 HOLLY ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "07/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "14",
+        "tree_location": "Center Rear",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "hard wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395725853247,
+          33.788501526013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603357",
+        "address": "171 PEACHTREE BATTLE AVE NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "07/18/2026",
+        "description": null,
+        "owner": "Nicholas Jeffries",
+        "tree_dbh": "36",
+        "tree_location": "Rear left corner of home",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Within 5' of foundations, roots growing over walkway creating a trip hazard, Ganoderma conks present - one on buttress root and another on surface root.Reason for Removal:Uncorrectable defectComments:Compromised root plate and root decay fungi present - high risk tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01120004017 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Water Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.393182587661,
+          33.821676698784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603358",
+        "address": "1473 WELLSWOOD DR SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "07/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.356785148094,
+          33.713082628498
         ]
       }
     }
