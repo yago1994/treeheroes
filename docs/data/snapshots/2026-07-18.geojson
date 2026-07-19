@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603354",
+        "address": "1231 HOLLY ST NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "07/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "14",
+        "tree_location": "Center Rear",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "hard wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395725853247,
+          33.788501526013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603357",
+        "address": "171 PEACHTREE BATTLE AVE NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "07/18/2026",
+        "description": null,
+        "owner": "Nicholas Jeffries",
+        "tree_dbh": "36",
+        "tree_location": "Rear left corner of home",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Within 5' of foundations, roots growing over walkway creating a trip hazard, Ganoderma conks present - one on buttress root and another on surface root.Reason for Removal:Uncorrectable defectComments:Compromised root plate and root decay fungi present - high risk tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01120004017 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Water Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.393182587661,
+          33.821676698784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603358",
+        "address": "1473 WELLSWOOD DR SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "07/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.356785148094,
+          33.713082628498
+        ]
+      }
+    }
+  ]
+}
