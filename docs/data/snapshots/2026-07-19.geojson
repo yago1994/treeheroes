@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-046896",
+        "address": "2787 MARGARET MITCHELL DR NW, ATLANTA GA 30327",
+        "status": "",
+        "date": "07/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.437046069743,
+          33.832460744544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603359",
+        "address": "211 WILBUR AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "07/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "33",
+        "tree_location": "backyard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Worried about the tree.  There have been several dropped limbs, it's weighted towards our neighbors property, there are large vines, rotten stubs,  Worried with the rotten stubs that were not cut at an angle that water is getting into the main part of the tree.  We are worried that it could be hollow inside, it is rotting and could fall.  If it were to fall, it stands alone with no other trees or objects nearby to brace it.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00130010037 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.352976229502,
+          33.747764229151
+        ]
+      }
+    }
+  ]
+}
