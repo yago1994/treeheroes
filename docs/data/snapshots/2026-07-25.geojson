@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603512",
+        "address": "991 PROSPECT AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "07/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "48",
+        "tree_location": "Back right corner of the house.",
+        "reason_removal": "Dying tree",
+        "tree_description": "The center lead is dead Reason for Removal:Dying treeComments:Multiple trunks, the tree looks to be separating, the center lead is dead and dropping large sections on or near the home.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00100006052 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sweet gum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354820366532,
+          33.728117864609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-043494",
+        "address": "2802 CONNALLY DR SW, ATLANTA GA 30311",
+        "status": "",
+        "date": "07/25/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.480237215384,
+          33.694553774425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603513",
+        "address": "372 SPRINGDALE DR NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "07/25/2026",
+        "description": null,
+        "owner": "BARRON JOYCE L",
+        "tree_dbh": "20",
+        "tree_location": "Back yard",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.376294597821,
+          33.822673985038
+        ]
+      }
+    }
+  ]
+}
