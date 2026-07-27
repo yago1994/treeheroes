@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603514",
+        "address": "3480 PACES VALLEY RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "07/26/2026",
+        "description": null,
+        "owner": "SCHNEIDER TIMOTHY P",
+        "tree_dbh": "32",
+        "tree_location": "Back yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Diseased/dying Beech tree which has been treated for Beech Leaf disease within the last 2 years.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01580003041 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Beech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411256244387,
+          33.850181217834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603516",
+        "address": "1767 MOORES MILL RD NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "07/26/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.445551297666,
+          33.825247323477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-048493",
+        "address": "1322 BEECH VALLEY RD NE, ATLANTA GA 30306",
+        "status": "",
+        "date": "07/26/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34380351631,
+          33.797766149178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603515",
+        "address": "1948 BROWNS MILL RD SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "07/26/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375878728754,
+          33.700906352878
+        ]
+      }
+    }
+  ]
+}
