@@ -28,102 +28,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202603514",
-        "address": "3480 PACES VALLEY RD NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "07/26/2026",
-        "description": null,
-        "owner": "SCHNEIDER TIMOTHY P",
-        "tree_dbh": "32",
-        "tree_location": "Back yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "Diseased/dying Beech tree which has been treated for Beech Leaf disease within the last 2 years.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01580003041 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Beech"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.411256244387,
-          33.850181217834
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603516",
-        "address": "1767 MOORES MILL RD NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "07/26/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.445551297666,
-          33.825247323477
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "26TMP-048493",
-        "address": "1322 BEECH VALLEY RD NE, ATLANTA GA 30306",
-        "status": null,
-        "date": "07/26/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.34380351631,
-          33.797766149178
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603515",
-        "address": "1948 BROWNS MILL RD SE, ATLANTA GA 30315",
-        "status": "ACA Pending",
-        "date": "07/26/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.375878728754,
-          33.700906352878
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "26TMP-048816",
         "address": "491 STERLING ST NE, ATLANTA GA 30307",
         "status": null,
@@ -3262,6 +3166,198 @@
         "coordinates": [
           -84.417170389062,
           33.726930535999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603663",
+        "address": "63 RUSSELL ST NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/01/2026",
+        "description": null,
+        "owner": "BISHOP TANYA S",
+        "tree_dbh": "16",
+        "tree_location": "left side/end of driveway",
+        "reason_removal": "Dead tree",
+        "tree_description": "DeadReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 204 03 083 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pecan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.302444919454,
+          33.753435447624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-050054",
+        "address": "3478 FAIRLANE DR NW, ATLANTA GA 30331",
+        "status": null,
+        "date": "08/01/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.501169840984,
+          33.766865270352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603666",
+        "address": "281 SCIPLE TER NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
+        "date": "08/01/2026",
+        "description": null,
+        "owner": "Jana Quinel Lovett",
+        "tree_dbh": "0",
+        "tree_location": "Backyard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "The tree in question has a heavily leaning canopy that poses an immediate risk to surrounding properties. While the trunk is currently covered in dense vines, the severe structural lean of the main canopy is my primary safety concern.Reason for Removal:Invasive/undesirable treeComments:Size: Unknown\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01100001132 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Uknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.415056248537,
+          33.762335276933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603661",
+        "address": "567 ST CHARLES AVE NE, ATLANTA GA 30308",
+        "status": "ACA Pending",
+        "date": "08/01/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.368185603539,
+          33.775414313798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603665",
+        "address": "2496 SPRINGDALE RD SW, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "08/01/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.414796811774,
+          33.686565639977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603662",
+        "address": "2015 ROBSON PL NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/01/2026",
+        "description": null,
+        "owner": "LIN ANGELA",
+        "tree_dbh": "28",
+        "tree_location": "Rear right/outside fence",
+        "reason_removal": "Dying tree",
+        "tree_description": "Dead top",
+        "tree_number": "1",
+        "species": "Water Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.321444543731,
+          33.756186334875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603660",
+        "address": "423 WEST LAKE AVE NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "08/01/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.440884497443,
+          33.767011337791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603664",
+        "address": "300 HILLSIDE DR NW, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "08/01/2026",
+        "description": "DDH inspection request",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.397476016826,
+          33.869866647169
         ]
       }
     }
