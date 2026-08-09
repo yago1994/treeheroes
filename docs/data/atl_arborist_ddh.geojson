@@ -76,102 +76,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-050104",
-        "address": "21 MILDRED PL NW, ATLANTA GA 30318",
-        "status": null,
-        "date": "08/02/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.456436696756,
-          33.778668424288
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603668",
-        "address": "362 RALPH DAVID ALBERNATHY BLVD SW, UNIT 1, ATLANTA GA 30312",
-        "status": "ACA Pending",
-        "date": "08/02/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "8",
-        "tree_location": "See site map",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": "Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:2Species:Paper Mulberry Tree Size (DBH):13Tree location:See site map Description of Tree:Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:3Species:Paper Mulberry Tree Size (DBH):15Tree location:See site map Description of Tree:Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:4Species:Paper Mulberry Tree Size (DBH):12Tree location:See site map Description of Tree:Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:5Species:Paper Mulberry Tree Size (DBH):12Tree location:See site map Description of Tree:Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:6Species:Paper Mulberry Tree Size (DBH):13Tree location:See site map Description of Tree:Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:7Species:Paper Mulberry Tree Size (DBH):12Tree location:See site map Description of Tree:Numbered flagging tapeReason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:8Species:Paper Mulberry Tree Size (DBH):17Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:9Species:Paper Mulberry Tree Size (DBH):25Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:10Species:Paper Mulberry Tree Size (DBH):11Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:11Species:Paper Mulberry Tree Size (DBH):8Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:12Species:Paper Mulberry Tree Size (DBH):7Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:13Species:Paper Mulberry Tree Size (DBH):8Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\t\n\t\t\tTree number:14Species:Paper Mulberry Tree Size (DBH):8Tree location:See site map Description of Tree:Numbered flagging tape Reason for Removal:Invasive/undesirable treeComments:Invasive/ Undesired \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:T14 00860003100  01 *Block:--Lot:--Subdivision:SAP-24-115 / 362 RALPH D ABERNATHAY BLVD SW",
-        "tree_number": "1",
-        "species": "Paper Mulberry"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.399381306337,
-          33.736903196059
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603667",
-        "address": "1166 7TH ST NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "08/02/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.473575721675,
-          33.786415671981
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603669",
-        "address": "4094 GLEN DEVON DR NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "08/02/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.417220459295,
-          33.867053746431
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202603705",
         "address": "1053 SWATHMORE DR NW, ATLANTA GA 30327",
         "status": "ACA Pending",
@@ -3694,6 +3598,126 @@
         "coordinates": [
           -84.45426324721,
           33.847981785106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603828",
+        "address": "1919 WELLBOURNE DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "14",
+        "tree_location": "located along property line between homes",
+        "reason_removal": "Other",
+        "tree_description": "Hazardous, leaning, destructiveReason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00500007005 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360037534244,
+          33.807024344848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603830",
+        "address": "871 CARDOVA DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": "BISHOP PAUL W",
+        "tree_dbh": "55",
+        "tree_location": "back yard by b fence",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "very large failing oak with large crack developing in main crotch, held together with temp riggingReason for Removal:Uncorrectable defectComments:large lead peeling off has potinal to hit house behind fence\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00050004056 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "water oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.359133452284,
+          33.816659826458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603827",
+        "address": "2166 HOSEA L WILLIAMS DR NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.316976065041,
+          33.751217283087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603829",
+        "address": "1919 WELLBOURNE DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360037534244,
+          33.807024344848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603826",
+        "address": "1600 PEACHTREE ST NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": "SIXTEEN HUNDRED PEACHTREE L L C",
+        "tree_dbh": "31",
+        "tree_location": "Back right corner of Bldg",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead, Orange dot,\nambrosia beetle killReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:CottonwoodTree Size (DBH):17Tree location:Back right corner of BldgDescription of Tree:Dead, orange dot,\nambrosia beetle killReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01080001049 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Cottonwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.390692767657,
+          33.798019096223
         ]
       }
     }
