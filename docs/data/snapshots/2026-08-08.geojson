@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603828",
+        "address": "1919 WELLBOURNE DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "14",
+        "tree_location": "located along property line between homes",
+        "reason_removal": "Other",
+        "tree_description": "Hazardous, leaning, destructiveReason for Removal:Other\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00500007005 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hackberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360037534244,
+          33.807024344848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603830",
+        "address": "871 CARDOVA DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.359133452284,
+          33.816659826458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603827",
+        "address": "2166 HOSEA L WILLIAMS DR NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.316976065041,
+          33.751217283087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603829",
+        "address": "1919 WELLBOURNE DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360037534244,
+          33.807024344848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603826",
+        "address": "1600 PEACHTREE ST NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "08/08/2026",
+        "description": null,
+        "owner": "SIXTEEN HUNDRED PEACHTREE L L C",
+        "tree_dbh": "31",
+        "tree_location": "Back right corner of Bldg",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead, Orange dot,\nambrosia beetle killReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:CottonwoodTree Size (DBH):17Tree location:Back right corner of BldgDescription of Tree:Dead, orange dot,\nambrosia beetle killReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01080001049 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Cottonwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.390692767657,
+          33.798019096223
+        ]
+      }
+    }
+  ]
+}
