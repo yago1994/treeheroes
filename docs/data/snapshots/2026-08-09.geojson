@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603831",
+        "address": "4414 POWERS FERRY RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "08/09/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "23",
+        "tree_location": "rear left",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "taggedReason for Removal:Significant cavity/area of decayComments:See level 3 report",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.397909283828,
+          33.875761952312
+        ]
+      }
+    }
+  ]
+}
