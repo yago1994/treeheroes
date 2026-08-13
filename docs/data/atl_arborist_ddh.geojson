@@ -2356,30 +2356,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-052928",
-        "address": "4125 Welcome All, United States",
-        "status": null,
-        "date": "08/12/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.523015737264,
-          33.642041169437
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202603930",
         "address": "2300 BOULEVARD GRANADA SW, ATLANTA GA 30311",
         "status": "ACA Pending",
@@ -2433,13 +2409,13 @@
         "status": "ACA Pending",
         "date": "08/12/2026",
         "description": null,
-        "owner": "Ernesto and Giovanna Ruizperotti",
-        "tree_dbh": "30",
-        "tree_location": "Front of property",
-        "reason_removal": "Other",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "Magnolia"
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
@@ -2458,12 +2434,12 @@
         "date": "08/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_dbh": "30",
+        "tree_location": "Property line to 345 Brentwood Terrace",
+        "reason_removal": "Dying tree",
+        "tree_description": "Tree is located on the property line between 335 and 345 Brentwood Terrace.Reason for Removal:Dying treeComments:Tree is dying and losing limbs falling on my neighbor's property, driveway and car. Tree has been sick for quite a while and neighbors asks to take it down since the tree is on the property line.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00600005042 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Oak"
       },
       "geometry": {
         "type": "Point",
@@ -2578,12 +2554,12 @@
         "date": "08/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "tree_dbh": "6",
+        "tree_location": "Right side of House",
+        "reason_removal": "Dying tree",
+        "tree_description": "close to the fence on the Right side of the houseReason for Removal:Dying treeComments:\nplease come around from the left side of the property it is open\n\t\t\n\t\t\n\t\t\tTree number:2Species:HardwoodTree Size (DBH):7Tree location:Right side of HouseDescription of Tree:close to the fence on the right side of the house,Reason for Removal:Dying treeComments:please come around from the left side of the property it is open\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 212 02 166 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Hardwood"
       },
       "geometry": {
         "type": "Point",
@@ -2601,13 +2577,13 @@
         "status": "ACA Pending",
         "date": "08/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Jeffrey Mitchell",
+        "tree_dbh": "34",
+        "tree_location": "Back of left of property",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Appears to be a 34 inch wateroak.  It is big and in bad shapeReason for Removal:Significant cavity/area of decayComments:I emailed Patrick Rodgers and he gave approval for immediate removal based for imminent danger based on condition after a huge limb fell onto my neighbors property.  \n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01140002045 *Block:--Lot:--Subdivision:--",
+        "tree_number": "0",
+        "species": "Hardwood Wateroak"
       },
       "geometry": {
         "type": "Point",
@@ -2697,13 +2673,13 @@
         "status": "Accepted",
         "date": "08/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "Susan Dimmick",
+        "tree_dbh": "14",
+        "tree_location": "Backyard, left side, at end of driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "Tree has lost 25% of its canopy in the last two years. It has been under a soil care plan, but the condition continues to worsen. Tree is in too small an area to succeed, as it has a driveway on one side and a walkway on the other.Reason for Removal:Uncorrectable defect\n\t\t\n\t\t\n\t\t\tTree number:2Species:MapleTree Size (DBH):18Tree location:Backyard, left side, at end of drivewayDescription of Tree:50% dead canopy, decay throughout.Reason for Removal:Dying tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01050005043 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Paperbark Maple"
       },
       "geometry": {
         "type": "Point",
@@ -2745,13 +2721,13 @@
         "status": "Accepted",
         "date": "08/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
+        "owner": "HARPER C RUSSELL",
+        "tree_dbh": "16",
+        "tree_location": "right side of backyard",
+        "reason_removal": "Dead tree",
+        "tree_description": "16\" Sweetgum, front yard, left, Declining, excessive epicormic shoot growth due to improper pruning by GA PowerReason for Removal:OtherComments:16\" Sweetgum, front yard, left, Declining, excessive epicormic shoot growth due to improper pruning by GA Power\n\t\t\n\t\t\n\t\t\tTree number:2Species:Red MapleTree Size (DBH):16Tree location:front yard leftDescription of Tree:16\" Red Maple, front yard, left, Declining, excessive epicormic shoot growth due to improper pruning by GA PowerReason for Removal:OtherComments:16\" Red Maple, front yard, left, Declining, excessive epicormic shoot growth due to improper pruning by GA Power\n\t\t\n\t\t\n\t\t\tTree number:3Species:PineTree Size (DBH):24Tree location:back yard middle rightDescription of Tree:24\" Pine, backyard middle right, DeadReason for Removal:Dead treeComments:24\" Pine, backyard middle right, Dead\n\t\t\n\t\t\n\t\t\tTree number:4Species:OakTree Size (DBH):9Tree location:right side of backyardDescription of Tree:9\" Oak, right side of backyard, by fence and playground, DeadReason for Removal:Dead treeComments:9\" Oak, right side of backyard, by fence and playground, Dead\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00470005004 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Red Maple"
       },
       "geometry": {
         "type": "Point",
@@ -2866,12 +2842,12 @@
         "date": "08/12/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "14",
-        "tree_location": "Rear of property",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead, ambrosia beetlesReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01050007024 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Elm"
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
       },
       "geometry": {
         "type": "Point",
