@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202603993",
+        "address": "2361 DELLWOOD DR NW, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "08/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "20",
+        "tree_location": "Backyard right side",
+        "reason_removal": "Dying tree",
+        "tree_description": "red tapeReason for Removal:Dying treeComments:Basal trunk cavity with suspected internal wood decay.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 01450001023 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Box elder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.398190754168,
+          33.819745414385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-053552",
+        "address": "353 HENRY AARON AVE SW, ATLANTA GA",
+        "status": "",
+        "date": "08/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.457321699867,
+          33.746126380807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-053558",
+        "address": "259 MEMORIAL TER SE, ATLANTA GA 30316",
+        "status": "",
+        "date": "08/15/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.341981750734,
+          33.746289878878
+        ]
+      }
+    }
+  ]
+}
