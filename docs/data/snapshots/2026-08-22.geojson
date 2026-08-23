@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604154",
+        "address": "1437 OGLETHORPE AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": "LEWIS MAGRICK",
+        "tree_dbh": "35",
+        "tree_location": "Right side of the driveway",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "The Sweetgum contains a sparse foliage, cankers on the trunk.Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01390003013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sweetgum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.434609192374,
+          33.736901865685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604153",
+        "address": "2767 PHARR RD NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.296286689549,
+          33.753727632829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604152",
+        "address": "193 CLAY ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.330501686251,
+          33.748583005308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604155",
+        "address": "4366 NORTH BUCKHEAD DR NE, LOT 27, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366582614645,
+          33.877746978287
+        ]
+      }
+    }
+  ]
+}
