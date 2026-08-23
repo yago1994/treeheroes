@@ -4,126 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202603998",
-        "address": "1180 ZIMMER DR NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "08/16/2026",
-        "description": null,
-        "owner": "SEMLER ROBERT C",
-        "tree_dbh": "20",
-        "tree_location": "left side of house",
-        "reason_removal": "Other",
-        "tree_description": "20\" Magnolia, left side of house, less than 5 ft from foundation, canopy growing up over both roof lines",
-        "tree_number": "1",
-        "species": "Magnolia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.348417194455,
-          33.792756110097
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603997",
-        "address": "4300 LAKEHAVEN DR NE, ATLANTA GA 30319",
-        "status": "ACA Pending",
-        "date": "08/16/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "25",
-        "tree_location": "left side of home",
-        "reason_removal": "Other",
-        "tree_description": "25\" Pine, left side of home, next to fence, canker/rot on backsideReason for Removal:OtherComments:25\" Pine, left side of home, next to fence, canker/rot on backside\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 00120004013 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Pine"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.351480832485,
-          33.871341089965
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603995",
-        "address": "1598 OLYMPIAN CIR SW, ATLANTA GA 30310",
-        "status": "ACA Pending",
-        "date": "08/16/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.440159471566,
-          33.735256791723
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603996",
-        "address": "1258 REEDER CIR NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "08/16/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.346388204429,
-          33.793515689565
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202603994",
-        "address": "4521 HARRIS TRL NW, ATLANTA GA 30327",
-        "status": "ACA Pending",
-        "date": "08/16/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "23",
-        "tree_location": "Front, far left - near to the fence and street",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead Reason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 02010001019 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.434121117011,
-          33.878147741638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202604017",
         "address": "943 GATEWOOD CT NW, ATLANTA GA 30327",
         "status": "Accepted",
@@ -2686,6 +2566,102 @@
         "coordinates": [
           -84.362643261264,
           33.796127184804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604154",
+        "address": "1437 OGLETHORPE AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": "LEWIS MAGRICK",
+        "tree_dbh": "35",
+        "tree_location": "Right side of the driveway",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "The Sweetgum contains a sparse foliage, cankers on the trunk.Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01390003013 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Sweetgum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.434609192374,
+          33.736901865685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604153",
+        "address": "2767 PHARR RD NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.296286689549,
+          33.753727632829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604152",
+        "address": "193 CLAY ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.330501686251,
+          33.748583005308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604155",
+        "address": "4366 NORTH BUCKHEAD DR NE, LOT 27, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "08/22/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366582614645,
+          33.877746978287
         ]
       }
     }
