@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604156",
+        "address": "1032 FERNCLIFF RD NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "08/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "33",
+        "tree_location": "Back of home",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Willow Oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.353425822696,
+          33.84375579144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604161",
+        "address": "303 UNIVERSITY AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "08/23/2026",
+        "description": null,
+        "owner": "HARRIS ARBIDELLA",
+        "tree_dbh": "0",
+        "tree_location": "In front and above home",
+        "reason_removal": "Dead tree",
+        "tree_description": "Large tree with multiple large branchesReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00740008020 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.397975422752,
+          33.722168867481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604160",
+        "address": "751 SOUTH GRAND AVE NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "08/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46263116054,
+          33.77582807721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604159",
+        "address": "190 HOWELL DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "08/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.503448925307,
+          33.753154268795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604158",
+        "address": "186 HOWELL DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "08/23/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.503419798275,
+          33.753272274782
+        ]
+      }
+    }
+  ]
+}
