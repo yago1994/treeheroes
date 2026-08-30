@@ -4,126 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202604156",
-        "address": "1032 FERNCLIFF RD NE, ATLANTA GA 30324",
-        "status": "ACA Pending",
-        "date": "08/23/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "33",
-        "tree_location": "Back of home",
-        "reason_removal": "Other",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "Willow Oak"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.353425822696,
-          33.84375579144
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604161",
-        "address": "303 UNIVERSITY AVE SW, ATLANTA GA 30310",
-        "status": "ACA Pending",
-        "date": "08/23/2026",
-        "description": null,
-        "owner": "HARRIS ARBIDELLA",
-        "tree_dbh": "0",
-        "tree_location": "In front and above home",
-        "reason_removal": "Dead tree",
-        "tree_description": "Large tree with multiple large branchesReason for Removal:Dead tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00740008020 *Block:--Lot:--Subdivision:--",
-        "tree_number": "1",
-        "species": "Unknown"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.397975422752,
-          33.722168867481
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604160",
-        "address": "751 SOUTH GRAND AVE NW, ATLANTA GA 30318",
-        "status": "ACA Pending",
-        "date": "08/23/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.46263116054,
-          33.77582807721
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604159",
-        "address": "190 HOWELL DR SW, ATLANTA GA 30331",
-        "status": "ACA Pending",
-        "date": "08/23/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.503448925307,
-          33.753154268795
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604158",
-        "address": "186 HOWELL DR SW, ATLANTA GA 30331",
-        "status": "ACA Pending",
-        "date": "08/23/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.503419798275,
-          33.753272274782
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202604170",
         "address": "453 EUCLID TER NE, ATLANTA GA 30307",
         "status": "ACA Pending",
@@ -3142,6 +3022,102 @@
         "coordinates": [
           -84.32921148896,
           33.752450848685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604305",
+        "address": "2421 SPRING GARDEN DR SW, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "08/29/2026",
+        "description": null,
+        "owner": "Kennya Simms",
+        "tree_dbh": "19",
+        "tree_location": "back left",
+        "reason_removal": "Dying tree",
+        "tree_description": "dead pine treeReason for Removal:Dead tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:water oakTree Size (DBH):38Tree location:back centerDescription of Tree:dying oak tree, with dead limbs, covering the houseReason for Removal:Dying treeComments:large hollow opening and fungi growing at trunk\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01010009047 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412356126437,
+          33.688725436356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604307",
+        "address": "1887 WYCLIFF RD NW, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "08/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395890211366,
+          33.806243695487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604304",
+        "address": "52 VINSON DR SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "08/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34062682691,
+          33.752022720287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604303",
+        "address": "661 VALLEY GREEN DR NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "08/29/2026",
+        "description": null,
+        "owner": "Stephen and Jennifer Halkos",
+        "tree_dbh": "18",
+        "tree_location": "Backyard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": null,
+        "tree_number": "2",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366843705756,
+          33.874976569951
         ]
       }
     }
