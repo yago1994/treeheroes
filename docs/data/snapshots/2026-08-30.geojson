@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604308",
+        "address": "448 ROCKWELL ST SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "08/30/2026",
+        "description": null,
+        "owner": "WILSON JAMES M",
+        "tree_dbh": "19",
+        "tree_location": "In front",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Tree is leaning forward and disrupting the power lines.Reason for Removal:Invasive/undesirable tree\n\t\t\n\t\t\n\t\t\tTree number:2Species:UnknownTree Size (DBH):21Tree location:In the middle of the propertyReason for Removal:Invasive/undesirable tree\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 00860009090 *Block:--Lot:--Subdivision:--",
+        "tree_number": "2",
+        "species": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.402408603443,
+          33.731875063716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604310",
+        "address": "286 TONAWANDA DR SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "08/30/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.385394142608,
+          33.68456392996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604309",
+        "address": "296 ORMOND ST SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "08/30/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.378228793301,
+          33.731558384551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604312",
+        "address": "385 CAREY DR SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "08/30/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.375474920409,
+          33.693711270038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604311",
+        "address": "2036 ROGERS AVE SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "08/30/2026",
+        "description": null,
+        "owner": "HARRIS JON EDWARD",
+        "tree_dbh": "44",
+        "tree_location": "See diagram",
+        "reason_removal": "Dying tree",
+        "tree_description": "None Reason for Removal:Dying treeComments:Tree appears to be dying, with an estimated 40% canopy dieback concentrated primarily within the upper crown. The tree measured 44? DBH with established Trumpet Vine attached to the trunk; actual trunk diameter is estimated to be approximately 39? without the Trumpet Vine.\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01710004066 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.454853707882,
+          33.737354274942
+        ]
+      }
+    }
+  ]
+}
