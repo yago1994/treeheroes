@@ -1,5 +1,16 @@
 import { PermitRecord, WeekOption, WeekRange } from './types';
 
+export function parseUsDateToUtc(dateStr: string | null): Date | null {
+  if (!dateStr) return null;
+  const match = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
+  if (!match) return null;
+  const month = Number(match[1]);
+  const day = Number(match[2]);
+  const year = Number(match[3].length === 2 ? Number(match[3]) + 2000 : match[3]);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
 function normalizeText(value: unknown): string | null {
   if (value === null || value === undefined) return null;
   const trimmed = String(value).trim();
@@ -54,6 +65,11 @@ export function normalizeRecord(input: unknown): PermitRecord | null {
   const record = normalizeText((source as Record<string, unknown>).record) ||
     normalizeText((source as Record<string, unknown>).Record);
 
+  const dateText = normalizeText((source as Record<string, unknown>).date) ||
+    normalizeText((source as Record<string, unknown>).Date) ||
+    normalizeText((source as Record<string, unknown>).submitted_date);
+  const parsedDate = parseUsDateToUtc(dateText);
+
   return {
     id,
     coords: [lon, lat],
@@ -65,9 +81,8 @@ export function normalizeRecord(input: unknown): PermitRecord | null {
       normalizeText((source as Record<string, unknown>).site_address),
     status: normalizeText((source as Record<string, unknown>).status) ||
       normalizeText((source as Record<string, unknown>).Status),
-    date: normalizeText((source as Record<string, unknown>).date) ||
-      normalizeText((source as Record<string, unknown>).Date) ||
-      normalizeText((source as Record<string, unknown>).submitted_date),
+    date: dateText,
+    dateMs: parsedDate ? parsedDate.getTime() : null,
     description: normalizeText((source as Record<string, unknown>).description) ||
       normalizeText((source as Record<string, unknown>).Description),
     owner: normalizeText((source as Record<string, unknown>).owner) ||
@@ -86,7 +101,6 @@ export function normalizeRecord(input: unknown): PermitRecord | null {
       normalizeText((source as Record<string, unknown>).TreeNumber),
     species: normalizeText((source as Record<string, unknown>).species) ||
       normalizeText((source as Record<string, unknown>).Species),
-    raw: source,
   };
 }
 
@@ -154,16 +168,6 @@ export async function loadPermitData(dataUrl?: string, geojsonUrl?: string): Pro
   throw new Error('Unable to load permit data from provided sources.');
 }
 
-export function parseUsDateToUtc(dateStr: string | null): Date | null {
-  if (!dateStr) return null;
-  const match = dateStr.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{2,4})/);
-  if (!match) return null;
-  const month = Number(match[1]);
-  const day = Number(match[2]);
-  const year = Number(match[3].length === 2 ? Number(match[3]) + 2000 : match[3]);
-  const date = new Date(Date.UTC(year, month - 1, day));
-  return Number.isNaN(date.getTime()) ? null : date;
-}
 
 function weekKeyForUtcDate(date: Date): WeekRange {
   const day = date.getUTCDay();
@@ -177,9 +181,8 @@ function weekKeyForUtcDate(date: Date): WeekRange {
 export function buildWeekOptions(records: PermitRecord[]): WeekOption[] {
   const map = new Map<string, WeekRange>();
   for (const record of records) {
-    const parsed = parseUsDateToUtc(record.date);
-    if (!parsed) continue;
-    const wk = weekKeyForUtcDate(parsed);
+    if (record.dateMs === null) continue;
+    const wk = weekKeyForUtcDate(new Date(record.dateMs));
     if (!map.has(wk.key)) {
       map.set(wk.key, wk);
     }
@@ -196,20 +199,49 @@ export function buildWeekOptions(records: PermitRecord[]): WeekOption[] {
   });
 }
 
+/** Range value for the default "last month" view. */
+export const RECENT_RANGE_VALUE = 'RECENT';
+/** How many days back the default view covers. */
+export const RECENT_WINDOW_DAYS = 30;
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+/**
+ * Inclusive [startMs, endMs] for the recent window, anchored on the newest
+ * permit in the dataset rather than on "now" — if the scraper stalls for a few
+ * days the default view still shows permits instead of an empty map.
+ */
+export function computeRecentWindow(records: PermitRecord[]): { startMs: number; endMs: number } {
+  let newest = -Infinity;
+  for (const record of records) {
+    if (record.dateMs !== null && record.dateMs > newest) newest = record.dateMs;
+  }
+  const anchor = Number.isFinite(newest) ? newest : Date.now();
+  return {
+    startMs: anchor - (RECENT_WINDOW_DAYS - 1) * DAY_MS,
+    endMs: anchor + (DAY_MS - 1),
+  };
+}
+
 export function filterRecordsByRange(records: PermitRecord[], rangeValue: string, weekLookup: Map<string, WeekOption>): PermitRecord[] {
   if (!rangeValue || rangeValue === 'ALL') {
     return records;
   }
-  const week = weekLookup.get(rangeValue);
-  if (!week) return records;
 
-  const startMs = week.week.start.getTime();
-  const endMs = week.week.end.getTime() + (24 * 60 * 60 * 1000 - 1);
+  let startMs: number;
+  let endMs: number;
+
+  if (rangeValue === RECENT_RANGE_VALUE) {
+    ({ startMs, endMs } = computeRecentWindow(records));
+  } else {
+    const week = weekLookup.get(rangeValue);
+    if (!week) return records;
+    startMs = week.week.start.getTime();
+    endMs = week.week.end.getTime() + (DAY_MS - 1);
+  }
 
   return records.filter((record) => {
-    const parsed = parseUsDateToUtc(record.date);
-    if (!parsed) return false;
-    const time = parsed.getTime();
-    return time >= startMs && time <= endMs;
+    if (record.dateMs === null) return false;
+    return record.dateMs >= startMs && record.dateMs <= endMs;
   });
 }

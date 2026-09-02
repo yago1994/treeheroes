@@ -4,7 +4,13 @@ import type { Selection } from '@react-types/shared';
 import { Alert, Badge, Button, Card, CardBody, Select, SelectItem, Spinner } from '@heroui/react';
 import { LinkIcon } from '@heroui/shared-icons';
 import PermitDetailsPanel from './map/PermitDetailsPanel';
-import { buildWeekOptions, filterRecordsByRange, loadPermitData } from './map/data';
+import {
+  RECENT_RANGE_VALUE,
+  RECENT_WINDOW_DAYS,
+  buildWeekOptions,
+  filterRecordsByRange,
+  loadPermitData,
+} from './map/data';
 import type { PermitRecord, WeekOption } from './map/types';
 import OLMap from 'ol/Map';
 import View from 'ol/View';
@@ -26,6 +32,12 @@ const DEFAULT_ZOOM = 11;
 const DEFAULT_STREET_VIEW_MSG = 'Select a permit marker to see Street View imagery here.';
 const BASE_PATH = (import.meta as any).env?.BASE_URL || '/';
 const DEFAULT_GEOJSON_URL = `${BASE_PATH}docs/data/atl_arborist_ddh.geojson`;
+// Slim last-35-days slice (~80KB gzipped) loaded on first paint.
+const RECENT_NDJSON_URL = `${BASE_PATH}docs/data/recent.ndjson`;
+// Full history (~760KB gzipped, 6k+ records) — fetched only when the user asks for it.
+const ALL_NDJSON_URL = `${BASE_PATH}docs/data/all.ndjson`;
+
+type DatasetScope = 'recent' | 'all';
 
 const DEFAULT_EXCLUDED_REASON_KEYS = new Set<string>();
 const UNKNOWN_REASON_KEY = 'UNKNOWN';
@@ -161,6 +173,54 @@ function buildEmojiSvg(size: number, emoji: string): string {
   return dataUrl;
 }
 
+/** Returned for features filtered out of the current view. */
+const HIDDEN_STYLE: Style[] = [];
+
+// OpenLayers calls the layer style function once per feature per render frame,
+// so these must be cached rather than allocated. Radius is quantized to whole
+// pixels when the feature is built, which keeps both caches tiny (~17 entries).
+const markerStyleCache = new Map<number, Style>();
+const selectedStyleCache = new Map<number, Style>();
+
+function markerStyleFor(radius: number): Style {
+  const cached = markerStyleCache.get(radius);
+  if (cached) return cached;
+  const style = new Style({
+    zIndex: 0,
+    image: new Icon({
+      src: buildMarkerSvg(radius, false),
+      anchor: [radius, radius],
+      anchorXUnits: 'pixels',
+      anchorYUnits: 'pixels',
+    }),
+  });
+  markerStyleCache.set(radius, style);
+  return style;
+}
+
+function selectedStyleFor(radius: number): Style {
+  const cached = selectedStyleCache.get(radius);
+  if (cached) return cached;
+  const iconRadius = radius + 1;
+  const style = new Style({
+    zIndex: 1000,
+    image: new Icon({
+      src: buildEmojiSvg(iconRadius * 1.8, '\u{1F333}'),
+      anchor: [iconRadius, iconRadius],
+      anchorXUnits: 'pixels',
+      anchorYUnits: 'pixels',
+    }),
+  });
+  selectedStyleCache.set(radius, style);
+  return style;
+}
+
+/** Marker radius in pixels, derived from reported DBH. */
+function markerRadiusFor(dbhRaw: string | null): number {
+  const dbh = extractDbhValue(dbhRaw) || 0;
+  return Math.round(Math.max(4, Math.min(20, 4 + dbh * 0.25)));
+}
+
 type MapAppOLProps = {
   apiKey: string;
   mapId: string;
@@ -207,6 +267,8 @@ export default function MapAppOL({
   const vectorLayerRef = useRef<VectorLayer<VectorSource> | null>(null);
   const recordByIdRef = useRef<Map<string, PermitRecord>>(new Map());
   const recordsRef = useRef<PermitRecord[]>([]);
+  // Parsed records per scope, so toggling back to "last 30 days" costs nothing.
+  const datasetCacheRef = useRef<Partial<Record<DatasetScope, PermitRecord[]>>>({});
 
   const [dataError, setDataError] = useState<string | null>(null);
   const [records, setRecords] = useState<PermitRecord[]>([]);
@@ -215,7 +277,8 @@ export default function MapAppOL({
   const [selectedReasons, setSelectedReasons] = useState<Set<string>>(() => new Set());
   const [statusOptions, setStatusOptions] = useState<StatusOption[]>([]);
   const [selectedStatuses, setSelectedStatuses] = useState<Set<string>>(() => new Set());
-  const [selectedRange, setSelectedRange] = useState<string>('ALL');
+  const [selectedRange, setSelectedRange] = useState<string>(RECENT_RANGE_VALUE);
+  const [datasetScope, setDatasetScope] = useState<DatasetScope>('recent');
   const [selectedRecord, setSelectedRecord] = useState<PermitRecord | null>(null);
 
   const [mapReady, setMapReady] = useState(false);
@@ -253,11 +316,14 @@ export default function MapAppOL({
   const reasonSelectedKeys = useMemo(() => new Set(selectedReasons), [selectedReasons]);
   const statusSelectedKeys = useMemo(() => new Set(selectedStatuses), [selectedStatuses]);
 
-  const selectValue = selectedRange || 'ALL';
+  const selectValue = selectedRange || RECENT_RANGE_VALUE;
   const selectedKeys = useMemo(() => new Set([selectValue]), [selectValue]);
 
   const handleRangeChange = useCallback((value: string | null) => {
-    setSelectedRange(value ?? 'ALL');
+    const next = value ?? RECENT_RANGE_VALUE;
+    setSelectedRange(next);
+    // "All data" is the only option that needs history beyond the recent slice.
+    if (next === 'ALL') setDatasetScope('all');
   }, []);
 
   const handleSelectChange = useCallback(
@@ -615,26 +681,37 @@ export default function MapAppOL({
     setLoadingRecords(true);
     setDataError(null);
 
-    loadPermitData(`${BASE_PATH}docs/data/all.ndjson`, geojsonUrl)
+    const apply = (loaded: PermitRecord[]) => {
+      datasetCacheRef.current[datasetScope] = loaded;
+      setRecords(loaded);
+      setWeekOptions(buildWeekOptions(loaded));
+      setLoadingRecords(false);
+    };
+
+    const cached = datasetCacheRef.current[datasetScope];
+    if (cached) {
+      apply(cached);
+      return;
+    }
+
+    const url = datasetScope === 'all' ? ALL_NDJSON_URL : RECENT_NDJSON_URL;
+    loadPermitData(url, geojsonUrl)
       .then((loaded) => {
         if (cancelled) return;
-        setRecords(loaded);
-        setWeekOptions(buildWeekOptions(loaded));
+        apply(loaded);
       })
       .catch((err: unknown) => {
         if (cancelled) return;
         setDataError(err instanceof Error ? err.message : 'Failed to load permit dataset.');
         setRecords([]);
         setWeekOptions([]);
-      })
-      .finally(() => {
-        if (!cancelled) setLoadingRecords(false);
+        setLoadingRecords(false);
       });
 
     return () => {
       cancelled = true;
     };
-  }, [geojsonUrl]);
+  }, [datasetScope, geojsonUrl]);
 
   // Push records into OL vector layer so all data renders
   useEffect(() => {
@@ -657,6 +734,8 @@ export default function MapAppOL({
         reason_removal: r.reason_removal,
         tree_dbh: r.tree_dbh,
         DBH: r.tree_dbh,
+        // Precomputed so the style function stays free of regex parsing.
+        radius: markerRadiusFor(r.tree_dbh),
       });
       newFeatures.push(f);
     }
@@ -760,38 +839,26 @@ export default function MapAppOL({
   useEffect(() => {
     if (!vectorLayerRef.current) return;
 
-    const filteredIds = new Set(filteredRecords.map(r => r.id));
-    const filteringActive = selectedRange !== 'ALL' || selectedReasons.size > 0 || selectedStatuses.size > 0;
-    
-    vectorLayerRef.current.setStyle((feature: FeatureLike) => {
-      const props = feature.getProperties();
-      const matchingRecord = records.find(r => r.record === props.record);
-      if (filteringActive && matchingRecord && !filteredIds.has(matchingRecord.id)) {
-        return new Style({}); // hide
-      }
+    // Everything here must be O(1) per feature: OpenLayers invokes the style
+    // function for every feature on every render frame.
+    const filteredIds = new Set(filteredRecords.map((r) => r.id));
+    const filteringActive = filteredRecords.length !== records.length;
+    const selectedId = selectedRecord?.id ?? null;
 
-      const dbhRaw = props.tree_dbh || props.DBH || props.dbh;
-      const dbh = extractDbhValue(dbhRaw) || 0;
-      const baseRadius = Math.max(4, Math.min(20, 4 + dbh * 0.25));
-      const isSelected = matchingRecord && selectedRecord && matchingRecord.id === selectedRecord.id;
-      const iconRadius = isSelected ? baseRadius + 1 : baseRadius;
-      const svgUrl = isSelected
-        ? buildEmojiSvg(iconRadius * 1.8, '🌳')
-        : buildMarkerSvg(iconRadius, false);
-      return new Style({
-        zIndex: isSelected ? 1000 : 0,
-        image: new Icon({
-          src: svgUrl,
-          anchor: [iconRadius, iconRadius],
-          anchorXUnits: 'pixels',
-          anchorYUnits: 'pixels',
-        }),
-      });
+    vectorLayerRef.current.setStyle((feature: FeatureLike) => {
+      const id = feature.get('id') as string | undefined;
+      if (filteringActive && (!id || !filteredIds.has(id))) {
+        return HIDDEN_STYLE;
+      }
+      const radius = (feature.get('radius') as number | undefined) ?? 4;
+      return id === selectedId ? selectedStyleFor(radius) : markerStyleFor(radius);
     });
-  }, [filteredRecords, records, selectedRecord, selectedRange, selectedReasons.size]);
+  }, [filteredRecords, records, selectedRecord]);
 
   const statsText = loadingRecords
-    ? 'Loading permit data...'
+    ? datasetScope === 'all'
+      ? 'Loading full permit history...'
+      : 'Loading permit data...'
     : `Showing ${filteredRecords.length.toLocaleString()} of ${records.length.toLocaleString()} permits`;
 
   return (
@@ -803,9 +870,15 @@ export default function MapAppOL({
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2 text-sm">
+          {loadingRecords && <Spinner size="sm" aria-label="Loading permit data" />}
           <Badge color="primary" variant="flat">
             {statsText}
           </Badge>
+          {!loadingRecords && datasetScope === 'recent' && (
+            <span className="text-foreground-500">
+              {`Recent permits only \u2014 pick "All data" for the full history.`}
+            </span>
+          )}
         </div>
         {dataError && (
           <Alert color="danger" title="Data load failed" className="max-w-2xl">
@@ -816,7 +889,7 @@ export default function MapAppOL({
 
       <div className="flex w-full flex-col gap-3 sm:flex-row sm:gap-4">
         <Select
-          label="View all data"
+          label="Date range"
           labelPlacement="outside"
           placeholder="Select a range"
           selectedKeys={selectedKeys}
@@ -825,6 +898,9 @@ export default function MapAppOL({
           className="w-full sm:max-w-xs"
           disallowEmptySelection
         >
+          <SelectItem key={RECENT_RANGE_VALUE} textValue={`Last ${RECENT_WINDOW_DAYS} days`}>
+            {`Last ${RECENT_WINDOW_DAYS} days`}
+          </SelectItem>
           <SelectItem key="ALL" textValue="All data">
             All data (entire history)
           </SelectItem>

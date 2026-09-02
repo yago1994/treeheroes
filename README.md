@@ -5,7 +5,7 @@ Community-built map to surface Atlanta tree removal permits, increase transparen
 ## What this is
 
 Tree Heroes pulls down public permit data, renders an interactive map of tree removals, and provides tools to:
-- Explore recent permits (by week or full history)
+- Explore recent permits (defaults to the last 30 days; by week or full history on request)
 - Filter by removal reason (with an “All reasons” option)
 - Filter by permit status (with an “All statuses” option)
 - Inspect details for each permit (species, DBH, location, owner, reason, etc.)
@@ -68,7 +68,9 @@ treeheroes/
 │  └─ geocode-cache.json           # cached geocode lookups (used by Google Maps flow)
 ├─ docs/
 │  └─ data/
-│     └─ atl_arborist_ddh.geojson  # primary dataset used by the OpenLayers map
+│     ├─ recent.ndjson             # last 35 days — loaded on first paint (default view)
+│     ├─ all.ndjson                # full history — lazy-loaded only for "All data"
+│     └─ atl_arborist_ddh.geojson  # fallback dataset for the OpenLayers map
 ├─ scripts/
 │  ├─ scrape.mjs                   # data scraping pipeline (optional)
 │  └─ smoke-map.mjs                # simple smoke test for map/data (optional)

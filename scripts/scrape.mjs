@@ -7,6 +7,10 @@ const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson"; // latest (map loads t
 const SNAPSHOT_DIR = "docs/data/snapshots"; // daily immutable snapshots
 const CHANGES_DIR = "docs/data/changes"; // daily delta reports
 const ALL_NDJSON = "docs/data/all.ndjson"; // append/merge store
+const RECENT_NDJSON = "docs/data/recent.ndjson"; // slim default payload the map loads first
+// Days of history kept in RECENT_NDJSON. Deliberately wider than the 30-day
+// window the UI filters to, so the default view is never short of data.
+const RECENT_DAYS = 35;
 const GEOCODE_CACHE = "data/geocode-cache.json";
 const CITY_SUFFIX = ", Atlanta, GA";
 const CENSUS_URL = "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress";
@@ -728,6 +732,11 @@ function toGeoJSON(items, coordsByAddr) {
   }
   await fs.writeFile(OUT_GEOJSON, JSON.stringify(toGeoJSON(windowRows, coordsDict), null, 2));
   console.log(`Wrote ${OUT_GEOJSON} with ${windowRows.length} features (last ${MAP_DAYS} days).`);
+
+  // 5) Slim recent slice — this is what the map loads on first paint.
+  const recentRows = allNow.filter((o) => withinLastNDaysUtc(parseUsDateToUtc(o.date), RECENT_DAYS));
+  await fs.writeFile(RECENT_NDJSON, recentRows.map((o) => JSON.stringify(o)).join("\n") + "\n");
+  console.log(`Wrote ${RECENT_NDJSON} with ${recentRows.length} records (last ${RECENT_DAYS} days).`);
 
   // Also write date-range for UI
   const times = windowRows.map((o) => parseUsDateToUtc(o.date)).filter(Boolean).map((d) => d.getTime());

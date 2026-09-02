@@ -6,6 +6,8 @@ export type PermitRecord = {
   address: string | null;
   status: string | null;
   date: string | null;
+  /** `date` parsed to a UTC epoch ms, computed once at normalize time. */
+  dateMs: number | null;
   description: string | null;
   owner: string | null;
   tree_dbh: string | null;
@@ -14,7 +16,6 @@ export type PermitRecord = {
   tree_description: string | null;
   tree_number: string | null;
   species: string | null;
-  raw: Record<string, unknown>;
 };
 
 export type WeekRange = {
