@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604600",
+        "address": "1544 BRAEBURN DR SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": "RICHARDSON CAROLYN H",
+        "tree_dbh": "25",
+        "tree_location": "Rear",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Decay at base.",
+        "tree_number": "1",
+        "species": "Pine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33663712722,
+          33.735221822677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604593",
+        "address": "2834 NORMANDY DR NW, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.402614327158,
+          33.832268727051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604594",
+        "address": "1458 HOSEA L WILLIAMS DR NE, ATLANTA GA 30317",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.339966154366,
+          33.753483301176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-060279",
+        "address": "19 SARATOGA PL NE, ATLANTA GA 30324",
+        "status": "",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35075888266,
+          33.827427105958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604591",
+        "address": "197 MEADOR WAY SE, ATLANTA GA 30315",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.381719904388,
+          33.697943280672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-060160",
+        "address": "45 VALLEY RD NW, ATLANTA GA 30305",
+        "status": "",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.389391326335,
+          33.849484856771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604589",
+        "address": "3793 FORREST PARK RD SE, ATLANTA GA 30354",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.357812874895,
+          33.651132412767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604592",
+        "address": "1262 GRAYMONT DR SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.436376104202,
+          33.720899943506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604601",
+        "address": "1837 VOLBERG ST NW, A, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42142541476,
+          33.805558976511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604587",
+        "address": "1307 LORENZO DR SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.432613465755,
+          33.719779828792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604595",
+        "address": "231 WHITEFOORD AVE NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.341861579752,
+          33.759665866309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604596",
+        "address": "717 KENNOLIA DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.449049179049,
+          33.735674429019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604598",
+        "address": "993 WOODBOURNE DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.419810863336,
+          33.710071694814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-060281",
+        "address": "987 FLEETWOOD CIR SW, ATLANTA GA 30311",
+        "status": "",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.460162627987,
+          33.73769430669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604588",
+        "address": "815 HAVEN OAKS CT NE, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "30",
+        "tree_location": "front yard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "recent failure damage to canopy and stemReason for Removal:Uncorrectable defect\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:17 0044  LL103 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "oak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.359224900981,
+          33.85833594859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604597",
+        "address": "491 MONUMENT AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": "Charles Deyo",
+        "tree_dbh": "43",
+        "tree_location": "491 Monument Ave SE",
+        "reason_removal": "Dying tree",
+        "tree_description": "Tulip Poplar in backyard next to the creek. This is the 2nd of 2 Tulip Poplars that have been deemed hazardous the the city's stream restoration project at 483 Monument aveReason for Removal:Dying treeComments:Tulip Poplar in backyard next to the creek. This is the 2nd of 2 Tulip Poplars that have been deemed hazardous the the city's stream restoration project at 483 Monument ave\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:15 177 02 138 *Block:--Lot:--Subdivision:--",
+        "tree_number": "43",
+        "species": "Tulip Poplar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.341396989597,
+          33.741377456854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604599",
+        "address": "1215 PIEDMONT AVE NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "09/11/2026",
+        "description": null,
+        "owner": "PIEDMONT DRIVING CLUB",
+        "tree_dbh": "24",
+        "tree_location": "Between building and Piedmont Rd",
+        "reason_removal": "Dead tree",
+        "tree_description": "Red maple",
+        "tree_number": "1",
+        "species": "Red Maple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.378067859218,
+          33.787268062098
+        ]
+      }
+    }
+  ]
+}
