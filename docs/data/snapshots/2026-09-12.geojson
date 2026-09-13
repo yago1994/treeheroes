@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604605",
+        "address": "4518 CLEMENT DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "09/12/2026",
+        "description": null,
+        "owner": "JOHNSON SHIRLEY E",
+        "tree_dbh": "22",
+        "tree_location": "REAR SIDE ADJACENT TO HOME",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Mature pine tree located in backyard near rear property lineReason for Removal:Significant cavity/area of decay\n\t\t\n\t\t\n\t\t\tTree number:3Species:HARDWOODTree Size (DBH):26Tree location:REAR SIDE ADJACENT TO HOMEDescription of Tree:Large mature hardwood tree located immediately adjacent to the residence with large limbs extending over the roofReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14F00500001038 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "PINE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.533879679886,
+          33.753781171549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604602",
+        "address": "1554 RICHLAND RD SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "09/12/2026",
+        "description": null,
+        "owner": "GMAC MORTGAGE LLC",
+        "tree_dbh": "20",
+        "tree_location": "Left side of the house",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Tree about to fall, emergency tree removalReason for Removal:Significant cavity/area of decay\n\t\t\n\t\n\t\n                                \n                            \n                        \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                         Parcel Information\n                                \n                            \n                            \n                                \n                                    \n\t\tParcel Number:14 01510003113 *Block:--Lot:--Subdivision:--",
+        "tree_number": "1",
+        "species": "Regular tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.438378025368,
+          33.7313197072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604604",
+        "address": "1366 DIVISION PL SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "09/12/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.422133222897,
+          33.717489750593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604603",
+        "address": "1384 BOULEVARD LORRAINE SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "09/12/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.457853633694,
+          33.718093671477
+        ]
+      }
+    }
+  ]
+}
