@@ -43,3 +43,10 @@ export type WeekOption = {
   label: string;
   week: WeekRange;
 };
+
+/** One entry from `docs/data/months/index.json`. */
+export type MonthOption = {
+  key: string;
+  label: string;
+  count: number;
+};

@@ -17,10 +17,12 @@
  */
 import fs from "node:fs/promises";
 import { parseTreeSpecs, TREE_FIELD_KEYS, cleanTreeValue } from "./lib/tree-specs.mjs";
+import { writeMonthFiles } from "./lib/month-index.mjs";
 
 const ALL_NDJSON = "docs/data/all.ndjson";
 const RECENT_NDJSON = "docs/data/recent.ndjson";
 const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson";
+const MONTHS_DIR = "docs/data/months";
 
 const WRITE = process.argv.includes("--write");
 
@@ -171,6 +173,8 @@ geo.features = geo.features.map((f) => {
 });
 await fs.writeFile(OUT_GEOJSON, JSON.stringify(geo, null, 2));
 
+const monthManifest = await writeMonthFiles(repaired, MONTHS_DIR);
+
 console.log(
-  `\nwrote ${ALL_NDJSON} (${repaired.length}), ${RECENT_NDJSON} (${recentRows.length}), ${OUT_GEOJSON} (${geo.features.length})`
+  `\nwrote ${ALL_NDJSON} (${repaired.length}), ${RECENT_NDJSON} (${recentRows.length}), ${OUT_GEOJSON} (${geo.features.length}), ${MONTHS_DIR} (${monthManifest.length} months)`
 );

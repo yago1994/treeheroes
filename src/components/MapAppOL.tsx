@@ -9,9 +9,10 @@ import {
   RECENT_WINDOW_DAYS,
   buildWeekOptions,
   filterRecordsByRange,
+  loadMonthManifest,
   loadPermitData,
 } from './map/data';
-import type { PermitRecord, WeekOption } from './map/types';
+import type { MonthOption, PermitRecord, WeekOption } from './map/types';
 import OLMap from 'ol/Map';
 import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
@@ -34,10 +35,15 @@ const BASE_PATH = (import.meta as any).env?.BASE_URL || '/';
 const DEFAULT_GEOJSON_URL = `${BASE_PATH}docs/data/atl_arborist_ddh.geojson`;
 // Slim last-35-days slice (~80KB gzipped) loaded on first paint.
 const RECENT_NDJSON_URL = `${BASE_PATH}docs/data/recent.ndjson`;
-// Full history (~760KB gzipped, 6k+ records) — fetched only when the user asks for it.
-const ALL_NDJSON_URL = `${BASE_PATH}docs/data/all.ndjson`;
+// One ndjson file per calendar month, fetched only when that month is
+// selected, plus a small manifest listing every month back to the start of
+// the dataset. Keeps "browse older permits" from ever loading (or rendering)
+// the full multi-year history at once.
+const MONTHS_DIR = `${BASE_PATH}docs/data/months`;
+const MONTH_INDEX_URL = `${MONTHS_DIR}/index.json`;
 
-type DatasetScope = 'recent' | 'all';
+// 'recent' or a month key ("YYYY-MM") naming which ndjson slice is loaded.
+type DatasetScope = string;
 
 const DEFAULT_EXCLUDED_REASON_KEYS = new Set<string>();
 const UNKNOWN_REASON_KEY = 'UNKNOWN';
@@ -189,9 +195,6 @@ function buildEmojiSvg(size: number, emoji: string): string {
   return dataUrl;
 }
 
-/** Returned for features filtered out of the current view. */
-const HIDDEN_STYLE: Style[] = [];
-
 // OpenLayers calls the layer style function once per feature per render frame,
 // so these must be cached rather than allocated. Radius is quantized to whole
 // pixels when the feature is built, which keeps both caches tiny (~17 entries).
@@ -289,6 +292,7 @@ export default function MapAppOL({
   const [dataError, setDataError] = useState<string | null>(null);
   const [records, setRecords] = useState<PermitRecord[]>([]);
   const [weekOptions, setWeekOptions] = useState<WeekOption[]>([]);
+  const [monthOptions, setMonthOptions] = useState<MonthOption[]>([]);
   const [reasonOptions, setReasonOptions] = useState<ReasonOption[]>([]);
   const [selectedReasons, setSelectedReasons] = useState<Set<string>>(() => new Set());
   const [statusOptions, setStatusOptions] = useState<StatusOption[]>([]);
@@ -340,14 +344,18 @@ export default function MapAppOL({
   const handleRangeChange = useCallback((value: string | null) => {
     const next = value ?? RECENT_RANGE_VALUE;
     setSelectedRange(next);
-    // "All data" is the only option that needs history beyond the recent slice.
-    if (next === 'ALL') setDatasetScope('all');
+    if (next.startsWith('M:')) {
+      // A month scope loads its own ndjson slice; weeks stay within it.
+      setDatasetScope(next.slice(2));
+    } else if (next === RECENT_RANGE_VALUE) {
+      setDatasetScope('recent');
+    }
   }, []);
 
   const handleSelectChange = useCallback(
     (keys: Selection) => {
       if (keys === 'all') {
-        handleRangeChange('ALL');
+        handleRangeChange(RECENT_RANGE_VALUE);
         return;
       }
       const [first] = Array.from(keys as Iterable<Key>);
@@ -693,6 +701,23 @@ export default function MapAppOL({
     }
   }, []);
 
+  // Fetch the month picker's manifest once — independent of whichever scope
+  // is currently loaded, so every month back to the start of the dataset is
+  // selectable immediately without downloading the full history.
+  useEffect(() => {
+    let cancelled = false;
+    loadMonthManifest(MONTH_INDEX_URL)
+      .then((months) => {
+        if (!cancelled) setMonthOptions(months);
+      })
+      .catch(() => {
+        // Non-fatal: the month picker just stays empty.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   // Load permit data
   useEffect(() => {
     let cancelled = false;
@@ -712,7 +737,7 @@ export default function MapAppOL({
       return;
     }
 
-    const url = datasetScope === 'all' ? ALL_NDJSON_URL : RECENT_NDJSON_URL;
+    const url = datasetScope === 'recent' ? RECENT_NDJSON_URL : `${MONTHS_DIR}/${datasetScope}.ndjson`;
     loadPermitData(url, geojsonUrl)
       .then((loaded) => {
         if (cancelled) return;
@@ -731,7 +756,10 @@ export default function MapAppOL({
     };
   }, [datasetScope, geojsonUrl]);
 
-  // Push records into OL vector layer so all data renders
+  // Push the currently filtered records into the OL vector layer. Using
+  // `filteredRecords` (range + reason + status) rather than the full loaded
+  // `records` keeps the map from ever having to create and style thousands
+  // of markers at once — the bug that made the old "all data" view jam.
   useEffect(() => {
     const layer = vectorLayerRef.current;
     if (!layer) return;
@@ -740,7 +768,7 @@ export default function MapAppOL({
     source.clear();
 
     const newFeatures: Feature[] = [];
-    for (const r of records) {
+    for (const r of filteredRecords) {
       const lon = r.coords ? Number(r.coords[0]) : Number(r.latLng?.lng);
       const lat = r.coords ? Number(r.coords[1]) : Number(r.latLng?.lat);
       if (!Number.isFinite(lon) || !Number.isFinite(lat)) continue;
@@ -758,7 +786,7 @@ export default function MapAppOL({
       newFeatures.push(f);
     }
     source.addFeatures(newFeatures);
-  }, [records]);
+  }, [filteredRecords]);
 
   // Build reason options
   useEffect(() => {
@@ -853,30 +881,22 @@ export default function MapAppOL({
     });
   }, [records]);
 
-  // Filter features on the map based on selected filters
+  // Style the selected marker differently from the rest. The vector source
+  // already only holds `filteredRecords`, so there's no hiding to do here.
   useEffect(() => {
     if (!vectorLayerRef.current) return;
 
-    // Everything here must be O(1) per feature: OpenLayers invokes the style
-    // function for every feature on every render frame.
-    const filteredIds = new Set(filteredRecords.map((r) => r.id));
-    const filteringActive = filteredRecords.length !== records.length;
     const selectedId = selectedRecord?.id ?? null;
 
     vectorLayerRef.current.setStyle((feature: FeatureLike) => {
       const id = feature.get('id') as string | undefined;
-      if (filteringActive && (!id || !filteredIds.has(id))) {
-        return HIDDEN_STYLE;
-      }
       const radius = (feature.get('radius') as number | undefined) ?? 4;
       return id === selectedId ? selectedStyleFor(radius) : markerStyleFor(radius);
     });
-  }, [filteredRecords, records, selectedRecord]);
+  }, [selectedRecord]);
 
   const statsText = loadingRecords
-    ? datasetScope === 'all'
-      ? 'Loading full permit history...'
-      : 'Loading permit data...'
+    ? 'Loading permit data...'
     : `Showing ${filteredRecords.length.toLocaleString()} of ${records.length.toLocaleString()} permits`;
 
   return (
@@ -894,7 +914,7 @@ export default function MapAppOL({
           </Badge>
           {!loadingRecords && datasetScope === 'recent' && (
             <span className="text-foreground-500">
-              {`Recent permits only \u2014 pick "All data" for the full history.`}
+              {`Recent permits only \u2014 pick a month above to browse older permits.`}
             </span>
           )}
         </div>
@@ -919,9 +939,13 @@ export default function MapAppOL({
           <SelectItem key={RECENT_RANGE_VALUE} textValue={`Last ${RECENT_WINDOW_DAYS} days`}>
             {`Last ${RECENT_WINDOW_DAYS} days`}
           </SelectItem>
-          <SelectItem key="ALL" textValue="All data">
-            All data (entire history)
-          </SelectItem>
+          <>
+            {monthOptions.map((option) => (
+              <SelectItem key={`M:${option.key}`} textValue={option.label}>
+                {`${option.label} (${option.count.toLocaleString()})`}
+              </SelectItem>
+            ))}
+          </>
           <>
             {weekOptions.map((option) => (
               <SelectItem key={option.value} textValue={option.label}>

@@ -1,4 +1,4 @@
-import { PermitRecord, PermitTree, WeekOption, WeekRange } from './types';
+import { MonthOption, PermitRecord, PermitTree, WeekOption, WeekRange } from './types';
 
 export function parseUsDateToUtc(dateStr: string | null): Date | null {
   if (!dateStr) return null;
@@ -178,6 +178,29 @@ async function fetchGeojson(url?: string): Promise<PermitRecord[]> {
   return records;
 }
 
+/**
+ * Fetches `docs/data/months/index.json` — the list of calendar months that
+ * have their own ndjson slice, newest first. Small and independent of
+ * whichever month/scope is currently loaded, so the picker can show every
+ * month back to the start of the dataset without downloading any of them.
+ */
+export async function loadMonthManifest(url?: string): Promise<MonthOption[]> {
+  if (!url) return [];
+  const res = await fetch(url, { cache: 'no-cache' });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${url}`);
+  }
+  const data = (await res.json()) as unknown;
+  if (!Array.isArray(data)) return [];
+  return data.filter(
+    (m): m is MonthOption =>
+      !!m &&
+      typeof m === 'object' &&
+      typeof (m as MonthOption).key === 'string' &&
+      typeof (m as MonthOption).label === 'string',
+  );
+}
+
 export async function loadPermitData(dataUrl?: string, geojsonUrl?: string): Promise<PermitRecord[]> {
   try {
     const ndjsonRecords = await fetchNdjson(dataUrl);
@@ -252,7 +275,9 @@ export function computeRecentWindow(records: PermitRecord[]): { startMs: number;
 }
 
 export function filterRecordsByRange(records: PermitRecord[], rangeValue: string, weekLookup: Map<string, WeekOption>): PermitRecord[] {
-  if (!rangeValue || rangeValue === 'ALL') {
+  // 'ALL' is kept for back-compat; a month scope's loaded file is already
+  // scoped to that month, so there's nothing further to filter by date.
+  if (!rangeValue || rangeValue === 'ALL' || rangeValue.startsWith('M:')) {
     return records;
   }
 

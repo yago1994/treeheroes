@@ -3,12 +3,14 @@ import { chromium } from "playwright";
 import fs from "fs/promises";
 import fetch from "node-fetch";
 import { parseTreeSpecs, treesFromLabelPairs } from "./lib/tree-specs.mjs";
+import { writeMonthFiles } from "./lib/month-index.mjs";
 
 const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson"; // latest (map loads this)
 const SNAPSHOT_DIR = "docs/data/snapshots"; // daily immutable snapshots
 const CHANGES_DIR = "docs/data/changes"; // daily delta reports
 const ALL_NDJSON = "docs/data/all.ndjson"; // append/merge store
 const RECENT_NDJSON = "docs/data/recent.ndjson"; // slim default payload the map loads first
+const MONTHS_DIR = "docs/data/months"; // one ndjson per calendar month + index.json, for the month picker
 // Days of history kept in RECENT_NDJSON. Deliberately wider than the 30-day
 // window the UI filters to, so the default view is never short of data.
 const RECENT_DAYS = 35;
@@ -703,6 +705,11 @@ function toGeoJSON(items, coordsByAddr) {
   const recentRows = allNow.filter((o) => withinLastNDaysUtc(parseUsDateToUtc(o.date), RECENT_DAYS));
   await fs.writeFile(RECENT_NDJSON, recentRows.map((o) => JSON.stringify(o)).join("\n") + "\n");
   console.log(`Wrote ${RECENT_NDJSON} with ${recentRows.length} records (last ${RECENT_DAYS} days).`);
+
+  // 6) One ndjson file per calendar month + manifest, so the "browse by
+  // month" view never has to fetch the full history.
+  const monthManifest = await writeMonthFiles(allNow, MONTHS_DIR);
+  console.log(`Wrote ${MONTHS_DIR} (${monthManifest.length} months).`);
 
   // Also write date-range for UI
   const times = windowRows.map((o) => parseUsDateToUtc(o.date)).filter(Boolean).map((d) => d.getTime());
