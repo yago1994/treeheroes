@@ -2,6 +2,7 @@
 import { chromium } from "playwright";
 import fs from "fs/promises";
 import fetch from "node-fetch";
+import { parseTreeSpecs, treesFromLabelPairs } from "./lib/tree-specs.mjs";
 
 const OUT_GEOJSON = "docs/data/atl_arborist_ddh.geojson"; // latest (map loads this)
 const SNAPSHOT_DIR = "docs/data/snapshots"; // daily immutable snapshots
@@ -426,15 +427,7 @@ async function scrapeRecords() {
       await page.waitForTimeout(1000);
 
       const detail = await page.evaluate(() => {
-        const out = { 
-          owner: null, 
-          treeDbh: null, 
-          treeLocation: null, 
-          reasonRemoval: null, 
-          treeDescription: null,
-          treeNumber: null,
-          species: null
-        };
+        const out = { owner: null, pairs: [], rawText: null };
 
         // Try to extract owner from any labeled fields
         const labelNodes = Array.from(document.querySelectorAll('.ACA_SmLabelBolder, .font11px, .ACA_Label'));
@@ -475,7 +468,7 @@ async function scrapeRecords() {
             }
             if (ownerName) out.owner = ownerName;
           }
-          
+
           // Alternative approach: look for any text that looks like a name after "Owner:"
           if (!out.owner) {
             const allText = document.body.textContent || '';
@@ -489,77 +482,44 @@ async function scrapeRecords() {
           }
         }
 
-        // Extract TREE SPECS inside #trASITList if present
+        // TREE SPECS. A permit can cover many trees, and Accela renders one
+        // block of label/value rows per tree inside #trASITList. Hand the rows
+        // back in DOM order and let the caller group them — reading the section
+        // as text instead merges every tree together and picks up the Parcel
+        // Information panel that follows it.
         const root = document.getElementById('trASITList');
         if (root) {
-          const pairs = Array.from(root.querySelectorAll('.MoreDetail_Item .MoreDetail_ItemCol1'));
-          for (const labelCol of pairs) {
+          const labelCols = Array.from(root.querySelectorAll('.MoreDetail_Item .MoreDetail_ItemCol1'));
+          for (const labelCol of labelCols) {
             const label = (labelCol.textContent || '').trim();
+            if (!label) continue;
             const valueCol = labelCol.nextElementSibling;
-            const value = valueCol ? (valueCol.textContent || '').trim() : '';
-            if (/Tree Size \(DBH\)/i.test(label)) out.treeDbh = value;
-            if (/Tree location/i.test(label)) out.treeLocation = value;
-            if (/Reason for Removal/i.test(label)) out.reasonRemoval = value;
-            if (/Description of Tree/i.test(label)) out.treeDescription = value;
-            if (/Tree number/i.test(label)) out.treeNumber = value;
-            if (/Species/i.test(label)) out.species = value;
+            out.pairs.push({ label, value: valueCol ? (valueCol.textContent || '').trim() : '' });
           }
-        }
-
-        // Also look for tree details in other parts of the page using a more comprehensive approach
-        const allText = document.body.textContent || '';
-        
-        // Extract tree details using regex patterns
-        const treeNumberMatch = allText.match(/Tree number:\s*(\d+)/i);
-        if (treeNumberMatch) out.treeNumber = treeNumberMatch[1];
-        
-        const speciesMatch = allText.match(/Species:\s*([^T]+?)(?=Tree Size|$)/i);
-        if (speciesMatch) out.species = speciesMatch[1].trim();
-        
-        const dbhMatch = allText.match(/Tree Size \(DBH\):\s*(\d+)/i);
-        if (dbhMatch) out.treeDbh = dbhMatch[1];
-        
-        const locationMatch = allText.match(/Tree location:\s*([^D]+?)(?=Description|$)/i);
-        if (locationMatch) out.treeLocation = locationMatch[1].trim();
-        
-        const descMatch = allText.match(/Description of Tree:\s*(.+?)(?:\n\n|\n[A-Z]|$)/s);
-        if (descMatch) out.treeDescription = descMatch[1].trim();
-        
-        // Also look for "Description of Tree" in other parts of the page
-        if (!out.treeDescription) {
-          const descLabels = Array.from(document.querySelectorAll('.ACA_SmLabelBolder, .font11px'));
-          for (const label of descLabels) {
-            const text = (label.textContent || '').trim();
-            if (/Description of Tree/i.test(text)) {
-              // Look for the description text in the next sibling or parent container
-              let descText = '';
-              const parent = label.parentElement;
-              if (parent) {
-                // Get all text content from the parent and extract the description part
-                const fullText = parent.textContent || '';
-                const match = fullText.match(/Description of Tree:\s*(.+?)(?:\n|$)/i);
-                if (match && match[1]) {
-                  descText = match[1].trim();
-                }
-              }
-              if (descText) {
-                out.treeDescription = descText;
-                break;
-              }
-            }
-          }
+          // Text fallback for pages whose rows do not use the expected columns.
+          out.rawText = root.innerText || root.textContent || null;
         }
 
         return out;
       });
 
+      const trees = detail.pairs.length
+        ? treesFromLabelPairs(detail.pairs)
+        : parseTreeSpecs(detail.rawText);
+      const first = trees[0] || {};
+
       r.owner = detail.owner || null;
-      r.tree_dbh = detail.treeDbh ? String(detail.treeDbh) : null;
-      r.tree_location = detail.treeLocation || null;
-      r.reason_removal = detail.reasonRemoval || null;
-      r.tree_description = detail.treeDescription || null;
-      r.tree_number = detail.treeNumber || null;
-      r.species = detail.species || null;
+      r.trees = trees.length ? trees : null;
+      r.tree_count = trees.length || null;
+      // Tree #1 is also kept at the top level: the map filters and the marker
+      // sizing read these directly.
+      r.tree_dbh = first.tree_dbh || null;
+      r.tree_location = first.tree_location || null;
+      r.reason_removal = first.reason_removal || null;
+      r.tree_description = first.tree_description || null;
+      r.tree_number = first.tree_number || null;
+      r.species = first.species || null;
+      r.comments = first.comments || null;
 
       // Go back to results
       try {
@@ -595,7 +555,10 @@ function toGeoJSON(items, coordsByAddr) {
           reason_removal: r.reason_removal || null,
           tree_description: r.tree_description || null,
           tree_number: r.tree_number || null,
-          species: r.species || null
+          species: r.species || null,
+          comments: r.comments || null,
+          tree_count: r.tree_count || null,
+          trees: r.trees || null
         },
         geometry: {
           type: "Point",
@@ -677,6 +640,9 @@ function toGeoJSON(items, coordsByAddr) {
       tree_description: r.tree_description || null,
       tree_number: r.tree_number || null,
       species: r.species || null,
+      comments: r.comments || null,
+      tree_count: r.tree_count || null,
+      trees: r.trees || null,
       coords
     };
     const k = obj.key;

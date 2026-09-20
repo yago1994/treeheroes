@@ -6,10 +6,11 @@
   "type": "module",
   "scripts": {
     "scrape": "node ./scripts/scrape.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test scripts/lib/",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "repair-data": "node ./scripts/repair-tree-data.mjs"
   },
   "keywords": [],
   "author": "",

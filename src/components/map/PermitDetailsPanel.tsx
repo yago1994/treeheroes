@@ -1,7 +1,7 @@
 import { useCallback, useState, useEffect } from 'react';
 import { Badge, Button, Card, CardBody, CardHeader, Divider, Tooltip } from '@heroui/react';
 import { AnchorIcon, CheckIcon, CopyIcon, LinkIcon } from '@heroui/shared-icons';
-import type { PermitRecord } from './types';
+import type { PermitRecord, PermitTree } from './types';
 
 export type PermitDetailsPanelProps = {
   record: PermitRecord | null;
@@ -13,18 +13,41 @@ function buildStreetViewUrl(record: PermitRecord, geocodedCoords?: { lat: number
   return `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${coords.lat},${coords.lng}`;
 }
 
+/** Permit-level fields. Tree specs are rendered per tree, see `treeEntries`. */
 const infoEntries: Array<{ key: keyof PermitRecord; label: string }> = [
   { key: 'status', label: 'Status' },
   { key: 'date', label: 'Date' },
   { key: 'description', label: 'Description' },
-  { key: 'tree_number', label: 'Tree #' },
+  { key: 'owner', label: 'Owner' },
+];
+
+const treeEntries: Array<{ key: keyof PermitTree; label: string }> = [
   { key: 'species', label: 'Species' },
   { key: 'tree_dbh', label: 'Tree Size (DBH)' },
   { key: 'tree_location', label: 'Tree Location' },
   { key: 'tree_description', label: 'Tree Description' },
   { key: 'reason_removal', label: 'Reason' },
-  { key: 'owner', label: 'Owner' },
+  { key: 'comments', label: 'Comments' },
 ];
+
+function TreeSpecs({ tree, index }: { tree: PermitTree; index: number }): JSX.Element {
+  const heading = tree.tree_number ? `Tree ${tree.tree_number}` : `Tree ${index + 1}`;
+  return (
+    <div className="flex flex-col gap-2 rounded-medium border border-slate-200 p-3">
+      <span className="text-xs font-semibold uppercase tracking-wide text-emerald-700">{heading}</span>
+      {treeEntries.map(({ key, label }) => {
+        const value = tree[key];
+        if (!value) return null;
+        return (
+          <div key={key} className="flex flex-col gap-1">
+            <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">{label}</span>
+            <span className="text-sm text-slate-700">{value}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
 
 export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.Element {
   const [copied, setCopied] = useState(false);
@@ -64,7 +87,8 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
     }
   }, [record.record]);
 
-  const hasDetails = infoEntries.some(({ key }) => !!record[key]);
+  const trees = record.trees.filter((tree) => treeEntries.some(({ key }) => !!tree[key]));
+  const hasDetails = infoEntries.some(({ key }) => !!record[key]) || trees.length > 0;
 
   return (
     <div className="flex flex-col gap-5">
@@ -120,7 +144,17 @@ export function PermitDetailsContent({ record }: { record: PermitRecord }): JSX.
               </div>
             );
           })}
-          
+
+          {trees.length > 0 && (
+            <div className="flex flex-col gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                {trees.length === 1 ? 'Tree' : `Trees (${trees.length})`}
+              </span>
+              {trees.map((tree, index) => (
+                <TreeSpecs key={tree.tree_number ?? index} tree={tree} index={index} />
+              ))}
+            </div>
+          )}
         </div>
       ) : (
         <p className="text-sm text-slate-500">No additional metadata is available for this permit.</p>

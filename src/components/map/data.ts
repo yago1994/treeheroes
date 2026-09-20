@@ -1,4 +1,4 @@
-import { PermitRecord, WeekOption, WeekRange } from './types';
+import { PermitRecord, PermitTree, WeekOption, WeekRange } from './types';
 
 export function parseUsDateToUtc(dateStr: string | null): Date | null {
   if (!dateStr) return null;
@@ -15,6 +15,21 @@ function normalizeText(value: unknown): string | null {
   if (value === null || value === undefined) return null;
   const trimmed = String(value).trim();
   return trimmed.length ? trimmed : null;
+}
+
+function normalizeTree(value: unknown): PermitTree | null {
+  if (!value || typeof value !== 'object') return null;
+  const source = value as Record<string, unknown>;
+  const tree: PermitTree = {
+    tree_number: normalizeText(source.tree_number),
+    species: normalizeText(source.species),
+    tree_dbh: normalizeText(source.tree_dbh),
+    tree_location: normalizeText(source.tree_location),
+    tree_description: normalizeText(source.tree_description),
+    reason_removal: normalizeText(source.reason_removal),
+    comments: normalizeText(source.comments),
+  };
+  return Object.values(tree).some((field) => field !== null) ? tree : null;
 }
 
 type RawFeature = {
@@ -70,6 +85,17 @@ export function normalizeRecord(input: unknown): PermitRecord | null {
     normalizeText((source as Record<string, unknown>).submitted_date);
   const parsedDate = parseUsDateToUtc(dateText);
 
+  const rawTrees = (source as Record<string, unknown>).trees;
+  const trees = (Array.isArray(rawTrees) ? rawTrees : [])
+    .map(normalizeTree)
+    .filter((tree): tree is PermitTree => tree !== null);
+
+  // Records predating the multi-tree parser only carry the flat fields.
+  if (trees.length === 0) {
+    const legacy = normalizeTree(source);
+    if (legacy) trees.push(legacy);
+  }
+
   return {
     id,
     coords: [lon, lat],
@@ -101,6 +127,8 @@ export function normalizeRecord(input: unknown): PermitRecord | null {
       normalizeText((source as Record<string, unknown>).TreeNumber),
     species: normalizeText((source as Record<string, unknown>).species) ||
       normalizeText((source as Record<string, unknown>).Species),
+    comments: normalizeText((source as Record<string, unknown>).comments),
+    trees,
   };
 }
 

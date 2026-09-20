@@ -49,6 +49,22 @@ function normalizeReasonKey(value: string | null): string {
   return trimmed.length ? trimmed.toUpperCase() : UNKNOWN_REASON_KEY;
 }
 
+/**
+ * Every removal reason on a permit. A permit can cover several trees with
+ * different reasons, so it belongs under each of them in the filter.
+ */
+function reasonEntriesFor(record: PermitRecord): Array<{ key: string; label: string }> {
+  const values = record.trees.length
+    ? record.trees.map((tree) => tree.reason_removal)
+    : [record.reason_removal];
+  const seen = new Map<string, { key: string; label: string }>();
+  for (const value of values) {
+    const key = normalizeReasonKey(value);
+    if (!seen.has(key)) seen.set(key, { key, label: reasonLabelFrom(value) });
+  }
+  return [...seen.values()];
+}
+
 function reasonLabelFrom(value: string | null): string {
   if (!value) return UNKNOWN_REASON_LABEL;
   const trimmed = value.trim();
@@ -305,7 +321,9 @@ export default function MapAppOL({
     if (!rangeFilteredRecords.length) return rangeFilteredRecords;
     let next = rangeFilteredRecords;
     if (selectedReasons.size) {
-      next = next.filter((record) => selectedReasons.has(normalizeReasonKey(record.reason_removal)));
+      next = next.filter((record) =>
+        reasonEntriesFor(record).some((entry) => selectedReasons.has(entry.key)),
+      );
     }
     if (selectedStatuses.size) {
       next = next.filter((record) => selectedStatuses.has(normalizeStatusKey(record.status)));
@@ -753,11 +771,11 @@ export default function MapAppOL({
     const optionMap: Record<string, ReasonOption> = {};
     let nonExcludedRecordCount = 0;
     for (const record of records) {
-      const key = normalizeReasonKey(record.reason_removal);
-      if (!optionMap[key]) {
-        optionMap[key] = { key, label: reasonLabelFrom(record.reason_removal) };
+      const entries = reasonEntriesFor(record);
+      for (const entry of entries) {
+        if (!optionMap[entry.key]) optionMap[entry.key] = entry;
       }
-      if (!DEFAULT_EXCLUDED_REASON_KEYS.has(key)) {
+      if (entries.some((entry) => !DEFAULT_EXCLUDED_REASON_KEYS.has(entry.key))) {
         nonExcludedRecordCount += 1;
       }
     }
@@ -776,7 +794,7 @@ export default function MapAppOL({
     }
 
     const matchesWithDefault = records.some((record) =>
-      defaultSelection.has(normalizeReasonKey(record.reason_removal)),
+      reasonEntriesFor(record).some((entry) => defaultSelection.has(entry.key)),
     );
     if (!matchesWithDefault) {
       defaultSelection.clear();

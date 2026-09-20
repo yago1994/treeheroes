@@ -57,6 +57,7 @@ npm run preview   # preview the production build locally
 Scraping / data collection helpers (optional, for maintainers):
 ```bash
 npm run scrape    # runs scripts/scrape.mjs (Playwright / node-fetch based)
+npm test          # unit tests for the TREE SPECS parser
 ```
 
 ## Project structure
@@ -72,6 +73,10 @@ treeheroes/
 │     ├─ all.ndjson                # full history — lazy-loaded only for "All data"
 │     └─ atl_arborist_ddh.geojson  # fallback dataset for the OpenLayers map
 ├─ scripts/
+│  ├─ lib/
+│  │  ├─ tree-specs.mjs            # parser for Accela's per-tree TREE SPECS table
+│  │  └─ tree-specs.test.mjs       # unit tests (npm test)
+│  ├─ repair-tree-data.mjs         # one-off backfill for pre-parser records
 │  ├─ scrape.mjs                   # data scraping pipeline (optional)
 │  └─ smoke-map.mjs                # simple smoke test for map/data (optional)
 ├─ src/
@@ -115,9 +120,33 @@ treeheroes/
 
 Each permit record (`PermitRecord`) includes:
 - `record`, `address`, `status`, `date`, `description`, `owner`
-- `tree_dbh`, `tree_location`, `tree_description`, `tree_number`, `species`
-- `reason_removal`
+- `trees` — every tree on the permit, each with `tree_number`, `species`, `tree_dbh`,
+  `tree_location`, `tree_description`, `reason_removal`, `comments`
+- the same tree fields flattened at the top level, mirroring `trees[0]`, plus `tree_count`
 - precomputed coordinates (`latLng` and `coords`)
+
+A permit often covers several trees with different species and removal reasons, so the
+removal-reason filter matches a permit when **any** of its trees matches.
+
+### Parsing tree specs
+
+`scripts/lib/tree-specs.mjs` owns the parsing of Accela's TREE SPECS table. The page
+renders one block of label/value rows per tree and emits label and value with no
+separator between them, so values run straight into the next label
+(`...Reason for Removal:Dead treeComments:...`). Splitting has to be anchored on the
+label vocabulary; reading the section as plain text merges every tree together and picks
+up the Parcel Information panel that follows it.
+
+`scripts/repair-tree-data.mjs` backfills permits captured before this parser existed, by
+re-parsing the text that the old extractor had swallowed into `tree_description`:
+
+```bash
+npm run repair-data              # dry run, reports what would change
+npm run repair-data -- --write   # rewrite docs/data
+```
+
+The daily snapshots under `docs/data/snapshots/` are immutable archives of what was
+scraped each day and are left untouched; the app never reads them.
 
 Reason keys and status values are normalized for filtering:
 - Reasons use uppercased keys with a fallback `UNKNOWN`
