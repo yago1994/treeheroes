@@ -5347,26 +5347,16 @@
         "status": "ACA Pending",
         "date": "09/20/2026",
         "description": null,
-        "owner": "WORD OF LIFE CHRISTIAN MINISTRY INC",
-        "tree_dbh": "8",
-        "tree_location": "FRONT",
-        "reason_removal": "Dying tree",
-        "tree_description": "Existing mature tree near the front of the property. The tree appears to be in declining condition, with visible dead foilage, and areas of sparse growth.",
-        "tree_number": "1",
-        "species": "HICKORY",
-        "comments": "I am requesting that the City Aborist evaluate the tree to determine its overall health and whether removal is permissible. The tree is also in direct conflict with the installation of permanent electrical service to the newly constructed residence. Georgia Power has advised that the tree will, at minimum, require significant trimming to provide the necessary clearance for the electrical service and may need to be removed.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "HICKORY",
-            "tree_dbh": "8",
-            "tree_location": "FRONT",
-            "tree_description": "Existing mature tree near the front of the property. The tree appears to be in declining condition, with visible dead foilage, and areas of sparse growth.",
-            "reason_removal": "Dying tree",
-            "comments": "I am requesting that the City Aborist evaluate the tree to determine its overall health and whether removal is permissible. The tree is also in direct conflict with the installation of permanent electrical service to the newly constructed residence. Georgia Power has advised that the tree will, at minimum, require significant trimming to provide the necessary clearance for the electrical service and may need to be removed."
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5384,71 +5374,16 @@
         "status": "ACA Pending",
         "date": "09/20/2026",
         "description": null,
-        "owner": "Ari Kowalsky",
-        "tree_dbh": "6",
-        "tree_location": "Rear left corner of home",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "out-competed, upper trunk wound",
-        "tree_number": "1",
-        "species": "Sweetgum",
-        "comments": "Poor condition, poor location",
-        "tree_count": 6,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Sweetgum",
-            "tree_dbh": "6",
-            "tree_location": "Rear left corner of home",
-            "tree_description": "out-competed, upper trunk wound",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Poor condition, poor location"
-          },
-          {
-            "tree_number": "2",
-            "species": "Winged Elm",
-            "tree_dbh": "6",
-            "tree_location": "rear left of home",
-            "tree_description": "Declining, < 50% live foliage",
-            "reason_removal": "Dying tree",
-            "comments": "Dying, poor condition"
-          },
-          {
-            "tree_number": "3",
-            "species": "Cherry Laurel",
-            "tree_dbh": "8",
-            "tree_location": "Behind home, center",
-            "tree_description": "Dead/Dying, non-native, invasive, undesirable",
-            "reason_removal": "Dead tree",
-            "comments": "Dead/Dying, poor condition"
-          },
-          {
-            "tree_number": "4",
-            "species": "Willow Oak",
-            "tree_dbh": "9",
-            "tree_location": "Behind home",
-            "tree_description": "Dying <50% live foliage, trunk decline due to fire",
-            "reason_removal": "Dying tree",
-            "comments": "Poor condition"
-          },
-          {
-            "tree_number": "5",
-            "species": "Cherry Laurel",
-            "tree_dbh": "9",
-            "tree_location": "right side near rear property line",
-            "tree_description": "leaning, non-native, invasive tree",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": "undesirable tree"
-          },
-          {
-            "tree_number": "6",
-            "species": "Photinia (redtip)",
-            "tree_dbh": "18",
-            "tree_location": "rear left near property line",
-            "tree_description": "3-trunks (6\"/6\"/6\") - Dead",
-            "reason_removal": "Dead tree",
-            "comments": "Dead"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5503,26 +5438,16 @@
         "status": "ACA Pending",
         "date": "09/20/2026",
         "description": null,
-        "owner": "Eric French",
-        "tree_dbh": "26",
-        "tree_location": "Back yard",
-        "reason_removal": "Diseased",
-        "tree_description": "One dead oak approximately 26 inches in diameter",
-        "tree_number": "1",
-        "species": "Water oak (Quercus Nigra)",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Water oak (Quercus Nigra)",
-            "tree_dbh": "26",
-            "tree_location": "Back yard",
-            "tree_description": "One dead oak approximately 26 inches in diameter",
-            "reason_removal": "Diseased",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5567,16 +5492,26 @@
         "status": "ACA Pending",
         "date": "09/20/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Joel Schoenecker",
+        "tree_dbh": "19",
+        "tree_location": "back right corner of the property.",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "tree has some dieback. also growing in between the fence.",
+        "tree_number": "1",
+        "species": "unknown",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "unknown",
+            "tree_dbh": "19",
+            "tree_location": "back right corner of the property.",
+            "tree_description": "tree has some dieback. also growing in between the fence.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",

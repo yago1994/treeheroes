@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604789",
+        "address": "3478 FAIRLANE DR NW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "3216",
+        "tree_location": "Backyard closest to the wood fence",
+        "reason_removal": "Dying tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": null,
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "3216",
+            "tree_location": "Backyard closest to the wood fence",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Oak",
+            "tree_dbh": "3216",
+            "tree_location": "Middle tree in backyard",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "oak",
+            "tree_dbh": "4536",
+            "tree_location": "Backyard furthest from wooded fence",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.501169840984,
+          33.766865270352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604791",
+        "address": "979 DIMMOCK ST SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.419408356806,
+          33.726919868814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604790",
+        "address": "829 PONCE DE LEON PL NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363633990969,
+          33.777195605196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604793",
+        "address": "1690 FLAT SHOALS RD SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": "GANTTS ALVERGIS JR GANTTS LESSIE",
+        "tree_dbh": "26",
+        "tree_location": "Front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Dogwood",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Dogwood",
+            "tree_dbh": "26",
+            "tree_location": "Front yard",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.332579158594,
+          33.730940842703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604794",
+        "address": "1110 NORTH HIGHLAND AVE NE, ATLANTA GA 30306",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.355005096748,
+          33.785110756354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604792",
+        "address": "388 ATLANTA AVE SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.374905828586,
+          33.730343146244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604795",
+        "address": "199 LOCUST ST NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "09/20/2026",
+        "description": null,
+        "owner": "Joel Schoenecker",
+        "tree_dbh": "19",
+        "tree_location": "back right corner of the property.",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "tree has some dieback. also growing in between the fence.",
+        "tree_number": "1",
+        "species": "unknown",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "unknown",
+            "tree_dbh": "19",
+            "tree_location": "back right corner of the property.",
+            "tree_description": "tree has some dieback. also growing in between the fence.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.324653170335,
+          33.758147679983
+        ]
+      }
+    }
+  ]
+}
