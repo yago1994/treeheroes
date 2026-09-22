@@ -4441,15 +4441,25 @@
         "date": "09/21/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "55",
+        "tree_location": "Front yard, right side of residence facing street, adjacent to sidewalk and street",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Mature water oak, 59\" DBH, approx. 65' tall, leaning ~10 degrees toward street. Level 3 risk assessment with resistograph drilling (Atlanta Arbor, Dec 2025, report attached) found decay at large trunk wound and rated the tree HIGH risk, likelihood of failure Probable, with whole-tree failure likely within two years under normal weather; removal recommended. Multiple fungal fruiting bodies (consistent with root/butt rot) currently present at root flare (photos attached). Trunk cavities and epicormic sprouting present. In Sept 2026, tree contacted power lines across street, smoked and caught fire during rain, causing line outage; Georgia Power trimmed lines. Targets: residence, neighboring residence across street, public street, sidewalk, overhead utilities.",
+        "tree_number": "1",
+        "species": "Water Oak (Quercus nigra)",
+        "comments": "Requesting expedited inspection given documented probable-failure condition and recent fire event. Attachments: Atlanta Arbor Level 3 assessment report (Tyrell Phillips, ISA SO-6049A, TRAQ) and 9 photos documenting lean, trunk wound, cavities, fungal conks at root flare, and fire-damaged limb. Owner contact: 202-246-1192",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak (Quercus nigra)",
+            "tree_dbh": "55",
+            "tree_location": "Front yard, right side of residence facing street, adjacent to sidewalk and street",
+            "tree_description": "Mature water oak, 59\" DBH, approx. 65' tall, leaning ~10 degrees toward street. Level 3 risk assessment with resistograph drilling (Atlanta Arbor, Dec 2025, report attached) found decay at large trunk wound and rated the tree HIGH risk, likelihood of failure Probable, with whole-tree failure likely within two years under normal weather; removal recommended. Multiple fungal fruiting bodies (consistent with root/butt rot) currently present at root flare (photos attached). Trunk cavities and epicormic sprouting present. In Sept 2026, tree contacted power lines across street, smoked and caught fire during rain, causing line outage; Georgia Power trimmed lines. Targets: residence, neighboring residence across street, public street, sidewalk, overhead utilities.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Requesting expedited inspection given documented probable-failure condition and recent fire event. Attachments: Atlanta Arbor Level 3 assessment report (Tyrell Phillips, ISA SO-6049A, TRAQ) and 9 photos documenting lean, trunk wound, cavities, fungal conks at root flare, and fire-damaged limb. Owner contact: 202-246-1192"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4468,15 +4478,25 @@
         "date": "09/21/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "44",
+        "tree_location": "back",
+        "reason_removal": "Dying tree",
+        "tree_description": "House facing fungal fruiting bodies on base, previous improper pruning.",
+        "tree_number": "1",
+        "species": "water oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "water oak",
+            "tree_dbh": "44",
+            "tree_location": "back",
+            "tree_description": "House facing fungal fruiting bodies on base, previous improper pruning.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4521,71 +4541,16 @@
         "status": "ACA Pending",
         "date": "09/21/2026",
         "description": null,
-        "owner": "Terri McCoy",
-        "tree_dbh": "18",
-        "tree_location": "left side of the driveway in the front yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "Dying tree",
-        "tree_number": "1",
-        "species": "Pine",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 6,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Pine",
-            "tree_dbh": "18",
-            "tree_location": "left side of the driveway in the front yard",
-            "tree_description": "Dying tree",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "sweetgum",
-            "tree_dbh": "20.5",
-            "tree_location": "right rear",
-            "tree_description": "Dying tree",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "Pine",
-            "tree_dbh": "24.5",
-            "tree_location": "right rear close to house",
-            "tree_description": "Dying tree/Dangerous tree near the house",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "4",
-            "species": "Pine",
-            "tree_dbh": "27.5",
-            "tree_location": "center of the front yard",
-            "tree_description": "Dangerous tree near the house",
-            "reason_removal": "Other",
-            "comments": null
-          },
-          {
-            "tree_number": "5",
-            "species": "Pine",
-            "tree_dbh": "35",
-            "tree_location": "left rear close to the house",
-            "tree_description": "Dying tree",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "6",
-            "species": "Pine",
-            "tree_dbh": "15.9",
-            "tree_location": "left rear",
-            "tree_description": "Leaning tree",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4603,26 +4568,16 @@
         "status": "ACA Pending",
         "date": "09/21/2026",
         "description": null,
-        "owner": "Fred Hentritze",
-        "tree_dbh": "11",
-        "tree_location": "front left of property next to W Wesley Rd",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead tree",
-        "tree_number": "1",
-        "species": "Leyland cypress",
-        "comments": "Dead Leyland cypress tree is marked with red tape and is located on W Wesley Rd side/front left of property.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Leyland cypress",
-            "tree_dbh": "11",
-            "tree_location": "front left of property next to W Wesley Rd",
-            "tree_description": "Dead tree",
-            "reason_removal": "Dead tree",
-            "comments": "Dead Leyland cypress tree is marked with red tape and is located on W Wesley Rd side/front left of property."
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4640,26 +4595,16 @@
         "status": "ACA Pending",
         "date": "09/21/2026",
         "description": null,
-        "owner": "Peter Huynh",
-        "tree_dbh": "36",
-        "tree_location": "front yard",
-        "reason_removal": "Other",
-        "tree_description": "The tree is on a slope and our neighbor is concerned it might fall on her house",
-        "tree_number": "1",
-        "species": "oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "oak",
-            "tree_dbh": "36",
-            "tree_location": "front yard",
-            "tree_description": "The tree is on a slope and our neighbor is concerned it might fall on her house",
-            "reason_removal": "Other",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4677,26 +4622,16 @@
         "status": "ACA Pending",
         "date": "09/21/2026",
         "description": null,
-        "owner": "BRISTOW MARZINE A",
-        "tree_dbh": "57",
-        "tree_location": "back yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "Water Oak has root rot",
-        "tree_number": "1",
-        "species": "Water oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Water oak",
-            "tree_dbh": "57",
-            "tree_location": "back yard",
-            "tree_description": "Water Oak has root rot",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4760,16 +4695,26 @@
         "status": "ACA Pending",
         "date": "09/21/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "JOHNSON LOIS",
+        "tree_dbh": "38",
+        "tree_location": "Left Corner behind the house",
+        "reason_removal": "Other",
+        "tree_description": "Remove a large, dangerous, leaning oak tree on the left corner behind the house",
+        "tree_number": "1",
+        "species": "Oak Tree",
+        "comments": "Remove a large, dangerous, leaning oak tree on the left corner behind the house",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak Tree",
+            "tree_dbh": "38",
+            "tree_location": "Left Corner behind the house",
+            "tree_description": "Remove a large, dangerous, leaning oak tree on the left corner behind the house",
+            "reason_removal": "Other",
+            "comments": "Remove a large, dangerous, leaning oak tree on the left corner behind the house"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6102,16 +6047,62 @@
         "status": "ACA Pending",
         "date": "09/21/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "THOMAS ANTHONY J SR",
+        "tree_dbh": "31",
+        "tree_location": "Far back left corner behind house",
+        "reason_removal": "Dying tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 5,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "31",
+            "tree_location": "Far back left corner behind house",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "oak",
+            "tree_dbh": "10",
+            "tree_location": "to the immediate left of house",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "sweetgum",
+            "tree_dbh": "8",
+            "tree_location": "to immediate left of house",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "hackberry",
+            "tree_dbh": "8",
+            "tree_location": "back left of lot",
+            "tree_description": "distinctive lean to the tree",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "oak",
+            "tree_dbh": "10",
+            "tree_location": "a few feet to the left of the house",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
