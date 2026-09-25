@@ -4658,16 +4658,143 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "FARBOLIN CAROL J",
+        "tree_dbh": "24",
+        "tree_location": "Please see site map.",
+        "reason_removal": "Dead tree",
+        "tree_description": "Numbered flagging tape",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Tree appears dead.",
+        "tree_count": 14,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "24",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "2",
+            "species": "Pine",
+            "tree_dbh": "21",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "3",
+            "species": "Pine",
+            "tree_dbh": "17",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "4",
+            "species": "Pine",
+            "tree_dbh": "21",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "5",
+            "species": "Pine",
+            "tree_dbh": "13",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "6",
+            "species": "Pine",
+            "tree_dbh": "19",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "7",
+            "species": "Oak",
+            "tree_dbh": "32",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Former co-dominant stem remains grafted to the main trunk at the co-dominant union. The grafted union contains a large cavity with visible internal wood loss and decay."
+          },
+          {
+            "tree_number": "8",
+            "species": "Glossy Privet",
+            "tree_dbh": "14",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "Undesired species."
+          },
+          {
+            "tree_number": "9",
+            "species": "Glossy Privet",
+            "tree_dbh": "15",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "Undesired species."
+          },
+          {
+            "tree_number": "10",
+            "species": "Pine",
+            "tree_dbh": "8",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Other",
+            "comments": "This tree is under 12 inches DBH and therefore is not protected but is being included for permitting and removal clarity."
+          },
+          {
+            "tree_number": "11",
+            "species": "Water Oak",
+            "tree_dbh": "17",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Structural root plate is deformed by the existing retaining wall and adjacent Trees #3 and #12. Removal of adjacent dead Trees #1-6 will result in increased canopy exposure and altered wind dynamics. A large mid-stem cavity is present at an older pruning wound, with visible wood deterioration consistent with decay. Canopy is asymmetrical and oriented toward the outdoor living area."
+          },
+          {
+            "tree_number": "12",
+            "species": "Water Oak",
+            "tree_dbh": "18",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Structural root plate is deformed by the existing retaining wall and adjacent Trees #3 and #11. Removal of adjacent dead Trees #1-6 will result in increased canopy exposure and altered wind dynamics. Canopy is asymmetrical and oriented toward the outdoor living area."
+          },
+          {
+            "tree_number": "13",
+            "species": "Water Oak",
+            "tree_dbh": "34",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Large cavity associated with an old pruning wound. Additional mechanical damage is present on the trunk. Significant basal decay is present on the back side with substantial visible wood loss."
+          },
+          {
+            "tree_number": "14",
+            "species": "Pine",
+            "tree_dbh": "27",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Two opposing stem cankers. Combined defects affect greater than 30% of the stem circumference, with exposed heartwood and active pitch production."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4685,16 +4812,26 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "PHARR MALINDA D",
+        "tree_dbh": "12",
+        "tree_location": "right side of the property",
+        "reason_removal": "Other",
+        "tree_description": "Dangerous tree hanging on neighbors property",
+        "tree_number": "1",
+        "species": "Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "12",
+            "tree_location": "right side of the property",
+            "tree_description": "Dangerous tree hanging on neighbors property",
+            "reason_removal": "Other",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4712,16 +4849,26 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "DAWSON PRESTON AGT EST DAWSON LOUISE LANDRUM",
+        "tree_dbh": "26",
+        "tree_location": "on property line north",
+        "reason_removal": "Dying tree",
+        "tree_description": "26\" oak tree dying. shared on property line. both property owners would like this tree to be removed",
+        "tree_number": "1",
+        "species": "oak",
+        "comments": "26\" oak tree dying. shared on property line. both property owners would like this tree to be removed",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "26",
+            "tree_location": "on property line north",
+            "tree_description": "26\" oak tree dying. shared on property line. both property owners would like this tree to be removed",
+            "reason_removal": "Dying tree",
+            "comments": "26\" oak tree dying. shared on property line. both property owners would like this tree to be removed"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4739,16 +4886,26 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "JACOBS BERT OR JACOBS ELIZABETH",
+        "tree_dbh": "22",
+        "tree_location": "left rear close to the house",
+        "reason_removal": "Unpermitted destruction",
+        "tree_description": "Dangerous near the house that might do unpermitted destruction in the future. Falling debris like branches on the house.",
+        "tree_number": "1",
+        "species": "sweetgum",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "sweetgum",
+            "tree_dbh": "22",
+            "tree_location": "left rear close to the house",
+            "tree_description": "Dangerous near the house that might do unpermitted destruction in the future. Falling debris like branches on the house.",
+            "reason_removal": "Unpermitted destruction",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4766,16 +4923,44 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Phil Coletti",
+        "tree_dbh": "6",
+        "tree_location": "Rear right of pool",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead",
+        "tree_number": "1",
+        "species": "Dogwood",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Dogwood",
+            "tree_dbh": "6",
+            "tree_location": "Rear right of pool",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Chinese Elm",
+            "tree_dbh": "21",
+            "tree_location": "Left of house, at corner of garage",
+            "tree_description": "Undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Redbud",
+            "tree_dbh": "10",
+            "tree_location": "Left of driveway",
+            "tree_description": "Severe lean, sinuous trunk, mostly horizontal canopy growth",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5033,16 +5218,35 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "RANKINS RAY",
+        "tree_dbh": "22.6",
+        "tree_location": "Left side of the property",
+        "reason_removal": "Unpermitted destruction",
+        "tree_description": "Dangerous tree leaning towards neighbors property",
+        "tree_number": "1",
+        "species": "cypress",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "cypress",
+            "tree_dbh": "22.6",
+            "tree_location": "Left side of the property",
+            "tree_description": "Dangerous tree leaning towards neighbors property",
+            "reason_removal": "Unpermitted destruction",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "cypress",
+            "tree_dbh": "39.3",
+            "tree_location": "Left side of the property",
+            "tree_description": "Dangerous tree leaning towards neighbors property",
+            "reason_removal": "Unpermitted destruction",
+            "comments": "Left side of the property"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5161,16 +5365,35 @@
         "status": "ACA Pending",
         "date": "09/24/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Natalie Cyphers",
+        "tree_dbh": "24",
+        "tree_location": "back right of property",
+        "reason_removal": "Dying tree",
+        "tree_description": "Sweet gum back right of property behind garage is dying. Has less than 50% leaves and lots of branches falling off.",
+        "tree_number": "1",
+        "species": "Sweet gum",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweet gum",
+            "tree_dbh": "24",
+            "tree_location": "back right of property",
+            "tree_description": "Sweet gum back right of property behind garage is dying. Has less than 50% leaves and lots of branches falling off.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Maple",
+            "tree_dbh": "36",
+            "tree_location": "front right of property",
+            "tree_description": "Maple tree dying in front right of property. Had a permit previously to cut down but didnt get it done. Main leader of tree already died and had that cut off. Only about 10% of tree still alive.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5419,15 +5642,25 @@
         "date": "09/24/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "52",
+        "tree_location": "back of house",
+        "reason_removal": "Diseased",
+        "tree_description": "located near chainlink gate",
+        "tree_number": "1",
+        "species": "pecan",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pecan",
+            "tree_dbh": "52",
+            "tree_location": "back of house",
+            "tree_description": "located near chainlink gate",
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
