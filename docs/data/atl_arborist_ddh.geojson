@@ -5779,16 +5779,53 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "BAZZLE KENNETH L",
+        "tree_dbh": "23",
+        "tree_location": "front yard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree #1 - 23\" DBH post oak tree at the front of the property. The tree has an exaggerated lean in excess of 20 degrees in the direction of the street. Targets include passing cars, pedestrians, and utility lines.",
+        "tree_number": "1",
+        "species": "post oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "post oak",
+            "tree_dbh": "23",
+            "tree_location": "front yard",
+            "tree_description": "Tree #1 - 23\" DBH post oak tree at the front of the property. The tree has an exaggerated lean in excess of 20 degrees in the direction of the street. Targets include passing cars, pedestrians, and utility lines.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "loblolly pine",
+            "tree_dbh": "32",
+            "tree_location": "front yard",
+            "tree_description": "Tree #2 - 32\" DBH pine in front yard. Canker visible ~60 feet up main stem on the side facing the house. Additionally, ~6 foot long canker visible on the left stem above bifurcation.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "American Holly",
+            "tree_dbh": "16",
+            "tree_location": "front left",
+            "tree_description": "16\" dbh American holly tree at front left with co-dominant stems and poor form.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "hornbeam",
+            "tree_dbh": "16",
+            "tree_location": "front right",
+            "tree_description": "16\" DBH hornbeam at front right with significant area of included bark and bifurcation.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5807,15 +5844,25 @@
         "date": "09/25/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "15",
+        "tree_location": "BACK YARD",
+        "reason_removal": "Dying tree",
+        "tree_description": "XLARGE TREE WITH WHOLE IN THE CENTER",
+        "tree_number": "1",
+        "species": "MAGNIFICENT OAK MAYBE",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "MAGNIFICENT OAK MAYBE",
+            "tree_dbh": "15",
+            "tree_location": "BACK YARD",
+            "tree_description": "XLARGE TREE WITH WHOLE IN THE CENTER",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5834,15 +5881,61 @@
         "date": "09/25/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "6",
+        "tree_location": "onsite",
+        "reason_removal": "Other",
+        "tree_description": "DDH BA-202601018",
+        "tree_number": "35",
+        "species": "mimosa",
+        "comments": "see BB-202510868 Site Plan T-1 Remove for permitted structure demolition",
+        "tree_count": 5,
+        "trees": [
+          {
+            "tree_number": "35",
+            "species": "mimosa",
+            "tree_dbh": "6",
+            "tree_location": "onsite",
+            "tree_description": "DDH BA-202601018",
+            "reason_removal": "Other",
+            "comments": "see BB-202510868 Site Plan T-1 Remove for permitted structure demolition"
+          },
+          {
+            "tree_number": "36",
+            "species": "Mimosa",
+            "tree_dbh": "12",
+            "tree_location": "Onsite",
+            "tree_description": "DDH BA-202601018",
+            "reason_removal": "Other",
+            "comments": "See BB-202510868 Site Plan T-1 Remove for permitted structure demolition"
+          },
+          {
+            "tree_number": "37",
+            "species": "Mimosa",
+            "tree_dbh": "6",
+            "tree_location": "Onsite",
+            "tree_description": "Saved",
+            "reason_removal": "Other",
+            "comments": "See BB-202510868 Site Plan T-1 Remove for permitted structure demolition"
+          },
+          {
+            "tree_number": "38",
+            "species": "Mimosa",
+            "tree_dbh": "12",
+            "tree_location": "Onsite",
+            "tree_description": "DDH BA-202601018",
+            "reason_removal": "Other",
+            "comments": "See BB-202510868 Site Plan T-1 Remove for permitted structure demolition"
+          },
+          {
+            "tree_number": "39",
+            "species": "Holly",
+            "tree_dbh": "7",
+            "tree_location": "Onsite",
+            "tree_description": "Saved",
+            "reason_removal": "Other",
+            "comments": "See BB-202510868 Site Plan T-1 Remove for permitted structure demolition"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5860,16 +5953,53 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "Brent Cuddy",
+        "tree_dbh": "10",
+        "tree_location": "Beside deck",
+        "reason_removal": "Invasive/undesirable tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "cherry laurel",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "cherry laurel",
+            "tree_dbh": "10",
+            "tree_location": "Beside deck",
+            "tree_description": null,
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "1",
+            "species": "box elder",
+            "tree_dbh": "12",
+            "tree_location": "back fence",
+            "tree_description": "Tree is by fence in back cornder and it's top has fallen off in the past a",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "box elder",
+            "tree_dbh": "14",
+            "tree_location": "by fence",
+            "tree_description": "trees are back towards fence and on either side of a very tall tree variety I am not sure the type. These trees are crowding the water oak",
+            "reason_removal": "Other",
+            "comments": null
+          },
+          {
+            "tree_number": "1",
+            "species": "unknown",
+            "tree_dbh": "16",
+            "tree_location": "back fence",
+            "tree_description": "This tree is near the water oak and is large and tall. Want opinion if it is too close to water oak",
+            "reason_removal": "Other",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5888,15 +6018,25 @@
         "date": "09/25/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "32",
+        "tree_location": "back right",
+        "reason_removal": "Dying tree",
+        "tree_description": "This tree has approximately 40% live canopy. Signs of root rot.",
+        "tree_number": "1",
+        "species": "WATER oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "WATER oak",
+            "tree_dbh": "32",
+            "tree_location": "back right",
+            "tree_description": "This tree has approximately 40% live canopy. Signs of root rot.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5914,16 +6054,26 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "BIRD JEAN RODDEY",
+        "tree_dbh": "27",
+        "tree_location": "Rear left",
+        "reason_removal": "Diseased",
+        "tree_description": "Kretzschmaria Deusta on the root flare",
+        "tree_number": "1",
+        "species": "Maple",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Maple",
+            "tree_dbh": "27",
+            "tree_location": "Rear left",
+            "tree_description": "Kretzschmaria Deusta on the root flare",
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5941,16 +6091,26 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "HAMPTON PATRICIA ANN",
+        "tree_dbh": "30",
+        "tree_location": "front of the house",
+        "reason_removal": "Dying tree",
+        "tree_description": "dying sweet gum tree with a lot of dead branches on top",
+        "tree_number": "1",
+        "species": "sweetgum",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "sweetgum",
+            "tree_dbh": "30",
+            "tree_location": "front of the house",
+            "tree_description": "dying sweet gum tree with a lot of dead branches on top",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5968,16 +6128,26 @@
         "status": "ACA Pending",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Taylor April",
+        "tree_dbh": "30",
+        "tree_location": "backyard near carport",
+        "reason_removal": "Diseased",
+        "tree_description": "Old pecan tree that I have tried to keep well but noticed it wasn't well and had 4 people look at it to determine best course. I the meanwhile, I have planted 4 saplings on my property",
+        "tree_number": "1",
+        "species": "pecan",
+        "comments": "Tree is leaning now and 3 large limbs have fallen in the last 3 months.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pecan",
+            "tree_dbh": "30",
+            "tree_location": "backyard near carport",
+            "tree_description": "Old pecan tree that I have tried to keep well but noticed it wasn't well and had 4 people look at it to determine best course. I the meanwhile, I have planted 4 saplings on my property",
+            "reason_removal": "Diseased",
+            "comments": "Tree is leaning now and 3 large limbs have fallen in the last 3 months."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5995,16 +6165,26 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "PRESSMAN ADAM OR PRESSMAN MELISSA",
+        "tree_dbh": "18",
+        "tree_location": "right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "18in Water oak with an extreme lopsided canopy over roof of an occupied structure.",
+        "tree_number": "1",
+        "species": "Water oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water oak",
+            "tree_dbh": "18",
+            "tree_location": "right side",
+            "tree_description": "18in Water oak with an extreme lopsided canopy over roof of an occupied structure.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6022,16 +6202,26 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "LaShonda Jones",
+        "tree_dbh": "8",
+        "tree_location": "front yard",
+        "reason_removal": "Dead tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "8",
+            "tree_location": "front yard",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6049,16 +6239,26 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "HOUSING AUTH CITY OF ATLANTA",
+        "tree_dbh": "16",
+        "tree_location": "Front middle of lot",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead",
+        "tree_number": "1",
+        "species": "Cedar or Pine",
+        "comments": "Orange paint",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Cedar or Pine",
+            "tree_dbh": "16",
+            "tree_location": "Front middle of lot",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": "Orange paint"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6076,16 +6276,26 @@
         "status": "ACA Pending",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "Reza Ebrahimi",
+        "tree_dbh": "25",
+        "tree_location": "Left side of the house",
+        "reason_removal": "Uncorrectable defect",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "Unknown Hardwood",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Unknown Hardwood",
+            "tree_dbh": "25",
+            "tree_location": "Left side of the house",
+            "tree_description": null,
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6103,16 +6313,26 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Ryan and Virginia Blank",
+        "tree_dbh": "29",
+        "tree_location": "Front yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Majority of the tree branches are dead and falling off tree. The total tree canopy has less than 50% live vegetation / leaves",
+        "tree_number": "0",
+        "species": "Cherry",
+        "comments": "Tree is located at front corner of property off of Collier Place near front door and front brick sidewalk.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "0",
+            "species": "Cherry",
+            "tree_dbh": "29",
+            "tree_location": "Front yard",
+            "tree_description": "Majority of the tree branches are dead and falling off tree. The total tree canopy has less than 50% live vegetation / leaves",
+            "reason_removal": "Dying tree",
+            "comments": "Tree is located at front corner of property off of Collier Place near front door and front brick sidewalk."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6157,16 +6377,26 @@
         "status": "ACA Pending",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "ACM INVESTMENT GROUP",
+        "tree_dbh": "35",
+        "tree_location": "BACK RIGHT",
+        "reason_removal": "Dying tree",
+        "tree_description": "COVERED IN IVY",
+        "tree_number": "1",
+        "species": "OAK",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "OAK",
+            "tree_dbh": "35",
+            "tree_location": "BACK RIGHT",
+            "tree_description": "COVERED IN IVY",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6185,15 +6415,25 @@
         "date": "09/25/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "18",
+        "tree_location": "backyard, center",
+        "reason_removal": "Dying tree",
+        "tree_description": "pine, dying.",
+        "tree_number": "1",
+        "species": "pine",
+        "comments": "we had logan from atlantatreeinspection LLC out to confirm this.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pine",
+            "tree_dbh": "18",
+            "tree_location": "backyard, center",
+            "tree_description": "pine, dying.",
+            "reason_removal": "Dying tree",
+            "comments": "we had logan from atlantatreeinspection LLC out to confirm this."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6248,16 +6488,71 @@
         "status": "Accepted",
         "date": "09/25/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "OSBY ELON B",
+        "tree_dbh": "100",
+        "tree_location": "At NE corner or property",
+        "reason_removal": "Dying tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 6,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "100",
+            "tree_location": "At NE corner or property",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Oak",
+            "tree_dbh": "100",
+            "tree_location": "Along driveway",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Oak",
+            "tree_dbh": "100",
+            "tree_location": "Curve of driveway",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "Oak",
+            "tree_dbh": "100",
+            "tree_location": "In back yard",
+            "tree_description": "Tree is twisted and leaning.",
+            "reason_removal": "Dying tree",
+            "comments": "I don't know the size of the tree."
+          },
+          {
+            "tree_number": "5",
+            "species": "Oak",
+            "tree_dbh": "100",
+            "tree_location": "Back yard",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": "I don't know the size of the tree."
+          },
+          {
+            "tree_number": "6",
+            "species": "Oak",
+            "tree_dbh": "100",
+            "tree_location": "Back yard",
+            "tree_description": null,
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
