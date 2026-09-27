@@ -6818,16 +6818,26 @@
         "status": "ACA Pending",
         "date": "09/26/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "RYAN BOBLETT",
+        "tree_dbh": "19",
+        "tree_location": "back yard left",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Mature water oak exhibiting significant directional lean toward adjacent residential structures, with substantial asymmetric crown loading and large co-dominant stems.",
+        "tree_number": "1",
+        "species": "water oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "water oak",
+            "tree_dbh": "19",
+            "tree_location": "back yard left",
+            "tree_description": "Mature water oak exhibiting significant directional lean toward adjacent residential structures, with substantial asymmetric crown loading and large co-dominant stems.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
