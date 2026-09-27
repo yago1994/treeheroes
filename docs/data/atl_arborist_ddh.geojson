@@ -31,243 +31,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202604789",
-        "address": "3478 FAIRLANE DR NW, ATLANTA GA 30331",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": "3216",
-        "tree_location": "Backyard closest to the wood fence",
-        "reason_removal": "Dying tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "Oak",
-        "comments": null,
-        "tree_count": 3,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "3216",
-            "tree_location": "Backyard closest to the wood fence",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Oak",
-            "tree_dbh": "3216",
-            "tree_location": "Middle tree in backyard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "oak",
-            "tree_dbh": "4536",
-            "tree_location": "Backyard furthest from wooded fence",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.501169840984,
-          33.766865270352
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604791",
-        "address": "979 DIMMOCK ST SW, ATLANTA GA 30310",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.419408356806,
-          33.726919868814
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604790",
-        "address": "829 PONCE DE LEON PL NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.363633990969,
-          33.777195605196
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604793",
-        "address": "1690 FLAT SHOALS RD SE, ATLANTA GA 30316",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": "GANTTS ALVERGIS JR GANTTS LESSIE",
-        "tree_dbh": "26",
-        "tree_location": "Front yard",
-        "reason_removal": "Dead tree",
-        "tree_description": null,
-        "tree_number": "1",
-        "species": "Dogwood",
-        "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Dogwood",
-            "tree_dbh": "26",
-            "tree_location": "Front yard",
-            "tree_description": null,
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.332579158594,
-          33.730940842703
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604794",
-        "address": "1110 NORTH HIGHLAND AVE NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.355005096748,
-          33.785110756354
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604792",
-        "address": "388 ATLANTA AVE SE, ATLANTA GA 30315",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.374905828586,
-          33.730343146244
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202604795",
-        "address": "199 LOCUST ST NE, ATLANTA GA 30317",
-        "status": "ACA Pending",
-        "date": "09/20/2026",
-        "description": null,
-        "owner": "Joel Schoenecker",
-        "tree_dbh": "19",
-        "tree_location": "back right corner of the property.",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": "tree has some dieback. also growing in between the fence.",
-        "tree_number": "1",
-        "species": "unknown",
-        "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "unknown",
-            "tree_dbh": "19",
-            "tree_location": "back right corner of the property.",
-            "tree_description": "tree has some dieback. also growing in between the fence.",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.324653170335,
-          33.758147679983
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202604822",
         "address": "1344 OAKCREST DR SW, ATLANTA GA 30311",
         "status": "Accepted",
@@ -6943,6 +6706,198 @@
         "coordinates": [
           -84.494525318435,
           33.722255557918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604981",
+        "address": "1587 ALDER LN SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "09/26/2026",
+        "description": null,
+        "owner": "casablanca realty group",
+        "tree_dbh": "28",
+        "tree_location": "in front of the house",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "pine",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pine",
+            "tree_dbh": "28",
+            "tree_location": "in front of the house",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.448520890176,
+          33.712406255915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604979",
+        "address": "957 DELMAR AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "09/26/2026",
+        "description": null,
+        "owner": "FRANCIS EUGENE ROHLING",
+        "tree_dbh": "26",
+        "tree_location": "Palatine Ave Near Driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "This tree continues to be damaged during power line maintenance. Note severe trunk cuts below power lines in pictures.",
+        "tree_number": "1",
+        "species": "Unknown",
+        "comments": "Expect to reconfigure this hill with either sidewalk or smaller trees such as dogwood or crepe myrtle within 2 years.",
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Unknown",
+            "tree_dbh": "26",
+            "tree_location": "Palatine Ave Near Driveway",
+            "tree_description": "This tree continues to be damaged during power line maintenance. Note severe trunk cuts below power lines in pictures.",
+            "reason_removal": "Dying tree",
+            "comments": "Expect to reconfigure this hill with either sidewalk or smaller trees such as dogwood or crepe myrtle within 2 years."
+          },
+          {
+            "tree_number": "2",
+            "species": "Cherry Laurel",
+            "tree_dbh": "21",
+            "tree_location": "Back yard of lot",
+            "tree_description": "Tree started life within a clump of crepe myrtles. Over the last 10 years, it has transitioned from 15 degree tilt to now on ground. It has taken down several adjacent trees including trees 3 and 4.",
+            "reason_removal": "Dying tree",
+            "comments": "Back yard to be reconfigured with dogwoods interspersed with crepe myrtles."
+          },
+          {
+            "tree_number": "3",
+            "species": "Dogwood",
+            "tree_dbh": "8",
+            "tree_location": "Back yard. See pictures.",
+            "tree_description": "Possibly a dogwood based on memory. Bark is consistent. No leaves.",
+            "reason_removal": "Dead tree",
+            "comments": "Tree dead. Likely because of pressure by gradually falling tree T2. Didn't get this resolved in time."
+          },
+          {
+            "tree_number": "4",
+            "species": "Privot",
+            "tree_dbh": "7",
+            "tree_location": "Back Yard. See pictures.",
+            "tree_description": "Over zealous privot scrub tree damaged by fall of tree T2.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "Leaning badly. Might be recoverable, but this is an invasive species to the yard."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.357340952528,
+          33.731997448274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604980",
+        "address": "290 ELMIRA PL NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "09/26/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.346950711447,
+          33.762709746517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-063768",
+        "address": "290 ELMIRA PL NE, ATLANTA GA 30307",
+        "status": null,
+        "date": "09/26/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.346950711447,
+          33.762709746517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202604978",
+        "address": "4750 GUILFORD FOREST DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "09/26/2026",
+        "description": null,
+        "owner": "SINGLETON PETER T",
+        "tree_dbh": "1.37",
+        "tree_location": "Front yard",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Measured at 4.5 feet (1.37 meters) above the ground on the uphill side in the United States, and 1.3 meters internationally",
+        "tree_number": "1",
+        "species": "Bradford Pear",
+        "comments": "Need inspection",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Bradford Pear",
+            "tree_dbh": "1.37",
+            "tree_location": "Front yard",
+            "tree_description": "Measured at 4.5 feet (1.37 meters) above the ground on the uphill side in the United States, and 1.3 meters internationally",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Need inspection"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.546232733352,
+          33.725812863305
         ]
       }
     }
