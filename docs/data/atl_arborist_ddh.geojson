@@ -5256,26 +5256,16 @@
         "status": "ACA Pending",
         "date": "09/27/2026",
         "description": null,
-        "owner": "DUTCH ANGELIQUE",
-        "tree_dbh": "101",
-        "tree_location": "back yard",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "Oak Tree with above ground roots and leaning towards house",
-        "tree_number": "1",
-        "species": "Oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "101",
-            "tree_location": "back yard",
-            "tree_description": "Oak Tree with above ground roots and leaning towards house",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5294,25 +5284,15 @@
         "date": "09/27/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "10",
-        "tree_location": "next to house",
-        "reason_removal": "Other",
-        "tree_description": "Looks like it is dying",
-        "tree_number": "1",
-        "species": "not sure",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "not sure",
-            "tree_dbh": "10",
-            "tree_location": "next to house",
-            "tree_description": "Looks like it is dying",
-            "reason_removal": "Other",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5358,25 +5338,15 @@
         "date": "09/27/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "31",
-        "tree_location": "back left, along the street",
-        "reason_removal": "Dying tree",
-        "tree_description": "Tree experienced a significant lightning strike over the summer and currently displaying approximately 50% canopy dieckback. Large areas of bark have been blown off all the way to the ground.",
-        "tree_number": "1",
-        "species": "white oak",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "white oak",
-            "tree_dbh": "31",
-            "tree_location": "back left, along the street",
-            "tree_description": "Tree experienced a significant lightning strike over the summer and currently displaying approximately 50% canopy dieckback. Large areas of bark have been blown off all the way to the ground.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5394,26 +5364,16 @@
         "status": "ACA Pending",
         "date": "09/27/2026",
         "description": null,
-        "owner": "ANGIE DUTCH",
-        "tree_dbh": "101",
-        "tree_location": "FRONT YARD",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": "UNDESIRABLE PINE TREE",
-        "tree_number": "1",
-        "species": "PINE",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "PINE",
-            "tree_dbh": "101",
-            "tree_location": "FRONT YARD",
-            "tree_description": "UNDESIRABLE PINE TREE",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5432,43 +5392,15 @@
         "date": "09/27/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "16.9",
-        "tree_location": "BACK YARD",
-        "reason_removal": "Dying tree",
-        "tree_description": "WHITE OAK DYING, ROOT ROT, HAZARDOUS",
-        "tree_number": "1",
-        "species": "WHITE OAK",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 3,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "WHITE OAK",
-            "tree_dbh": "16.9",
-            "tree_location": "BACK YARD",
-            "tree_description": "WHITE OAK DYING, ROOT ROT, HAZARDOUS",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "LIVE OAK",
-            "tree_dbh": "22.9",
-            "tree_location": "BACK YARD",
-            "tree_description": "LIVE OAK WITH ROOT ROT, HAZARDOUS",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "WHITE OAK",
-            "tree_dbh": "57",
-            "tree_location": "BACK YARD",
-            "tree_description": "WHITE OAK WITH ROOT ROT",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
