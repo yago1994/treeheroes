@@ -4960,16 +4960,26 @@
         "status": "ACA Pending",
         "date": "09/28/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "Jessica Sonnenberg",
+        "tree_dbh": "38",
+        "tree_location": "back yard private property",
+        "reason_removal": "Significant cavity/area of decay",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_number": "1",
+        "species": "Pecan",
+        "comments": "Tree is dropping large, substantial limbs, including from the top center of canopy, becoming a serious hazard to safety. The large branches that are falling appear to be healthy full of green leaves, with no indication they needed to be trimmed prior to falling. There is a large hole in a center part of the tree - concern of possible internal decay or disease, causing the large center canopy branches to fall.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pecan",
+            "tree_dbh": "38",
+            "tree_location": "back yard private property",
+            "tree_description": null,
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Tree is dropping large, substantial limbs, including from the top center of canopy, becoming a serious hazard to safety. The large branches that are falling appear to be healthy full of green leaves, with no indication they needed to be trimmed prior to falling. There is a large hole in a center part of the tree - concern of possible internal decay or disease, causing the large center canopy branches to fall."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5024,16 +5034,26 @@
         "status": "ACA Pending",
         "date": "09/28/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Carolyn Joiner",
+        "tree_dbh": "35",
+        "tree_location": "Right side of backyard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "tree risk assessment attached- note that client has low risk tolerance and the residual risk of pruning/cabling/phc does not reduce risk to an acceptable level.",
+        "tree_number": "1",
+        "species": "Post Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Post Oak",
+            "tree_dbh": "35",
+            "tree_location": "Right side of backyard",
+            "tree_description": "tree risk assessment attached- note that client has low risk tolerance and the residual risk of pruning/cabling/phc does not reduce risk to an acceptable level.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
