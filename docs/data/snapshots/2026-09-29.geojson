@@ -1,0 +1,1209 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605056",
+        "address": "710 EMILY PL NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "DEUTSCHE BANK NATIONAL TRUST C",
+        "tree_dbh": "8",
+        "tree_location": "Front right",
+        "reason_removal": "Dying tree",
+        "tree_description": "Poor form, sparse crown, vines",
+        "tree_number": "1",
+        "species": "Black Walnut",
+        "comments": "Poor condition",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Black Walnut",
+            "tree_dbh": "8",
+            "tree_location": "Front right",
+            "tree_description": "Poor form, sparse crown, vines",
+            "reason_removal": "Dying tree",
+            "comments": "Poor condition"
+          },
+          {
+            "tree_number": "2",
+            "species": "Boxelder",
+            "tree_dbh": "9",
+            "tree_location": "Front right",
+            "tree_description": "Poor form, dieback, sparse crown, vines",
+            "reason_removal": "Dying tree",
+            "comments": "Poor condition"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.452303247361,
+          33.774713529193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605055",
+        "address": "4416 ST ANDREWS DR NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "8",
+        "tree_location": "right of driveway",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "invasive",
+        "tree_number": "1",
+        "species": "Chinese Elm",
+        "comments": null,
+        "tree_count": 6,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Chinese Elm",
+            "tree_dbh": "8",
+            "tree_location": "right of driveway",
+            "tree_description": "invasive",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "cherry",
+            "tree_dbh": "10",
+            "tree_location": "right front along st.anderws",
+            "tree_description": "Tree exhibits significant canopy dieback, an extremely one-sided canopy extending over the roadway, severe girdling roots, and Phytophthora canker.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "cherry",
+            "tree_dbh": "10",
+            "tree_location": "right front along st.andrews",
+            "tree_description": "Tree exhibits significant canopy dieback, an extremely one-sided canopy extending over the roadway, severe girdling roots, and Phytophthora canker.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "cherry",
+            "tree_dbh": "10",
+            "tree_location": "right front along st.andrews",
+            "tree_description": "Tree exhibits significant canopy dieback, an extremely one-sided canopy extending over the roadway, severe girdling roots, and Phytophthora canker.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "cherry",
+            "tree_dbh": "10",
+            "tree_location": "right front along st.andrews",
+            "tree_description": "Tree exhibits significant canopy dieback, an extremely one-sided canopy extending over the roadway, severe girdling roots, and Phytophthora canker.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "6",
+            "species": "cherry",
+            "tree_dbh": "10",
+            "tree_location": "right front along st.andrews",
+            "tree_description": "Tree exhibits significant canopy dieback, an extremely one-sided canopy extending over the roadway, severe girdling roots, and Phytophthora canker.",
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.401707329945,
+          33.876103548165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605046",
+        "address": "3808 BOULDER PARK DR SW, ATLANTA GA 30331",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "11",
+        "tree_location": "Back right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Decay in trunk of tree",
+        "tree_number": "1",
+        "species": "Sweetgum",
+        "comments": "Orange paint",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweetgum",
+            "tree_dbh": "11",
+            "tree_location": "Back right",
+            "tree_description": "Decay in trunk of tree",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange paint"
+          },
+          {
+            "tree_number": "2",
+            "species": "White Oak",
+            "tree_dbh": "28",
+            "tree_location": "Back right",
+            "tree_description": "Decay in trunk of tree",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange paint"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512082887139,
+          33.747323785966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605065",
+        "address": "2281 PERKERSON RD SW, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41145664542,
+          33.692185637521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605038",
+        "address": "786 BROOKRIDGE DR NE, ATLANTA GA 30306",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.361951616535,
+          33.785973186272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605042",
+        "address": "1685 HOMESTEAD AVE NE, ATLANTA GA 30306",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.348010284,
+          33.80046156043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605045",
+        "address": "3121 MARGARET MITCHELL DR NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "James MacDowell",
+        "tree_dbh": "20",
+        "tree_location": "left of center front yard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree has an increasing, uncorrected lean of 20 degrees in the upper canopy.",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "left of center front yard",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "20",
+            "tree_location": "left of center front yard",
+            "tree_description": "Tree has an increasing, uncorrected lean of 20 degrees in the upper canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "left of center front yard"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.427701943858,
+          33.83910008948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605049",
+        "address": "1301 CLIFTON RD NE, ATLANTA GA",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.320824947047,
+          33.790453129012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605043",
+        "address": "39 GLENALD WAY NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "ROGERS C B",
+        "tree_dbh": "18",
+        "tree_location": "left side",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": null,
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "18",
+            "tree_location": "left side",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Pine",
+            "tree_dbh": "12",
+            "tree_location": "left side",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.426608455356,
+          33.818626844736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605057",
+        "address": "455 GLENWOOD PL SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "Marianne Kalogeros",
+        "tree_dbh": "13",
+        "tree_location": "Back right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "13in hackberry has a crack along the codom lead.",
+        "tree_number": "1",
+        "species": "Hackberry",
+        "comments": null,
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Hackberry",
+            "tree_dbh": "13",
+            "tree_location": "Back right",
+            "tree_description": "13in hackberry has a crack along the codom lead.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Mulberry",
+            "tree_dbh": "14",
+            "tree_location": "back right",
+            "tree_description": "Undesirable species with a decay column in the main stem and broken limb.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Water Oak",
+            "tree_dbh": "34",
+            "tree_location": "Back left",
+            "tree_description": "34in Water Oak has a large cavity and lopsided canopy resulting from a large lead failure.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "Water Oak",
+            "tree_dbh": "25",
+            "tree_location": "Back left",
+            "tree_description": "Tree has multiple decay points along the base of the tree with fungal fruiting bodies present.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.355351576322,
+          33.740898909958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605050",
+        "address": "1063 ORMEWOOD AVE SE, ATLANTA GA 30316",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.352739625644,
+          33.733858573849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605062",
+        "address": "1237 HOSEA L WILLIAMS DR SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "Ken Ibeto",
+        "tree_dbh": "23",
+        "tree_location": "Right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "23in Water oak has concrete over 50% of SRP with low soil volume. Tree has lopsided canopy with lean over home.",
+        "tree_number": "1",
+        "species": "Water Oak",
+        "comments": null,
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "23",
+            "tree_location": "Right side",
+            "tree_description": "23in Water oak has concrete over 50% of SRP with low soil volume. Tree has lopsided canopy with lean over home.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Tree of Heaven",
+            "tree_dbh": "9",
+            "tree_location": "left side down the driveway",
+            "tree_description": "dead tree.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.347162533589,
+          33.75323788207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605048",
+        "address": "4280 WEST CLUB LN NE, ATLANTA GA 30319",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "Dexter Maxwell",
+        "tree_dbh": "23",
+        "tree_location": "Front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead canopy, declining",
+        "tree_number": "1",
+        "species": "Sweetgum",
+        "comments": "Tagged",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweetgum",
+            "tree_dbh": "23",
+            "tree_location": "Front yard",
+            "tree_description": "Dead canopy, declining",
+            "reason_removal": "Dead tree",
+            "comments": "Tagged"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354616437897,
+          33.870237259078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605037",
+        "address": "4132 HAVERHILL DR NE, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37763179177,
+          33.867496400667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605053",
+        "address": "2176 CASCADE RD SW, ATLANTA GA 30311",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "William max cooper",
+        "tree_dbh": "20",
+        "tree_location": "2176 cascade rd sw",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "All limbs on one side falling onto my house. Has moved 2 feet in the last week.",
+        "tree_number": "1",
+        "species": "White oak",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "White oak",
+            "tree_dbh": "20",
+            "tree_location": "2176 cascade rd sw",
+            "tree_description": "All limbs on one side falling onto my house. Has moved 2 feet in the last week.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.459420960375,
+          33.721993367417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605066",
+        "address": "3990 RANDALL MILL RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "Higor Diniz",
+        "tree_dbh": "8",
+        "tree_location": "See attached survey",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Significant decay along the main stem.",
+        "tree_number": "1",
+        "species": "Sourwood",
+        "comments": null,
+        "tree_count": 30,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sourwood",
+            "tree_dbh": "8",
+            "tree_location": "See attached survey",
+            "tree_description": "Significant decay along the main stem.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Hickory",
+            "tree_dbh": "6",
+            "tree_location": "See attached survey",
+            "tree_description": "Significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "White Oak",
+            "tree_dbh": "31",
+            "tree_location": "See attached survey",
+            "tree_description": "Dead Codom lead and canopy dieback",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "White Oak",
+            "tree_dbh": "13",
+            "tree_location": "See attached survey",
+            "tree_description": "Dead Tree",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "Red Oak",
+            "tree_dbh": "27",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has substantial basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "6",
+            "species": "Yellow Wood",
+            "tree_dbh": "9",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has a dead central leader.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "7",
+            "species": "Blackgum",
+            "tree_dbh": "6",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has severe unbalanced canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "8",
+            "species": "Red Oak",
+            "tree_dbh": "31",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has a hollow base.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "9",
+            "species": "Blackgum",
+            "tree_dbh": "8",
+            "tree_location": "See survey",
+            "tree_description": "Severely lopsided canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "10",
+            "species": "White Oak",
+            "tree_dbh": "13",
+            "tree_location": "See survey",
+            "tree_description": "Fungal infection consuming the base of the tree.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "11",
+            "species": "Walnut",
+            "tree_dbh": "31",
+            "tree_location": "See survey",
+            "tree_description": "Significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "12",
+            "species": "Southern Magnolia",
+            "tree_dbh": "6",
+            "tree_location": "See survey",
+            "tree_description": "Poor shape lopsided canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "13",
+            "species": "Loblolly Pine",
+            "tree_dbh": "20",
+            "tree_location": "See survey",
+            "tree_description": "Dead tree.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "14",
+            "species": "Loblolly Pine",
+            "tree_dbh": "24",
+            "tree_location": "See survey",
+            "tree_description": "Significant basal decay",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "15",
+            "species": "Hickory",
+            "tree_dbh": "6",
+            "tree_location": "See survey",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "16",
+            "species": "Hickory",
+            "tree_dbh": "14",
+            "tree_location": "See survey",
+            "tree_description": "Tree possesses an extreme lean",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "17",
+            "species": "White Oak",
+            "tree_dbh": "10",
+            "tree_location": "See survey",
+            "tree_description": "Dead tree",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "18",
+            "species": "Poplar",
+            "tree_dbh": "6",
+            "tree_location": "See Survey",
+            "tree_description": "Poor Shape with lopsided canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "19",
+            "species": "Hemlock",
+            "tree_dbh": "18",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "20",
+            "species": "Post Oak",
+            "tree_dbh": "30",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "21",
+            "species": "Red Mulberry",
+            "tree_dbh": "13",
+            "tree_location": "See Survey",
+            "tree_description": "Tree canopy in decline more than 30%.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "22",
+            "species": "Winged Elm",
+            "tree_dbh": "8",
+            "tree_location": "See Survey",
+            "tree_description": "Growing into garage",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "23",
+            "species": "Southern Magnolia",
+            "tree_dbh": "24",
+            "tree_location": "See Survey",
+            "tree_description": "codom lead has a cavity at 20ft.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "24",
+            "species": "White Oak",
+            "tree_dbh": "26",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has a black fungal infection along the trunk at dbh.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "25",
+            "species": "Red Oak",
+            "tree_dbh": "33",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "26",
+            "species": "Red Oak",
+            "tree_dbh": "22",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "27",
+            "species": "Red Oak",
+            "tree_dbh": "22",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has substantial basal decay with lean.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "28",
+            "species": "Hickory",
+            "tree_dbh": "17",
+            "tree_location": "See Survey",
+            "tree_description": "Dead tree.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "29",
+            "species": "Red Oak",
+            "tree_dbh": "24",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has substantial basal decay, hollow at base.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "30",
+            "species": "Red Oak",
+            "tree_dbh": "26",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has substantial basal decay. Hollow at base.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.428019435745,
+          33.862742510214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605060",
+        "address": "4218 MCCLATCHEY CIR NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "MCCLURE RICHARD K",
+        "tree_dbh": "20",
+        "tree_location": "Front of house to the right of the driveway, up against fence of neighbors yard/house",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Pine tree with decay/hole half way up the base",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Worried about it falling on neighbors house or our house",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "20",
+            "tree_location": "Front of house to the right of the driveway, up against fence of neighbors yard/house",
+            "tree_description": "Pine tree with decay/hole half way up the base",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Worried about it falling on neighbors house or our house"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.368344490588,
+          33.87042523818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-064205",
+        "address": "3566 CANTRELL RD NE, ATLANTA GA 30319",
+        "status": "",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.352442207034,
+          33.85243969481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605054",
+        "address": "3958 TUXEDO RD NW, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "Lombard Puri",
+        "tree_dbh": "25",
+        "tree_location": "Front",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead",
+        "tree_number": "1",
+        "species": "Loblolly Pine",
+        "comments": "Ribbon",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Loblolly Pine",
+            "tree_dbh": "25",
+            "tree_location": "Front",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": "Ribbon"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.394170358643,
+          33.863178394863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605051",
+        "address": "2328 THOMAS RD NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "40",
+        "tree_location": "Right side rear house",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Fungal activity at base, right side. Phototropic lean towards two house of 20 degrees at top.",
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Pink tape",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "40",
+            "tree_location": "Right side rear house",
+            "tree_description": "Fungal activity at base, right side. Phototropic lean towards two house of 20 degrees at top.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Pink tape"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.472448752868,
+          33.819222743095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605063",
+        "address": "3777 PEACHTREE DUNWOODY RD NE, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.357924512692,
+          33.858279515786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605061",
+        "address": "4582 CLUB CIR NE, ATLANTA GA 30219",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "GOLDBERG JULIENNE B",
+        "tree_dbh": "24",
+        "tree_location": "Front",
+        "reason_removal": "Other",
+        "tree_description": "Broken Leaders, Lean towards home, 80% of crown over home",
+        "tree_number": "1",
+        "species": "Water Oak",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "24",
+            "tree_location": "Front",
+            "tree_description": "Broken Leaders, Lean towards home, 80% of crown over home",
+            "reason_removal": "Other",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354600168778,
+          33.879034825994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605064",
+        "address": "175 PEACHTREE CIR NE, ATLANTA GA 30309",
+        "status": "ACA Pending",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": "MEDDIN SHERYL B",
+        "tree_dbh": "40",
+        "tree_location": "back left",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "40\" Water Oak, back left, root rot fungus, hollow base, rotted trunk, hazardous",
+        "tree_number": "1",
+        "species": "Water Oak",
+        "comments": "40\" Water Oak, back left, root rot fungus, hollow base, rotted trunk, hazardous",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "40",
+            "tree_location": "back left",
+            "tree_description": "40\" Water Oak, back left, root rot fungus, hollow base, rotted trunk, hazardous",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "40\" Water Oak, back left, root rot fungus, hollow base, rotted trunk, hazardous"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.384111491475,
+          33.793909658004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605044",
+        "address": "38 GLENALD WAY NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "09/29/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "16",
+        "tree_location": "back yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "behind condo",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "16",
+            "tree_location": "back yard",
+            "tree_description": "behind condo",
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.426608455356,
+          33.818626844736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605039",
+        "address": "1117 OAK KNOLL TER SE, ATLANTA GA 30315",
+        "status": "Issued",
+        "date": "09/29/2026",
+        "description": "Dead tree in front yard.",
+        "owner": "Alaimo Anthony",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377616374335,
+          33.708418815041
+        ]
+      }
+    }
+  ]
+}

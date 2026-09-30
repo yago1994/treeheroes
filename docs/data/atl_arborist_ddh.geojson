@@ -5409,15 +5409,34 @@
         "date": "09/29/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "11",
+        "tree_location": "Back right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Decay in trunk of tree",
+        "tree_number": "1",
+        "species": "Sweetgum",
+        "comments": "Orange paint",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweetgum",
+            "tree_dbh": "11",
+            "tree_location": "Back right",
+            "tree_description": "Decay in trunk of tree",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange paint"
+          },
+          {
+            "tree_number": "2",
+            "species": "White Oak",
+            "tree_dbh": "28",
+            "tree_location": "Back right",
+            "tree_description": "Decay in trunk of tree",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange paint"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5516,16 +5535,26 @@
         "status": "Accepted",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "James MacDowell",
+        "tree_dbh": "20",
+        "tree_location": "left of center front yard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Tree has an increasing, uncorrected lean of 20 degrees in the upper canopy.",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "left of center front yard",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "20",
+            "tree_location": "left of center front yard",
+            "tree_description": "Tree has an increasing, uncorrected lean of 20 degrees in the upper canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "left of center front yard"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5570,16 +5599,35 @@
         "status": "Accepted",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "ROGERS C B",
+        "tree_dbh": "18",
+        "tree_location": "left side",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead",
+        "tree_number": "1",
+        "species": "Pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "18",
+            "tree_location": "left side",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Pine",
+            "tree_dbh": "12",
+            "tree_location": "left side",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5597,16 +5645,53 @@
         "status": "ACA Pending",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Marianne Kalogeros",
+        "tree_dbh": "13",
+        "tree_location": "Back right",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "13in hackberry has a crack along the codom lead.",
+        "tree_number": "1",
+        "species": "Hackberry",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Hackberry",
+            "tree_dbh": "13",
+            "tree_location": "Back right",
+            "tree_description": "13in hackberry has a crack along the codom lead.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Mulberry",
+            "tree_dbh": "14",
+            "tree_location": "back right",
+            "tree_description": "Undesirable species with a decay column in the main stem and broken limb.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Water Oak",
+            "tree_dbh": "34",
+            "tree_location": "Back left",
+            "tree_description": "34in Water Oak has a large cavity and lopsided canopy resulting from a large lead failure.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "Water Oak",
+            "tree_dbh": "25",
+            "tree_location": "Back left",
+            "tree_description": "Tree has multiple decay points along the base of the tree with fungal fruiting bodies present.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5651,16 +5736,35 @@
         "status": "ACA Pending",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Ken Ibeto",
+        "tree_dbh": "23",
+        "tree_location": "Right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "23in Water oak has concrete over 50% of SRP with low soil volume. Tree has lopsided canopy with lean over home.",
+        "tree_number": "1",
+        "species": "Water Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "23",
+            "tree_location": "Right side",
+            "tree_description": "23in Water oak has concrete over 50% of SRP with low soil volume. Tree has lopsided canopy with lean over home.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Tree of Heaven",
+            "tree_dbh": "9",
+            "tree_location": "left side down the driveway",
+            "tree_description": "dead tree.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5678,16 +5782,26 @@
         "status": "Accepted",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Dexter Maxwell",
+        "tree_dbh": "23",
+        "tree_location": "Front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead canopy, declining",
+        "tree_number": "1",
+        "species": "Sweetgum",
+        "comments": "Tagged",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweetgum",
+            "tree_dbh": "23",
+            "tree_location": "Front yard",
+            "tree_description": "Dead canopy, declining",
+            "reason_removal": "Dead tree",
+            "comments": "Tagged"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5732,16 +5846,26 @@
         "status": "Accepted",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "William max cooper",
+        "tree_dbh": "20",
+        "tree_location": "2176 cascade rd sw",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "All limbs on one side falling onto my house. Has moved 2 feet in the last week.",
+        "tree_number": "1",
+        "species": "White oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "White oak",
+            "tree_dbh": "20",
+            "tree_location": "2176 cascade rd sw",
+            "tree_description": "All limbs on one side falling onto my house. Has moved 2 feet in the last week.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5759,16 +5883,287 @@
         "status": "ACA Pending",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Higor Diniz",
+        "tree_dbh": "8",
+        "tree_location": "See attached survey",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Significant decay along the main stem.",
+        "tree_number": "1",
+        "species": "Sourwood",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 30,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sourwood",
+            "tree_dbh": "8",
+            "tree_location": "See attached survey",
+            "tree_description": "Significant decay along the main stem.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Hickory",
+            "tree_dbh": "6",
+            "tree_location": "See attached survey",
+            "tree_description": "Significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "White Oak",
+            "tree_dbh": "31",
+            "tree_location": "See attached survey",
+            "tree_description": "Dead Codom lead and canopy dieback",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "White Oak",
+            "tree_dbh": "13",
+            "tree_location": "See attached survey",
+            "tree_description": "Dead Tree",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "Red Oak",
+            "tree_dbh": "27",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has substantial basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "6",
+            "species": "Yellow Wood",
+            "tree_dbh": "9",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has a dead central leader.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "7",
+            "species": "Blackgum",
+            "tree_dbh": "6",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has severe unbalanced canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "8",
+            "species": "Red Oak",
+            "tree_dbh": "31",
+            "tree_location": "See attached survey",
+            "tree_description": "Tree has a hollow base.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "9",
+            "species": "Blackgum",
+            "tree_dbh": "8",
+            "tree_location": "See survey",
+            "tree_description": "Severely lopsided canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "10",
+            "species": "White Oak",
+            "tree_dbh": "13",
+            "tree_location": "See survey",
+            "tree_description": "Fungal infection consuming the base of the tree.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "11",
+            "species": "Walnut",
+            "tree_dbh": "31",
+            "tree_location": "See survey",
+            "tree_description": "Significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "12",
+            "species": "Southern Magnolia",
+            "tree_dbh": "6",
+            "tree_location": "See survey",
+            "tree_description": "Poor shape lopsided canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "13",
+            "species": "Loblolly Pine",
+            "tree_dbh": "20",
+            "tree_location": "See survey",
+            "tree_description": "Dead tree.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "14",
+            "species": "Loblolly Pine",
+            "tree_dbh": "24",
+            "tree_location": "See survey",
+            "tree_description": "Significant basal decay",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "15",
+            "species": "Hickory",
+            "tree_dbh": "6",
+            "tree_location": "See survey",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "16",
+            "species": "Hickory",
+            "tree_dbh": "14",
+            "tree_location": "See survey",
+            "tree_description": "Tree possesses an extreme lean",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "17",
+            "species": "White Oak",
+            "tree_dbh": "10",
+            "tree_location": "See survey",
+            "tree_description": "Dead tree",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "18",
+            "species": "Poplar",
+            "tree_dbh": "6",
+            "tree_location": "See Survey",
+            "tree_description": "Poor Shape with lopsided canopy.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "19",
+            "species": "Hemlock",
+            "tree_dbh": "18",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "20",
+            "species": "Post Oak",
+            "tree_dbh": "30",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "21",
+            "species": "Red Mulberry",
+            "tree_dbh": "13",
+            "tree_location": "See Survey",
+            "tree_description": "Tree canopy in decline more than 30%.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "22",
+            "species": "Winged Elm",
+            "tree_dbh": "8",
+            "tree_location": "See Survey",
+            "tree_description": "Growing into garage",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "23",
+            "species": "Southern Magnolia",
+            "tree_dbh": "24",
+            "tree_location": "See Survey",
+            "tree_description": "codom lead has a cavity at 20ft.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "24",
+            "species": "White Oak",
+            "tree_dbh": "26",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has a black fungal infection along the trunk at dbh.",
+            "reason_removal": "Diseased",
+            "comments": null
+          },
+          {
+            "tree_number": "25",
+            "species": "Red Oak",
+            "tree_dbh": "33",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "26",
+            "species": "Red Oak",
+            "tree_dbh": "22",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has significant basal decay.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "27",
+            "species": "Red Oak",
+            "tree_dbh": "22",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has substantial basal decay with lean.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "28",
+            "species": "Hickory",
+            "tree_dbh": "17",
+            "tree_location": "See Survey",
+            "tree_description": "Dead tree.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "29",
+            "species": "Red Oak",
+            "tree_dbh": "24",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has substantial basal decay, hollow at base.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "30",
+            "species": "Red Oak",
+            "tree_dbh": "26",
+            "tree_location": "See Survey",
+            "tree_description": "Tree has substantial basal decay. Hollow at base.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5786,16 +6181,26 @@
         "status": "ACA Pending",
         "date": "09/29/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "MCCLURE RICHARD K",
+        "tree_dbh": "20",
+        "tree_location": "Front of house to the right of the driveway, up against fence of neighbors yard/house",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Pine tree with decay/hole half way up the base",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Worried about it falling on neighbors house or our house",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "20",
+            "tree_location": "Front of house to the right of the driveway, up against fence of neighbors yard/house",
+            "tree_description": "Pine tree with decay/hole half way up the base",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Worried about it falling on neighbors house or our house"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5915,43 +6320,15 @@
         "date": "09/29/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "11",
-        "tree_location": "Backyard (back near new fence)",
-        "reason_removal": "Dying tree",
-        "tree_description": "Oak tree with damaged trunk and large holes in it is leaning into my neighbor's yard and over their power lines.",
-        "tree_number": "1",
-        "species": "Oak",
-        "comments": "Please take a look and let me know if you agree.",
-        "tree_count": 3,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "11",
-            "tree_location": "Backyard (back near new fence)",
-            "tree_description": "Oak tree with damaged trunk and large holes in it is leaning into my neighbor's yard and over their power lines.",
-            "reason_removal": "Dying tree",
-            "comments": "Please take a look and let me know if you agree."
-          },
-          {
-            "tree_number": "2",
-            "species": "Oak",
-            "tree_dbh": "25",
-            "tree_location": "Backyard (center)",
-            "tree_description": "2 trunked tree in middle of the yard. Worried about potential to split and hit the house. Heard it was bad to have 2 trunks and that removing 1 would likely damage the tree.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Please take a look and let me know what you think."
-          },
-          {
-            "tree_number": "3",
-            "species": "Oak",
-            "tree_dbh": "33",
-            "tree_location": "Backyard (along street at bottom of hill)",
-            "tree_description": "MAJOR lean into the street - multiple requests from neighbors to remove. Likely to snap.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Please take a look and let me know what you think."
-          }
-        ]
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
