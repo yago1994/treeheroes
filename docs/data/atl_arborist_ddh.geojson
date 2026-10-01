@@ -4959,62 +4959,16 @@
         "status": "Accepted",
         "date": "09/30/2026",
         "description": null,
-        "owner": "Black Oaks ATL",
-        "tree_dbh": "15",
-        "tree_location": "Back of property left",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "Suppressed with vines and surrounding trees, low LCR",
-        "tree_number": "1",
-        "species": "Elm",
-        "comments": "Orange paint",
-        "tree_count": 5,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Elm",
-            "tree_dbh": "15",
-            "tree_location": "Back of property left",
-            "tree_description": "Suppressed with vines and surrounding trees, low LCR",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Orange paint"
-          },
-          {
-            "tree_number": "2",
-            "species": "Elm",
-            "tree_dbh": "15",
-            "tree_location": "Back of property slightly left",
-            "tree_description": "Suppressed with vines and surrounding trees, low LCR",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Orange paint"
-          },
-          {
-            "tree_number": "3",
-            "species": "Elm",
-            "tree_dbh": "20",
-            "tree_location": "Back of property slightly left",
-            "tree_description": "Suppressed with vines and surrounding trees, low LCR",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Orange paint"
-          },
-          {
-            "tree_number": "4",
-            "species": "Elm",
-            "tree_dbh": "28",
-            "tree_location": "Back of property right",
-            "tree_description": "Large dead limbs and signs of leaf disease, low vigor",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Orange paint"
-          },
-          {
-            "tree_number": "5",
-            "species": "Pecan",
-            "tree_dbh": "6",
-            "tree_location": "Center of property towards rear",
-            "tree_description": "Suppressed canopy, no central leader, strong phototrophic lean",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Orange paint"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5059,26 +5013,16 @@
         "status": "ACA Pending",
         "date": "09/30/2026",
         "description": null,
-        "owner": "WALKER RICE CHARALENE",
-        "tree_dbh": "16",
-        "tree_location": "front yard",
-        "reason_removal": "Dead tree",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "pine",
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "pine",
-            "tree_dbh": "16",
-            "tree_location": "front yard",
-            "tree_description": null,
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5096,26 +5040,16 @@
         "status": "Issued",
         "date": "09/30/2026",
         "description": null,
-        "owner": "HECTOR PINEYRO",
-        "tree_dbh": "10",
-        "tree_location": "Mid-left (north) side of lot",
-        "reason_removal": "Invasive/undesirable tree",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "White Mulberry",
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "White Mulberry",
-            "tree_dbh": "10",
-            "tree_location": "Mid-left (north) side of lot",
-            "tree_description": null,
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5160,26 +5094,16 @@
         "status": "Accepted",
         "date": "09/30/2026",
         "description": null,
-        "owner": "JEWETT DARA Y",
-        "tree_dbh": "36",
-        "tree_location": "LEFT SIDE - NEAR CONCRETE PAD",
-        "reason_removal": "Diseased",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "2",
-        "species": "PINE",
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "2",
-            "species": "PINE",
-            "tree_dbh": "36",
-            "tree_location": "LEFT SIDE - NEAR CONCRETE PAD",
-            "tree_description": null,
-            "reason_removal": "Diseased",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5197,26 +5121,16 @@
         "status": "Accepted",
         "date": "09/30/2026",
         "description": null,
-        "owner": "My Personal Gardener",
-        "tree_dbh": "18",
-        "tree_location": "Right front",
-        "reason_removal": "Dead tree",
-        "tree_description": "Tree is non living",
-        "tree_number": "1",
-        "species": "Dead Pine",
-        "comments": "Orange dot",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Dead Pine",
-            "tree_dbh": "18",
-            "tree_location": "Right front",
-            "tree_description": "Tree is non living",
-            "reason_removal": "Dead tree",
-            "comments": "Orange dot"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5234,35 +5148,16 @@
         "status": "Accepted",
         "date": "09/30/2026",
         "description": null,
-        "owner": "BURNS ELIZABETH D",
-        "tree_dbh": "24",
-        "tree_location": "Back right corner of house",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "Tree is just outside 5' from foundation, fungal bodies on SW structural root, lowest limb has weak stem union and a large cavity 8' from trunk",
-        "tree_number": "1",
-        "species": "Slippery Elm",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Slippery Elm",
-            "tree_dbh": "24",
-            "tree_location": "Back right corner of house",
-            "tree_description": "Tree is just outside 5' from foundation, fungal bodies on SW structural root, lowest limb has weak stem union and a large cavity 8' from trunk",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Cherry Laurel",
-            "tree_dbh": "6",
-            "tree_location": "backyard, right of center. Outside of fence but on property",
-            "tree_description": null,
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
