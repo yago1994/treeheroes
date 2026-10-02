@@ -3772,7 +3772,7 @@
         "record": "26TMP-064615",
         "address": "21 NORTH EUGENIA PL NW, ATLANTA GA 30318",
         "status": null,
-        "date": "10/01/2026",
+        "date": "09/30/2026",
         "description": null,
         "owner": null,
         "tree_dbh": null,
@@ -4091,16 +4091,26 @@
         "status": "Accepted",
         "date": "10/01/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "POPE CHILTON C",
+        "tree_dbh": "14",
+        "tree_location": "front yard right at road",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Picture of tree",
+        "tree_number": "1",
+        "species": "Maple",
+        "comments": "major trunk decay with canine decline throughout",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Maple",
+            "tree_dbh": "14",
+            "tree_location": "front yard right at road",
+            "tree_description": "Picture of tree",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "major trunk decay with canine decline throughout"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4145,16 +4155,98 @@
         "status": "Accepted",
         "date": "10/01/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "ROBIN LAURA B",
+        "tree_dbh": "6",
+        "tree_location": "left side of drive",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "6\" Leyland, left side of drive between fence and concrete, undesirable species",
+        "tree_number": "1",
+        "species": "Leyland cypress",
+        "comments": "6\" Leyland, left side of drive between fence and concrete, undesirable species",
+        "tree_count": 9,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Leyland cypress",
+            "tree_dbh": "6",
+            "tree_location": "left side of drive",
+            "tree_description": "6\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "6\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "2",
+            "species": "Leyland cypress",
+            "tree_dbh": "6",
+            "tree_location": "left side of drive",
+            "tree_description": "6\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "6\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "3",
+            "species": "Leyland cypress",
+            "tree_dbh": "7",
+            "tree_location": "left side of drive",
+            "tree_description": "7\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "7\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "4",
+            "species": "Leyland cypress",
+            "tree_dbh": "8",
+            "tree_location": "left side of drive",
+            "tree_description": "8\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "8\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "5",
+            "species": "Leyland cypress",
+            "tree_dbh": "8",
+            "tree_location": "left side of drive",
+            "tree_description": "8\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "8\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "6",
+            "species": "Leyland cypress",
+            "tree_dbh": "9",
+            "tree_location": "left side of drive",
+            "tree_description": "9\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "9\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "7",
+            "species": "Leyland cypress",
+            "tree_dbh": "9",
+            "tree_location": "left side of drive",
+            "tree_description": "9\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "9\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "8",
+            "species": "Leyland cypress",
+            "tree_dbh": "10",
+            "tree_location": "left side of drive",
+            "tree_description": "10\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "10\" Leyland, left side of drive between fence and concrete, undesirable species"
+          },
+          {
+            "tree_number": "9",
+            "species": "Leyland cypress",
+            "tree_dbh": "10",
+            "tree_location": "left side of drive",
+            "tree_description": "10\" Leyland, left side of drive between fence and concrete, undesirable species",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "10\" Leyland, left side of drive between fence and concrete, undesirable species"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4172,16 +4264,44 @@
         "status": "Accepted",
         "date": "10/01/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Andrew Kang",
+        "tree_dbh": "39",
+        "tree_location": "Left",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "cavity at base, overextending branches, recent limb failures",
+        "tree_number": "1",
+        "species": "Red Oak",
+        "comments": "Orange dot",
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Red Oak",
+            "tree_dbh": "39",
+            "tree_location": "Left",
+            "tree_description": "cavity at base, overextending branches, recent limb failures",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange dot"
+          },
+          {
+            "tree_number": "2",
+            "species": "Water Oak",
+            "tree_dbh": "32",
+            "tree_location": "Right",
+            "tree_description": "tree in decline, due to Hypoxolin canker",
+            "reason_removal": "Dying tree",
+            "comments": "Orange dot"
+          },
+          {
+            "tree_number": "3",
+            "species": "Maple",
+            "tree_dbh": "32",
+            "tree_location": "Right of rear driveway",
+            "tree_description": "Cavity in trunk, tree in decline.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange dot"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4200,15 +4320,25 @@
         "date": "10/01/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "22",
+        "tree_location": "left side of back driveway just inside rear gate",
+        "reason_removal": "Dead tree",
+        "tree_description": "22\" White Oak, Dead, located left side of back driveway just inside rear gate",
+        "tree_number": "1",
+        "species": "White Oak",
+        "comments": "22\" White Oak, Dead, located left side of back driveway just inside rear gate",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "White Oak",
+            "tree_dbh": "22",
+            "tree_location": "left side of back driveway just inside rear gate",
+            "tree_description": "22\" White Oak, Dead, located left side of back driveway just inside rear gate",
+            "reason_removal": "Dead tree",
+            "comments": "22\" White Oak, Dead, located left side of back driveway just inside rear gate"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4227,15 +4357,61 @@
         "date": "10/01/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "19",
+        "tree_location": "near driveway",
+        "reason_removal": "Other",
+        "tree_description": "leaning",
+        "tree_number": "1",
+        "species": "pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 5,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pine",
+            "tree_dbh": "19",
+            "tree_location": "near driveway",
+            "tree_description": "leaning",
+            "reason_removal": "Other",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "pine",
+            "tree_dbh": "19",
+            "tree_location": "side yard",
+            "tree_description": "leaning",
+            "reason_removal": "Other",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "pine",
+            "tree_dbh": "14",
+            "tree_location": "side yard",
+            "tree_description": "leaning",
+            "reason_removal": "Other",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "pine",
+            "tree_dbh": "20",
+            "tree_location": "back side",
+            "tree_description": "dead",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "pine",
+            "tree_dbh": "24",
+            "tree_location": "side yard",
+            "tree_description": "leaning",
+            "reason_removal": "Other",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4254,15 +4430,43 @@
         "date": "10/01/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "15",
+        "tree_location": "front right of property",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Leaning and growing toward stucture",
+        "tree_number": "1",
+        "species": "Southern Magnolia",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Southern Magnolia",
+            "tree_dbh": "15",
+            "tree_location": "front right of property",
+            "tree_description": "Leaning and growing toward stucture",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Leyland cypress",
+            "tree_dbh": "22",
+            "tree_location": "rear right of property",
+            "tree_description": "Double lead",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Leyland cypress",
+            "tree_dbh": "15",
+            "tree_location": "right rear of property",
+            "tree_description": "single leader",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
