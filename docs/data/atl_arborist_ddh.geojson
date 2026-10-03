@@ -4955,16 +4955,35 @@
         "status": "Accepted",
         "date": "10/02/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Mario Montag",
+        "tree_dbh": "30",
+        "tree_location": "rear right side",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "Trunk cavity approx 30' up, bifurcated upper trunk, low LCR",
+        "tree_number": "1",
+        "species": "Loblolly Pine",
+        "comments": "Orange flagged - weak tree",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Loblolly Pine",
+            "tree_dbh": "30",
+            "tree_location": "rear right side",
+            "tree_description": "Trunk cavity approx 30' up, bifurcated upper trunk, low LCR",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Orange flagged - weak tree"
+          },
+          {
+            "tree_number": "2",
+            "species": "Red Oak",
+            "tree_dbh": "15",
+            "tree_location": "rear left side",
+            "tree_description": "leaning with all weight past center over volleyball area",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Orange flagged"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
