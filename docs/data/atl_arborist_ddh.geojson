@@ -5171,16 +5171,71 @@
         "status": "ACA Pending",
         "date": "10/03/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "WALLACE HELEN",
+        "tree_dbh": "33",
+        "tree_location": "Please see site map.",
+        "reason_removal": "Dead tree",
+        "tree_description": "Numbered flagging tape",
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Tree appears dead.",
+        "tree_count": 6,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "33",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "2",
+            "species": "Hickory",
+            "tree_dbh": "13",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Basal wound with sloughing bark and visible decay."
+          },
+          {
+            "tree_number": "3",
+            "species": "Oak",
+            "tree_dbh": "20",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Loss of natural top and apical dominance. Decayed remnant of the former leader persists within the upper crown."
+          },
+          {
+            "tree_number": "4",
+            "species": "Oak",
+            "tree_dbh": "32",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "5",
+            "species": "Pine",
+            "tree_dbh": "20",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Dead co-dominant leader. Remaining co-dominant leader exhibits significant terminal dieback."
+          },
+          {
+            "tree_number": "6",
+            "species": "Poplar",
+            "tree_dbh": "19",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Bending moment associated with an apparent prior mechanical injury or possible co-dominant stem failure. Cavity with visible decay is present behind secondary growth originating from wound wood."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5198,16 +5253,26 @@
         "status": "ACA Pending",
         "date": "10/03/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Thomas Trevett",
+        "tree_dbh": "3",
+        "tree_location": "Rear side",
+        "reason_removal": "Dying tree",
+        "tree_description": "Pine tree appears to be rotting on one side near the base",
+        "tree_number": "1",
+        "species": "Pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "3",
+            "tree_location": "Rear side",
+            "tree_description": "Pine tree appears to be rotting on one side near the base",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5225,16 +5290,35 @@
         "status": "ACA Pending",
         "date": "10/03/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "HILBUN GORDON",
+        "tree_dbh": "28",
+        "tree_location": "Front Yard",
+        "reason_removal": "Invasive/undesirable tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_number": "1",
+        "species": "Water Oak",
+        "comments": "We will replace the tree with a native Georgia Red Maple",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "28",
+            "tree_location": "Front Yard",
+            "tree_description": null,
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "We will replace the tree with a native Georgia Red Maple"
+          },
+          {
+            "tree_number": "2",
+            "species": "Water Oak",
+            "tree_dbh": "30",
+            "tree_location": "Back yard",
+            "tree_description": null,
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "Will replace with native GA red maple"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",

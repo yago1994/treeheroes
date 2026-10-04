@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605135",
+        "address": "672 TIMM VALLEY RD NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "10/03/2026",
+        "description": null,
+        "owner": "LORENC BARBARA A",
+        "tree_dbh": "18",
+        "tree_location": "rear center",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "*** Remove the 18-inch DBH pine tree located at the bottom center of the driveway. The tree has a pronounced lean toward the neighboring home, creating a risk of failure onto the residence. Removal is recommended to reduce the potential for property damage. (Rear center)",
+        "tree_number": "1",
+        "species": "pine",
+        "comments": null,
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pine",
+            "tree_dbh": "18",
+            "tree_location": "rear center",
+            "tree_description": "*** Remove the 18-inch DBH pine tree located at the bottom center of the driveway. The tree has a pronounced lean toward the neighboring home, creating a risk of failure onto the residence. Removal is recommended to reduce the potential for property damage. (Rear center)",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "poplar",
+            "tree_dbh": "30",
+            "tree_location": "rear center",
+            "tree_description": "Remove the 30-inch DBH poplar. The tree has a pronounced lean toward the neighboring home and extensive crown dieback, with an estimated 40% of the crown already lost. Large limbs have fallen onto the neighboring fence. Given the tree’s condition and proximity to the home and fence, removal is strongly recommended to reduce the risk of further limb or tree failure and property damage. (Rear center)",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363622595627,
+          33.836508455596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605137",
+        "address": "1116 ROXBORO DR NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "10/03/2026",
+        "description": null,
+        "owner": "WALLACE HELEN",
+        "tree_dbh": "33",
+        "tree_location": "Please see site map.",
+        "reason_removal": "Dead tree",
+        "tree_description": "Numbered flagging tape",
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Tree appears dead.",
+        "tree_count": 6,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "33",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "2",
+            "species": "Hickory",
+            "tree_dbh": "13",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Basal wound with sloughing bark and visible decay."
+          },
+          {
+            "tree_number": "3",
+            "species": "Oak",
+            "tree_dbh": "20",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Loss of natural top and apical dominance. Decayed remnant of the former leader persists within the upper crown."
+          },
+          {
+            "tree_number": "4",
+            "species": "Oak",
+            "tree_dbh": "32",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Dead tree",
+            "comments": "Tree appears dead."
+          },
+          {
+            "tree_number": "5",
+            "species": "Pine",
+            "tree_dbh": "20",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Dead co-dominant leader. Remaining co-dominant leader exhibits significant terminal dieback."
+          },
+          {
+            "tree_number": "6",
+            "species": "Poplar",
+            "tree_dbh": "19",
+            "tree_location": "Please see site map.",
+            "tree_description": "Numbered flagging tape",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Bending moment associated with an apparent prior mechanical injury or possible co-dominant stem failure. Cavity with visible decay is present behind secondary growth originating from wound wood."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35089474115,
+          33.838795518233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-063477",
+        "address": "3725 ADKINS RD NW, ATLANTA GA 30331",
+        "status": "",
+        "date": "10/03/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.509372372252,
+          33.773509418848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605134",
+        "address": "4521 CLUB VALLEY DR NE, ATLANTA GA 30319",
+        "status": "ACA Pending",
+        "date": "10/03/2026",
+        "description": null,
+        "owner": "Thomas Trevett",
+        "tree_dbh": "3",
+        "tree_location": "Rear side",
+        "reason_removal": "Dying tree",
+        "tree_description": "Pine tree appears to be rotting on one side near the base",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "3",
+            "tree_location": "Rear side",
+            "tree_description": "Pine tree appears to be rotting on one side near the base",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.352480816325,
+          33.878184144796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605136",
+        "address": "1842 MARLBROOK DR NE, ATLANTA GA 30307",
+        "status": "ACA Pending",
+        "date": "10/03/2026",
+        "description": null,
+        "owner": "HILBUN GORDON",
+        "tree_dbh": "28",
+        "tree_location": "Front Yard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Water Oak",
+        "comments": "We will replace the tree with a native Georgia Red Maple",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "28",
+            "tree_location": "Front Yard",
+            "tree_description": null,
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "We will replace the tree with a native Georgia Red Maple"
+          },
+          {
+            "tree_number": "2",
+            "species": "Water Oak",
+            "tree_dbh": "30",
+            "tree_location": "Back yard",
+            "tree_description": null,
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "Will replace with native GA red maple"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.327502576502,
+          33.767438503743
+        ]
+      }
+    }
+  ]
+}
