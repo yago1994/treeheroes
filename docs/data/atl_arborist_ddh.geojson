@@ -3647,44 +3647,16 @@
         "status": "ACA Pending",
         "date": "10/04/2026",
         "description": null,
-        "owner": "SHEPPARD JEFFREY",
-        "tree_dbh": "14",
-        "tree_location": "south",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": "very tall tree near driveway and fence",
-        "tree_number": "1",
-        "species": "Cypress",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 3,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Cypress",
-            "tree_dbh": "14",
-            "tree_location": "south",
-            "tree_description": "very tall tree near driveway and fence",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "black walnut",
-            "tree_dbh": "14",
-            "tree_location": "south west",
-            "tree_description": "tree in rear of yard on the south west side",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "Cypress",
-            "tree_dbh": "18",
-            "tree_location": "North west",
-            "tree_description": "Tree in the rear of the yard 3 feet from the foundation of my house",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
