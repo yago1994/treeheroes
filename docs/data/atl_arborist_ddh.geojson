@@ -2562,15 +2562,25 @@
         "date": "10/05/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "12",
+        "tree_location": "front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead oak tree that we have been advised to have taken down",
+        "tree_number": "1",
+        "species": "oak",
+        "comments": "just looking to take down the single dead tree that is threatening the house",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "12",
+            "tree_location": "front yard",
+            "tree_description": "Dead oak tree that we have been advised to have taken down",
+            "reason_removal": "Dead tree",
+            "comments": "just looking to take down the single dead tree that is threatening the house"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2588,16 +2598,26 @@
         "status": "ACA Pending",
         "date": "10/05/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "Jake Mendel",
+        "tree_dbh": "12",
+        "tree_location": "Front yard",
+        "reason_removal": "Other",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_number": "1",
+        "species": "Crepe myrtle",
+        "comments": "Client wants to remove the tree",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Crepe myrtle",
+            "tree_dbh": "12",
+            "tree_location": "Front yard",
+            "tree_description": null,
+            "reason_removal": "Other",
+            "comments": "Client wants to remove the tree"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2750,62 +2770,16 @@
         "status": "ACA Pending",
         "date": "10/05/2026",
         "description": null,
-        "owner": "MACARIO A VEGA LEDERER",
-        "tree_dbh": "7",
-        "tree_location": "FRONT OF HOUSE",
-        "reason_removal": "Diseased",
-        "tree_description": "CREPEMYRTLE WITH SEVER PRUNING AND SCALES",
-        "tree_number": "17",
-        "species": "CREPEMYRTLE",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 5,
-        "trees": [
-          {
-            "tree_number": "17",
-            "species": "CREPEMYRTLE",
-            "tree_dbh": "7",
-            "tree_location": "FRONT OF HOUSE",
-            "tree_description": "CREPEMYRTLE WITH SEVER PRUNING AND SCALES",
-            "reason_removal": "Diseased",
-            "comments": null
-          },
-          {
-            "tree_number": "18",
-            "species": "CREPEMYRTLE",
-            "tree_dbh": "7",
-            "tree_location": "FRONT OF HOUSE",
-            "tree_description": "CREPEMYRTLE WITH SEVER PRUNING AND SCALES",
-            "reason_removal": "Diseased",
-            "comments": "DAVID GENNNARO STATED THAT TREE WAS A CANDIDATE FOR DDH DUE TO EXTREME PRUNING"
-          },
-          {
-            "tree_number": "7",
-            "species": "POPLAR",
-            "tree_dbh": "36",
-            "tree_location": "FRONT LEFT OF DRIVEWAY",
-            "tree_description": "HIGH CANOPY ON STEEP SLOPE WITH IMPACT TO STRUCTURAL ROOT PLATE DUE TO RETAINING WALLS",
-            "reason_removal": "Other",
-            "comments": "DAVID GENNNARO STATED THAT TREE MAY BE A CANDIDATE FOR DDH DUE TO IMPACT TO STRUCTURAL ROOT PLATE FROM RETAINING WALL AND STEEP SLOPE"
-          },
-          {
-            "tree_number": "9",
-            "species": "POPLAR",
-            "tree_dbh": "28",
-            "tree_location": "LEFT SIDE OF HOUSE",
-            "tree_description": "HIGH CANOPY ON STEEP SLOPE WITH IMPACT TO STRUCTURAL ROOT PLATE DUE TO RETAINING WALLS",
-            "reason_removal": "Other",
-            "comments": "DAVID GENNNARO STATED THAT TREE MAY BE A CANDIDATE FOR DDH DUE TO IMPACT TO STRUCTURAL ROOT PLATE FROM RETAINING WALL AND STEEP SLOPE"
-          },
-          {
-            "tree_number": "10",
-            "species": "POPLAR",
-            "tree_dbh": "45",
-            "tree_location": "LEFT SIDE OF HOUSE",
-            "tree_description": "HIGH CANOPY ON STEEP SLOPE WITH IMPACT TO STRUCTURAL ROOT PLATE DUE TO RETAINING WALLS",
-            "reason_removal": "Other",
-            "comments": "DAVID GENNNARO STATED THAT TREE MAY BE A CANDIDATE FOR DDH DUE TO IMPACT TO STRUCTURAL ROOT PLATE FROM RETAINING WALL AND STEEP SLOPE"
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
