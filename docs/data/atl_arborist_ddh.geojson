@@ -3747,15 +3747,34 @@
         "date": "10/06/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "20",
+        "tree_location": "left side",
+        "reason_removal": "Other",
+        "tree_description": "20\" Sweetgum, left side, owner feels tree is hazardous",
+        "tree_number": "1",
+        "species": "Sweetgum",
+        "comments": "20\" Sweetgum, left side, owner feels tree is hazardous",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweetgum",
+            "tree_dbh": "20",
+            "tree_location": "left side",
+            "tree_description": "20\" Sweetgum, left side, owner feels tree is hazardous",
+            "reason_removal": "Other",
+            "comments": "20\" Sweetgum, left side, owner feels tree is hazardous"
+          },
+          {
+            "tree_number": "2",
+            "species": "Poplar",
+            "tree_dbh": "25",
+            "tree_location": "behind carport",
+            "tree_description": "25\" Poplar, behind carport, owner feels tree is hazardous",
+            "reason_removal": "Other",
+            "comments": "25\" Poplar, behind carport, owner feels tree is hazardous"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3881,16 +3900,26 @@
         "status": "ACA Pending",
         "date": "10/06/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "VETTER PAUL",
+        "tree_dbh": "39",
+        "tree_location": "2875 Elliott",
+        "reason_removal": "Other",
+        "tree_description": "Water Oak (has Orange ribbon)",
+        "tree_number": "1",
+        "species": "water oak",
+        "comments": "Massive Growth Crease, Severe Lean over home, multiply limbs have hit the Roof & the house. A threat to Life & Property.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "water oak",
+            "tree_dbh": "39",
+            "tree_location": "2875 Elliott",
+            "tree_description": "Water Oak (has Orange ribbon)",
+            "reason_removal": "Other",
+            "comments": "Massive Growth Crease, Severe Lean over home, multiply limbs have hit the Roof & the house. A threat to Life & Property."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4070,16 +4099,26 @@
         "status": "ACA Pending",
         "date": "10/06/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "RIVERS GERALDINE P",
+        "tree_dbh": "37.2",
+        "tree_location": "front yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "tree was hit by lightning bathing it on fire & now has a crack on trunk",
+        "tree_number": "1",
+        "species": "oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "37.2",
+            "tree_location": "front yard",
+            "tree_description": "tree was hit by lightning bathing it on fire & now has a crack on trunk",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4286,16 +4325,35 @@
         "status": "ACA Pending",
         "date": "10/06/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "ATC NORTHSIDE IVESTORS L L C",
+        "tree_dbh": "29",
+        "tree_location": "Building 200 Left Side",
+        "reason_removal": "Dying tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "Water Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Water Oak",
+            "tree_dbh": "29",
+            "tree_location": "Building 200 Left Side",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Pin Oak",
+            "tree_dbh": "16",
+            "tree_location": "Left Side of Parking Lot",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4468,16 +4526,26 @@
         "status": "ACA Pending",
         "date": "10/06/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "Jonathan and Kimberly Forsythe",
+        "tree_dbh": "30",
+        "tree_location": "Rear left",
+        "reason_removal": "Dead tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "6",
+        "species": "White Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "6",
+            "species": "White Oak",
+            "tree_dbh": "30",
+            "tree_location": "Rear left",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4541,26 +4609,16 @@
         "status": "ACA Pending",
         "date": "10/06/2026",
         "description": null,
-        "owner": "ROUNDMAN ENTERPRISES INC",
-        "tree_dbh": "14",
-        "tree_location": "Front right side",
-        "reason_removal": "Dying tree",
-        "tree_description": "Tree has been topped for utility lines, no central leader exists, decay present in the pruned limbs",
-        "tree_number": "441",
-        "species": "Red Oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "441",
-            "species": "Red Oak",
-            "tree_dbh": "14",
-            "tree_location": "Front right side",
-            "tree_description": "Tree has been topped for utility lines, no central leader exists, decay present in the pruned limbs",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4616,61 +4674,15 @@
         "date": "10/06/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "8.3",
-        "tree_location": "side yard",
-        "reason_removal": "Dying tree",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "unsure",
-        "comments": "tree service removing neighbor's large diseased tree says this needs to come down because it's growing on hillside and leaning and could pose threat to our house if neighbor's tree behaves unpredictably during removal",
-        "tree_count": 5,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "unsure",
-            "tree_dbh": "8.3",
-            "tree_location": "side yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": "tree service removing neighbor's large diseased tree says this needs to come down because it's growing on hillside and leaning and could pose threat to our house if neighbor's tree behaves unpredictably during removal"
-          },
-          {
-            "tree_number": "2",
-            "species": "unsure",
-            "tree_dbh": "15.6",
-            "tree_location": "side yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": "tree service removing neighbor's large diseased tree says this needs to come down because it's growing on hillside and leaning and could pose threat to our house if neighbor's tree behaves unpredictably during removal"
-          },
-          {
-            "tree_number": "3",
-            "species": "unsure",
-            "tree_dbh": "16.5",
-            "tree_location": "side yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": "tree service removing neighbor's large diseased tree says this needs to come down because it's growing on hillside and leaning and could pose threat to our house if neighbor's tree behaves unpredictably during removal"
-          },
-          {
-            "tree_number": "4",
-            "species": "unsure",
-            "tree_dbh": "7.6",
-            "tree_location": "side yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": "tree service removing neighbor's large diseased tree says this needs to come down because it's growing on hillside and leaning and could pose threat to our house if neighbor's tree behaves unpredictably during removal"
-          },
-          {
-            "tree_number": "5",
-            "species": "unsure",
-            "tree_dbh": "15.6",
-            "tree_location": "side yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": "tree service removing neighbor's large diseased tree says this needs to come down because it's growing on hillside and leaning and could pose threat to our house if neighbor's tree behaves unpredictably during removal"
-          }
-        ]
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4772,15 +4784,25 @@
         "date": "10/06/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "18",
+        "tree_location": "back right",
+        "reason_removal": "Dying tree",
+        "tree_description": "Excessive lean, Fungal Fruiting body present in decay on trunk",
+        "tree_number": "1",
+        "species": "oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "18",
+            "tree_location": "back right",
+            "tree_description": "Excessive lean, Fungal Fruiting body present in decay on trunk",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4835,16 +4857,26 @@
         "status": "ACA Pending",
         "date": "10/06/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "KILBY VIRGINIA LEE",
+        "tree_dbh": "10",
+        "tree_location": "Front yard, right side",
+        "reason_removal": "Dying tree",
+        "tree_description": "Dead/declining Dogwood",
+        "tree_number": "1",
+        "species": "Dogwood",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Dogwood",
+            "tree_dbh": "10",
+            "tree_location": "Front yard, right side",
+            "tree_description": "Dead/declining Dogwood",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
