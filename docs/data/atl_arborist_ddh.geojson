@@ -4426,15 +4426,25 @@
         "date": "10/07/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "32",
+        "tree_location": "back yard on left side.",
+        "reason_removal": "Dead tree",
+        "tree_description": "dead tree",
+        "tree_number": "1",
+        "species": "sweet gum",
+        "comments": "Dead tree",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "sweet gum",
+            "tree_dbh": "32",
+            "tree_location": "back yard on left side.",
+            "tree_description": "dead tree",
+            "reason_removal": "Dead tree",
+            "comments": "Dead tree"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4614,26 +4624,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "HERITAGE BUILT INC",
-        "tree_dbh": "17",
-        "tree_location": "Lower rear yard on left side in pinestraw garden, flanked by 2 other trees",
-        "reason_removal": "Dying tree",
-        "tree_description": "Tall, thin tree dropping dead limbs. In grouping of 3 in lower right of rear yard. They are grouped at the front of a pinestraw bed area. Another poplar in this area is also DDH.",
-        "tree_number": "2",
-        "species": "Poplar",
-        "comments": "Please review this DDH request with the one I submitted yesterday (BA-202605191)",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "2",
-            "species": "Poplar",
-            "tree_dbh": "17",
-            "tree_location": "Lower rear yard on left side in pinestraw garden, flanked by 2 other trees",
-            "tree_description": "Tall, thin tree dropping dead limbs. In grouping of 3 in lower right of rear yard. They are grouped at the front of a pinestraw bed area. Another poplar in this area is also DDH.",
-            "reason_removal": "Dying tree",
-            "comments": "Please review this DDH request with the one I submitted yesterday (BA-202605191)"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4651,26 +4651,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "Zachary Ryan",
-        "tree_dbh": "14",
-        "tree_location": "Back right",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": "14in Tree of Heaven is invasive and has chain-link fence embedded in the stem.",
-        "tree_number": "1",
-        "species": "Tree of Heaven",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Tree of Heaven",
-            "tree_dbh": "14",
-            "tree_location": "Back right",
-            "tree_description": "14in Tree of Heaven is invasive and has chain-link fence embedded in the stem.",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4688,26 +4678,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "NORWOOD ROBERT L",
-        "tree_dbh": "30",
-        "tree_location": "Next to the fence in back yard",
-        "reason_removal": "Diseased",
-        "tree_description": "This is a tall tree with falling branches, There are vines that are overtaking the tree as well.",
-        "tree_number": "2",
-        "species": "Pine",
-        "comments": "This tree sits at the rear corner of the house.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "2",
-            "species": "Pine",
-            "tree_dbh": "30",
-            "tree_location": "Next to the fence in back yard",
-            "tree_description": "This is a tall tree with falling branches, There are vines that are overtaking the tree as well.",
-            "reason_removal": "Diseased",
-            "comments": "This tree sits at the rear corner of the house."
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4725,26 +4705,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "TILLER BARNUM A VAUGHN REBEKAH R",
-        "tree_dbh": "10",
-        "tree_location": "South edge of front yard.",
-        "reason_removal": "Dying tree",
-        "tree_description": "Dogwood tree on south edge of front yard. More than half of the tree canopy did not produce leaves this growing season. Tree is near the power service for our house. Trunk is loosing bark and has a hole at the base on the house side of the tree.",
-        "tree_number": "1",
-        "species": "Dogwood tree",
-        "comments": "We have lived here since 2007. The dogwood tree was a mature tree when we moved in.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Dogwood tree",
-            "tree_dbh": "10",
-            "tree_location": "South edge of front yard.",
-            "tree_description": "Dogwood tree on south edge of front yard. More than half of the tree canopy did not produce leaves this growing season. Tree is near the power service for our house. Trunk is loosing bark and has a hole at the base on the house side of the tree.",
-            "reason_removal": "Dying tree",
-            "comments": "We have lived here since 2007. The dogwood tree was a mature tree when we moved in."
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4762,26 +4732,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "STRICKLAND ALENE W",
-        "tree_dbh": "39",
-        "tree_location": "back of house",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "*** Remove 39-inch DBH Red Oak — Immediate Removal Recommended Remove the 39-inch DBH red oak located within striking distance of the owner’s home. The tree has an aggressive lean of approximately 30% toward the residence. Its scaffold limbs extend over the roof, and large pieces have previously failed and landed on the home. The tree’s deteriorated root plate raises concern about its ability to remain stable, particularly under added wind loading or saturated soil conditions. The combination of the pronounced lean, compromised root plate, overhanging canopy, and history of large limb failure presents a substantial risk to the residence and its occupants. TRAQ risk considerations: * Likelihood of failure: Moderate to High * Likelihood of impact to the residence: High * Consequences of failure: Severe * Overall risk: High Remove the tree immediately. Because the canopy extends over the home, dismantle it in controlled sections, using appropriate rigging to manage limbs and wood as needed and reduce the potential for additional damage to the residence. Remove the resulting tree debris from the property. Stump removal is not included unless specified separately.",
-        "tree_number": "1",
-        "species": "oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "oak",
-            "tree_dbh": "39",
-            "tree_location": "back of house",
-            "tree_description": "*** Remove 39-inch DBH Red Oak — Immediate Removal Recommended Remove the 39-inch DBH red oak located within striking distance of the owner’s home. The tree has an aggressive lean of approximately 30% toward the residence. Its scaffold limbs extend over the roof, and large pieces have previously failed and landed on the home. The tree’s deteriorated root plate raises concern about its ability to remain stable, particularly under added wind loading or saturated soil conditions. The combination of the pronounced lean, compromised root plate, overhanging canopy, and history of large limb failure presents a substantial risk to the residence and its occupants. TRAQ risk considerations: * Likelihood of failure: Moderate to High * Likelihood of impact to the residence: High * Consequences of failure: Severe * Overall risk: High Remove the tree immediately. Because the canopy extends over the home, dismantle it in controlled sections, using appropriate rigging to manage limbs and wood as needed and reduce the potential for additional damage to the residence. Remove the resulting tree debris from the property. Stump removal is not included unless specified separately.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4799,35 +4759,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "Annie Cook",
-        "tree_dbh": "13",
-        "tree_location": "Back of the house on the right.",
-        "reason_removal": "Dead tree",
-        "tree_description": "Uprooted oak being held up by another tree.",
-        "tree_number": "1",
-        "species": "oak",
-        "comments": "Marked with red tape",
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "oak",
-            "tree_dbh": "13",
-            "tree_location": "Back of the house on the right.",
-            "tree_description": "Uprooted oak being held up by another tree.",
-            "reason_removal": "Dead tree",
-            "comments": "Marked with red tape"
-          },
-          {
-            "tree_number": "2",
-            "species": "oak",
-            "tree_dbh": "17",
-            "tree_location": "Back of the house on the right.",
-            "tree_description": "dead tree with decay on the base and rot.",
-            "reason_removal": "Dead tree",
-            "comments": "marked with red tape"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4845,26 +4786,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "BAZZLE KENNETH L",
-        "tree_dbh": "32",
-        "tree_location": "front yard center",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "32\" diameter loblolly pine at front yard center with canker on main stem approximately 45-50 feet above ground level. Photos have been provided from an aerial inspection of the tree.",
-        "tree_number": "1",
-        "species": "Pine",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Pine",
-            "tree_dbh": "32",
-            "tree_location": "front yard center",
-            "tree_description": "32\" diameter loblolly pine at front yard center with canker on main stem approximately 45-50 feet above ground level. Photos have been provided from an aerial inspection of the tree.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4883,25 +4814,15 @@
         "date": "10/07/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "100",
-        "tree_location": "right side yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "large sweet gum trees",
-        "tree_number": "1",
-        "species": "sweet gum",
-        "comments": "4 trees are dying in detention pond",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "sweet gum",
-            "tree_dbh": "100",
-            "tree_location": "right side yard",
-            "tree_description": "large sweet gum trees",
-            "reason_removal": "Dying tree",
-            "comments": "4 trees are dying in detention pond"
-          }
-        ]
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4947,25 +4868,15 @@
         "date": "10/07/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "29.6",
-        "tree_location": "rear of house",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "the tree is split 1/3 up the 50' height",
-        "tree_number": "39",
-        "species": "pine",
-        "comments": "the tree is split and it is dying and subject to wind blowing it into the home",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "39",
-            "species": "pine",
-            "tree_dbh": "29.6",
-            "tree_location": "rear of house",
-            "tree_description": "the tree is split 1/3 up the 50' height",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "the tree is split and it is dying and subject to wind blowing it into the home"
-          }
-        ]
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4983,26 +4894,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "INLAND AMERICAN ST PORTFOLIO I",
-        "tree_dbh": "18",
-        "tree_location": "Right side of building",
-        "reason_removal": "Dying tree",
-        "tree_description": "Tree is in complete decline",
-        "tree_number": "1",
-        "species": "Maple",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Maple",
-            "tree_dbh": "18",
-            "tree_location": "Right side of building",
-            "tree_description": "Tree is in complete decline",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5122,25 +5023,15 @@
         "date": "10/07/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "30",
-        "tree_location": "backyard center",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "30\" DBH post oak tree at back yard center was observed to have a canker on the main stem in the upper 1/3rd of the crown.",
-        "tree_number": "1",
-        "species": "post oak",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "post oak",
-            "tree_dbh": "30",
-            "tree_location": "backyard center",
-            "tree_description": "30\" DBH post oak tree at back yard center was observed to have a canker on the main stem in the upper 1/3rd of the crown.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5158,26 +5049,16 @@
         "status": "ACA Pending",
         "date": "10/07/2026",
         "description": null,
-        "owner": "Amy Parker",
-        "tree_dbh": "20.5",
-        "tree_location": "between the two houses at the end of the driveway",
-        "reason_removal": "Other",
-        "tree_description": "Dangerous tree",
-        "tree_number": "1",
-        "species": "Oak",
-        "comments": "Dangerous tree that could affect powerlines in the future since it is over the powerlines",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "20.5",
-            "tree_location": "between the two houses at the end of the driveway",
-            "tree_description": "Dangerous tree",
-            "reason_removal": "Other",
-            "comments": "Dangerous tree that could affect powerlines in the future since it is over the powerlines"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
