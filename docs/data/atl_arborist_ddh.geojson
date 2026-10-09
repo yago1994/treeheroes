@@ -4682,26 +4682,16 @@
         "status": "ACA Pending",
         "date": "10/08/2026",
         "description": null,
-        "owner": "Fred Bromenschenkel",
-        "tree_dbh": "18",
-        "tree_location": "Far back center behind tennis court",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead poplar near structures",
-        "tree_number": "1",
-        "species": "Tulip Poplar",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Tulip Poplar",
-            "tree_dbh": "18",
-            "tree_location": "Far back center behind tennis court",
-            "tree_description": "Dead poplar near structures",
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -4908,16 +4898,26 @@
         "status": "Accepted",
         "date": "10/08/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "BOYDSTON ANNE E",
+        "tree_dbh": "20",
+        "tree_location": "Front Left",
+        "reason_removal": "Dying tree",
+        "tree_description": "Significant dieback",
+        "tree_number": "1",
+        "species": "Cherry",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Cherry",
+            "tree_dbh": "20",
+            "tree_location": "Front Left",
+            "tree_description": "Significant dieback",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4935,16 +4935,35 @@
         "status": "ACA Pending",
         "date": "10/08/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "ALEXANDRE WATINE",
+        "tree_dbh": "26",
+        "tree_location": "Backyard, approximately 4 feet from the residence",
+        "reason_removal": "Other",
+        "tree_description": "large mature pine located approximately 4 ft from the residence",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "large mature pine located approximately 4 feet from the residence. The arborist observed that the tree's roots extend beneath the patio, are lifting the stone pavers, and are contributing to movement/settlement of the adjacent low retaining wall. removal is requested due to the tree's extreme proximity to the residence and the ongoing structural/hardscape impact from the root system.",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "26",
+            "tree_location": "Backyard, approximately 4 feet from the residence",
+            "tree_description": "large mature pine located approximately 4 ft from the residence",
+            "reason_removal": "Other",
+            "comments": "large mature pine located approximately 4 feet from the residence. The arborist observed that the tree's roots extend beneath the patio, are lifting the stone pavers, and are contributing to movement/settlement of the adjacent low retaining wall. removal is requested due to the tree's extreme proximity to the residence and the ongoing structural/hardscape impact from the root system."
+          },
+          {
+            "tree_number": "2",
+            "species": "Hickory",
+            "tree_dbh": "23",
+            "tree_location": "front yard",
+            "tree_description": "mature hickory tree with visible cavity/decay at the base of the trunk and deterioration around the root flare",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "arborist observed deterioration and a cavity at the base of the trunk and expressed concern about possible root decay and reduced structural stability"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4962,16 +4981,26 @@
         "status": "ACA Pending",
         "date": "10/08/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "CDSI INV INC",
+        "tree_dbh": "25",
+        "tree_location": "behind house near storage shed",
+        "reason_removal": "Other",
+        "tree_description": "25\" Pine, behind house near storage shed, causing damage to retaining wall and storage shed foundation",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "25\" Pine, behind house near storage shed, causing damage to retaining wall and storage shed foundation",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "25",
+            "tree_location": "behind house near storage shed",
+            "tree_description": "25\" Pine, behind house near storage shed, causing damage to retaining wall and storage shed foundation",
+            "reason_removal": "Other",
+            "comments": "25\" Pine, behind house near storage shed, causing damage to retaining wall and storage shed foundation"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5016,16 +5045,26 @@
         "status": "ACA Pending",
         "date": "10/08/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "BROAD FIELDS INC",
+        "tree_dbh": "22",
+        "tree_location": "right side of home",
+        "reason_removal": "Dead tree",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "hardwood",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "hardwood",
+            "tree_dbh": "22",
+            "tree_location": "right side of home",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5038,9 +5077,9 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "26TMP-066563",
-        "address": "2500 Caladium, United States",
-        "status": null,
+        "record": "BA-202605273",
+        "address": "575 JONES AVE NW, ATLANTA GA 30314",
+        "status": "ACA Pending",
         "date": "10/08/2026",
         "description": null,
         "owner": null,
@@ -5053,94 +5092,12 @@
         "comments": null,
         "tree_count": null,
         "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.274277461368,
-          33.858574758985
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202605273",
-        "address": "575 JONES AVE NW, ATLANTA GA 30314",
-        "status": "ACA Pending",
-        "date": "10/08/2026",
-        "description": null,
-        "owner": "EDMONDSON ARRIE",
-        "tree_dbh": "33",
-        "tree_location": "corner",
-        "reason_removal": "Other",
-        "tree_description": "leaning and root system will be disturbed by construction next door",
-        "tree_number": "1",
-        "species": "red oak",
-        "comments": null,
-        "tree_count": 3,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "red oak",
-            "tree_dbh": "33",
-            "tree_location": "corner",
-            "tree_description": "leaning and root system will be disturbed by construction next door",
-            "reason_removal": "Other",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "red oak",
-            "tree_dbh": "38",
-            "tree_location": "middle of lot on side",
-            "tree_description": "leaning and root system will be disturbed by construction next door",
-            "reason_removal": "Other",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "hardwood",
-            "tree_dbh": "24.5",
-            "tree_location": "corner",
-            "tree_description": "dead",
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -84.40626487066,
           33.764315858767
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "26TMP-066670",
-        "address": "2500 Caladium, United States",
-        "status": null,
-        "date": "10/08/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.274277461368,
-          33.858574758985
         ]
       }
     },
@@ -5355,25 +5312,15 @@
         "date": "10/08/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "8",
-        "tree_location": "Front of home",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "Picture of tree",
-        "tree_number": "1",
-        "species": "Dogwood",
-        "comments": "- decay at base - proximity to home",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Dogwood",
-            "tree_dbh": "8",
-            "tree_location": "Front of home",
-            "tree_description": "Picture of tree",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "- decay at base - proximity to home"
-          }
-        ]
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -5537,26 +5484,16 @@
         "status": "ACA Pending",
         "date": "10/08/2026",
         "description": null,
-        "owner": "Dashia Caudill",
-        "tree_dbh": "24",
-        "tree_location": "Backyard",
-        "reason_removal": "Uncorrectable defect",
-        "tree_description": "Lightening strike from 2' up to 50' on trunk",
-        "tree_number": "1",
-        "species": "Water Oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Water Oak",
-            "tree_dbh": "24",
-            "tree_location": "Backyard",
-            "tree_description": "Lightening strike from 2' up to 50' on trunk",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
