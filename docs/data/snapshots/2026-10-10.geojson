@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605312",
+        "address": "117 CLIFTON ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "10/10/2026",
+        "description": null,
+        "owner": "BROOK DEBRA L",
+        "tree_dbh": "43",
+        "tree_location": "backyard, right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "this tree is hollow. it has significant decay in the structural roots.",
+        "tree_number": "1",
+        "species": "water oak",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "water oak",
+            "tree_dbh": "43",
+            "tree_location": "backyard, right side",
+            "tree_description": "this tree is hollow. it has significant decay in the structural roots.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.331866393919,
+          33.749975379873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-067046",
+        "address": "60 MOBLEY DR SE, ATLANTA GA 30315",
+        "status": "",
+        "date": "10/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387344956728,
+          33.686450381704
+        ]
+      }
+    }
+  ]
+}
