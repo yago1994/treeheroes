@@ -31,79 +31,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202605139",
-        "address": "804 DIXIE AVE NE, ATLANTA GA 30307",
-        "status": "ACA Pending",
-        "date": "10/04/2026",
-        "description": null,
-        "owner": "Lisa M Bonet",
-        "tree_dbh": "46",
-        "tree_location": "right side of parking area",
-        "reason_removal": "Other",
-        "tree_description": "tree is a 46\" oak that has dropped limbs during the last few storms.",
-        "tree_number": "1",
-        "species": "oak",
-        "comments": "customer states the tree is too close to the building and would like to have it removed due to roots potentially going under the foundation and a few limbs have fallen during the last few storms.",
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "oak",
-            "tree_dbh": "46",
-            "tree_location": "right side of parking area",
-            "tree_description": "tree is a 46\" oak that has dropped limbs during the last few storms.",
-            "reason_removal": "Other",
-            "comments": "customer states the tree is too close to the building and would like to have it removed due to roots potentially going under the foundation and a few limbs have fallen during the last few storms."
-          },
-          {
-            "tree_number": "1",
-            "species": "unknown",
-            "tree_dbh": "12",
-            "tree_location": "left side of the paring lot near dumpsters",
-            "tree_description": "dead tree near dumpster",
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.361315937585,
-          33.756774671658
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202605138",
-        "address": "1768 HELEN DR NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
-        "date": "10/04/2026",
-        "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.339309184294,
-          33.801816477096
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "26TMP-065353",
         "address": "1054 CRANE RD NE, ATLANTA GA 30324",
         "status": null,
@@ -6590,6 +6517,70 @@
         "coordinates": [
           -84.377220880338,
           33.676586968282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605312",
+        "address": "117 CLIFTON ST SE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "10/10/2026",
+        "description": null,
+        "owner": "BROOK DEBRA L",
+        "tree_dbh": "43",
+        "tree_location": "backyard, right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "this tree is hollow. it has significant decay in the structural roots.",
+        "tree_number": "1",
+        "species": "water oak",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "water oak",
+            "tree_dbh": "43",
+            "tree_location": "backyard, right side",
+            "tree_description": "this tree is hollow. it has significant decay in the structural roots.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.331866393919,
+          33.749975379873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-067046",
+        "address": "60 MOBLEY DR SE, ATLANTA GA 30315",
+        "status": null,
+        "date": "10/10/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387344956728,
+          33.686450381704
         ]
       }
     }
