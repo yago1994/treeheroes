@@ -3522,35 +3522,16 @@
         "status": "ACA Pending",
         "date": "10/12/2026",
         "description": null,
-        "owner": "Bret Sperling",
-        "tree_dbh": "28",
-        "tree_location": "behind the house",
-        "reason_removal": "Dying tree",
-        "tree_description": "Tall pine tree with dead branches.",
-        "tree_number": "1",
-        "species": "Spruce Pine",
-        "comments": "Tree shows clear stress and is leaning over the house.",
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Spruce Pine",
-            "tree_dbh": "28",
-            "tree_location": "behind the house",
-            "tree_description": "Tall pine tree with dead branches.",
-            "reason_removal": "Dying tree",
-            "comments": "Tree shows clear stress and is leaning over the house."
-          },
-          {
-            "tree_number": "2",
-            "species": "sweetgum Tree",
-            "tree_dbh": "18",
-            "tree_location": "Back of the house",
-            "tree_description": "dying tree in the back of house",
-            "reason_removal": "Dying tree",
-            "comments": "dying / dead tree close to the house presents significant hazard to the home and occupants"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3811,26 +3792,16 @@
         "status": "Issued",
         "date": "10/12/2026",
         "description": null,
-        "owner": "Jeromie Neidlinger",
-        "tree_dbh": "52",
-        "tree_location": "Southwest corner of property (Unit D3)",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "Significant Column of Decay up Trunk/Fungal Fruiting Bodies at Base",
-        "tree_number": "1",
-        "species": "Water Oak",
-        "comments": "Unit D3",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Water Oak",
-            "tree_dbh": "52",
-            "tree_location": "Southwest corner of property (Unit D3)",
-            "tree_description": "Significant Column of Decay up Trunk/Fungal Fruiting Bodies at Base",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "Unit D3"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3912,16 +3883,26 @@
         "status": "Accepted",
         "date": "10/12/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Allison Brantley",
+        "tree_dbh": "22.5",
+        "tree_location": "Front yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Tree is dying in front yard",
+        "tree_number": "1",
+        "species": "Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "22.5",
+            "tree_location": "Front yard",
+            "tree_description": "Tree is dying in front yard",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
