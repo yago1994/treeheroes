@@ -2859,16 +2859,26 @@
         "status": "ACA Pending",
         "date": "10/14/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "STERNBERG MAYA RAQUEL",
+        "tree_dbh": "20",
+        "tree_location": "left side in front of the house",
+        "reason_removal": "Dying tree",
+        "tree_description": "Dying tree with Cavity ,also considered as a dangerous tree since touching powerlines.",
+        "tree_number": "1",
+        "species": "magnolia",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "magnolia",
+            "tree_dbh": "20",
+            "tree_location": "left side in front of the house",
+            "tree_description": "Dying tree with Cavity ,also considered as a dangerous tree since touching powerlines.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2995,97 +3005,15 @@
         "date": "10/14/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "10",
-        "tree_location": "Front Right of Driveway & Home",
-        "reason_removal": "Dying tree",
-        "tree_description": "Significant decline is evident throughout the upper canopy, indicating reduced crown vitality and progressive deterioration of the tree’s overall health.",
-        "tree_number": "1",
-        "species": "Sweetgum",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 9,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Sweetgum",
-            "tree_dbh": "10",
-            "tree_location": "Front Right of Driveway & Home",
-            "tree_description": "Significant decline is evident throughout the upper canopy, indicating reduced crown vitality and progressive deterioration of the tree’s overall health.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Sourwood",
-            "tree_dbh": "9",
-            "tree_location": "Front Right of Driveway & Home",
-            "tree_description": "Tree exhibits significant lean accompanied by visible root plate upheaval, indicating potential root system instability and an increased risk of whole-tree failure.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "Sourwood",
-            "tree_dbh": "9",
-            "tree_location": "Front Right of Driveway & Home",
-            "tree_description": "Tree exhibits significant lean accompanied by visible root plate upheaval, indicating potential root system instability and an increased risk of whole-tree failure.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          },
-          {
-            "tree_number": "4",
-            "species": "Pine",
-            "tree_dbh": "15",
-            "tree_location": "Front Right of Driveway & Home",
-            "tree_description": "The tree exhibits a significantly asymmetric canopy, with the crown offset to one side and leaning over the driveway. This growth pattern creates a directional loading bias that may increase mechanical stress on the trunk and supporting root system.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          },
-          {
-            "tree_number": "5",
-            "species": "Cherry",
-            "tree_dbh": "12",
-            "tree_location": "Front Right of Driveway & Home",
-            "tree_description": "Decay is present within the parent stem, compromising its structural integrity and potentially increasing the risk of stem failure.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "6",
-            "species": "Red Oak",
-            "tree_dbh": "14",
-            "tree_location": "Front Right of Driveway & Home",
-            "tree_description": "The tree exhibits significant abnormal swelling at the root flare, indicating a substantial basal defect that may compromise the structural integrity of the trunk and root collar.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          },
-          {
-            "tree_number": "7",
-            "species": "Elm",
-            "tree_dbh": "8",
-            "tree_location": "Front Left of Driveway & Home",
-            "tree_description": "The tree exhibits greater than 40% canopy decline, indicating substantial foliage loss and reduced crown vitality. The central leader is also exhibiting dieback, further indicating significant decline in the tree’s overall health and vigor.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "8",
-            "species": "Cherry",
-            "tree_dbh": "10",
-            "tree_location": "Front Left of Driveway & Home",
-            "tree_description": "Significant soil erosion and deterioration of the root plate were observed, potentially compromising root system stability and the tree’s overall structural integrity.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          },
-          {
-            "tree_number": "9",
-            "species": "Loblolly Pine",
-            "tree_dbh": "18",
-            "tree_location": "Front Left of Driveway & Home",
-            "tree_description": "A large fusiform canker was observed on the tree’s trunk at an approximate height of 30 feet above grade on the side of the tree facing the home.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3103,35 +3031,16 @@
         "status": "ACA Pending",
         "date": "10/14/2026",
         "description": null,
-        "owner": "The Villages of Castleberry",
-        "tree_dbh": "42",
-        "tree_location": "back left side of building 600",
-        "reason_removal": "Diseased",
-        "tree_description": "Tree removal is requested due to visible decay and open cavities at the base of the trunk, raising concerns about structural integrity and stability. Given the tree’s substantial size and close proximity to the residence, overhead utility lines, fencing, and vehicles, removal is recommended to mitigate potential safety hazards and prevent property damage.",
-        "tree_number": "1",
-        "species": "oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "oak",
-            "tree_dbh": "42",
-            "tree_location": "back left side of building 600",
-            "tree_description": "Tree removal is requested due to visible decay and open cavities at the base of the trunk, raising concerns about structural integrity and stability. Given the tree’s substantial size and close proximity to the residence, overhead utility lines, fencing, and vehicles, removal is recommended to mitigate potential safety hazards and prevent property damage.",
-            "reason_removal": "Diseased",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Oak",
-            "tree_dbh": "37",
-            "tree_location": "front left side of main entrance at 369 mcdaniel st sw",
-            "tree_description": "Tree removal is requested due to significant visible decay and cavities at the root flare, along with multiple large, previously cut or damaged limbs and open wounds in the main trunk. These defects raise concerns regarding the tree’s structural integrity and potential limb or trunk failure, creating a safety risk to nearby structures and surrounding property.",
-            "reason_removal": "Diseased",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3257,26 +3166,16 @@
         "status": "ACA Pending",
         "date": "10/14/2026",
         "description": null,
-        "owner": "Miao Wang",
-        "tree_dbh": "8",
-        "tree_location": "side yard",
-        "reason_removal": "Dead tree",
-        "tree_description": "tree is dead and covered in fungus",
-        "tree_number": "1234",
-        "species": "Don't know",
-        "comments": "not sure where to get tree number",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1234",
-            "species": "Don't know",
-            "tree_dbh": "8",
-            "tree_location": "side yard",
-            "tree_description": "tree is dead and covered in fungus",
-            "reason_removal": "Dead tree",
-            "comments": "not sure where to get tree number"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3322,15 +3221,25 @@
         "date": "10/14/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "6",
+        "tree_location": "FRONT LEFT CORNER OF HOUSE",
+        "reason_removal": "Dying tree",
+        "tree_description": "DDH",
+        "tree_number": "1",
+        "species": "WATER OAK",
+        "comments": "MARKED WITH BLUE TAPE",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "WATER OAK",
+            "tree_dbh": "6",
+            "tree_location": "FRONT LEFT CORNER OF HOUSE",
+            "tree_description": "DDH",
+            "reason_removal": "Dying tree",
+            "comments": "MARKED WITH BLUE TAPE"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3348,16 +3257,62 @@
         "status": "ACA Pending",
         "date": "10/14/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "SRF INVESTMENTS LLLP",
+        "tree_dbh": "14",
+        "tree_location": "left",
+        "reason_removal": "Dying tree",
+        "tree_description": "This tree has an approximate 50 degree lean growing over building.",
+        "tree_number": "1",
+        "species": "willow oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 5,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "willow oak",
+            "tree_dbh": "14",
+            "tree_location": "left",
+            "tree_description": "This tree has an approximate 50 degree lean growing over building.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "water oak",
+            "tree_dbh": "14",
+            "tree_location": "left",
+            "tree_description": "This tree has a strong lean over building.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "loblolly",
+            "tree_dbh": "17",
+            "tree_location": "back left",
+            "tree_description": "This tree has a canker that cover approximately 50% of the conference of the trunk.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "tulip poplar",
+            "tree_dbh": "15",
+            "tree_location": "back center",
+            "tree_description": "This tree is dead. No live canopy.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "5",
+            "species": "tulip poplar",
+            "tree_dbh": "19",
+            "tree_location": "back center",
+            "tree_description": "This tree appears to once been struck by lightning. The trunk is less than 6\" from the building. There is a low live crown ratio.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3375,16 +3330,44 @@
         "status": "ACA Pending",
         "date": "10/14/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "STRAIN ELEANOR H",
+        "tree_dbh": "27",
+        "tree_location": "front yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Failed",
+        "tree_number": "1",
+        "species": "Hardwood",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Hardwood",
+            "tree_dbh": "27",
+            "tree_location": "front yard",
+            "tree_description": "Failed",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Hardwood",
+            "tree_dbh": "34",
+            "tree_location": "side yard",
+            "tree_description": "50% dead canopy",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Hardwood",
+            "tree_dbh": "24",
+            "tree_location": "side front",
+            "tree_description": "buried root collar 50% canopy lost",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
