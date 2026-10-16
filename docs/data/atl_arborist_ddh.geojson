@@ -2452,15 +2452,25 @@
         "date": "10/15/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "22",
+        "tree_location": "right back",
+        "reason_removal": "Other",
+        "tree_description": "22\" Pine",
+        "tree_number": "1",
+        "species": "Pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "22",
+            "tree_location": "right back",
+            "tree_description": "22\" Pine",
+            "reason_removal": "Other",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2505,35 +2515,16 @@
         "status": "ACA Pending",
         "date": "10/15/2026",
         "description": null,
-        "owner": "BEAL PAMELA J",
-        "tree_dbh": "9",
-        "tree_location": "Far back left corner of property",
-        "reason_removal": "Other",
-        "tree_description": "Picture of tree",
-        "tree_number": "1",
-        "species": "Elm",
-        "comments": "90 degree turn in trunk and canopy",
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Elm",
-            "tree_dbh": "9",
-            "tree_location": "Far back left corner of property",
-            "tree_description": "Picture of tree",
-            "reason_removal": "Other",
-            "comments": "90 degree turn in trunk and canopy"
-          },
-          {
-            "tree_number": "2",
-            "species": "Water Oak",
-            "tree_dbh": "14",
-            "tree_location": "Far back yard right",
-            "tree_description": "Picture of tree",
-            "reason_removal": "Other",
-            "comments": "90 degree turn in trunk and canopy"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -2642,26 +2633,16 @@
         "status": "ACA Pending",
         "date": "10/15/2026",
         "description": null,
-        "owner": "Alex Tucker",
-        "tree_dbh": "32",
-        "tree_location": "Front Yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "A decaying, potentially hazardous tree exhibiting a thinning crown and visible signs of decay at the base of the trunk.",
-        "tree_number": "1",
-        "species": "Oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "32",
-            "tree_location": "Front Yard",
-            "tree_description": "A decaying, potentially hazardous tree exhibiting a thinning crown and visible signs of decay at the base of the trunk.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -2717,25 +2698,15 @@
         "date": "10/15/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "38",
-        "tree_location": "front side yard (immediately next to 1130 mt paran neighbors)",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "Large Magnolia tree in side yard with 3 trunks - two of the trunks have large holes in them that have been getting deeper over time (we moved in two years ago and have been watching closely). The third trunk, right next to the main two trunks, has a large split where the top of the tree fell all the way down. We are cutting the split portion down tomorrow (October 16), becuase it split on October 15 and is hanging up in the air and leaning on our fence and is already fallen down into our neighbor's yard. But the large two trunks next to it are very concerning because one of the trunks hangs over our house and has a massive hole in the trunk, and another of the trunks hangs over our neighbor's house. The trunk going over our neighbor's house is very tall and has a large hole developing about 12 feet up the trunk. With the third trunk splitting, we are very concerned that this trunk will split and fall on our neighbor's house, which is lower in elevation than where the tree sits.",
-        "tree_number": "0",
-        "species": "Magnolia",
-        "comments": "Large Magnolia tree in side yard with 3 trunks - two of the trunks have large holes in them that have been getting deeper over time (we moved in two years ago and have been watching closely). The third trunk, right next to the main two trunks, has a large split where the top of the tree fell all the way down. We are cutting the split portion down tomorrow (October 16), becuase it split on October 15 and is hanging up in the air and leaning on our fence and is already fallen down into our neighbor's yard. But the large two trunks next to it are very concerning because one of the trunks hangs over our house and has a massive hole in the trunk, and another of the trunks hangs over our neighbor's house. The trunk going over our neighbor's house is very tall and has a large hole developing about 12 feet up the trunk. With the third trunk splitting, we are very concerned that this trunk will split and fall on our neighbor's house, which is lower in elevation than where the tree sits.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "0",
-            "species": "Magnolia",
-            "tree_dbh": "38",
-            "tree_location": "front side yard (immediately next to 1130 mt paran neighbors)",
-            "tree_description": "Large Magnolia tree in side yard with 3 trunks - two of the trunks have large holes in them that have been getting deeper over time (we moved in two years ago and have been watching closely). The third trunk, right next to the main two trunks, has a large split where the top of the tree fell all the way down. We are cutting the split portion down tomorrow (October 16), becuase it split on October 15 and is hanging up in the air and leaning on our fence and is already fallen down into our neighbor's yard. But the large two trunks next to it are very concerning because one of the trunks hangs over our house and has a massive hole in the trunk, and another of the trunks hangs over our neighbor's house. The trunk going over our neighbor's house is very tall and has a large hole developing about 12 feet up the trunk. With the third trunk splitting, we are very concerned that this trunk will split and fall on our neighbor's house, which is lower in elevation than where the tree sits.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "Large Magnolia tree in side yard with 3 trunks - two of the trunks have large holes in them that have been getting deeper over time (we moved in two years ago and have been watching closely). The third trunk, right next to the main two trunks, has a large split where the top of the tree fell all the way down. We are cutting the split portion down tomorrow (October 16), becuase it split on October 15 and is hanging up in the air and leaning on our fence and is already fallen down into our neighbor's yard. But the large two trunks next to it are very concerning because one of the trunks hangs over our house and has a massive hole in the trunk, and another of the trunks hangs over our neighbor's house. The trunk going over our neighbor's house is very tall and has a large hole developing about 12 feet up the trunk. With the third trunk splitting, we are very concerned that this trunk will split and fall on our neighbor's house, which is lower in elevation than where the tree sits."
-          }
-        ]
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -2753,26 +2724,16 @@
         "status": "ACA Pending",
         "date": "10/15/2026",
         "description": null,
-        "owner": "EASTON JAMES C OR EASTON MICHELLE MARIE",
-        "tree_dbh": "22",
-        "tree_location": "left side of home",
-        "reason_removal": "Other",
-        "tree_description": "Concerns by Neil Norton about stability of tree. See attached report recommending removal.",
-        "tree_number": "1",
-        "species": "Sweetgum",
-        "comments": "Please see attached report",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Sweetgum",
-            "tree_dbh": "22",
-            "tree_location": "left side of home",
-            "tree_description": "Concerns by Neil Norton about stability of tree. See attached report recommending removal.",
-            "reason_removal": "Other",
-            "comments": "Please see attached report"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -2918,25 +2879,15 @@
         "date": "10/15/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "32",
-        "tree_location": "Front Left",
-        "reason_removal": "Dying tree",
-        "tree_description": "Trunk condition: Extensive bark deterioration and visible areas of exposed wood. Decay: A visible cavity and localized wood deterioration on the trunk. Tree location: Immediately adjacent to the residence, with branches extending over or near the roof. Utility conflicts: Overhead utility lines are visible near the tree and should be noted if they are within the tree's fall zone or canopy. Root flare: The base has large, exposed surface roots. Their condition and any damage should be assessed on-site.",
-        "tree_number": "1",
-        "species": "Maple",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Maple",
-            "tree_dbh": "32",
-            "tree_location": "Front Left",
-            "tree_description": "Trunk condition: Extensive bark deterioration and visible areas of exposed wood. Decay: A visible cavity and localized wood deterioration on the trunk. Tree location: Immediately adjacent to the residence, with branches extending over or near the roof. Utility conflicts: Overhead utility lines are visible near the tree and should be noted if they are within the tree's fall zone or canopy. Root flare: The base has large, exposed surface roots. Their condition and any damage should be assessed on-site.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3386,16 +3337,44 @@
         "status": "ACA Pending",
         "date": "10/15/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "Benjamin C Rupel",
+        "tree_dbh": "27",
+        "tree_location": "Back Yard near stone fireplace",
+        "reason_removal": "Significant cavity/area of decay",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_number": "1",
+        "species": "Oak",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "27",
+            "tree_location": "Back Yard near stone fireplace",
+            "tree_description": null,
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Oak",
+            "tree_dbh": "23",
+            "tree_location": "Back yard right near playset",
+            "tree_description": null,
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": "Large/long cavity near midway of tree trunk"
+          },
+          {
+            "tree_number": "3",
+            "species": "Oak",
+            "tree_dbh": "51",
+            "tree_location": "Front yard near corner of Beecher Rd & Herring Rd",
+            "tree_description": null,
+            "reason_removal": "Dying tree",
+            "comments": "Large limb (15\"+ diameter) recently came down during a calm day onto powerline. Additional smaller limbs have also recently come down. Trunk shows signs of stress."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
