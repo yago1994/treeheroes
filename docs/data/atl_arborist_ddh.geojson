@@ -3482,26 +3482,16 @@
         "status": "ACA Pending",
         "date": "10/16/2026",
         "description": null,
-        "owner": "TOBON JUAN CARLOS HERNANDEZ ADRIANA",
-        "tree_dbh": "5",
-        "tree_location": "Backyard",
-        "reason_removal": "Diseased",
-        "tree_description": "tree is over 20% leaning and has a fungus",
-        "tree_number": "1",
-        "species": "Oak",
-        "comments": "2024 permit: 17 01470002010",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "5",
-            "tree_location": "Backyard",
-            "tree_description": "tree is over 20% leaning and has a fungus",
-            "reason_removal": "Diseased",
-            "comments": "2024 permit: 17 01470002010"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3681,16 +3671,26 @@
         "status": "ACA Pending",
         "date": "10/16/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "HERNACKI KATHERINE M OR HERNACKI MICHAEL R",
+        "tree_dbh": "16",
+        "tree_location": "South below new proposed pool",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Tree is in poor health and is an invasive species, owner would like to remove to help provide room for the pool installation.",
+        "tree_number": "7",
+        "species": "Royal Paulownia",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "7",
+            "species": "Royal Paulownia",
+            "tree_dbh": "16",
+            "tree_location": "South below new proposed pool",
+            "tree_description": "Tree is in poor health and is an invasive species, owner would like to remove to help provide room for the pool installation.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
