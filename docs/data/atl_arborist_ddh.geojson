@@ -3911,15 +3911,43 @@
         "date": "10/17/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "10",
+        "tree_location": "front center",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": "Cherry laurel tree lining Rickenbacker Dr NE. just behind the address monument.",
+        "tree_number": "1",
+        "species": "cherry laurel",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "cherry laurel",
+            "tree_dbh": "10",
+            "tree_location": "front center",
+            "tree_description": "Cherry laurel tree lining Rickenbacker Dr NE. just behind the address monument.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "cherry laurel",
+            "tree_dbh": "10",
+            "tree_location": "front center",
+            "tree_description": "Multi-stem cherry laurel tree lining Rickenbacker Dr NE. just behind the address monument.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "cherry laurel",
+            "tree_dbh": "10",
+            "tree_location": "front center",
+            "tree_description": "Multi-stem cherry laurel tree lining Rickenbacker Dr NE. just behind the address monument.",
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3974,26 +4002,16 @@
         "status": "ACA Pending",
         "date": "10/17/2026",
         "description": null,
-        "owner": "SARTAIN RENA D",
-        "tree_dbh": "36",
-        "tree_location": "Back yard",
-        "reason_removal": "Dying tree",
-        "tree_description": "Large dying Oak back yard by fence.",
-        "tree_number": "1",
-        "species": "Oak",
-        "comments": "Large dying Oak back yard by fence.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "36",
-            "tree_location": "Back yard",
-            "tree_description": "Large dying Oak back yard by fence.",
-            "reason_removal": "Dying tree",
-            "comments": "Large dying Oak back yard by fence."
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
