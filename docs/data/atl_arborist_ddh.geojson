@@ -31,170 +31,6 @@
     {
       "type": "Feature",
       "properties": {
-        "record": "BA-202605314",
-        "address": "143 BLACKLAND RD NW, ATLANTA GA 30342",
-        "status": "ACA Pending",
-        "date": "10/11/2026",
-        "description": null,
-        "owner": "ELIZABETH UTT REVOCABLE TRUST",
-        "tree_dbh": "35",
-        "tree_location": "REAR",
-        "reason_removal": "Dying tree",
-        "tree_description": "PINE WITH ROOT ROT & CANKER",
-        "tree_number": "1",
-        "species": "PINE",
-        "comments": "DEAD LIMBS FALLING FROM TREE. PREVIOUSLY STRUCK BY LIGHTENING. TREE IS MARKED FOR IDENTIFICATION",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "PINE",
-            "tree_dbh": "35",
-            "tree_location": "REAR",
-            "tree_description": "PINE WITH ROOT ROT & CANKER",
-            "reason_removal": "Dying tree",
-            "comments": "DEAD LIMBS FALLING FROM TREE. PREVIOUSLY STRUCK BY LIGHTENING. TREE IS MARKED FOR IDENTIFICATION"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.391362399959,
-          33.858938998244
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "record": "BA-202605313",
-        "address": "643 MARTIN L KING JR DR NW, ATLANTA GA 30314",
-        "status": "ACA Pending",
-        "date": "10/11/2026",
-        "description": null,
-        "owner": "MORRIS BROWN COLLEGE",
-        "tree_dbh": "26",
-        "tree_location": "See plan",
-        "reason_removal": "Invasive/undesirable tree",
-        "tree_description": "Mature tree of heaven next to retaining wall with codominant leaders midway up trunk",
-        "tree_number": "1",
-        "species": "Ailanthus altissima",
-        "comments": null,
-        "tree_count": 11,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Ailanthus altissima",
-            "tree_dbh": "26",
-            "tree_location": "See plan",
-            "tree_description": "Mature tree of heaven next to retaining wall with codominant leaders midway up trunk",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "Ulmus species",
-            "tree_dbh": "40",
-            "tree_location": "See Plan",
-            "tree_description": "Mature elm tree heavily covered in ivy. Heavy utility pruning on the eastern side has left a low live crown ratio and an unbalanced canopy in the direction of the building set to be preserved.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": "Utility company pruning will continue to worsen the unbalanced canopy and leave large pruning cuts over time."
-          },
-          {
-            "tree_number": "9",
-            "species": "Pyrus calleryana",
-            "tree_dbh": "12",
-            "tree_location": "See Plan",
-            "tree_description": "Bradford pear tree directly next to tree 10 on plans.",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "20",
-            "species": "Ailanthus altissima",
-            "tree_dbh": "10",
-            "tree_location": "See Plan",
-            "tree_description": "Growing directly next to chain link fence on slope. Standard trunk.",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "91",
-            "species": "Catalpa bignonioides",
-            "tree_dbh": "22",
-            "tree_location": "See Plan",
-            "tree_description": "Volunteer catalpa tree growing in between chain link fence on the east and vehicular guard rail on the west. Lower trunk has grown around chain link and is growing around guard rail, causing potential decay pockets and future structural concerns.",
-            "reason_removal": "Uncorrectable defect",
-            "comments": null
-          },
-          {
-            "tree_number": "93",
-            "species": "Morus alba",
-            "tree_dbh": "13",
-            "tree_location": "See Plan",
-            "tree_description": "Mulberry with codominant leaders growing into chain link fence to the west",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "94",
-            "species": "Morus alba",
-            "tree_dbh": "7",
-            "tree_location": "See Plan",
-            "tree_description": "Mulberry growing next to chain link fence to the west",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "95",
-            "species": "Prunus caroliniana",
-            "tree_dbh": "8",
-            "tree_location": "See Plan",
-            "tree_description": "Volunteer cherrylaurel growing next to fence post to the east",
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "98",
-            "species": "Acer rubrum",
-            "tree_dbh": "9",
-            "tree_location": "See Plan",
-            "tree_description": "Red maple with significant wound and decay on the entirety of the trunk down to the base. Wounding appears to exceed 2/3 of trunk diameter.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          },
-          {
-            "tree_number": "11",
-            "species": "Quercus nigra",
-            "tree_dbh": "47",
-            "tree_location": "See plan",
-            "tree_description": "Significant altered wood in lower portion of trunk with multiple fungal fruiting bodies and altered wood in buttress roots on south-east side of tree.",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "Failure poses a risk to multiple targets including overhead power lines and users of MLK Jr Dr."
-          },
-          {
-            "tree_number": "100",
-            "species": "Cornus florida",
-            "tree_dbh": "14",
-            "tree_location": "See Additional Exhibit",
-            "tree_description": "Dogwood with 2 codominant leaders and significant altered wood and void at base of tree",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": null
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.408822657971,
-          33.754757860907
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "record": "BA-202605317",
         "address": "4000 NORTH IVY RD NE, ATLANTA GA 30342",
         "status": "Issued",
@@ -3898,6 +3734,309 @@
         "coordinates": [
           -84.361143753587,
           33.736169899661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605451",
+        "address": "19 SARATOGA PL NE, ATLANTA GA 30324",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": "Jennifer Damis",
+        "tree_dbh": "10",
+        "tree_location": "Shady Valley Road",
+        "reason_removal": "Other",
+        "tree_description": "On Shady Valley Road, and appears to be a hazard. Other leaning trees have fell in the neighborhood.",
+        "tree_number": "1",
+        "species": "unknown",
+        "comments": "The tree is leaning a lot towards the main road to the neighborhood and looks dead and a hazard concern",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "unknown",
+            "tree_dbh": "10",
+            "tree_location": "Shady Valley Road",
+            "tree_description": "On Shady Valley Road, and appears to be a hazard. Other leaning trees have fell in the neighborhood.",
+            "reason_removal": "Other",
+            "comments": "The tree is leaning a lot towards the main road to the neighborhood and looks dead and a hazard concern"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35075888266,
+          33.827427105958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068617",
+        "address": "969 DELAWARE AVE SE, ATLANTA GA 30316",
+        "status": null,
+        "date": "10/17/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.356015343834,
+          33.731155531354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605446",
+        "address": "967 VICTORY DR SW, ATLANTA GA 30310",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": "Simon Key and Marla Majett",
+        "tree_dbh": "70",
+        "tree_location": "Front Yard",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Pecan",
+        "comments": "Damage to trunk, several branches have fallen recently, tip die off.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pecan",
+            "tree_dbh": "70",
+            "tree_location": "Front Yard",
+            "tree_description": null,
+            "reason_removal": "Other",
+            "comments": "Damage to trunk, several branches have fallen recently, tip die off."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.419829102631,
+          33.707767805456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068638",
+        "address": "1380 GLENWOOD AVE SE, ATLANTA GA 30316",
+        "status": null,
+        "date": "10/17/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.342339221538,
+          33.740195096464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605452",
+        "address": "575 BLAKE AVE SE, ATLANTA GA 30316",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": "KEVIN DRISCOLL",
+        "tree_dbh": "26",
+        "tree_location": "Back of the house",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead tree",
+        "tree_number": "1",
+        "species": "Oak tree",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak tree",
+            "tree_dbh": "26",
+            "tree_location": "Back of the house",
+            "tree_description": "Dead tree",
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33945953213,
+          33.738384388403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605447",
+        "address": "4222 RICKENBACKER DR NE, 7, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.379450465367,
+          33.869848781951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605450",
+        "address": "742 GREENVIEW AVE NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": "ADAMS JAMES LEONARD",
+        "tree_dbh": "28",
+        "tree_location": "back right",
+        "reason_removal": "Dying tree",
+        "tree_description": "Large back Oak, 3rd of the tree is dead and dropping limbs. destroyed fence. Tree is dying",
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Large back Oak, 3rd of the tree is dead and dropping limbs. destroyed fence. Tree is dying",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "28",
+            "tree_location": "back right",
+            "tree_description": "Large back Oak, 3rd of the tree is dead and dropping limbs. destroyed fence. Tree is dying",
+            "reason_removal": "Dying tree",
+            "comments": "Large back Oak, 3rd of the tree is dead and dropping limbs. destroyed fence. Tree is dying"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.363400021876,
+          33.837732751148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605448",
+        "address": "257 CHASTAIN COMMONS NW, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": "SARTAIN RENA D",
+        "tree_dbh": "36",
+        "tree_location": "Back yard",
+        "reason_removal": "Dying tree",
+        "tree_description": "Large dying Oak back yard by fence.",
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Large dying Oak back yard by fence.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "36",
+            "tree_location": "Back yard",
+            "tree_description": "Large dying Oak back yard by fence.",
+            "reason_removal": "Dying tree",
+            "comments": "Large dying Oak back yard by fence."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395075218796,
+          33.871392717104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605449",
+        "address": "257 CHASTAIN COMMONS NW, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "10/17/2026",
+        "description": null,
+        "owner": "SARTAIN RENA D",
+        "tree_dbh": "12",
+        "tree_location": "left of driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "small tree with large rot at base.",
+        "tree_number": "1",
+        "species": "oak",
+        "comments": "Large rot at base of small tree",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "oak",
+            "tree_dbh": "12",
+            "tree_location": "left of driveway",
+            "tree_description": "small tree with large rot at base.",
+            "reason_removal": "Dying tree",
+            "comments": "Large rot at base of small tree"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.395075218796,
+          33.871392717104
         ]
       }
     }
