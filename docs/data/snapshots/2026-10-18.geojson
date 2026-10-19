@@ -1,0 +1,358 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068665",
+        "address": "4376 NORTH BUCKHEAD DR NE, LOT 25, ATLANTA GA 30342",
+        "status": "",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366911468624,
+          33.877863809031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605458",
+        "address": "2160 HOSEA L WILLIAMS DR NE, ATLANTA GA 30317",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": "PHILLIPS LARRY PHILLIPS MARY",
+        "tree_dbh": "10",
+        "tree_location": "Backyard",
+        "reason_removal": "Invasive/undesirable tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Locust",
+        "comments": "Invasive, rotting, fungus growth, touching roof.",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Locust",
+            "tree_dbh": "10",
+            "tree_location": "Backyard",
+            "tree_description": null,
+            "reason_removal": "Invasive/undesirable tree",
+            "comments": "Invasive, rotting, fungus growth, touching roof."
+          },
+          {
+            "tree_number": "2",
+            "species": "Poplar",
+            "tree_dbh": "30",
+            "tree_location": "Backyard",
+            "tree_description": "Poplar tree, double lead, 30 inch dbh & 40 inch dbh.",
+            "reason_removal": "Other",
+            "comments": "HAZARDOUS: leaning into house, potentially will impact infant room."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.317108144057,
+          33.751218209962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605463",
+        "address": "1961 WOODLAND HILLS AVE NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": "Tommy Ellis",
+        "tree_dbh": "35",
+        "tree_location": "backyard on right, near house",
+        "reason_removal": "Dying tree",
+        "tree_description": "Red tape",
+        "tree_number": "1",
+        "species": "white oak",
+        "comments": "The white oak got hit by lightning, has slime flux, and has a depleted crown.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "white oak",
+            "tree_dbh": "35",
+            "tree_location": "backyard on right, near house",
+            "tree_description": "Red tape",
+            "reason_removal": "Dying tree",
+            "comments": "The white oak got hit by lightning, has slime flux, and has a depleted crown."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.418823355517,
+          33.808623733369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605461",
+        "address": "4376 NORTH BUCKHEAD DR NE, LOT 25, ATLANTA GA 30342",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366911468624,
+          33.877863809031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605459",
+        "address": "1195 MT PARAN RD NW, ATLANTA GA 30327",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.418251833911,
+          33.872187092605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605462",
+        "address": "1011 TUCKAWANNA DR SW, ATLANTA GA 30311",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.48567606062,
+          33.728123139316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605460",
+        "address": "2358 HOWELL MILL RD NW, ATLANTA GA 30318",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.416528546757,
+          33.82036949797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605456",
+        "address": "47 MOURY AVE SE, ATLANTA GA 30315",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.385258801728,
+          33.712825016684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068668",
+        "address": "4376 NORTH BUCKHEAD DR NE, LOT 25, ATLANTA GA 30342",
+        "status": "",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.366911468624,
+          33.877863809031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605457",
+        "address": "1660 NORTH DECATUR RD NE, ATLANTA GA",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.322696214105,
+          33.788463332889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605454",
+        "address": "4593 LANARK DR SW, ATLANTA GA 30331",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.536548099705,
+          33.71258669956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605453",
+        "address": "2331 SHENANDOAH AVE NE, ATLANTA GA 30305",
+        "status": "ACA Pending",
+        "date": "10/18/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.382382471887,
+          33.820331981893
+        ]
+      }
+    }
+  ]
+}

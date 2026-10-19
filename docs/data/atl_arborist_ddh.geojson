@@ -3604,16 +3604,26 @@
         "status": "ACA Pending",
         "date": "10/18/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Tommy Ellis",
+        "tree_dbh": "35",
+        "tree_location": "backyard on right, near house",
+        "reason_removal": "Dying tree",
+        "tree_description": "Red tape",
+        "tree_number": "1",
+        "species": "white oak",
+        "comments": "The white oak got hit by lightning, has slime flux, and has a depleted crown.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "white oak",
+            "tree_dbh": "35",
+            "tree_location": "backyard on right, near house",
+            "tree_description": "Red tape",
+            "reason_removal": "Dying tree",
+            "comments": "The white oak got hit by lightning, has slime flux, and has a depleted crown."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
