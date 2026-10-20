@@ -1,0 +1,914 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605485",
+        "address": "419 SPRINGDALE DR NE, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "23",
+        "tree_location": "Left side of driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "The tree has rot at the base, that extends into the interior of the tree and is leaning over the driveway.",
+        "tree_number": "1",
+        "species": "Hackberry",
+        "comments": "Due to proximity to power lines, GA Power arborist viewed the tree and stated it was dying. His number is 281-627-9547. Thank you.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Hackberry",
+            "tree_dbh": "23",
+            "tree_location": "Left side of driveway",
+            "tree_description": "The tree has rot at the base, that extends into the interior of the tree and is leaning over the driveway.",
+            "reason_removal": "Dying tree",
+            "comments": "Due to proximity to power lines, GA Power arborist viewed the tree and stated it was dying. His number is 281-627-9547. Thank you."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.376179110617,
+          33.823298436107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605465",
+        "address": "65 PACES WEST CT NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "CMA Paces West",
+        "tree_dbh": "16",
+        "tree_location": "Front left of #65 off main road",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead and failing canopy",
+        "tree_number": "1",
+        "species": "Maple",
+        "comments": "Orange paint",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Maple",
+            "tree_dbh": "16",
+            "tree_location": "Front left of #65 off main road",
+            "tree_description": "Dead and failing canopy",
+            "reason_removal": "Dead tree",
+            "comments": "Orange paint"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.427625121306,
+          33.85095759269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605484",
+        "address": "2060 ALISON CT SW, ATLANTA GA 30311",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.455405406804,
+          33.700662625191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605470",
+        "address": "4620 CLUB VALLEY DR NE, ATLANTA GA 30319",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "38",
+        "tree_location": "front center",
+        "reason_removal": "Diseased",
+        "tree_description": "Fusiform canker at ground level with fungal activity. Poor canopy architecture",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "38",
+            "tree_location": "front center",
+            "tree_description": "Fusiform canker at ground level with fungal activity. Poor canopy architecture",
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.349408159723,
+          33.879346165546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605472",
+        "address": "380 SPRINGSIDE DR SE, ATLANTA GA 30354",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "LOPEZ KAREN",
+        "tree_dbh": "50",
+        "tree_location": "Right side of the home",
+        "reason_removal": "Diseased",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Customer is concerned the tree will fall on house since parts of the tree are falling.",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "50",
+            "tree_location": "Right side of the home",
+            "tree_description": null,
+            "reason_removal": "Diseased",
+            "comments": "Customer is concerned the tree will fall on house since parts of the tree are falling."
+          },
+          {
+            "tree_number": "2",
+            "species": "Oak",
+            "tree_dbh": "50",
+            "tree_location": "Right side of the home",
+            "tree_description": null,
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.377859215634,
+          33.676681217672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605478",
+        "address": "800 LORIDANS DR NE, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "CLARK JOAN",
+        "tree_dbh": "25",
+        "tree_location": "Back, left",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Uprooted/DDH",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Hazardous",
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "25",
+            "tree_location": "Back, left",
+            "tree_description": "Uprooted/DDH",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Hazardous"
+          },
+          {
+            "tree_number": "2",
+            "species": "Pine",
+            "tree_dbh": "25",
+            "tree_location": "Back, left",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": "Dead/ hazardous"
+          },
+          {
+            "tree_number": "3",
+            "species": "Sweetgum",
+            "tree_dbh": "6",
+            "tree_location": "Back, left",
+            "tree_description": "Declining",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "Sweetgum",
+            "tree_dbh": "10",
+            "tree_location": "Back, left",
+            "tree_description": "Declining",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.361137174518,
+          33.873669986752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605477",
+        "address": "1240 GLENDEVEN CT NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "16",
+        "tree_location": "Behind unit 1200",
+        "reason_removal": "Dying tree",
+        "tree_description": "Single tree leaning over driveway with large dead limb which is splitting. Base of trunk shows signs of deterioration",
+        "tree_number": "1",
+        "species": "Oak?",
+        "comments": "Please contact HOA president Steven White to arrange meeting with arborist. Tel: (404) 290-1109.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak?",
+            "tree_dbh": "16",
+            "tree_location": "Behind unit 1200",
+            "tree_description": "Single tree leaning over driveway with large dead limb which is splitting. Base of trunk shows signs of deterioration",
+            "reason_removal": "Dying tree",
+            "comments": "Please contact HOA president Steven White to arrange meeting with arborist. Tel: (404) 290-1109."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.431654320759,
+          33.817332610382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068795",
+        "address": "279 HILLTOP DR SW, ATLANTA GA 30315",
+        "status": "",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.398206823523,
+          33.699216245602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068813",
+        "address": "1206 DEFOORS FERRY RD NW, ATLANTA GA 00000",
+        "status": "",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4256712875,
+          33.812273039814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605464",
+        "address": "417 CLIFTON RD NE, ATLANTA GA 30307",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "Liam Homes",
+        "tree_dbh": "6",
+        "tree_location": "Right side",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "overgrown stump sprout with decay at the base and trunk and previous improper pruning",
+        "tree_number": "1",
+        "species": "Fig",
+        "comments": "Orange paint",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Fig",
+            "tree_dbh": "6",
+            "tree_location": "Right side",
+            "tree_description": "overgrown stump sprout with decay at the base and trunk and previous improper pruning",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Orange paint"
+          },
+          {
+            "tree_number": "2",
+            "species": "Dogwood",
+            "tree_dbh": "8",
+            "tree_location": "Front",
+            "tree_description": "We were going to apply for a permit due to decay at the base and a hollow trunk. The tree was recently cut down not by the homeowner. It looks like vandalism. trunk was left at the stump and the brush was left on the driveway.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.332932723284,
+          33.765373894599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605471",
+        "address": "643 NORFLEET RD NW, ATLANTA GA 30305",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "FITZSIMMONS SEAN T",
+        "tree_dbh": "16.5",
+        "tree_location": "Front Yard",
+        "reason_removal": "Diseased",
+        "tree_description": "Maple tree, located on the front yard center. Contains a DBH of 16.5in. The tree base is discolored and alongside the trunk it contains cankers. There is discoloration on the trunk.",
+        "tree_number": "1",
+        "species": "Maple",
+        "comments": "Dying",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Maple",
+            "tree_dbh": "16.5",
+            "tree_location": "Front Yard",
+            "tree_description": "Maple tree, located on the front yard center. Contains a DBH of 16.5in. The tree base is discolored and alongside the trunk it contains cankers. There is discoloration on the trunk.",
+            "reason_removal": "Diseased",
+            "comments": "Dying"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.409404050471,
+          33.812591472219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-064094",
+        "address": "1400 ERIC ST SE, ATLANTA GA 30315",
+        "status": "",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.374605017537,
+          33.716247481411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605475",
+        "address": "969 DELAWARE AVE SE, ATLANTA GA 30316",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "Michael Hass",
+        "tree_dbh": "12",
+        "tree_location": "Left side of property near driveway",
+        "reason_removal": "Dying tree",
+        "tree_description": "i believe this is a Hickory. It is near the driveway and it is leaning heavily towards the house. It has had several large branches about 6inches in diameter fall off over the last year.",
+        "tree_number": "1",
+        "species": "Hickory",
+        "comments": null,
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Hickory",
+            "tree_dbh": "12",
+            "tree_location": "Left side of property near driveway",
+            "tree_description": "i believe this is a Hickory. It is near the driveway and it is leaning heavily towards the house. It has had several large branches about 6inches in diameter fall off over the last year.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "hickory",
+            "tree_dbh": "12",
+            "tree_location": "Left side of property near driveway",
+            "tree_description": "I believe this is a Hickory. It is near the driveway and it is leaning heavily towards the house. It has had several large branches about 6inches in diameter fall off over the last year.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.356015343834,
+          33.731155531354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605479",
+        "address": "1006 FAYETTEVILLE RD SE, ATLANTA GA 30316",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "20",
+        "tree_location": "front right building by fence",
+        "reason_removal": "Other",
+        "tree_description": null,
+        "tree_number": "0",
+        "species": "oak",
+        "comments": "Tree is located at a daycare property",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "0",
+            "species": "oak",
+            "tree_dbh": "20",
+            "tree_location": "front right building by fence",
+            "tree_description": null,
+            "reason_removal": "Other",
+            "comments": "Tree is located at a daycare property"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32016722473,
+          33.72798823869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605482",
+        "address": "1710 SOUTH GORDON ST SW, ATLANTA GA 30310",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "NATIONWIDE MORTGAGE SERVICES I",
+        "tree_dbh": "58",
+        "tree_location": "Backyard",
+        "reason_removal": "Diseased",
+        "tree_description": "The tree is a massive 57\" dbh willow oak, probably 100-150 feet tall and is within 15-50 feet of 4 houses.",
+        "tree_number": "1",
+        "species": "Willow Oak",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Willow Oak",
+            "tree_dbh": "58",
+            "tree_location": "Backyard",
+            "tree_description": "The tree is a massive 57\" dbh willow oak, probably 100-150 feet tall and is within 15-50 feet of 4 houses.",
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44403378474,
+          33.739634356436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068845",
+        "address": "1750 MERTON RD NE, ATLANTA GA 30306",
+        "status": "",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.354312970764,
+          33.802348756435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605476",
+        "address": "1133 ANGELO CT NE, ATLANTA GA 30319",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "Bob Mac",
+        "tree_dbh": "30",
+        "tree_location": "in the backyard right side of the house",
+        "reason_removal": "Dead tree",
+        "tree_description": null,
+        "tree_number": "1",
+        "species": "Quercus",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Quercus",
+            "tree_dbh": "30",
+            "tree_location": "in the backyard right side of the house",
+            "tree_description": null,
+            "reason_removal": "Dead tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.350582019544,
+          33.881163944768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605480",
+        "address": "63 WEST WIEUCA RD NE, 4, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "Mary Bailey",
+        "tree_dbh": "24",
+        "tree_location": "At front entrance to the right of entry gate",
+        "reason_removal": "Dead tree",
+        "tree_description": "Looks to be dead",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Gate code is #3568 tree is located outside gate to the right",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "24",
+            "tree_location": "At front entrance to the right of entry gate",
+            "tree_description": "Looks to be dead",
+            "reason_removal": "Dead tree",
+            "comments": "Gate code is #3568 tree is located outside gate to the right"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.384717423962,
+          33.87718535609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605483",
+        "address": "2300 POLAR ROCK TER SW, ATLANTA GA 30315",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "55",
+        "tree_location": "Rear right fence line",
+        "reason_removal": "Significant cavity/area of decay",
+        "tree_description": "55\" DBH DDH Poplar located in the backyard with an extensive cavity and decay around the root flare consisting of roughly 20-30%",
+        "tree_number": "1",
+        "species": "Tulip Poplar",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Tulip Poplar",
+            "tree_dbh": "55",
+            "tree_location": "Rear right fence line",
+            "tree_description": "55\" DBH DDH Poplar located in the backyard with an extensive cavity and decay around the root flare consisting of roughly 20-30%",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.394745986245,
+          33.69203707642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605481",
+        "address": "111 PUTNAM CIR NE, ATLANTA GA 30342",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "LE CROY DARYL G",
+        "tree_dbh": "35",
+        "tree_location": "Please see site map.",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "None",
+        "tree_number": "1",
+        "species": "Poplar",
+        "comments": "The tree is situated on a sloping grade along the left side of the property, just uphill from the adjacent dwelling. The overall canopy exhibits altered architecture, including abrupt changes in leader direction and reiterative growth, suggesting historic topping or storm-related leader breakage. The lower trunk exhibits abnormal basal taper, characterized by pronounced inward curvature and narrowing on the downhill side, rather than the outward expansion typically associated with a well-developed root flare. Probing conducted with a machete along the uphill side of the trunk base permitted substantial downward penetration without encountering a clearly defined root flare. This condition suggests possible historic grade alteration or the accumulation of fill soil around the root collar. An abundance of loose and sloughing bark was also observed around the basal trunk, with localized indications of possible incipient decay. The surrounding area also exhibits evidence of possible historic trenching near the subject tree and a nearby large tree stump. The apparent trench alignment extends through the immediate area, although vegetation and groundcover limit photographic documentation.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Poplar",
+            "tree_dbh": "35",
+            "tree_location": "Please see site map.",
+            "tree_description": "None",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "The tree is situated on a sloping grade along the left side of the property, just uphill from the adjacent dwelling. The overall canopy exhibits altered architecture, including abrupt changes in leader direction and reiterative growth, suggesting historic topping or storm-related leader breakage. The lower trunk exhibits abnormal basal taper, characterized by pronounced inward curvature and narrowing on the downhill side, rather than the outward expansion typically associated with a well-developed root flare. Probing conducted with a machete along the uphill side of the trunk base permitted substantial downward penetration without encountering a clearly defined root flare. This condition suggests possible historic grade alteration or the accumulation of fill soil around the root collar. An abundance of loose and sloughing bark was also observed around the basal trunk, with localized indications of possible incipient decay. The surrounding area also exhibits evidence of possible historic trenching near the subject tree and a nearby large tree stump. The apparent trench alignment extends through the immediate area, although vegetation and groundcover limit photographic documentation."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.383809135448,
+          33.859970295016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "26TMP-068832",
+        "address": "251 ANDERSON AVE NW, ATLANTA GA 30314",
+        "status": "",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.451095814567,
+          33.762686797426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605468",
+        "address": "60 MOBLEY DR SE, ATLANTA GA 30315",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "WRIGHT RUFUS E",
+        "tree_dbh": "60",
+        "tree_location": "back yard",
+        "reason_removal": "Dead tree",
+        "tree_description": "Large pine tree that has died on the rear property line.",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": null,
+        "tree_count": 3,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "60",
+            "tree_location": "back yard",
+            "tree_description": "Large pine tree that has died on the rear property line.",
+            "reason_removal": "Dead tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Pine",
+            "tree_dbh": "60",
+            "tree_location": "back yard",
+            "tree_description": "Large pine tree that has sustained one or more lightning hits. Removal requested",
+            "reason_removal": "Other",
+            "comments": null
+          },
+          {
+            "tree_number": "3",
+            "species": "Oak",
+            "tree_dbh": "40",
+            "tree_location": "back yard",
+            "tree_description": "Oak tree with limbs reaching over the property line that could damage the home",
+            "reason_removal": "Other",
+            "comments": "Prune limbs"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387344956728,
+          33.686450381704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605473",
+        "address": "1127 MOORES MILL RD NW, ATLANTA GA 30327",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": "Aziz Dhanani",
+        "tree_dbh": "20",
+        "tree_location": "front, center",
+        "reason_removal": "Dying tree",
+        "tree_description": "20in Sweetgum with dying canopy and low LCR with adjacent trees removed.",
+        "tree_number": "1",
+        "species": "Sweetgum",
+        "comments": null,
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Sweetgum",
+            "tree_dbh": "20",
+            "tree_location": "front, center",
+            "tree_description": "20in Sweetgum with dying canopy and low LCR with adjacent trees removed.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "Sourwood",
+            "tree_dbh": "7",
+            "tree_location": "left of driveway",
+            "tree_description": "Tree has a large cavity along the mainstem.",
+            "reason_removal": "Significant cavity/area of decay",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.424431390069,
+          33.834184098093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "record": "BA-202605474",
+        "address": "1268 HOLLY ST NW, ATLANTA GA 30318",
+        "status": "Accepted",
+        "date": "10/19/2026",
+        "description": null,
+        "owner": null,
+        "tree_dbh": "20",
+        "tree_location": "front left",
+        "reason_removal": "Dying tree",
+        "tree_description": "20\" DBH declining elm tree at front left. Canopy decline in excess of 33%. Significant cavity/area of decay in main stem.",
+        "tree_number": "1",
+        "species": "elm",
+        "comments": null,
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "elm",
+            "tree_dbh": "20",
+            "tree_location": "front left",
+            "tree_description": "20\" DBH declining elm tree at front left. Canopy decline in excess of 33%. Significant cavity/area of decay in main stem.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39586373234,
+          33.789280726816
+        ]
+      }
+    }
+  ]
+}

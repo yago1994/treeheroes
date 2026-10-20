@@ -2997,16 +2997,26 @@
         "status": "Accepted",
         "date": "10/19/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "CMA Paces West",
+        "tree_dbh": "16",
+        "tree_location": "Front left of #65 off main road",
+        "reason_removal": "Dead tree",
+        "tree_description": "Dead and failing canopy",
+        "tree_number": "1",
+        "species": "Maple",
+        "comments": "Orange paint",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Maple",
+            "tree_dbh": "16",
+            "tree_location": "Front left of #65 off main road",
+            "tree_description": "Dead and failing canopy",
+            "reason_removal": "Dead tree",
+            "comments": "Orange paint"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3052,15 +3062,25 @@
         "date": "10/19/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "38",
+        "tree_location": "front center",
+        "reason_removal": "Diseased",
+        "tree_description": "Fusiform canker at ground level with fungal activity. Poor canopy architecture",
+        "tree_number": "1",
+        "species": "Pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "38",
+            "tree_location": "front center",
+            "tree_description": "Fusiform canker at ground level with fungal activity. Poor canopy architecture",
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3078,16 +3098,35 @@
         "status": "Accepted",
         "date": "10/19/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "LOPEZ KAREN",
+        "tree_dbh": "50",
+        "tree_location": "Right side of the home",
+        "reason_removal": "Diseased",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Customer is concerned the tree will fall on house since parts of the tree are falling.",
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "50",
+            "tree_location": "Right side of the home",
+            "tree_description": null,
+            "reason_removal": "Diseased",
+            "comments": "Customer is concerned the tree will fall on house since parts of the tree are falling."
+          },
+          {
+            "tree_number": "2",
+            "species": "Oak",
+            "tree_dbh": "50",
+            "tree_location": "Right side of the home",
+            "tree_description": null,
+            "reason_removal": "Diseased",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3105,16 +3144,53 @@
         "status": "Accepted",
         "date": "10/19/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "CLARK JOAN",
+        "tree_dbh": "25",
+        "tree_location": "Back, left",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Uprooted/DDH",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Hazardous",
+        "tree_count": 4,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "25",
+            "tree_location": "Back, left",
+            "tree_description": "Uprooted/DDH",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Hazardous"
+          },
+          {
+            "tree_number": "2",
+            "species": "Pine",
+            "tree_dbh": "25",
+            "tree_location": "Back, left",
+            "tree_description": "Dead",
+            "reason_removal": "Dead tree",
+            "comments": "Dead/ hazardous"
+          },
+          {
+            "tree_number": "3",
+            "species": "Sweetgum",
+            "tree_dbh": "6",
+            "tree_location": "Back, left",
+            "tree_description": "Declining",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "4",
+            "species": "Sweetgum",
+            "tree_dbh": "10",
+            "tree_location": "Back, left",
+            "tree_description": "Declining",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3133,15 +3209,25 @@
         "date": "10/19/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "16",
+        "tree_location": "Behind unit 1200",
+        "reason_removal": "Dying tree",
+        "tree_description": "Single tree leaning over driveway with large dead limb which is splitting. Base of trunk shows signs of deterioration",
+        "tree_number": "1",
+        "species": "Oak?",
+        "comments": "Please contact HOA president Steven White to arrange meeting with arborist. Tel: (404) 290-1109.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak?",
+            "tree_dbh": "16",
+            "tree_location": "Behind unit 1200",
+            "tree_description": "Single tree leaning over driveway with large dead limb which is splitting. Base of trunk shows signs of deterioration",
+            "reason_removal": "Dying tree",
+            "comments": "Please contact HOA president Steven White to arrange meeting with arborist. Tel: (404) 290-1109."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
