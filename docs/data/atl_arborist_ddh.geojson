@@ -3041,15 +3041,34 @@
         "date": "10/21/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "tree_dbh": "26",
+        "tree_location": "back left",
+        "reason_removal": "Dying tree",
+        "tree_description": "trees are dead and carry a heightened risk of failure. Due to close proximity to the client's and neighboring homes, these trees should be removed at this time.",
+        "tree_number": "1",
+        "species": "pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 2,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "pine",
+            "tree_dbh": "26",
+            "tree_location": "back left",
+            "tree_description": "trees are dead and carry a heightened risk of failure. Due to close proximity to the client's and neighboring homes, these trees should be removed at this time.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          },
+          {
+            "tree_number": "2",
+            "species": "pine",
+            "tree_dbh": "16",
+            "tree_location": "back left",
+            "tree_description": "trees are dead and carry a heightened risk of failure. Due to close proximity to the client's and neighboring homes, these trees should be removed at this time.",
+            "reason_removal": "Dying tree",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3068,15 +3087,25 @@
         "date": "10/21/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_dbh": "32",
+        "tree_location": "back corner lot",
+        "reason_removal": "Dying tree",
+        "tree_description": "Oak at back corner is diseased and dying and needs to be removed.",
+        "tree_number": "1",
+        "species": "Oak",
+        "comments": "Thank you in advance for your prompt attention to this matter.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Oak",
+            "tree_dbh": "32",
+            "tree_location": "back corner lot",
+            "tree_description": "Oak at back corner is diseased and dying and needs to be removed.",
+            "reason_removal": "Dying tree",
+            "comments": "Thank you in advance for your prompt attention to this matter."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3091,19 +3120,29 @@
       "properties": {
         "record": "BA-202605509",
         "address": "1167 CHATHAM AVE SW, ATLANTA GA 30311",
-        "status": "Accepted",
+        "status": "Issued",
         "date": "10/21/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
+        "owner": "Allen Williams",
+        "tree_dbh": "27",
+        "tree_location": "Left side of backyard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Low LCR, high exposure to wind, close proximity to two houses, phototropic lean towards neighbor's house",
+        "tree_number": "1",
+        "species": "Pine",
         "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "27",
+            "tree_location": "Left side of backyard",
+            "tree_description": "Low LCR, high exposure to wind, close proximity to two houses, phototropic lean towards neighbor's house",
+            "reason_removal": "Uncorrectable defect",
+            "comments": null
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3121,16 +3160,26 @@
         "status": "Accepted",
         "date": "10/21/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
+        "owner": "DANIELS SARA",
+        "tree_dbh": "30",
+        "tree_location": "Backyard",
+        "reason_removal": "Diseased",
         "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Homeowner wants to cut down tree a soon as possible, is scared of tree falling on her home.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "30",
+            "tree_location": "Backyard",
+            "tree_description": null,
+            "reason_removal": "Diseased",
+            "comments": "Homeowner wants to cut down tree a soon as possible, is scared of tree falling on her home."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
