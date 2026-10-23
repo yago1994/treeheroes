@@ -3100,16 +3100,26 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": null,
-        "tree_dbh": null,
-        "tree_location": null,
-        "reason_removal": null,
-        "tree_description": null,
-        "tree_number": null,
-        "species": null,
-        "comments": null,
-        "tree_count": null,
-        "trees": null
+        "owner": "Johnson Williams",
+        "tree_dbh": "24",
+        "tree_location": "front yard",
+        "reason_removal": "Uncorrectable defect",
+        "tree_description": "Pine located front yard slight left of drive facing home.",
+        "tree_number": "1",
+        "species": "Pine",
+        "comments": "Attached is the pine tree proposed for removal. The tree is interfering with a planned driveway replacement and expansion project. The existing root system has caused cracking and lifting of the driveway, and removal is necessary to complete the proposed improvements and prevent continued damage.",
+        "tree_count": 1,
+        "trees": [
+          {
+            "tree_number": "1",
+            "species": "Pine",
+            "tree_dbh": "24",
+            "tree_location": "front yard",
+            "tree_description": "Pine located front yard slight left of drive facing home.",
+            "reason_removal": "Uncorrectable defect",
+            "comments": "Attached is the pine tree proposed for removal. The tree is interfering with a planned driveway replacement and expansion project. The existing root system has caused cracking and lifting of the driveway, and removal is necessary to complete the proposed improvements and prevent continued damage."
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3164,26 +3174,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "KING WILLIAM P MARSHALL SHANA A",
-        "tree_dbh": "34",
-        "tree_location": "Rear left",
-        "reason_removal": "Dying tree",
-        "tree_description": "Large dying oak",
-        "tree_number": "1",
-        "species": "Oak",
-        "comments": "Tree dropped half top, significant rotting rear side of trunk along with root rot.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "34",
-            "tree_location": "Rear left",
-            "tree_description": "Large dying oak",
-            "reason_removal": "Dying tree",
-            "comments": "Tree dropped half top, significant rotting rear side of trunk along with root rot."
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3202,25 +3202,15 @@
         "date": "10/22/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "16",
-        "tree_location": "Front Right Corner",
-        "reason_removal": "Dying tree",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "Poplar",
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Poplar",
-            "tree_dbh": "16",
-            "tree_location": "Front Right Corner",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3329,35 +3319,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "RAYMAN ASSOCIATES BUCKHEAD LLC",
-        "tree_dbh": "22",
-        "tree_location": "Parking deck",
-        "reason_removal": "Dying tree",
-        "tree_description": "50% crown loss",
-        "tree_number": "1",
-        "species": "Willow Oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Willow Oak",
-            "tree_dbh": "22",
-            "tree_location": "Parking deck",
-            "tree_description": "50% crown loss",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Willow Oak",
-            "tree_dbh": "22",
-            "tree_location": "Rear Gate",
-            "tree_description": "50% Crown loss",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3375,26 +3346,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "Terre Gardens",
-        "tree_dbh": "32",
-        "tree_location": "Rear",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "Decay at base",
-        "tree_number": "1",
-        "species": "Water Oak",
-        "comments": "Orange dot",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Water Oak",
-            "tree_dbh": "32",
-            "tree_location": "Rear",
-            "tree_description": "Decay at base",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "Orange dot"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3476,35 +3437,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "Vincent Fitch",
-        "tree_dbh": "23.5",
-        "tree_location": "Right rear",
-        "reason_removal": "Dying tree",
-        "tree_description": "The oak tree is leaning over the dwelling and exhibits a thinning canopy with large cankers present at the base of the trunk. The client has expressed concern regarding the tree’s structural condition and the potential hazard it may pose to the residence.",
-        "tree_number": "1",
-        "species": "Oak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 2,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Oak",
-            "tree_dbh": "23.5",
-            "tree_location": "Right rear",
-            "tree_description": "The oak tree is leaning over the dwelling and exhibits a thinning canopy with large cankers present at the base of the trunk. The client has expressed concern regarding the tree’s structural condition and the potential hazard it may pose to the residence.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Pecan",
-            "tree_dbh": "19",
-            "tree_location": "Backyard",
-            "tree_description": "Pecantree in the rear in decline close to fence.",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3519,29 +3461,19 @@
       "properties": {
         "record": "BA-202605533",
         "address": "1763 MEADOWDALE AVE NE, ATLANTA GA 30306",
-        "status": "ACA Pending",
+        "status": "Issued",
         "date": "10/22/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "5",
-        "tree_location": "back yard, side of yard next to deck",
-        "reason_removal": "Dying tree",
-        "tree_description": "Dying, very large oak, very near house. The oak exhibits several serious signs of decline and potential structural instability: ? Approximately 70% of the canopy is dead. ? The base of the trunk is hollow, with visible holes. ? Black fungal growth consistent with root decay is present on the trunk. Trunk is hollow",
-        "tree_number": "1",
-        "species": "Water Oak",
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Water Oak",
-            "tree_dbh": "5",
-            "tree_location": "back yard, side of yard next to deck",
-            "tree_description": "Dying, very large oak, very near house. The oak exhibits several serious signs of decline and potential structural instability: ? Approximately 70% of the canopy is dead. ? The base of the trunk is hollow, with visible holes. ? Black fungal growth consistent with root decay is present on the trunk. Trunk is hollow",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3559,26 +3491,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "DENDY FREDERICK H",
-        "tree_dbh": "24",
-        "tree_location": "Back Left corner of House",
-        "reason_removal": "Dying tree",
-        "tree_description": "Water-oak hi by recent storm located near the left back side of home, crown was broken off putting tree at risk of dieses and rotting",
-        "tree_number": "1",
-        "species": "wateroak",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "wateroak",
-            "tree_dbh": "24",
-            "tree_location": "Back Left corner of House",
-            "tree_description": "Water-oak hi by recent storm located near the left back side of home, crown was broken off putting tree at risk of dieses and rotting",
-            "reason_removal": "Dying tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3596,26 +3518,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "Frank Schultz",
-        "tree_dbh": "14",
-        "tree_location": "Right edge of property/parking area",
-        "reason_removal": "Significant cavity/area of decay",
-        "tree_description": "60% canopy die back; decay to main stem; Vascular disease",
-        "tree_number": "1",
-        "species": "Red Maple",
-        "comments": "Ribbon",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Red Maple",
-            "tree_dbh": "14",
-            "tree_location": "Right edge of property/parking area",
-            "tree_description": "60% canopy die back; decay to main stem; Vascular disease",
-            "reason_removal": "Significant cavity/area of decay",
-            "comments": "Ribbon"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3633,53 +3545,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "Jalen Granski",
-        "tree_dbh": "39",
-        "tree_location": "Front Yard",
-        "reason_removal": "Dying tree",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
         "tree_description": null,
-        "tree_number": "1",
-        "species": "Black Cherry",
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 4,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Black Cherry",
-            "tree_dbh": "39",
-            "tree_location": "Front Yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "2",
-            "species": "Black Cherry",
-            "tree_dbh": "39",
-            "tree_location": "Front Yard",
-            "tree_description": null,
-            "reason_removal": "Dying tree",
-            "comments": null
-          },
-          {
-            "tree_number": "3",
-            "species": "Pine",
-            "tree_dbh": "70",
-            "tree_location": "Front Yard",
-            "tree_description": null,
-            "reason_removal": "Invasive/undesirable tree",
-            "comments": null
-          },
-          {
-            "tree_number": "4",
-            "species": "Pine",
-            "tree_dbh": "70",
-            "tree_location": "Backyard",
-            "tree_description": null,
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3697,26 +3572,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "WILSON WANDA YOUNG",
-        "tree_dbh": "10",
-        "tree_location": "Front Right",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead",
-        "tree_number": "1",
-        "species": "Dogwood",
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
         "comments": null,
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Dogwood",
-            "tree_dbh": "10",
-            "tree_location": "Front Right",
-            "tree_description": "Dead",
-            "reason_removal": "Dead tree",
-            "comments": null
-          }
-        ]
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3734,26 +3599,16 @@
         "status": "ACA Pending",
         "date": "10/22/2026",
         "description": null,
-        "owner": "Tyrahn Brown",
-        "tree_dbh": "33",
-        "tree_location": "Front",
-        "reason_removal": "Dead tree",
-        "tree_description": "Dead",
-        "tree_number": "1",
-        "species": "Pine",
-        "comments": "Orange paint",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Pine",
-            "tree_dbh": "33",
-            "tree_location": "Front",
-            "tree_description": "Dead",
-            "reason_removal": "Dead tree",
-            "comments": "Orange paint"
-          }
-        ]
+        "owner": null,
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
@@ -3772,25 +3627,15 @@
         "date": "10/22/2026",
         "description": null,
         "owner": null,
-        "tree_dbh": "35",
-        "tree_location": "Right Rear",
-        "reason_removal": "Dead tree",
-        "tree_description": "Nimbered flagging tape",
-        "tree_number": "1",
-        "species": "Magnolia",
-        "comments": "This tree is dead.",
-        "tree_count": 1,
-        "trees": [
-          {
-            "tree_number": "1",
-            "species": "Magnolia",
-            "tree_dbh": "35",
-            "tree_location": "Right Rear",
-            "tree_description": "Nimbered flagging tape",
-            "reason_removal": "Dead tree",
-            "comments": "This tree is dead."
-          }
-        ]
+        "tree_dbh": null,
+        "tree_location": null,
+        "reason_removal": null,
+        "tree_description": null,
+        "tree_number": null,
+        "species": null,
+        "comments": null,
+        "tree_count": null,
+        "trees": null
       },
       "geometry": {
         "type": "Point",
